@@ -3,6 +3,690 @@ Texture Static11
 filename = Media/Tex/Static11.png
 resgroup = 0
 }
+Animation MC20_bu4_0
+{
+ texture = Static11
+ rect = 0,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_dong1_0
+{
+ texture = Static11
+ rect = 20,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_wei4_0
+{
+ texture = Static11
+ rect = 40,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_yu2_0
+{
+ texture = Static11
+ rect = 60,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_dai4_0
+{
+ texture = Static11
+ rect = 80,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ren4_0
+{
+ texture = Static11
+ rect = 100,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_gong1_0
+{
+ texture = Static11
+ rect = 120,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_bao3_0
+{
+ texture = Static11
+ rect = 140,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_jun1_0
+{
+ texture = Static11
+ rect = 160,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_chu1_0
+{
+ texture = Static11
+ rect = 180,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_dong4_0
+{
+ texture = Static11
+ rect = 200,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_bei3_0
+{
+ texture = Static11
+ rect = 220,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_qu1_0
+{
+ texture = Static11
+ rect = 240,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_nan2_0
+{
+ texture = Static11
+ rect = 260,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ji2_0
+{
+ texture = Static11
+ rect = 280,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_you3_0
+{
+ texture = Static11
+ rect = 300,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_fa1_0
+{
+ texture = Static11
+ rect = 320,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_zhi3_0
+{
+ texture = Static11
+ rect = 340,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ke3_0
+{
+ texture = Static11
+ rect = 360,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_hao4_0
+{
+ texture = Static11
+ rect = 380,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_gao4_0
+{
+ texture = Static11
+ rect = 400,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ming4_0
+{
+ texture = Static11
+ rect = 420,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_zai4_0
+{
+ texture = Static11
+ rect = 440,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_di4_0
+{
+ texture = Static11
+ rect = 460,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_cheng2_0
+{
+ texture = Static11
+ rect = 480,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_yu4_0
+{
+ texture = Static11
+ rect = 500,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ta3_0
+{
+ texture = Static11
+ rect = 520,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_zeng1_0
+{
+ texture = Static11
+ rect = 540,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_wai4_0
+{
+ texture = Static11
+ rect = 560,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_mi4_0
+{
+ texture = Static11
+ rect = 580,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_xun2_0
+{
+ texture = Static11
+ rect = 600,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_yi3_0
+{
+ texture = Static11
+ rect = 620,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_shi4_0
+{
+ texture = Static11
+ rect = 640,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_yi4_0
+{
+ texture = Static11
+ rect = 660,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_shen4_0
+{
+ texture = Static11
+ rect = 680,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_zhan4_0
+{
+ texture = Static11
+ rect = 700,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_jie2_0
+{
+ texture = Static11
+ rect = 720,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_suo3_0
+{
+ texture = Static11
+ rect = 740,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_hu4_0
+{
+ texture = Static11
+ rect = 760,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_bao4_0
+{
+ texture = Static11
+ rect = 780,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ti2_0
+{
+ texture = Static11
+ rect = 800,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_di2_0
+{
+ texture = Static11
+ rect = 820,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_fang1_0
+{
+ texture = Static11
+ rect = 840,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_shi2_0
+{
+ texture = Static11
+ rect = 860,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ming2_0
+{
+ texture = Static11
+ rect = 880,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_you3_1
+{
+ texture = Static11
+ rect = 900,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ge2_0
+{
+ texture = Static11
+ rect = 920,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_zheng4_0
+{
+ texture = Static11
+ rect = 940,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_wu3_0
+{
+ texture = Static11
+ rect = 960,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_han4_0
+{
+ texture = Static11
+ rect = 980,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_zhu4_0
+{
+ texture = Static11
+ rect = 1000,2460,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_pai4_0
+{
+ texture = Static11
+ rect = 0,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_te4_0
+{
+ texture = Static11
+ rect = 20,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_xian4_0
+{
+ texture = Static11
+ rect = 40,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_rui4_0
+{
+ texture = Static11
+ rect = 60,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_ji2_1
+{
+ texture = Static11
+ rect = 80,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_hang2_0
+{
+ texture = Static11
+ rect = 100,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_jian4_0
+{
+ texture = Static11
+ rect = 120,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_chuan2_0
+{
+ texture = Static11
+ rect = 140,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_huo4_0
+{
+ texture = Static11
+ rect = 160,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_xing2_0
+{
+ texture = Static11
+ rect = 180,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_zhuang1_0
+{
+ texture = Static11
+ rect = 200,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_xi1_0
+{
+ texture = Static11
+ rect = 220,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_yao4_0
+{
+ texture = Static11
+ rect = 240,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_xun4_0
+{
+ texture = Static11
+ rect = 260,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_gai1_0
+{
+ texture = Static11
+ rect = 280,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_jin3_0
+{
+ texture = Static11
+ rect = 300,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_yuan3_0
+{
+ texture = Static11
+ rect = 320,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_tao2_0
+{
+ texture = Static11
+ rect = 340,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_tong1_0
+{
+ texture = Static11
+ rect = 360,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_luo2_0
+{
+ texture = Static11
+ rect = 380,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_bu4_1
+{
+ texture = Static11
+ rect = 400,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_dui4_0
+{
+ texture = Static11
+ rect = 420,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_xu1_0
+{
+ texture = Static11
+ rect = 440,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_e2_0
+{
+ texture = Static11
+ rect = 460,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation MC20_maohao_0
+{
+ texture = Static11
+ rect = 480,2480,20,20
+ hotspot = 10,10
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
 Animation SH20_hengang_0
 {
  texture = Static11
@@ -18453,627 +19137,7 @@ Animation SH20_wenhao_0
  resgroup = 0
  frame = 1
 }
-Animation MC20_bu4_0
-{
- texture = Static11
- rect = 0,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_dong1_0
-{
- texture = Static11
- rect = 20,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_wei4_0
-{
- texture = Static11
- rect = 40,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_yu2_0
-{
- texture = Static11
- rect = 60,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_gong1_0
-{
- texture = Static11
- rect = 80,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_bao3_0
-{
- texture = Static11
- rect = 100,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_jun1_0
-{
- texture = Static11
- rect = 120,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_chu1_0
-{
- texture = Static11
- rect = 140,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_dong4_0
-{
- texture = Static11
- rect = 160,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_bei3_0
-{
- texture = Static11
- rect = 180,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_qu1_0
-{
- texture = Static11
- rect = 200,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_nan2_0
-{
- texture = Static11
- rect = 220,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_ji2_0
-{
- texture = Static11
- rect = 240,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_you3_0
-{
- texture = Static11
- rect = 260,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_fa1_0
-{
- texture = Static11
- rect = 280,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_zhi3_0
-{
- texture = Static11
- rect = 300,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_ke3_0
-{
- texture = Static11
- rect = 320,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_gao4_0
-{
- texture = Static11
- rect = 340,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_zai4_0
-{
- texture = Static11
- rect = 360,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_di4_0
-{
- texture = Static11
- rect = 380,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_cheng2_0
-{
- texture = Static11
- rect = 400,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_yu4_0
-{
- texture = Static11
- rect = 420,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_ta3_0
-{
- texture = Static11
- rect = 440,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_zeng1_0
-{
- texture = Static11
- rect = 460,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_wai4_0
-{
- texture = Static11
- rect = 480,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_xun2_0
-{
- texture = Static11
- rect = 500,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_yi3_0
-{
- texture = Static11
- rect = 520,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_shi4_0
-{
- texture = Static11
- rect = 540,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_yi4_0
-{
- texture = Static11
- rect = 560,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_shen4_0
-{
- texture = Static11
- rect = 580,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_zhan4_0
-{
- texture = Static11
- rect = 600,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_jie2_0
-{
- texture = Static11
- rect = 620,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_suo3_0
-{
- texture = Static11
- rect = 640,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_hu4_0
-{
- texture = Static11
- rect = 660,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_bao4_0
-{
- texture = Static11
- rect = 680,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_ti2_0
-{
- texture = Static11
- rect = 700,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_di2_0
-{
- texture = Static11
- rect = 720,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_fang1_0
-{
- texture = Static11
- rect = 740,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_shi2_0
-{
- texture = Static11
- rect = 760,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_ming2_0
-{
- texture = Static11
- rect = 780,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_you3_1
-{
- texture = Static11
- rect = 800,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_ge2_0
-{
- texture = Static11
- rect = 820,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_zheng4_0
-{
- texture = Static11
- rect = 840,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_wu3_0
-{
- texture = Static11
- rect = 860,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_han4_0
-{
- texture = Static11
- rect = 880,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_zhu4_0
-{
- texture = Static11
- rect = 900,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_pai4_0
-{
- texture = Static11
- rect = 920,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_te4_0
-{
- texture = Static11
- rect = 940,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_xian4_0
-{
- texture = Static11
- rect = 960,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_rui4_0
-{
- texture = Static11
- rect = 980,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_hang2_0
-{
- texture = Static11
- rect = 1000,2460,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_jian4_0
-{
- texture = Static11
- rect = 0,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_chuan2_0
-{
- texture = Static11
- rect = 20,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_huo4_0
-{
- texture = Static11
- rect = 40,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_xing2_0
-{
- texture = Static11
- rect = 60,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_zhuang1_0
-{
- texture = Static11
- rect = 80,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_xi1_0
-{
- texture = Static11
- rect = 100,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_yao4_0
-{
- texture = Static11
- rect = 120,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_xun4_0
-{
- texture = Static11
- rect = 140,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_gai1_0
-{
- texture = Static11
- rect = 160,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_jin3_0
-{
- texture = Static11
- rect = 180,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_yuan3_0
-{
- texture = Static11
- rect = 200,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_tao2_0
-{
- texture = Static11
- rect = 220,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_tong1_0
-{
- texture = Static11
- rect = 240,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_luo2_0
-{
- texture = Static11
- rect = 260,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_bu4_1
-{
- texture = Static11
- rect = 280,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_dui4_0
-{
- texture = Static11
- rect = 300,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_xu1_0
-{
- texture = Static11
- rect = 320,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
-Animation MC20_e2_0
-{
- texture = Static11
- rect = 340,2480,20,20
- hotspot = 10,10
- zorder = 0.000000
- resgroup = 0
- frame = 1
-}
+
 Animation SH40_hengang_0
 {
  texture = Static11
@@ -37520,6 +37584,24 @@ Animation SH40_wenhao_0
  texture = Static11
  rect = 360,2420,40,40
  hotspot = 20,20
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation SH65_ran2_0
+{
+ texture = Static11
+ rect = 0,2500,65,65
+ hotspot = 32,32
+ zorder = 0.000000
+ resgroup = 0
+ frame = 1
+}
+Animation SH65_liao4_0
+{
+ texture = Static11
+ rect = 65,2500,65,65
+ hotspot = 32,32
  zorder = 0.000000
  resgroup = 0
  frame = 1
