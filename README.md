@@ -1,14 +1,18 @@
 # 使用说明
 
-如只想复现现有汉化，不做新内容添加，只需安装requirements.txt后一路运行即可
+本文件为生成汉化文件的源代码，如只想生成默认的汉化（即与Release内相同的汉化文件），
 
-如有添加字体等需求，请按照jupyter内文件使用
+只需要Pip安装Requirements.txt后依次运行下列代码，即可在build文件夹内生成所有汉化用文件
+
+如想要自己修改汉化内容或添加字体，请根据文件内指示进行操作。
 
 
 
 DOOM_SLAYER为一艘魔改的无敌舰船，用于快速完成战斗测试汉化
 
 当然你卡关了也可以用。请不要在船坞内用它进行测试战，会使得游戏闪退
+
+
 
 
 
@@ -34,8 +38,25 @@ $**字体名称****内容***
 
 **中文输入法下输入￥无法识别**
 
-对于不在字库的字体，请提交字体名称、字符大小方便制作，也可以自己制作，代码已附于github。
+对于不在字库的字体，可以自己制作，制作办法已附于jupyter内。
+
+在线文档：
+
+[**https://docs.qq.com/doc/DTWxTeFBpc2daZ3ZJ**
+
+[](https://docs.qq.com/doc/DTWxTeFBpc2daZ3ZJ)
+
+## 致谢
+
+Huge thanks to stopnoanime for decrypting the dialog file of Highfleet , localization would never be possible without your work.
+
+感谢 Homobanana,Iansniper,Commie-Spy,Rogo921,BI-XY,Xchiliarch,Eistin-Yite,OpaqueArc,KagaJiankui,Suesun-1132,xlmzg,LeberechtSchorner 参与汉化工作。
 
 
 
-[**https://docs.qq.com/doc/DTWxTeFBpc2daZ3ZJ**](https://docs.qq.com/doc/DTWxTeFBpc2daZ3ZJ)
+感谢所有参与提交汉化问题的群友。
+
+
+
+This project can never be done by me alone.
+
