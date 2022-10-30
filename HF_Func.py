@@ -1,10 +1,23 @@
+from genericpath import exists
+import imp
 from itertools import chain
 from xpinyin import Pinyin
 import os
 import re
+import hashlib
 p = Pinyin()
 def to_pinyin(s):
     return ''.join(chain.from_iterable(p.get_pinyin(s, tone_marks='numbers') ))
+
+def compare(file,texts):
+    f= open(file,'rb')              
+    chars =  f.read()
+    filemd5 = hashlib.md5(chars).hexdigest()
+    textmd5 = hashlib.md5(texts.encode('utf-8')).hexdigest()
+    if filemd5!=textmd5:
+        return 1
+    else:
+        return 0
 
 def find_all_chara_text(a,font_name):     #输出并返回所有文本出现的单字、符号,以unicode编码排序 All_char.txt  该文档用于检视所有单字与编码检索
     f= open(a,encoding='utf-8')
@@ -26,9 +39,12 @@ def find_all_chara_text(a,font_name):     #输出并返回所有文本出现的�
         all_char = all_char+item
     if os.path.exists('.\\int_files\\font') == False:
         os.makedirs('.\\int_files\\font')
-    g = open(f'.\\int_files\\font\\{font_name}all_char.txt','w',encoding='utf-8')
-    g.write(all_char)
-    g.close()
+    if os.path.exists(f'.\\int_files\\font\\{font_name}all_char.txt'):
+        if compare(f'.\\int_files\\font\\{font_name}all_char.txt',all_char):
+            print(f'{font_name}字符集内字符发生改变，请重新绘制Tex')
+        g = open(f'.\\int_files\\font\\{font_name}all_char.txt','w',encoding='utf-8')
+        g.write(all_char)
+        g.close()
     return font
 
 def output_font(text,row_num,font_name):  #单字输出到格式化文本 Draw_char.txt. Row_num 为一排字个数  该文档用于PS内绘制贴图
