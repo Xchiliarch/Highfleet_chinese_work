@@ -3,9 +3,9 @@
 #RADIO_INIT	<SCR=RADIO_INIT>
 
 
-#CONTINUE_TEXT	{animation=key_space} {glossary=TO CONTINUE,GLOSS_CONTINUE}
-#SKIP_TEXT	{animation=key_esc} {glossary=SKIP THE STORY,GLOSS_SKIP}
-#SKIP_TUTORIAL	{animation=key_esc} {glossary=SKIP TUTORIAL,GLOSS_SKIP_TUTORIAL}
+#CONTINUE_TEXT	$SH20_BLUE*按下 *{animation=key_space}$SH20_BLUE* 以继续*
+#SKIP_TEXT	$SH20_BLUE*按下 *{animation=key_esc}$SH20_BLUE* 以跳过故事*
+#SKIP_TUTORIAL	$SH20_BLUE*按下 *{animation=key_esc}$SH20_BLUE* 以跳过教程*
 
 
 #LABLE_role_fighter	AIR SUPERIORITY SHIP
@@ -106,16 +106,16 @@
 #RETREAT_LABLE	RETREAT
 #PUT_IN_DOCKS	PUT IN DOCKS
 #PUT_IN_DOCKS_2	WAS IN DOCKS
-#PUT_IN_DOCKS_DESC	{font=dinpro_14_bold}{max=200}You can speed up repairs by landing at the docks.
+#PUT_IN_DOCKS_DESC	{font=dinpro_14_bold}{max=200}$SH20_BROWN*降落在船坞内可以@加快舰船的维修速度。*
 #YOUR_FUNDS_LABLE	YOUR FUNDS
 #SHIP_COST	COST OF THE SHIP
 #OK_BUTTON	OK
 #CANCEL_BUTTON	CANCEL
-#PRICE_LABLE	价格
-#FUEL_SELL_LABLE	{color=4293056435}{align=2}{font=pollock_100}$SH65*燃料*{font=dinpro_20_black}@$SH40*压缩甲烷*
-#AUTO_REPAIR_LABLE	维修量
-#AUTO_REPAIR_HELP	拖动滑条以@安排维修
-#BUY_FUEL_HELP	拖动滑条以购买燃料
+#PRICE_LABLE	PRICE
+#FUEL_SELL_LABLE	{color=4293056435}{align=2}{font=pollock_100}$SH65_WHITE*燃料*{font=dinpro_20_black}@$SH40_WHITE*压缩甲烷*
+#AUTO_REPAIR_LABLE	$SH40_LSAND*维修量*
+#AUTO_REPAIR_HELP	$SH20_BLACK*拖动滑条以@安排维修*
+#BUY_FUEL_HELP	$SH20_BLACK*拖动滑条以购买燃料*
 #EMPTY_LABLE	EMPTY
 #PAUSE_LABLE	PAUSE
 #PAUSE_NOTE_LABLE	press SPACE to pause
@@ -126,8 +126,8 @@
 #MAINMODULES_LABLE	MAIN MODULES
 #SHIPDESC_LABLE	DESCRIPTION
 #ROLES_LABLE	ROLES
-#PRELANDING_TXT	{font=pollock_52}{align=0}{color=4293449270}SELECT SHIPS TO LAND IN THE DOCKS
-#PRELANDING_HINT	{animation=hint_small}{font=dinpro_14_med}{color=4293449270}{align=2} DOCKING YOUR SHIPS IS NOT NECESSARY，BUT IF A SERIOUS REPAIR IS APPLYING，@DOCKING WILL SPEED IT UP
+#PRELANDING_TXT	{font=pollock_52}{align=0}{color=4293449270}$SH65_YELLOW*选择要泊入船坞的舰船*
+#PRELANDING_HINT	{animation=hint_small}{font=dinpro_14_med}{color=4293449270}{align=2}$SH20_YELLOW*停泊舰船不是必要的，但是如果需要大修，@停泊在船坞会大幅加速维修进程*
 #RADIATION_SICKNESS_LABLE	RADIATION SICKNESS
 #RADIATION_ON_LABLE	RADIATION ON
 #RETREAT_BUTTON	RETREAT
@@ -144,12 +144,12 @@
 #INTEL_DATA	INTEL DATA
 #UNLOCK_SHIP	SHIP UNLOCKED
 
-#CARD_PRESENT1	金象
-#CARD_PRESENT2	镀金匕首
-#CARD_PRESENT3	铜制标志
-#CARD_PRESENT4	帝国十字
-#CARD_PRESENT5	格瑞特旗帜
-#CARD_PRESENT_SLAVE	女奴
+#CARD_PRESENT1	$SH20_DIRT*金象*
+#CARD_PRESENT2	$SH20_DIRT*镀金匕首*
+#CARD_PRESENT3	$SH20_DIRT*铜制标志*
+#CARD_PRESENT4	$SH20_DIRT*帝国十字*
+#CARD_PRESENT5	$SH20_DIRT*格瑞特旗帜*
+#CARD_PRESENT_SLAVE	$SH20_DIRT*女奴*
 
 #TOKEN_SAID	{font=dinpro_30_black}{align=2}{color=4293584078}SAID
 
@@ -157,7 +157,7 @@
 #EDITOR_TOTAL_REPAIR_COST	TOTAL REPAIR COST
 
 #EDITOR_SAVE_DESIGN	{align=2}{font=dinpro_30_black}{color=4293056435}NEW CLASS@12{align=0}{max=250}{color=4294951680}{font=dinpro_14_bold}
-#EDITOR_SAVE_DESIGN2	 {color=4293056435}{font=dinpro_14_reg}CLASS DESIGN HAS BEEN CHANGED. DO YOU WANT TO SAVE THE CHANGES AS A NEW CLASS？
+#EDITOR_SAVE_DESIGN2	 {color=4293056435}{font=dinpro_14_reg}船级设计发生变更，是否将变更保存为一种新的船级？
 #EDITOR_SAVE_DESIGN3	CLASS NAME
 
 #EDITOR_AP	@14{font=dinpro_10_med}ARMOR@PIERCING
@@ -466,55 +466,55 @@
 
 #DEATH	ÑHARACTER IS DEAD
 
-#STATS_DESC_FEAR1	Very afraid of you
-#STATS_DESC_FEAR2	Afraid of you
-#STATS_DESC_FEAR3	Not afraid of you
-#STATS_DESC_FEAR4	Looks down on you
+#STATS_DESC_FEAR1	$SH40_SHADOW_WHITE*非常惧怕你*
+#STATS_DESC_FEAR2	$SH40_SHADOW_WHITE*惧怕你*
+#STATS_DESC_FEAR3	$SH40_SHADOW_WHITE*不惧怕你*
+#STATS_DESC_FEAR4	$SH40_SHADOW_WHITE*看不起你*
 
-#STATS_DESC_GERAT1	Very proud {glossary=Elaim,GLOSS_ELAIM}
-#STATS_DESC_GERAT2	Proud {glossary=Elaim,GLOSS_ELAIM}
-#STATS_DESC_GERAT3	Dislike {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT4	Hate {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT1	$SH40_SHADOW_WHITE*为埃兰({glossary=Elaim,GLOSS_ELAIM})感到非常自豪*
+#STATS_DESC_GERAT2	$SH40_SHADOW_WHITE*为埃兰({glossary=Elaim,GLOSS_ELAIM})感到自豪*
+#STATS_DESC_GERAT3	$SH40_SHADOW_WHITE*讨厌埃兰({glossary=Elaim,GLOSS_ELAIM})*
+#STATS_DESC_GERAT4	$SH40_SHADOW_WHITE*痛恨埃兰({glossary=Elaim,GLOSS_ELAIM})*
 
-#STATS_DESC_GERAT5	Devoted to {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT6	Like {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT7	Dislike {glossary=Elaims,GLOSS_ELAIM}
-#STATS_DESC_GERAT8	Hate {glossary=Elaims,GLOSS_ELAIM}
+#STATS_DESC_GERAT5	$SH40_SHADOW_WHITE*非常喜欢埃兰人({glossary=Elaim,GLOSS_ELAIM})*
+#STATS_DESC_GERAT6	$SH40_SHADOW_WHITE*喜欢埃兰人({glossary=Elaim,GLOSS_ELAIM})*
+#STATS_DESC_GERAT7	$SH40_SHADOW_WHITE*不喜欢埃兰人({glossary=Elaims,GLOSS_ELAIM})*
+#STATS_DESC_GERAT8	$SH40_SHADOW_WHITE*仇恨埃兰人({glossary=Elaims,GLOSS_ELAIM})*
 
-#STATS_DESC_ROMANI1	Very proud {glossary=Romani,GLOSS_ROMANI}
-#STATS_DESC_ROMANI2	Proud {glossary=Romani,GLOSS_ROMANI}
-#STATS_DESC_ROMANI3	Dislike {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI4	Hate {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI1	$SH40_SHADOW_WHITE*为罗马尼({glossary=Romani,GLOSS_ROMANI})感到非常骄傲*
+#STATS_DESC_ROMANI2	$SH40_SHADOW_WHITE*为罗马尼({glossary=Romani,GLOSS_ROMANI})感到骄傲*
+#STATS_DESC_ROMANI3	$SH40_SHADOW_WHITE*讨厌罗马尼人({glossary=Romanis,GLOSS_ROMANI})*
+#STATS_DESC_ROMANI4	$SH40_SHADOW_WHITE*痛恨罗马尼人({glossary=Romanis,GLOSS_ROMANI})*
 
-#STATS_DESC_ROMANI5	Devoted to {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI6	Like {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI7	Dislike {glossary=Romanis,GLOSS_ROMANI}
-#STATS_DESC_ROMANI8	Hate {glossary=Romanis,GLOSS_ROMANI}
+#STATS_DESC_ROMANI5	$SH40_SHADOW_WHITE*非常喜欢罗马尼人({glossary=Romanis,GLOSS_ROMANI})*
+#STATS_DESC_ROMANI6	$SH40_SHADOW_WHITE*喜欢罗马尼人({glossary=Romanis,GLOSS_ROMANI})*
+#STATS_DESC_ROMANI7	$SH40_SHADOW_WHITE*不喜欢马尼人({glossary=Romanis,GLOSS_ROMANI})*
+#STATS_DESC_ROMANI8	$SH40_SHADOW_WHITE*痛恨罗马尼人({glossary=Romanis,GLOSS_ROMANI})*
 
-#STATS_DESC_FAITH1	True believer
-#STATS_DESC_FAITH2	Lean toward faith
-#STATS_DESC_FAITH3	Inclined to unbelief
-#STATS_DESC_FAITH4	Unbelieving
+#STATS_DESC_FAITH1	$SH40_SHADOW_WHITE*忠实信徒*
+#STATS_DESC_FAITH2	$SH40_SHADOW_WHITE*倾向于信仰*
+#STATS_DESC_FAITH3	$SH40_SHADOW_WHITE*倾向于无信仰*
+#STATS_DESC_FAITH4	$SH40_SHADOW_WHITE*非信徒*
 
-#STATS_DESC_RIGHT1	Greatly values law
-#STATS_DESC_RIGHT2	Loves justice
-#STATS_DESC_RIGHT3	Does not value justice
-#STATS_DESC_RIGHT4	Lawless
+#STATS_DESC_RIGHT1	$SH40_SHADOW_WHITE*非常重视原则*
+#STATS_DESC_RIGHT2	$SH40_SHADOW_WHITE*喜欢正义*
+#STATS_DESC_RIGHT3	$SH40_SHADOW_WHITE*不在乎正义*
+#STATS_DESC_RIGHT4	$SH40_SHADOW_WHITE*目无法纪*
 
-#STATS_DESC_FORCE1	Greatly values force
-#STATS_DESC_FORCE2	Appreciates force
-#STATS_DESC_FORCE3	Peace-minded
-#STATS_DESC_FORCE4	Hates violence
+#STATS_DESC_FORCE1	$SH40_SHADOW_WHITE*非常重视力量*
+#STATS_DESC_FORCE2	$SH40_SHADOW_WHITE*欣赏力量*
+#STATS_DESC_FORCE3	$SH40_SHADOW_WHITE*爱好和平*
+#STATS_DESC_FORCE4	$SH40_SHADOW_WHITE*痛恨暴力*
 
-#STATS_DESC_WEALTH1	Greatly values wealth
-#STATS_DESC_WEALTH2	Loves wealth
-#STATS_DESC_WEALTH3	Does not value wealth
-#STATS_DESC_WEALTH4	Despises wealth
+#STATS_DESC_WEALTH1	$SH40_SHADOW_WHITE*非常重视财富*
+#STATS_DESC_WEALTH2	$SH40_SHADOW_WHITE*喜欢财富*
+#STATS_DESC_WEALTH3	$SH40_SHADOW_WHITE*不在乎财富*
+#STATS_DESC_WEALTH4	$SH40_SHADOW_WHITE*蔑视财富*
 
-#STATS_DESC_KINDNESS1	Greatly values kindness
-#STATS_DESC_KINDNESS2	Kind
-#STATS_DESC_KINDNESS3	Harsh
-#STATS_DESC_KINDNESS4	Cruel person
+#STATS_DESC_KINDNESS1	$SH40_SHADOW_WHITE*非常重视友善*
+#STATS_DESC_KINDNESS2	$SH40_SHADOW_WHITE*友善*
+#STATS_DESC_KINDNESS3	$SH40_SHADOW_WHITE*粗鲁*
+#STATS_DESC_KINDNESS4	$SH40_SHADOW_WHITE*冷酷的人*
 
 
 
@@ -564,9 +564,9 @@
 
 
 
-#TELEGRAM_FASIL	$MC20*至第三特遣舰队塔可汗@萨亚迪大公@10我命令立即前往卡拉赫并与埃劳—法兹尔王子会面。@根据圣旨，您将代表王室与王子对话。@10第一分舰队司令达乌德上将*
-#TELEGRAM_MELKA	$MC20*至第三特遣舰队塔可汗@萨亚迪大公@10我命令，夺取Melka城并在此等待我们的主力。@10第一分舰队司令@达乌德上将*
-#TELEGRAM_SCOBELEV	$MC20*   至第一分舰队司令@   达乌德上将@10   最高指挥部命令，留在吾珥并等待进一步指示。@   我已被命令回到我们的出发地。没有提供理由。@10   第二分舰队司令@   斯克别列夫上将*
+#TELEGRAM_FASIL	$MC20_BLACK*至第三特遣舰队塔可汗@萨亚迪大公@10我命令立即前往卡拉赫并与埃劳—法兹尔王子会面。@根据圣旨，您将代表王室与王子对话。@10第一分舰队司令达乌德上将*
+#TELEGRAM_MELKA	$MC20_BLACK*至第三特遣舰队塔可汗@萨亚迪大公@10我命令，夺取Melka城并在此等待我们的主力。@10第一分舰队司令@达乌德上将*
+#TELEGRAM_SCOBELEV	$MC20_BLACK*   至第一分舰队司令@   达乌德上将@10   最高指挥部命令，留在吾珥并等待进一步指示。@   我已被命令回到我们的出发地。没有提供理由。@10   第二分舰队司令@   斯克别列夫上将*
 
 
 
@@ -629,7 +629,7 @@
 
 #TUTORIAL_1	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1><SCR=CONTINUE>塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）阁下，睁开眼睛！伊利（Eli）城已经在地平线上了。
 #TUTORIAL_2	<NPC=PETR><SCR=CONTINUE>我们的长途旅行终于结束了，每个人都渴望听到你下令着陆。
-#TUTORIAL_3	<SCR=STOP>{font=dinpro_48_black}{align=2}$SH40_S*导航*@10{font=fixed_20}{align=0}要选择目的地，移动鼠标到 ELI 上并按下 {animation=RMB}。
+#TUTORIAL_3	<SCR=STOP>{font=dinpro_48_black}{align=2}$SH40_SAND*导航*@10{font=fixed_20}{align=0}要选择目的地，移动鼠标到 ELI 上并按下 {animation=RMB}。
 
 
 
@@ -672,7 +672,7 @@
 <ANS=你肯定是自愿来到这个岗位上支持我的。父皇要求你来协助我，是吗？|TUTORIAL_FLY_7|PETR=1>
 #TUTORIAL_FLY_7	<NPC=PETR><NOSPEAK>彼得 伊格纳季耶维奇只是以微笑回应。
 <ANS=很好。下令起飞。升空后我会选择目的地。|TUTORIAL_FLY_10>
-#TUTORIAL_FLY_10	<SCR=STOP>{font=dinpro_48_black}{align=2}$SH40_S*航程*@10{font=fixed_20}{align=0}要设置目的地，将鼠标移动到蓝圈内的一个城市上并按下 {animation=RMB}。
+#TUTORIAL_FLY_10	<SCR=STOP>{font=dinpro_48_black}{align=2}$SH40_SAND*航程*@10{font=fixed_20}{align=0}要设置目的地，将鼠标移动到蓝圈内的一个城市上并按下 {animation=RMB}。
 
 
 
@@ -736,7 +736,7 @@
 #TUTORIAL_RADIO_IN_6	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SAVE|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_METER|RADIO_SAVE><ACTIVE=RADIO_BEARING_SWITCH|RADIO_SAVE>如果确定这是正确的方向了，按下按钮保存您的计算。
 #TUTORIAL_RADIO_IN_7	<NPC=PETR><BLUR_POS=0.5|0.5>这是一条来自敌人打击群的消息—而且是未加密的！<SCR=CONTINUE>
 #TUTORIAL_RADIO_IN_8	<NPC=PETR>现在我们知道他们的方位角（{glossary=bearing,GLOSS_PELENG}）和目的地了！<SCR=CONTINUE>
-#TUTORIAL_RADIO_IN_9	{font=dinpro_48_black}{align=2}$SH40_S*打击群*@10{font=fixed_20}{align=0}打击群是搜捕你的强大敌方舰船编队。最好的办法是始终避开它们。<SCR=CONTINUE>
+#TUTORIAL_RADIO_IN_9	{font=dinpro_48_black}{align=2}$SH40_SAND*打击群*@10{font=fixed_20}{align=0}打击群是搜捕你的强大敌方舰船编队。最好的办法是始终避开它们。<SCR=CONTINUE>
 #TUTORIAL_RADIO_IN_10	<NPC=DAUD><SIDE=1>他们在往哪飞？
 <ANS=他们要去哈马（Hamat）。|TUTORIAL_RADIO_IN_11>
 <ANS=他们要去古珊（Kushan）。|TUTORIAL_RADIO_IN_12>
@@ -773,7 +773,7 @@
 #TUTORIAL_UR_2	<NPC=FASIL><SIDE=1><SCR=CONTINUE>祝贺您，公爵阁下！多么辉煌的胜利啊！
 #TUTORIAL_UR_3	<NPC=PETR><SIDE=-1>干得好，马克！现在所有那些唱反调的人也都只能闭嘴了。@我发誓，就连达乌德也会祝贺今天的成功！<ANS=谢谢你，彼得 伊格纳季耶维奇。>
 #TUTORIAL_UR_4	<NPC=PETR><SIDE=-1>我可以通知上将了吗？<ANS=当然！还等什么？>
-#TUTORIAL_UR_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*抵达吾珥*@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>那一刻，我们意识到格瑞特人民的心是在我们这一边的。这是多么美好的一天！@我们忘乎所以地庆祝当下的胜利，没有关心等待着我们的是什么。
+#TUTORIAL_UR_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*抵达吾珥*@10 {animation=event_triumph} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>那一刻，我们意识到格瑞特人民的心是在我们这一边的。这是多么美好的一天！@我们忘乎所以地庆祝当下的胜利，没有关心等待着我们的是什么。
 
 
 
@@ -800,19 +800,19 @@
 
 
 
-#TUTORIAL_ROLL_1	<TRG=TUTORIAL_ROLL|0>{font=dinpro_48_black}{align=2}$SH40_S*滚转控制*@10{font=fixed_20}{align=0}这艘船向一侧严重倾斜了。用{animation=key_q}和{animation=key_e}使其稳定。<SCR=STOP>
+#TUTORIAL_ROLL_1	<TRG=TUTORIAL_ROLL|0>{font=dinpro_48_black}{align=2}$SH40_SAND*滚转控制*@10{font=fixed_20}{align=0}这艘船向一侧严重倾斜了。用{animation=key_q}和{animation=key_e}使其稳定。<SCR=STOP>
 
-#TUTORIAL_FIRE_1	<TRG=TUTORIAL_FIRE|0><SOUND=alarm_small_03>{font=dinpro_48_black}{align=2}$SH40_S*燃油系统起火！*@10{font=fixed_20}{align=0}按下{animation=key_b}激活舰船的灭火系统（FSS）。每次使用会消耗一个FSS模块，所以确保不要用完！<SCR=STOP>
+#TUTORIAL_FIRE_1	<TRG=TUTORIAL_FIRE|0><SOUND=alarm_small_03>{font=dinpro_48_black}{align=2}$SH40_SAND*燃油系统起火！*@10{font=fixed_20}{align=0}按下{animation=key_b}激活舰船的灭火系统（FSS）。每次使用会消耗一个FSS模块，所以确保不要用完！<SCR=STOP>
 
-#TUTORIAL_RETREAT_1	<TRG=TUTORIAL_RETREAT|0>{font=dinpro_48_black}{align=2}$SH40_S*可以撤退*@10{font=fixed_20}{align=0}你的分舰队由多艘船组成。你可以把当前操控的船移动到撤退标志处来撤出战斗。名单里的下一艘船会自动进入战斗。<SCR=STOP>
+#TUTORIAL_RETREAT_1	<TRG=TUTORIAL_RETREAT|0>{font=dinpro_48_black}{align=2}$SH40_SAND*可以撤退*@10{font=fixed_20}{align=0}你的分舰队由多艘船组成。你可以把当前操控的船移动到撤退标志处来撤出战斗。名单里的下一艘船会自动进入战斗。<SCR=STOP>
 
-#TUTORIAL_MISSILES_1	<TRG=TUTORIAL_MISSILES|0>{font=dinpro_48_black}{align=2}$SH40_S*导弹*@10{font=fixed_20}{align=0}这艘船配备了导弹。按下{animation=key_space}发射一枚导弹。从远处齐射二或三枚导弹往往很有效。<SCR=STOP>
+#TUTORIAL_MISSILES_1	<TRG=TUTORIAL_MISSILES|0>{font=dinpro_48_black}{align=2}$SH40_SAND*导弹*@10{font=fixed_20}{align=0}这艘船配备了导弹。按下{animation=key_space}发射一枚导弹。从远处齐射二或三枚导弹往往很有效。<SCR=STOP>
 
-#TUTORIAL_COUNTERMEASURES_1	<TRG=TUTORIAL_COUNTERMEASURES|2><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}$SH40_S*导弹接近！*@10{font=fixed_20}{align=0}你可以尝试击落它，躲开它，或者使用诱饵。当导弹接近你时，按下{animation=key_f}发射一组诱饵弹。<SCR=STOP>
+#TUTORIAL_COUNTERMEASURES_1	<TRG=TUTORIAL_COUNTERMEASURES|2><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}$SH40_SAND*导弹接近！*@10{font=fixed_20}{align=0}你可以尝试击落它，躲开它，或者使用诱饵。当导弹接近你时，按下{animation=key_f}发射一组诱饵弹。<SCR=STOP>
 
-#TUTORIAL_COUNTERMEASURES_2	<TRG=TUTORIAL_COUNTERMEASURES|0><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}$SH40_S*空对空导弹*@10{font=fixed_20}{align=0}这些导弹很昂贵且是一次性的，但它们对付灵活的飞行目标效果非常好。要发射一枚空对空导弹（AAM），按下{animation=key_c}。<SCR=STOP>
+#TUTORIAL_COUNTERMEASURES_2	<TRG=TUTORIAL_COUNTERMEASURES|0><SOUND=alarm_small_05>{font=dinpro_48_black}{align=2}$SH40_SAND*空对空导弹*@10{font=fixed_20}{align=0}这些导弹很昂贵且是一次性的，但它们对付灵活的飞行目标效果非常好。要发射一枚空对空导弹（AAM），按下{animation=key_c}。<SCR=STOP>
 
-#TUTORIAL_SECONDARY_1	<TRG=TUTORIAL_SECONDARY|0>{font=dinpro_48_black}{align=2}$SH40_S*副炮*@10{font=fixed_20}{align=0}除了主炮，这艘船还有一套副炮。用副武器来消灭快速灵活的近距离目标，以及摧毁敌方导弹。要发射副武器，按下{animation=RMB}。<SCR=STOP>
+#TUTORIAL_SECONDARY_1	<TRG=TUTORIAL_SECONDARY|0>{font=dinpro_48_black}{align=2}$SH40_SAND*副炮*@10{font=fixed_20}{align=0}除了主炮，这艘船还有一套副炮。用副武器来消灭快速灵活的近距离目标，以及摧毁敌方导弹。要发射副武器，按下{animation=RMB}。<SCR=STOP>
 
 
 
@@ -1145,7 +1145,7 @@
 
 
 
-#TELEGRAM_MEETING	$MC20*   太子殿下@10   我希望我们能亲自会面，就我们的分歧进行调解。@    请乘坐一艘没有护卫的船到巴士拉山谷。@10   总督@   格瑞特共和国*
+#TELEGRAM_MEETING	$MC20_BLACK*   太子殿下@10   我希望我们能亲自会面，就我们的分歧进行调解。@    请乘坐一艘没有护卫的船到巴士拉山谷。@10   总督@   格瑞特共和国*
 #MEETING_RADIOGRAM_1	<SCR=CHECK_JOINED|DAUD|MEETING_RADIOGRAM_7><SCR=CHECK_JOINED|PETR|MEETING_RADIOGRAM_7><NPC=DAUD><SIDE=-1><SCR=CONTINUE>他真是开玩笑！谁会踩进这么明显的圈套？
 #MEETING_RADIOGRAM_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>如果这是圈套就太简单了。
 #MEETING_RADIOGRAM_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>如果他真的想和谈，应该会有所保证。
@@ -1284,7 +1284,7 @@
 #KHIVA_LANDING_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>我犯了可怕的错误。不会有谈判了。
 #KHIVA_LANDING_16	<SCR=STOP>彼得是对的。一纸最后通牒很快来了。
 
-#TELEGRAM_ULTIMATUM	$MC20*   至罗马尼远征舰队司令@10   埃拉特众家族在此要求你将全部罗马尼舰船立即撤出希瓦。@10   你有8小时服从通牒，@   否则各大家族的联合舰队将用核打击毁灭希瓦城。*
+#TELEGRAM_ULTIMATUM	$MC20_BLACK*   至罗马尼远征舰队司令@10   埃拉特众家族在此要求你将全部罗马尼舰船立即撤出希瓦。@10   你有8小时服从通牒，@   否则各大家族的联合舰队将用核打击毁灭希瓦城。*
 
 #KHIVA_ULTIMATUM_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>他们将不惜一切代价。
 #KHIVA_ULTIMATUM_2	<NPC=PETR><SIDE=1>他们会把手头一切武器尽数射向我们。
@@ -1292,10 +1292,10 @@
 #KHIVA_ULTIMATUM_3	<SCR=TO_THE_MAP>。
 
 
-#PETR_DAUD_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|PETR_DAUD_2|JOIN=Nomad,GAUD><SCR=SKIP|PETR_DAUD_21>今天不可能的事情发生了：我们的巡空舰“狄阿娜”，就是那艘派去与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）联络的船，回来了！
-#PETR_DAUD_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>这是上天的礼物，而且来得正是时候！可它的船员还带来了更惊人的消息：来自帝都的新闻…
-#PETR_DAUD_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>父皇还活着！
-#PETR_DAUD_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>我们本以为罗马尼舰队最高指挥部已经被消灭了，其实他们还活着。而且帝都的战争从未结束—一直持续到现在…
+#PETR_DAUD_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|PETR_DAUD_2|JOIN=Nomad,GAUD><SCR=SKIP|PETR_DAUD_21>今天不可能的事情发生了：我们的巡空舰“狄阿娜”，就是那艘派去与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）联络的船，回来了！
+#PETR_DAUD_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>这是上天的礼物，而且来得正是时候！可它的船员还带来了更惊人的消息：来自帝都的新闻…
+#PETR_DAUD_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>父皇还活着！
+#PETR_DAUD_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*狄阿娜的返航*@10 {animation=event_diana} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>我们本以为罗马尼舰队最高指挥部已经被消灭了，其实他们还活着。而且帝都的战争从未结束—一直持续到现在…
 
 #PETR_DAUD_5	<MUSIC=Bois><SCR=CONTINUE>在你和彼特商量对策时，达乌德上将闯进你的舱室。
 #PETR_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>你早就知道了！
@@ -1376,7 +1376,7 @@
 #PETR_DEPARTURE_NO_7	<NPC=PETR><SIDE=1><SCR=STOP><NOSPEAK>只留下你一个人和你沉重的心。
 
 
-#TELEGRAM_DAUD_RETURN	$MC20*  太子殿下@10  收到沙欣将军的新情报后，@  我已决定协助你进攻希瓦。等待你的指令。@10  达乌德上将*
+#TELEGRAM_DAUD_RETURN	$MC20_BLACK*  太子殿下@10  收到沙欣将军的新情报后，@  我已决定协助你进攻希瓦。等待你的指令。@10  达乌德上将*
 
 
 #ANT_1	<SCR=CONTINUE><SCR=SKIP|EXIT><MUSIC=Mellifluous>你坐在你的舱室里，独自对着地图。
@@ -1429,8 +1429,8 @@
 #PRESCREEN_4	诏于撒冷郡。当朝二一四年九月。
 #PRESCREEN_5	皇帝御笔亲书。
 
-#DESIGNATED_CODENAME_1	$MC20*任命代号：*
-#DESIGNATED_CODENAME_2	$MC20*密级：*
+#DESIGNATED_CODENAME_1	$MC20_BLACK*任命代号：*
+#DESIGNATED_CODENAME_2	$MC20_BLACK*密级：*
 
 
 #CONTACT_ELINT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_ELINT_PNL>塔可汗阁下！我们的电子情报汇报了一次新的接触。<ANS=CONTINUE|EXIT>
@@ -1702,17 +1702,17 @@
 
 
 
-#HAZARD_EXPLOSIVE	爆炸危险！@若不在爆炸前灭火，将随机炸毁一个搜救对象。
-#HAZARD_FLAMEABLE	火灾危险！@在扩散前将其扑灭。
-#HAZARD_RADIATION	辐射危险！@这个地区有放射性，对搜救团队有危险。
-#HAZARD_POISON	危险环境！@不采取防护措施有50%的几率导致事故。
-#HAZARD_SCARE	实乃惨绝人寰！@此处已尸横遍野。此景最好退避三分。
+#HAZARD_EXPLOSIVE	$SH20_BLACK*爆炸危险！@若不在爆炸前清理，@将随机摧毁一个其他战利品。*
+#HAZARD_FLAMEABLE	$SH20_BLACK*火灾危险！@在扩散前将其扑灭。*
+#HAZARD_RADIATION	$SH20_BLACK*辐射危险！@这个地区有放射性，@对搜救团队有危险。*
+#HAZARD_POISON	$SH20_BLACK*危险环境！@不采取防护措施有50%的几率导致事故。*
+#HAZARD_SCARE	$SH20_BLACK*实乃惨绝人寰！@此处已尸横遍野。此景最好退避三分。*
 
 
 
-#HAZARD_EVENT_RADIATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*核辐射*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 由于您在搜救行动中的决策疏忽，有多名舰员在行动中遭受了致命级别的辐射照射。<SCR=STOP|CREW=-10|MORAL=-1>
-#HAZARD_EVENT_POISON_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*毒气事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}由于燃烧的绝缘材料释放出大量光气，多名舰员吸入有毒烟雾后丧生。<SCR=STOP|CREW=-10|MORAL=-1>
-#HAZARD_EVENT_SCARE_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*创伤后遗症*@10 {animation=event_noimage} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}别看了，别去看。@20 遭受到在行动中随时可能丧生的压力，归舰的舰员们产生了一些心理问题。<SCR=STOP|MORAL=-1>
+#HAZARD_EVENT_RADIATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*核辐射*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 由于您在搜救行动中的决策疏忽，有多名舰员在行动中遭受了致命级别的辐射照射。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_POISON_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*毒气事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}由于燃烧的绝缘材料释放出大量光气，多名舰员吸入有毒烟雾后丧生。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_SCARE_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*创伤后遗症*@10 {animation=event_noimage} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}别看了，别去看。@20 遭受到在行动中随时可能丧生的压力，归舰的舰员们产生了一些心理问题。<SCR=STOP|MORAL=-1>
 
 #RESCUE_SURVIVORS	SEARCH FOR SURVIVORS
 #RESCUE_SURVIVORS_DESC	50% chance of finding survivors among the debris.
@@ -2201,29 +2201,29 @@
 
 
 
-#SPEECH_FEAR_01	谈及@萨亚迪是@多么优秀的盟友，@多么可怕的敌人。
-#SPEECH_NOFEAR_01	谈及@你对塔可汗的敬重。
+#SPEECH_FEAR_01	$SH20_LSAND*谈及@萨亚迪是@多么优秀的盟友@多么可怕的敌人*
+#SPEECH_NOFEAR_01	$SH20_LSAND*谈及@你对塔可汗的敬重*
 
-#SPEECH_ROMANI_01	谈及@罗马尼帝国的天命。
-#SPEECH_NOROMANI_01	谈及@罗马尼帝国@将至的衰落。
+#SPEECH_ROMANI_01	$SH20_LSAND*谈及@罗马尼帝国的天命*
+#SPEECH_NOROMANI_01	$SH20_LSAND*谈及@罗马尼帝国@将至的衰落*
 
-#SPEECH_GERAT_01	谈及@格瑞特人@光明的未来！
-#SPEECH_NOGERAT_01	谈及@埃兰人@如何依赖于罗马尼人。
+#SPEECH_GERAT_01	$SH20_LSAND*谈及@格瑞特人@光明的未来！*
+#SPEECH_NOGERAT_01	$SH20_LSAND*谈及@埃兰人需要@依赖于罗马尼帝国*
 
-#SPEECH_FAITH_01	谈及@动荡时代中，@信仰是多么重要。
-#SPEECH_NOFAITH_01	谈及@信仰和@与其同至的迷信@是多么危险。
+#SPEECH_FAITH_01	$SH20_LSAND*谈及@动荡时代中@信仰是多么重要*
+#SPEECH_NOFAITH_01	$SH20_LSAND*谈及@信仰和@与其同至的迷信@是多么危险*
 
-#SPEECH_RIGHT_01	谈及@遍布格瑞特的不公。
-#SPEECH_NORIGHT_01	谈及@弱者是如何诉诸@大义来削弱强者。
+#SPEECH_RIGHT_01	$SH20_LSAND*谈及@遍布格瑞特的不公*
+#SPEECH_NORIGHT_01	$SH20_LSAND*谈及@弱者是如何诉诸@大义来削弱强者*
 
-#SPEECH_FORCE_01	谈及@对希瓦的战争，@以及为何这场战争@不可避免。
-#SPEECH_NOFORCE_01	谈及@战争为何@必须被结束。
+#SPEECH_FORCE_01	$SH20_LSAND*谈及@对希瓦的战争@以及为何这场战争@不可避免*
+#SPEECH_NOFORCE_01	$SH20_LSAND*谈及@需要立刻停战@及其必要性*
 
-#SPEECH_WEALTH_01	谈及@在格瑞特@等待胜者的@无尽财宝。
-#SPEECH_NOWEALTH_01	谈及@在格瑞特@欺压人民的富庶者，@为何必须被打倒。
+#SPEECH_WEALTH_01	$SH20_LSAND*谈及@在格瑞特@等待胜者的@无尽财宝*
+#SPEECH_NOWEALTH_01	$SH20_LSAND*谈及@在格瑞特@欺压人民的富庶者@为何必须被打倒*
 
-#SPEECH_KINDNESS_01	谈及@人民的苦难，@和你助人的意愿。
-#SPEECH_NOKINDNESS_01	谈及@现在@已然无暇慈悲了。
+#SPEECH_KINDNESS_01	$SH20_LSAND*谈及@人民的苦难@和你助人的意愿*
+#SPEECH_NOKINDNESS_01	$SH20_LSAND*谈及@现在已然@无暇慈悲了*
 
 
 #GLOSS_CONTINUE	按 空格键 以继续
@@ -2302,16 +2302,16 @@
 #EXTRA1	///////////////////////////////////////////////////////////////////////////////////////////////////
 #ENGINE_TEMPERATURE	ENGINE TEMP
 
-#FRACTION_KHANS	$SH40*格瑞特可汗*
-#FRACTION_ELAOU	$SH40*埃劳王朝舰队*
-#FRACTION_HIDDEN	$SH40*隐居子民舰队*
-#FRACTION_ISI	$SH40*伊西氏族*
-#FRACTION_HARISHID	$SH40*哈里西德卫队*
-#FRACTION_HISSID	$SH40*空盗氏族*
-#FRACTION_KNIGHT	$SH40*杜斯塔姆骑士团*
-#FRACTION_SCOUT	$SH40*拉的舰队*
-#FRACTION_AIRBORNE	$SH40*自由民*
-#FRACTION_VETERAN	$SH40*叛军投诚者*
+#FRACTION_KHANS	$SH40_WHITE*格瑞特可汗*
+#FRACTION_ELAOU	$SH40_WHITE*埃劳王朝舰队*
+#FRACTION_HIDDEN	$SH40_WHITE*隐居子民舰队*
+#FRACTION_ISI	$SH40_WHITE*伊西氏族*
+#FRACTION_HARISHID	$SH40_WHITE*哈里西德卫队*
+#FRACTION_HISSID	$SH40_WHITE*空盗氏族*
+#FRACTION_KNIGHT	$SH40_WHITE*杜斯塔姆骑士团*
+#FRACTION_SCOUT	$SH40_WHITE*拉的舰队*
+#FRACTION_AIRBORNE	$SH40_WHITE*自由民*
+#FRACTION_VETERAN	$SH40_WHITE*叛军投诚者*
 
 
 #ENDWAR_BRIEFING_0	<MUSIC=Bois><SCR=CONTINUE><BLUR=2><BLUR_FOCUS=0.3-><BLUR_ZOOM=1.0><SCR=END_BRIEFING|0>三十分钟后，舰队的军官和塔可汗们在旗舰上集合了。
@@ -2392,30 +2392,30 @@
 
 
 
-#EVENT_DAAVAT_1	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一名护卫你的队伍的埃兰人向你发起了一对一决斗。他引照达瓦特仪式，有权力与你决斗。@达瓦特仪式曾经是一种跨越阶级的方式，可现在基本是荣誉性质的。@但是有许多格瑞特人依然遵循这一古老传统。
+#EVENT_DAAVAT_1	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一名护卫你的队伍的埃兰人向你发起了一对一决斗。他引照达瓦特仪式，有权力与你决斗。@达瓦特仪式曾经是一种跨越阶级的方式，可现在基本是荣誉性质的。@但是有许多格瑞特人依然遵循这一古老传统。
 <ANS=接受挑战。{color=4294910720}[INJURY CHANCE 50%]|EVENT_DAAVAT_2|GERAT=1|FORCE=1>
 <ANS=回绝挑战。|EVENT_DAAVAT_NOFIGHT|GERAT=-1|FORCE=-1>
-#EVENT_DAAVAT_2	<AMBIENT=swordfight_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人摩肩接踵，围绕着被选中作为决斗的一块场地。你的对手麻利地展现了作为击剑高手的一面。<SCR=CONTINUE|EVENT_DAAVAT_RES|DICE=50>
-#EVENT_DAAVAT_RES	<AMBIENT=STOP><SOUND=swordhit_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}但之后，出乎你的意料的是，你的剑自己找上了目标。一剑深深地刺中了你对手的大腿，他人仰马翻。<SCR=CONTINUE|EVENT_DAAVAT_RES_1>
-#EVENT_DAAVAT_RES_FAIL	<AMBIENT=STOP><SOUND=swordhit_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}在决斗中，他的剑斩到了你的肩膀。你输了。<SCR=STOP|WOUND=24>
-#EVENT_DAAVAT_RES_1	<SOUND=crowd_medium_win_04><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人和你的船员为你的胜利狂欢。<SCR=CONTINUE|EVENT_DAAVAT_RES_2|MORAL=1>
-#EVENT_DAAVAT_RES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这么多年以来和最好的罗马尼剑士辛勤训练的成果终于有了回报。<SCR=STOP|FEAR=1>
-#EVENT_DAAVAT_NOFIGHT	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}你的对手化身歪嘴战神表示嘲讽。他转身回顾四周然后离去。周围的围观群众难掩对你的失望。<SCR=STOP>
+#EVENT_DAAVAT_2	<AMBIENT=swordfight_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人摩肩接踵，围绕着被选中作为决斗的一块场地。你的对手麻利地展现了作为击剑高手的一面。<SCR=CONTINUE|EVENT_DAAVAT_RES|DICE=50>
+#EVENT_DAAVAT_RES	<AMBIENT=STOP><SOUND=swordhit_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}但之后，出乎你的意料的是，你的剑自己找上了目标。一剑深深地刺中了你对手的大腿，他人仰马翻。<SCR=CONTINUE|EVENT_DAAVAT_RES_1>
+#EVENT_DAAVAT_RES_FAIL	<AMBIENT=STOP><SOUND=swordhit_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}在决斗中，他的剑斩到了你的肩膀。你输了。<SCR=STOP|WOUND=24>
+#EVENT_DAAVAT_RES_1	<SOUND=crowd_medium_win_04><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人和你的船员为你的胜利狂欢。<SCR=CONTINUE|EVENT_DAAVAT_RES_2|MORAL=1>
+#EVENT_DAAVAT_RES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这么多年以来和最好的罗马尼剑士辛勤训练的成果终于有了回报。<SCR=STOP|FEAR=1>
+#EVENT_DAAVAT_NOFIGHT	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达瓦特仪式*{animation=event_daavat} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}你的对手化身歪嘴战神表示嘲讽。他转身回顾四周然后离去。周围的围观群众难掩对你的失望。<SCR=STOP>
 
 
 
-#EVENT_EXECUTION_1	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一位剑士拽着一个人的后颈把他带到你面前。@这是一个当地的占卜师，他竟胆敢公开诋毁你的威名。<SCR=CONTINUE>
-#EVENT_EXECUTION_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“胆敢质疑全能的祂的使者的人罪无可赦！这个不信者理受死！”@士兵高喊着。你周围的的埃兰人也大喊赞同。
+#EVENT_EXECUTION_1	<AMBIENT=crowd_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一位剑士拽着一个人的后颈把他带到你面前。@这是一个当地的占卜师，他竟胆敢公开诋毁你的威名。<SCR=CONTINUE>
+#EVENT_EXECUTION_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“胆敢质疑全能的祂的使者的人罪无可赦！这个不信者理受死！”@士兵高喊着。你周围的的埃兰人也大喊赞同。
 <ANS=处决占卜师|EVENT_EXECUTION_YES|KINDNESS=-1|GERAT=1>
 <ANS=放了占卜师。|EVENT_EXECUTION_NO|KINDNESS=1|GERAT=-1>
-#EVENT_EXECUTION_YES	<AMBIENT=STOP><SOUND=execution_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}轻轻地，娴熟地使剑一挥，这士兵就让占卜师身首异处。他的尸体瘫倒在地，一动不动。<SCR=STOP|FEAR=1|CRUELTY=1>
-#EVENT_EXECUTION_NO	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}周围的埃兰人不情愿地遵从了，低声咕哝抱怨说大公不合时宜的仁慈只会招致更多讥讽。<SCR=STOP|FEAR=-1>
+#EVENT_EXECUTION_YES	<AMBIENT=STOP><SOUND=execution_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}轻轻地，娴熟地使剑一挥，这士兵就让占卜师身首异处。他的尸体瘫倒在地，一动不动。<SCR=STOP|FEAR=1|CRUELTY=1>
+#EVENT_EXECUTION_NO	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*占卜师*@10 {animation=event_execution} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}周围的埃兰人不情愿地遵从了，低声咕哝抱怨说大公不合时宜的仁慈只会招致更多讥讽。<SCR=STOP|FEAR=-1>
 
 
 
-#EVENT_MONK_01_1	<AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*苦行僧*{animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一个衣物破烂不堪的苦行僧走到你面前。他趾高气扬地宣称，@万能的主听到了你的请求，并派他来找你，因为他是最正义的僧人之一。<SCR=CONTINUE>
-#EVENT_MONK_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*苦行僧*@10 {animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这个衣衫褴褛的人声称，全能的主希望你准许他成为你的一名扈从，@并为他提供他这样的虔信者应得的一切食物、饮料、住所和尊重，@因为主与他的贤者理事已祝福你，大公爵 马克 萨亚迪 塞勒姆斯基。<SCR=CONTINUE>
-#EVENT_MONK_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*苦行僧*@10 {animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}你的手下们盯着这个奇怪的人，目光中混着困惑和愤怒。然而，埃兰人却显得无比庄重。
+#EVENT_MONK_01_1	<AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*苦行僧*{animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一个衣物破烂不堪的苦行僧走到你面前。他趾高气扬地宣称，@万能的主听到了你的请求，并派他来找你，因为他是最正义的僧人之一。<SCR=CONTINUE>
+#EVENT_MONK_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*苦行僧*@10 {animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这个衣衫褴褛的人声称，全能的主希望你准许他成为你的一名扈从，@并为他提供他这样的虔信者应得的一切食物、饮料、住所和尊重，@因为主与他的贤者理事已祝福你，大公爵 马克 萨亚迪 塞勒姆斯基。<SCR=CONTINUE>
+#EVENT_MONK_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*苦行僧*@10 {animation=event_monk_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}你的手下们盯着这个奇怪的人，目光中混着困惑和愤怒。然而，埃兰人却显得无比庄重。
 <ANS=Take the monk in.|EVENT_MONK_01_YES_OM|GERAT=1|FAITH=1|ROMANI=-1>
 <ANS=Tell him to go away.|EVENT_MONK_01_NO_AR|GERAT=-1|FAITH=-1|ROMANI=1>
 
@@ -2435,131 +2435,131 @@
 
 
 
-#EVENT_MURDER_01_1	<AMBIENT=crowd_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您被紧急叫到了主舱门前—本舰下方聚集了一大群骚动的当地人。您在途中得知了他们怒气的源头：您的一位部下在城内挑起了争斗，而且加什药瘾上头，杀了一个人。<SCR=CONTINUE>
-#EVENT_MURDER_01_2	<SOUND=crowd_03><AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}当您的身影出现在舱门口，人群都安静了下来。他们等待您作下决定。
+#EVENT_MURDER_01_1	<AMBIENT=crowd_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您被紧急叫到了主舱门前—本舰下方聚集了一大群骚动的当地人。您在途中得知了他们怒气的源头：您的一位部下在城内挑起了争斗，而且加什药瘾上头，杀了一个人。<SCR=CONTINUE>
+#EVENT_MURDER_01_2	<SOUND=crowd_03><AMBIENT=crowd_calm_02><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}当您的身影出现在舱门口，人群都安静了下来。他们等待您作下决定。
 <ANS=我们将对此进行公审。|EVENT_MURDER_01_RES1|GERAT=1|ROMANI=-1|RIGHT=1>
 <ANS=这是舰队内部事务。将由军事法庭来决定此人的命运。|EVENT_MURDER_01_RES2|ROMANI=1|GERAT=-1|RIGHT=1>
 <ANS=即刻散去！没有审判可做。现在我们在打仗—任何一名官兵都至关重要。|EVENT_MURDER_01_RES3|GERAT=-1|RIGHT=-1>
-#EVENT_MURDER_01_RES1	<AMBIENT=STOP><SOUND=crowd_medium_win_05><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}人群高喊起来表示认可。您手下的军官则颇有微词。<SCR=STOP>
-#EVENT_MURDER_01_RES2	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的属下们点头认同。但在人群散去时，许多当地人脸上的失望之情映入您的眼帘。<SCR=STOP>
-#EVENT_MURDER_01_RES3	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}人们震惊于您说出的话，但他们的怒吼声很快便被压制了下去。@士兵们出动将人群从舰身前推走的同时，您瞥到手下一些军官如释重负地松了口气。<SCR=STOP|DISCIPLINE=-1>
+#EVENT_MURDER_01_RES1	<AMBIENT=STOP><SOUND=crowd_medium_win_05><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}人群高喊起来表示认可。您手下的军官则颇有微词。<SCR=STOP>
+#EVENT_MURDER_01_RES2	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的属下们点头认同。但在人群散去时，许多当地人脸上的失望之情映入您的眼帘。<SCR=STOP>
+#EVENT_MURDER_01_RES3	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}人们震惊于您说出的话，但他们的怒吼声很快便被压制了下去。@士兵们出动将人群从舰身前推走的同时，您瞥到手下一些军官如释重负地松了口气。<SCR=STOP|DISCIPLINE=-1>
 
 
 
-#EVENT_HUSH_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*加什药剂*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 舰上的军医前来找您商量。他说有些部下深受严重烧伤所苦，而他提出了一个建议。@伤兵可以使用加什来治疗，这是当地埃兰人经常使用的一种止痛药剂。
+#EVENT_HUSH_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*加什药剂*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 舰上的军医前来找您商量。他说有些部下深受严重烧伤所苦，而他提出了一个建议。@伤兵可以使用加什来治疗，这是当地埃兰人经常使用的一种止痛药剂。
 <ANS=很好。进城去找些加什药贩子来。|EVENT_HUSH_01_YES|KINDNESS=1|RIGHT=-1>
 <ANS=别把这什么加什带上船！你是要我的部下嗑出毒瘾来是吗？！就让伤兵们自然痊愈就好。|EVENT_HUSH_01_NO|KINDNESS=-1|RIGHT=1>
-#EVENT_HUSH_01_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*加什药剂*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一会之后您经过舰上医务室，您突然发现这里似乎安静了许多。平时萦绕着的呻吟和哭嚎声都消失了。<SCR=STOP|MORAL=1|HUSH=1>
-#EVENT_HUSH_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*加什药剂*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}军医无论怎样都说不动您。他怒气冲冲地离去，要将伤兵所遭受的痛苦都归咎于您身上。<SCR=STOP|MORAL=-1|HUSH=-1>
+#EVENT_HUSH_01_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*加什药剂*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一会之后您经过舰上医务室，您突然发现这里似乎安静了许多。平时萦绕着的呻吟和哭嚎声都消失了。<SCR=STOP|MORAL=1|HUSH=1>
+#EVENT_HUSH_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*加什药剂*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}军医无论怎样都说不动您。他怒气冲冲地离去，要将伤兵所遭受的痛苦都归咎于您身上。<SCR=STOP|MORAL=-1|HUSH=-1>
 
 
 
-#EVENT_PARTISANS_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}舰队着陆之后，前来接风的长老告知您有一队忠于总督（{glossary=Governor,GLOSS_GOVERNOR}）的士兵恰好在您抵达之前不久出了城。这些叛乱分子很可能就藏身在周边的群山之中。
+#EVENT_PARTISANS_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}舰队着陆之后，前来接风的长老告知您有一队忠于总督（{glossary=Governor,GLOSS_GOVERNOR}）的士兵恰好在您抵达之前不久出了城。这些叛乱分子很可能就藏身在周边的群山之中。
 <ANS=派兵清剿周边山区。|EVENT_PARTISANS_01_RES1_1|FORCE=1|DICE=60>
 <ANS=各舰进入最高戒备，增强安保力量。|EVENT_PARTISANS_01_RES2_1>
 <ANS=我的部下需要休整。就按常规入渠作业流程走。|EVENT_PARTISANS_01_RES3_1|FORCE=-1|DICE=60>
 
-#EVENT_PARTISANS_01_RES1_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军发现了敌军基地！<SCR=CONTINUE|EVENT_PARTISANS_01_RES1_2|DICE=50>
-#EVENT_PARTISANS_01_RES1_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军毫无损失地拿下了敌军营地，并抓获了一名集众叛军军官回来。好好提审一下他一定会大有收获。<SCR=STOP|FORCE=2|INTEL=3>
+#EVENT_PARTISANS_01_RES1_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军发现了敌军基地！<SCR=CONTINUE|EVENT_PARTISANS_01_RES1_2|DICE=50>
+#EVENT_PARTISANS_01_RES1_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军毫无损失地拿下了敌军营地，并抓获了一名集众叛军军官回来。好好提审一下他一定会大有收获。<SCR=STOP|FORCE=2|INTEL=3>
 
-#EVENT_PARTISANS_01_RES1_2_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}不幸的是官兵发现这座营地已经人去帐空。@尽管努力搜寻一番，但他们仍然什么都没搜到。<SCR=STOP>
-#EVENT_PARTISANS_01_RES1_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军在群山之间遭到伏击，损失惨重，不得不回撤。@您派出支援他们的舰船未能确定敌军的所在地。更肉疼的是您的分舰队还损失了数名经验丰富的军官。<SCR=STOP|MORAL=-1|FORCE=-2>
-#EVENT_PARTISANS_01_RES2_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}由于一整天都在高度戒备状态，您的船员无法得到休整。@尽管明白您命令的意思，他们仍然用鄙夷地眼神注视着周边的群山。每个人都渴望尽快离开这片鬼地方。<SCR=STOP|NO_REST>
-#EVENT_PARTISANS_01_RES3_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}今夜无眠—您脑内笼罩着一种可怕的不祥预感。您感觉自己随时都可能听到警报和爆炸声…但是一夜过去，您一早醒来却得到报告说昨夜什么都没发生。<SCR=STOP>
-#EVENT_PARTISANS_01_RES3_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的舰船在夜深人静时遭到炮击。@其中一艘的船体被迫击炮新炸开一个洞，数名船员和守夜的哨兵丧生。您派出小队搜寻叛军所在，但他们空手而归。<SCR=STOP|MORAL=-1>
+#EVENT_PARTISANS_01_RES1_2_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}不幸的是官兵发现这座营地已经人去帐空。@尽管努力搜寻一番，但他们仍然什么都没搜到。<SCR=STOP>
+#EVENT_PARTISANS_01_RES1_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军在群山之间遭到伏击，损失惨重，不得不回撤。@您派出支援他们的舰船未能确定敌军的所在地。更肉疼的是您的分舰队还损失了数名经验丰富的军官。<SCR=STOP|MORAL=-1|FORCE=-2>
+#EVENT_PARTISANS_01_RES2_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}由于一整天都在高度戒备状态，您的船员无法得到休整。@尽管明白您命令的意思，他们仍然用鄙夷地眼神注视着周边的群山。每个人都渴望尽快离开这片鬼地方。<SCR=STOP|NO_REST>
+#EVENT_PARTISANS_01_RES3_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}今夜无眠—您脑内笼罩着一种可怕的不祥预感。您感觉自己随时都可能听到警报和爆炸声…但是一夜过去，您一早醒来却得到报告说昨夜什么都没发生。<SCR=STOP>
+#EVENT_PARTISANS_01_RES3_1_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*叛军游击队*@10 {animation=event_partisans} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的舰船在夜深人静时遭到炮击。@其中一艘的船体被迫击炮新炸开一个洞，数名船员和守夜的哨兵丧生。您派出小队搜寻叛军所在，但他们空手而归。<SCR=STOP|MORAL=-1>
 
 
 
-#EVENT_ROBE_1	<EVENT_CARD><AMBIENT=crowd_calm_02>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*埃兰绮绣*@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}城内长老前来找您。他反复向您躬身，并献给您一条金绣的飘逸长袍。即使从远处看去，您也能看出此袍乃上上佳作，雍容华贵，剪裁独具匠心。<SCR=CONTINUE>
+#EVENT_ROBE_1	<EVENT_CARD><AMBIENT=crowd_calm_02>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*埃兰绮绣*@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}城内长老前来找您。他反复向您躬身，并献给您一条金绣的飘逸长袍。即使从远处看去，您也能看出此袍乃上上佳作，雍容华贵，剪裁独具匠心。<SCR=CONTINUE>
 #EVENT_ROBE_2	<SCR=CHECK_JOINED|FASIL|EVENT_ROBE_3><NPC=FASIL><SIDE=0> 此乃父王宫内御用裁缝所缝制。千金难求此袍一件。倒是好奇此位长老究竟如何私藏有一件在此…<SCR=CONTINUE>
-#EVENT_ROBE_3	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*埃兰绮绣*@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}若身着格瑞特王族冠袍，埃兰人会颇为受用，然而罗马尼人可能会深感大逆不道。
+#EVENT_ROBE_3	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*埃兰绮绣*@10 {animation=event_robe} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}若身着格瑞特王族冠袍，埃兰人会颇为受用，然而罗马尼人可能会深感大逆不道。
 <ANS=穿上埃兰衣冠。|EXIT|GERAT=2|ROMANI=-2>
 <ANS=将长袍重金卖出。|EXIT|WEALTH=1|GERAT=-1|GOLD=5000>
 
 
 
-#EVENT_EHUDA_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}在您视察装卸作业时，您发现有一群人从大漠中向您的舰船走来，卫兵将他们护送到了您面前。<SCR=CONTINUE>
-#EVENT_EHUDA_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这些人中最年长的自称叫做犹大，哈齐姆之子。@他说自己已经与总督（{glossary=Governor,GLOSS_GOVERNOR}）的军队作战许久，也为能亲眼得见皇子殿下面貌而倍感高兴。<SCR=CONTINUE>
-#EVENT_EHUDA_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}他和他的部下也拥有一艘战舰。他谦卑地请求加入您的分舰队行列，如此将换来他的不二忠心。<SCR=CONTINUE>
+#EVENT_EHUDA_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}在您视察装卸作业时，您发现有一群人从大漠中向您的舰船走来，卫兵将他们护送到了您面前。<SCR=CONTINUE>
+#EVENT_EHUDA_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这些人中最年长的自称叫做犹大，哈齐姆之子。@他说自己已经与总督（{glossary=Governor,GLOSS_GOVERNOR}）的军队作战许久，也为能亲眼得见皇子殿下面貌而倍感高兴。<SCR=CONTINUE>
+#EVENT_EHUDA_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}他和他的部下也拥有一艘战舰。他谦卑地请求加入您的分舰队行列，如此将换来他的不二忠心。<SCR=CONTINUE>
 #EVENT_EHUDA_4	<NPC=FASIL>请您谨慎为妙，大公阁下。此人的父亲哈齐姆曾乃贼寇头目，@使格瑞特全地子民苦不堪言。是父王与其执剑交锋才将这帮贼人踏平。<SCR=CONTINUE>
 #EVENT_EHUDA_5	<NPC=FASIL>而正所谓龙生龙，凤生凤，老鼠养儿沿屋栋。眼下您仍可把握机会，将这帮贼人绳之以法！<SCR=CONTINUE>
 #EVENT_EHUDA_6	<NPC=PETR><NOSPEAK>法兹尔走后，彼得也热切地向您进言。<SCR=CONTINUE>
 #EVENT_EHUDA_7	<NPC=PETR>如今时候艰难，要分清一个人是盗匪还是抵抗战士可不容易。@即便法兹尔和犹大的父亲彼此征战，也不代表犹大就和他父亲是一丘之貉。<SCR=CONTINUE>
-#EVENT_EHUDA_8	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}犹大的部下紧张地盯着法兹尔和彼得，等待您做出最终的决断。
+#EVENT_EHUDA_8	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}犹大的部下紧张地盯着法兹尔和彼得，等待您做出最终的决断。
 <ANS=允许犹大和他的部下加入您的分舰队。|EVENT_EHUDA_OK|RIGHT=-1|GERAT=1>
 <ANS=拒绝犹大的提议。|EVENT_EHUDA_NO_1|RIGHT=1|GERAT=-1>
-#EVENT_EHUDA_OK	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一听到您的答复，犹大的部下就欢呼起来。@您手下的一些军官则脸色并不好看。“愚蠢至极”，你听到他们咕哝到，“我等舰队军官，如今竟要和空贼盗匪吃同一锅饭？”<SCR=STOP|EXIT|FASIL=-1|DISCIPLINE=-1|JOIN>
-#EVENT_EHUDA_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}听到您的话，犹大的面色黑了下来。他怨恨地望向法兹尔，然后一言不发地转身离开了。<SCR=CONTINUE>
+#EVENT_EHUDA_OK	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}一听到您的答复，犹大的部下就欢呼起来。@您手下的一些军官则脸色并不好看。“愚蠢至极”，你听到他们咕哝到，“我等舰队军官，如今竟要和空贼盗匪吃同一锅饭？”<SCR=STOP|EXIT|FASIL=-1|DISCIPLINE=-1|JOIN>
+#EVENT_EHUDA_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}听到您的话，犹大的面色黑了下来。他怨恨地望向法兹尔，然后一言不发地转身离开了。<SCR=CONTINUE>
 #EVENT_EHUDA_NO_2	<NPC=FASIL> 请相信我，您的决断没有错，大公阁下。我确信您麾下官兵所想也是如此。<SCR=STOP|EXIT|FASIL=1>
 
 
 
-#EVENT_ASSAULT_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines}@30{font=dinpro_25_bold_blured}{shift=40}{align=0} 负责着陆作业的军官前来找您。“塔可汗，长官，”@他们说道，“实在是太安静了。街上也没有来迎接我们的人。情况不太对劲。”<SCR=CONTINUE>
-#EVENT_ASSAULT_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 他们向您坚称您应该立即下令攻占当地长老的官邸和城内重要设施，否则悔之不及。
+#EVENT_ASSAULT_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines}@30{font=dinpro_25_bold_blured}{shift=40}{align=0} 负责着陆作业的军官前来找您。“塔可汗，长官，”@他们说道，“实在是太安静了。街上也没有来迎接我们的人。情况不太对劲。”<SCR=CONTINUE>
+#EVENT_ASSAULT_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 他们向您坚称您应该立即下令攻占当地长老的官邸和城内重要设施，否则悔之不及。
 <ANS=派兵进城。|EVENT_ASSAULT_YES|DICE=50|FORCE=1>
 <ANS=不要派兵进城。在舰船周边部署防卫，这应该就够了。|EVENT_ASSAULT_NO|DICE=33|FORCE=-1>
 
-#EVENT_ASSAULT_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军地面部队行动迅速。他们很快攻占了长老官邸、@船坞和燃料堆放场，没有遇到惊恐市民们的任何抵抗。<SCR=STOP|FORCE=1|GOLD=10000>
-#EVENT_ASSAULT_YES_FAIL	<AMBIENT=firefight_distant_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军穿过城市时在其中一个城区内遭遇了激烈抵抗。眼下该处正在激战。
+#EVENT_ASSAULT_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军地面部队行动迅速。他们很快攻占了长老官邸、@船坞和燃料堆放场，没有遇到惊恐市民们的任何抵抗。<SCR=STOP|FORCE=1|GOLD=10000>
+#EVENT_ASSAULT_YES_FAIL	<AMBIENT=firefight_distant_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}我军穿过城市时在其中一个城区内遭遇了激烈抵抗。眼下该处正在激战。
 <ANS=再给他们点时间，总归会打赢的。{color=4294910720}[50% CHANCE OF SUCCESS]|EVENT_ASSAULT_KEEP_ASSAULT|DICE=50|FORCE=1>
 <ANS=使用舰炮火力压制抵抗力量。|EVENT_ASSAULT_ARTILLERY|KINDNESS=-1|FORCE=1>
 <ANS=不要开炮，派使者进去。|EVENT_ASSAULT_NEGOTIATIONS|KINDNESS=1|FORCE=-1>
 
-#EVENT_ASSAULT_KEEP_ASSAULT	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}激烈的巷战之后，市民已军心溃散。我军回报胜利—全城已在掌控之下。<SCR=STOP|GOLD=10000>
-#EVENT_ASSAULT_KEEP_ASSAULT_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}市民军浴血抗战，有如猛兽。我军损失惨重，不得不退却回舰上。<SCR=MORAL|-1>
+#EVENT_ASSAULT_KEEP_ASSAULT	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}激烈的巷战之后，市民已军心溃散。我军回报胜利—全城已在掌控之下。<SCR=STOP|GOLD=10000>
+#EVENT_ASSAULT_KEEP_ASSAULT_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}市民军浴血抗战，有如猛兽。我军损失惨重，不得不退却回舰上。<SCR=MORAL|-1>
 <ANS=使用舰炮火力压制抵抗力量。|EVENT_ASSAULT_ARTILLERY|KINDNESS=-1|FORCE=1>
 <ANS=不要开炮，派使者进去。|EVENT_ASSAULT_NEGOTIATIONS|KINDNESS=1|FORCE=-1>
 
-#EVENT_ASSAULT_ARTILLERY	<AMBIENT=artillery_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 在接下来数小时里，舰炮精准无情地将反抗城区化为齑粉，炸的尸横遍野。我军总算攻占了城市。<SCR=STOP|GOLD=10000>
-#EVENT_ASSAULT_NEGOTIATIONS	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}长老要求您只在这加满燃料之后就立即卷铺盖走人。<SCR=STOP|NO_REPAIR>
+#EVENT_ASSAULT_ARTILLERY	<AMBIENT=artillery_01><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 在接下来数小时里，舰炮精准无情地将反抗城区化为齑粉，炸的尸横遍野。我军总算攻占了城市。<SCR=STOP|GOLD=10000>
+#EVENT_ASSAULT_NEGOTIATIONS	<AMBIENT=STOP><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}长老要求您只在这加满燃料之后就立即卷铺盖走人。<SCR=STOP|NO_REPAIR>
 
-#EVENT_ASSAULT_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 您手下军官的疑心实为无端—城内派出的代表团一会之后走近了舰船。出于一些原因，@当地人似乎很害怕您出现在此，但他们并无不端之心。<SCR=STOP>
-#EVENT_ASSAULT_NO_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您属下军官的疑心不无道理。当地人断然拒绝与您合作。@船坞工人拒绝给您修船，而此处长老很可能正密谋要将您的位置报告给总督（{glossary=Governor,GLOSS_GOVERNOR}）。<SCR=STOP|NO_REPAIR|TREASON_HIGH>
+#EVENT_ASSAULT_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 您手下军官的疑心实为无端—城内派出的代表团一会之后走近了舰船。出于一些原因，@当地人似乎很害怕您出现在此，但他们并无不端之心。<SCR=STOP>
+#EVENT_ASSAULT_NO_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*决心已定*@10 {animation=event_marines} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您属下军官的疑心不无道理。当地人断然拒绝与您合作。@船坞工人拒绝给您修船，而此处长老很可能正密谋要将您的位置报告给总督（{glossary=Governor,GLOSS_GOVERNOR}）。<SCR=STOP|NO_REPAIR|TREASON_HIGH>
 
 
 
 #EVENT_HEADS_1	<EVENT>您的舰船着陆后当地长老急忙赶来迎接，并邀您参与一场庆功宴。@城内似乎正值盛大节庆—到处大鸣大放，市中心的广场上人头攒动。<SCR=CONTINUE>
-#EVENT_HEADS_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大摆筵席*@10 {animation=event_heads} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 广场周围插满了高高的木桩。每个桩头都插上了斩下的人头。@当您问及如此渗人的景象是作何道理，一位当地人饶有兴致地解释说这些都是总督（{glossary=Governor,GLOSS_GOVERNOR}）手下的首级。
+#EVENT_HEADS_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大摆筵席*@10 {animation=event_heads} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 广场周围插满了高高的木桩。每个桩头都插上了斩下的人头。@当您问及如此渗人的景象是作何道理，一位当地人饶有兴致地解释说这些都是总督（{glossary=Governor,GLOSS_GOVERNOR}）手下的首级。
 <ANS=向长老表示感谢，并前去他家中赴宴。|EVENT_HEADS_YES|KINDNESS=-1|GERAT=1>
 <ANS=告知长老将首级取下并妥善安葬。|EVENT_HEADS_NO|KINDNESS=1|GERAT=-1>
-#EVENT_HEADS_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大摆筵席*@10 {animation=event_heads} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}官兵在路过木桩时向其上的首级投去恐惧的眼神。不过长老家中的美酒佳肴很快让他们将这些不快抛诸脑后。<SCR=STOP|MORAL=1>
-#EVENT_HEADS_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大摆筵席*@10 {animation=event_heads} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}长老及其随从都对您的反应感到讶异。似乎长老的庆功宴是办不成了。<SCR=STOP>
+#EVENT_HEADS_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大摆筵席*@10 {animation=event_heads} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}官兵在路过木桩时向其上的首级投去恐惧的眼神。不过长老家中的美酒佳肴很快让他们将这些不快抛诸脑后。<SCR=STOP|MORAL=1>
+#EVENT_HEADS_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大摆筵席*@10 {animation=event_heads} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}长老及其随从都对您的反应感到讶异。似乎长老的庆功宴是办不成了。<SCR=STOP>
 
 
 
-#EVENT_STEALING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}旗舰军需长向您报告称：您的分舰队中各舰上已经有太多军火无处可寻。<SCR=CONTINUE>
-#EVENT_STEALING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 舰上军官声称这些军火在战斗中遗失，但军需长则怀疑是遭到失窃。他认为分舰队内有人正有组织地监守自盗。
+#EVENT_STEALING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}旗舰军需长向您报告称：您的分舰队中各舰上已经有太多军火无处可寻。<SCR=CONTINUE>
+#EVENT_STEALING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 舰上军官声称这些军火在战斗中遗失，但军需长则怀疑是遭到失窃。他认为分舰队内有人正有组织地监守自盗。
 <ANS=我们应在此事上信任诸位军官吧。战斗激烈时没人能记下个别军火的去向嘛。|EVENT_STEALING_01_NO|RIGHT=-2>
 <ANS=开展调查工作。|EVENT_STEALING_01_YES|RIGHT=2>
-#EVENT_STEALING_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的军官们感激地点头赞同。官兵们眼下够忙的了—再来一场内务调查更是无事生非。<SCR=STOP|MORAL=1>
-#EVENT_STEALING_01_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}军需长露出得胜的笑容，但周围人则都唉声叹气的。眼下大家都忙的团团转，再加上全面调查更是横生枝节。<SCR=STOP|MORAL=-1>
+#EVENT_STEALING_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的军官们感激地点头赞同。官兵们眼下够忙的了—再来一场内务调查更是无事生非。<SCR=STOP|MORAL=1>
+#EVENT_STEALING_01_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*失窃军火*@10 {animation=event_lostarms} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}军需长露出得胜的笑容，但周围人则都唉声叹气的。眼下大家都忙的团团转，再加上全面调查更是横生枝节。<SCR=STOP|MORAL=-1>
 
 
 
-#EVENT_BLESSING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}当您走下船，当地人开始朝您聚集过来。@一时间人山人海，随行卫队不得不组成人墙以免人群蜂拥而上。@您对此已经习以为常了。<SCR=CONTINUE>
-#EVENT_BLESSING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人欢呼着迎接您：“那来的是应当称颂的！那来的是应当称颂的！”@离您最近的人们扒着卫队的肩膀，想要触碰您的衣襟。@“他拿念，赐福之人”—此处的当地人如此称呼您。
+#EVENT_BLESSING_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}当您走下船，当地人开始朝您聚集过来。@一时间人山人海，随行卫队不得不组成人墙以免人群蜂拥而上。@您对此已经习以为常了。<SCR=CONTINUE>
+#EVENT_BLESSING_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人欢呼着迎接您：“那来的是应当称颂的！那来的是应当称颂的！”@离您最近的人们扒着卫队的肩膀，想要触碰您的衣襟。@“他拿念，赐福之人”—此处的当地人如此称呼您。
 <ANS=让群众上来触碰您。|EVENT_BLESSING_01_YES_1|FAITH=2>
 <ANS=远离人群。|EVENT_BLESSING_01_NO_1|FAITH=-2>
-#EVENT_BLESSING_01_YES_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您走近了隔开人群的士兵人墙，尽可能接近当地人们以让他们触碰到您。@人群推搡拥挤起来—不一会人墙就被冲垮了，人民的汪洋大海一下将您淹没。<SCR=CONTINUE>
-#EVENT_BLESSING_01_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}官兵们费好大力气才勉强将人群驱散，恢复了人墙队列。@戍卫队长火冒三丈—他简直无法压住怒意，并且请求您，恕他直言，不要再如此行事。<SCR=STOP|MORAL=-1>
-#EVENT_BLESSING_01_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 要让卫队阻挡住如此人海已经十分艰难。戍卫队长打心底向您的体谅表示感谢。<SCR=STOP|MORAL=1>
+#EVENT_BLESSING_01_YES_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您走近了隔开人群的士兵人墙，尽可能接近当地人们以让他们触碰到您。@人群推搡拥挤起来—不一会人墙就被冲垮了，人民的汪洋大海一下将您淹没。<SCR=CONTINUE>
+#EVENT_BLESSING_01_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}官兵们费好大力气才勉强将人群驱散，恢复了人墙队列。@戍卫队长火冒三丈—他简直无法压住怒意，并且请求您，恕他直言，不要再如此行事。<SCR=STOP|MORAL=-1>
+#EVENT_BLESSING_01_NO_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*赐福*@10 {animation=event_blessing} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 要让卫队阻挡住如此人海已经十分艰难。戍卫队长打心底向您的体谅表示感谢。<SCR=STOP|MORAL=1>
 
 
 
-#EVENT_SLAVERY_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的埃兰人盟友在一次战斗后还想将对方的奴隶据为己有，使您的官兵感到恼火。<SCR=CONTINUE>
+#EVENT_SLAVERY_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您的埃兰人盟友在一次战斗后还想将对方的奴隶据为己有，使您的官兵感到恼火。<SCR=CONTINUE>
 
-#EVENT_SLAVERY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“阁下，眼下这些人早已失去原主，”一位战士如此说道，“他们曾在您击败的那颜（{glossary=Noyon,GLOSS_NOYON}）官长身下为奴，按律法所定，如今他们自然算作我等资产。”
-#EVENT_SLAVERY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“将他们出售亦能获利颇丰啊，”他平静地继续道，“所获资材自能在将士间平等均分。”“而第一桶金则将归于您手，阁下！亦或您也想在奴隶中任选其一为您所用？”
+#EVENT_SLAVERY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“阁下，眼下这些人早已失去原主，”一位战士如此说道，“他们曾在您击败的那颜（{glossary=Noyon,GLOSS_NOYON}）官长身下为奴，按律法所定，如今他们自然算作我等资产。”
+#EVENT_SLAVERY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“将他们出售亦能获利颇丰啊，”他平静地继续道，“所获资材自能在将士间平等均分。”“而第一桶金则将归于您手，阁下！亦或您也想在奴隶中任选其一为您所用？”
 <ANS=那就给我也整一个吧。|EVENT_SLAVERY_01_GET|GERAT=1|RIGHT=-2>
 <ANS=行吧，任君处置吧。|EXIT|WEALTH=2|RIGHT=-2|GERAT=1|GOLD=5000>
 <ANS=我绝不允许蓄奴行为！把俘虏都给我放了！|EVENT_SLAVERY_01_NO|WEALTH=-2|GERAT=-2|RIGHT=2>
 
 #EVENT_SLAVERY_01_GET	众奴婢中有一可人，生的花容月貌，举手投足落落大方，使您惊为天人—此女风华绝代，芳容丽质确配得上那颜（{glossary=Noyon,GLOSS_NOYON}）官人座下宠妃之位。如此尤物若作为厚礼献上，定能讨诸位长老可汗欢心。<SCR=STOP|GIFT=PRESENT_SLAVE>
-#EVENT_SLAVERY_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人以死寂相应。您一时以为对方要起兵哗变…但气氛不一会便缓和下来，埃兰人听命离去，但不详地四下张望着。<SCR=STOP>
+#EVENT_SLAVERY_01_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*任人宰割*@10 {animation=event_slaves_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}埃兰人以死寂相应。您一时以为对方要起兵哗变…但气氛不一会便缓和下来，埃兰人听命离去，但不详地四下张望着。<SCR=STOP>
 
-#DIALOG_GIFT_HINT	您可献上厚礼@以获得额外一个回合
-#DIALOG_TURN	回合
-#DIALOG_LAST_TURN	最后@回合
+#DIALOG_GIFT_HINT	$SH20_WHITE*您可献上厚礼@以获得额外一个回合*
+#DIALOG_TURN	$SH20_WHITE*回合*
+#DIALOG_LAST_TURN	$SH20_WHITE*最后*@$SH20_WHITE*回合*
 
 
 
@@ -2593,13 +2593,13 @@
 #ESCADRA_DESC_CONVOY	TRANSPORT
 
 
-#CONTAMINATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*事故*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<CONTAMINATION_SHIP>由于舰船部件受到高度辐射污染，数名船员因辐射中毒而丧生。<SCR=STOP|CREW=-10|MORAL=-1>
+#CONTAMINATION_01	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*事故*@10 {animation=event_doctor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<CONTAMINATION_SHIP>由于舰船部件受到高度辐射污染，数名船员因辐射中毒而丧生。<SCR=STOP|CREW=-10|MORAL=-1>
 
 
 
 #KHIVA_QUEST	CAPTURE THE REACTOR
 #DETECTION_RANGE	RANGE OF DETECTION
-#TUTORIAL_NOFLAGSHIP	{font=dinpro_48_black}{align=2}$SH40_S*旗舰*@10{font=fixed_20}{align=0}你的分舰队须要一艘旗舰。至少要有一艘可以作为舰队指挥部的船。@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
+#TUTORIAL_NOFLAGSHIP	{font=dinpro_48_black}{align=2}$SH40_SAND*旗舰*@10{font=fixed_20}{align=0}你的分舰队须要一艘旗舰。至少要有一艘可以作为舰队指挥部的船。@10 {align=0}{animation=hlp_flagship}<SCR=STOP>
 
 
 #TUTORIAL_CAMPAIGN_CORE_0	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>需要我向你简述这次行动吗，大公爵？<SCR=SKIP_TUTORIAL>
@@ -2657,7 +2657,7 @@
 #TUTORIAL_CAMPAIGN_IRST_5	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_BEARING><GLOW_GUI=MAPMODE_IRST_BEARING><NOBOTTOM>如果信号不够强，用这个旋钮将系统瞄准向一个特定的方向。<SCR=CONTINUE>
 #TUTORIAL_CAMPAIGN_IRST_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_WATERFALL><NOBOTTOM>然后在这个方位上的红外读数会详细显示在这个屏幕上。<SCR=STOP>
 
-#RP_SAVE_1	{align=2}{animation=save_icon} @15{font=dinpro_48_black}游戏已保存@10{font=fixed_20}{align=0}你的游戏已保存。你可以在任何时候载入这个存档进度。<SCR=STOP>
+#RP_SAVE_1	{align=2}{animation=save_icon} @15{font=dinpro_48_black}$SH40_SAND*游戏已保存*@10{font=fixed_20}{align=0}你的游戏已保存。你可以在任何时候载入这个存档进度。<SCR=STOP>
 
 #REPAIR_STOP_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_FLEET>大公爵！如果我们现在起飞，就不能完成修理了。
 <ANS=明白。取消命令。|EXIT|STOP_LIFTOFF>
@@ -2674,58 +2674,58 @@
 #FLAGSHIP_LOST_QUEST	找到隐藏的城市
 
 
-#EVENT_LEGEND_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奇闻*@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>当你在下一次出击前检查舰船时，你偶然听到一个法兹尔的人迫切地在描述他的冒险。
-#EVENT_LEGEND_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奇闻*@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“以上天和全能的主之名，我发誓这是真的！”你听到他在向朋友们说。@“有一次一个帖木儿—可汗的那颜（{glossary=Noyon,GLOSS_NOYON}）对陛下—我们的公爵—称他为埃劳家族的仆人，@他就把那个那颜（{glossary=Noyon,GLOSS_NOYON}）放在铁锅里活煮了！上天和全能的主作证，那个那颜（{glossary=Noyon,GLOSS_NOYON}）像一头猪一样尖叫！”
-#EVENT_LEGEND_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奇闻*@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这个人突然发现你在这里。他急忙起来恭敬地向你鞠躬。
+#EVENT_LEGEND_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奇闻*@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>当你在下一次出击前检查舰船时，你偶然听到一个法兹尔的人迫切地在描述他的冒险。
+#EVENT_LEGEND_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奇闻*@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“以上天和全能的主之名，我发誓这是真的！”你听到他在向朋友们说。@“有一次一个帖木儿—可汗的那颜（{glossary=Noyon,GLOSS_NOYON}）对陛下—我们的公爵—称他为埃劳家族的仆人，@他就把那个那颜（{glossary=Noyon,GLOSS_NOYON}）放在铁锅里活煮了！上天和全能的主作证，那个那颜（{glossary=Noyon,GLOSS_NOYON}）像一头猪一样尖叫！”
+#EVENT_LEGEND_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奇闻*@10 {animation=event_story} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这个人突然发现你在这里。他急忙起来恭敬地向你鞠躬。
 <ANS=向我们的盟友解释这种事情没有发生过。|EXIT|KINDNESS=1>
 <ANS=没关系。他们喜欢就让他们相信吧。|EXIT|KINDNESS=-1|FEAR=1>
 
 
 
-#EVENT_RADIORELAY_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}在附近的山顶上有一座遗弃的集众叛军中继站。@它仍然完好—中继站的人员和卫兵没来得及摧毁这个地方就去逃命了。<SCR=CONTINUE>
-#EVENT_RADIORELAY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}法兹尔的随从们急切地想拆出一些宝贵的部件。@但你的无线电操作员则希望让它保持完好，以便截获敌人的通信。
+#EVENT_RADIORELAY_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}在附近的山顶上有一座遗弃的集众叛军中继站。@它仍然完好—中继站的人员和卫兵没来得及摧毁这个地方就去逃命了。<SCR=CONTINUE>
+#EVENT_RADIORELAY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}法兹尔的随从们急切地想拆出一些宝贵的部件。@但你的无线电操作员则希望让它保持完好，以便截获敌人的通信。
 <ANS=派无线电操作员进去。|EVENT_RADIORELAY_INTEL|INTEL=5>
 <ANS=让法兹尔他们拆掉中继站。|EVENT_RADIORELAY_SCAVENGE>
 <ANS=自己上山。|EVENT_RADIORELAY_SELF_1>
-#EVENT_RADIORELAY_SELF_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}山顶上的这座遗弃的信号站无比的安静，@四周没有一个人…你突然意识到，在最近的记忆中，这是你第一次独处。<SCR=CONTINUE>
-#EVENT_RADIORELAY_SELF_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}空虚和完全的寂静将你彻底包裹。这种与虚无相遇的感受就像一份礼物—一种你已经渴求了很久的滋味。<SCR=CONTINUE>
-#EVENT_RADIORELAY_SELF_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}你听到你的部下在下方的小路上，刚才那种体验来得突然也消失得突然。现在该做决定了。
+#EVENT_RADIORELAY_SELF_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}山顶上的这座遗弃的信号站无比的安静，@四周没有一个人…你突然意识到，在最近的记忆中，这是你第一次独处。<SCR=CONTINUE>
+#EVENT_RADIORELAY_SELF_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}空虚和完全的寂静将你彻底包裹。这种与虚无相遇的感受就像一份礼物—一种你已经渴求了很久的滋味。<SCR=CONTINUE>
+#EVENT_RADIORELAY_SELF_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}你听到你的部下在下方的小路上，刚才那种体验来得突然也消失得突然。现在该做决定了。
 <ANS=派无线电操作员进去。|EVENT_RADIORELAY_INTEL|INTEL=5>
 <ANS=让法兹尔他们拆掉中继站。|EVENT_RADIORELAY_SCAVENGE>
-#EVENT_RADIORELAY_INTEL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=-1>埃兰人们明显对你的决定感到失望。当他们转身离开时，你听到有些人在抱怨这场战役没让他们得到多少好处。
-#EVENT_RADIORELAY_SCAVENGE	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=1|REPAIR=10|GOLD=10000>埃兰人们用高兴的叫喊回应你的命令，急切地开始拆解中继站。他们似乎很清楚要做什么。
+#EVENT_RADIORELAY_INTEL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=-1>埃兰人们明显对你的决定感到失望。当他们转身离开时，你听到有些人在抱怨这场战役没让他们得到多少好处。
+#EVENT_RADIORELAY_SCAVENGE	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*信号站*@10 {animation=radiorelay} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|WEALTH=1|REPAIR=10|GOLD=10000>埃兰人们用高兴的叫喊回应你的命令，急切地开始拆解中继站。他们似乎很清楚要做什么。
 
 
 
-#SCAVENGE_TARKHAN_PRE_01	$MC20*注意已发现在逃塔可汗出现于@*
-#SCAVENGE_TARKHAN_PRE_02	$MC20*报告有不明格瑞特塔可汗出现于@*
-#SCAVENGE_TARKHAN_PRE_03	$MC20*截获敌军通讯提及塔可汗战舰出现于@*
-#SCAVENGE_TARKHAN_PRE_04	$MC20*发现格瑞特塔可汗战舰出现于@*
+#SCAVENGE_TARKHAN_PRE_01	$MC20_BLACK*注意已发现在逃塔可汗出现于@*
+#SCAVENGE_TARKHAN_PRE_02	$MC20_BLACK*报告有不明格瑞特塔可汗出现于@*
+#SCAVENGE_TARKHAN_PRE_03	$MC20_BLACK*截获敌军通讯提及塔可汗战舰出现于@*
+#SCAVENGE_TARKHAN_PRE_04	$MC20_BLACK*发现格瑞特塔可汗战舰出现于@*
 
-#SCAVENGE_TARKHAN_OUT_01	$MC20*@在该区域为所有行动增派巡逻队*
-#SCAVENGE_TARKHAN_OUT_02	$MC20*@在该区域谨慎航行*
-#SCAVENGE_TARKHAN_OUT_03	$MC20*@所有船只在该区域航行时需要武装护航*
-#SCAVENGE_TARKHAN_OUT_04	$MC20*@为该地区友军船只提供额外保护*
+#SCAVENGE_TARKHAN_OUT_01	$MC20_BLACK*@在该区域为所有行动增派巡逻队*
+#SCAVENGE_TARKHAN_OUT_02	$MC20_BLACK*@在该区域谨慎航行*
+#SCAVENGE_TARKHAN_OUT_03	$MC20_BLACK*@所有船只在该区域航行时需要武装护航*
+#SCAVENGE_TARKHAN_OUT_04	$MC20_BLACK*@为该地区友军船只提供额外保护*
 
-#SCAVENGE_TARKHAN_MID_N	$MC20*该城市北部@*
-#SCAVENGE_TARKHAN_MID_NE	$MC20*该城市东北部@*
-#SCAVENGE_TARKHAN_MID_E	$MC20*@该城市东部@*
-#SCAVENGE_TARKHAN_MID_SE	$MC20*该城市东南部@*
-#SCAVENGE_TARKHAN_MID_S	$MC20*@该城市南部@*
-#SCAVENGE_TARKHAN_MID_SW	$MC20*该城市西南方@*
-#SCAVENGE_TARKHAN_MID_W	$MC20*@该城市正西方@*
-#SCAVENGE_TARKHAN_MID_NW	$MC20*该城市西北方@*
+#SCAVENGE_TARKHAN_MID_N	$MC20_BLACK*该城市北部@*
+#SCAVENGE_TARKHAN_MID_NE	$MC20_BLACK*该城市东北部@*
+#SCAVENGE_TARKHAN_MID_E	$MC20_BLACK*@该城市东部@*
+#SCAVENGE_TARKHAN_MID_SE	$MC20_BLACK*该城市东南部@*
+#SCAVENGE_TARKHAN_MID_S	$MC20_BLACK*@该城市南部@*
+#SCAVENGE_TARKHAN_MID_SW	$MC20_BLACK*该城市西南方@*
+#SCAVENGE_TARKHAN_MID_W	$MC20_BLACK*@该城市正西方@*
+#SCAVENGE_TARKHAN_MID_NW	$MC20_BLACK*该城市西北方@*
 #SCAVENGE_TARKHAN_FAR	FAR
 
-#NPC_STATUS_00	（拔剑相向）
-#NPC_STATUS_01	（人心叵测）
-#NPC_STATUS_02	（难以尽信）
-#NPC_STATUS_03	（可以信赖）
-#NPC_STATUS_04	（赤诚相待）
+#NPC_STATUS_00	$SH20_YELLOW*（拔剑相向）*
+#NPC_STATUS_01	$SH20_YELLOW*（人心叵测）*
+#NPC_STATUS_02	$SH20_YELLOW*（难以尽信）*
+#NPC_STATUS_03	$SH20_YELLOW*（可以信赖）*
+#NPC_STATUS_04	$SH20_YELLOW*（赤诚相待）*
 
-#WORLDVIEW_HELP	您部下的看法
-#ATTITUDE_HELP	您盟友的忠诚度
-#MORALE_HELP	您船员的忠诚度
+#WORLDVIEW_HELP	$SH20_WHITE*您部下的看法*
+#ATTITUDE_HELP	$SH20_WHITE*您盟友的忠诚度*
+#MORALE_HELP	$SH20_WHITE*您船员的忠诚度*
 
 #TUTORIAL_INTERCOM_1	<MUSIC=Duduk_4_ever><NPC=PETR><SIDE=1><SHADOW=1>没人知道等着我们的是什么，公爵。万一情况很艰难，我请求…<SCR=CONTINUE>
 #TUTORIAL_INTERCOM_2	<NPC=PETR>我请求您向上将要求增援。
@@ -2745,10 +2745,10 @@
 
 #TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>大公爵！我们夺取了一座对流层散射通信站。在敌人发现以前，它能给我们提供关于敌人动向的情报。<SCR=STOP>
 
-#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}$SH40_S*防空导弹系统*@10{font=fixed_20}{align=0}这艘船装有防空导弹系统，可以摧毁来袭的导弹和飞机（<AAM_COUNT>颗防空导弹）。@10按下{animation=key_c}来发射防空导弹。<SCR=STOP>
-#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}$SH40_S*防空导弹系统*@10{font=fixed_20}{align=0}这艘船装有防空导弹系统，可以摧毁来袭的导弹和飞机（你有<AAM_COUNT>颗防空导弹）。@10按下{animation=key_c}来发射防空导弹。<SCR=STOP>
+#TUTORIAL_AAM_CRAFTS	{font=dinpro_48_black}{align=2}$SH40_SAND*防空导弹系统*@10{font=fixed_20}{align=0}这艘船装有防空导弹系统，可以摧毁来袭的导弹和飞机（<AAM_COUNT>颗防空导弹）。@10按下{animation=key_c}来发射防空导弹。<SCR=STOP>
+#TUTORIAL_AAM_MISSILES	{font=dinpro_48_black}{align=2}$SH40_SAND*防空导弹系统*@10{font=fixed_20}{align=0}这艘船装有防空导弹系统，可以摧毁来袭的导弹和飞机（你有<AAM_COUNT>颗防空导弹）。@10按下{animation=key_c}来发射防空导弹。<SCR=STOP>
 
-#DIALOG_END_HINT	成功！@你现在可以结束对话了。
+#DIALOG_END_HINT	$SH20_BROWN*成功！你现在@ 可以结束对话了。*
 
 #SHIP_DESC_INTREPID	无畏级是一种久经考验的火炮护航艇，是罗马尼舰队的中流砥柱。@她有防护和机动性的优异平衡，同时结合了极佳的火力和合理的价格，@使得无畏级成为了建立空中优势的最佳选择之一。
 #SHIP_DESC_LIGHTNING	一种独特的轻型拦截舰，装备100毫米速射炮。@许多学院毕业的新兵被分配到这样的船上，然后和一打又一打的同龄人一起丧命@。但是在有经验的飞行员手上，闪电级能创造奇迹。
@@ -2770,8 +2770,8 @@
 
 
 
-#TUTORIAL_ANTIMISSILE_COMBAT	{font=dinpro_48_black}{align=2}$SH40_S*防御导弹*@10{font=fixed_20}{align=0}战术导弹来袭！在它击中你的舰船之前，尽可能地用防空火力将其摧毁。@10误伤警告—注意不要不小心打中自己人的船！<SCR=STOP>
-#TUTORIAL_ANTIAIR_COMBAT	{font=dinpro_48_black}{align=2}$SH40_S*防御敌机*@10{font=fixed_20}{align=0}敌机来袭！考虑在飞机发射导弹或投放航弹之前将它们击落。@10误伤警告—注意不要不小心打中自己人的船！<SCR=STOP>
+#TUTORIAL_ANTIMISSILE_COMBAT	{font=dinpro_48_black}{align=2}$SH40_SAND*防御导弹*@10{font=fixed_20}{align=0}战术导弹来袭！在它击中你的舰船之前，尽可能地用防空火力将其摧毁。@10误伤警告—注意不要不小心打中自己人的船！<SCR=STOP>
+#TUTORIAL_ANTIAIR_COMBAT	{font=dinpro_48_black}{align=2}$SH40_SAND*防御敌机*@10{font=fixed_20}{align=0}敌机来袭！考虑在飞机发射导弹或投放航弹之前将它们击落。@10误伤警告—注意不要不小心打中自己人的船！<SCR=STOP>
 
 
 
@@ -2941,10 +2941,10 @@
 
 
 
-#EVENT_SILO_1	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达摩克利斯之剑*@10 {animation=event_silo} @30{align=0}<SCR=CONTINUE>我军在城市附近发现了一个平整的平台，其上散布着一个个低矮的混凝土制穹顶，每个穹顶上都有钢制护盖。@我们耗了点时间撬开其中一个盖口。其中是一个又宽又深的竖井，井中央的导弹光滑的白色弹头清晰可辨。
+#EVENT_SILO_1	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=0}<SCR=CONTINUE>我军在城市附近发现了一个平整的平台，其上散布着一个个低矮的混凝土制穹顶，每个穹顶上都有钢制护盖。@我们耗了点时间撬开其中一个盖口。其中是一个又宽又深的竖井，井中央的导弹光滑的白色弹头清晰可辨。
 #EVENT_SILO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE> 我的大公阁下！@这些便是集众（{glossary=Gathering,GLOSS_GATHERING}）所持有的核武器！我们应该即刻将其取出！
 #EVENT_SILO_3	<NPC=DAUD><SIDE=-1>看来我们敌手的核武库可比我们所预想的大了太多。（上将冷冷地瞥了眼发射井）<ANS=把这些导弹从发射架取下，搬到我军舰船上吧，彼得 伊格纳季耶维奇。|EXIT|MISSILE_SILO>
-#EVENT_SILO_SIMPLE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*达摩克利斯之剑*@10 {animation=event_silo} @30{align=0}超市附近建有数座集众（{glossary=Gathering,GLOSS_GATHERING}）军的导弹发射井。<ANS=传令部下将核导弹取出，搬运到舰上。|EXIT|MISSILE_SILO>
+#EVENT_SILO_SIMPLE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=0}超市附近建有数座集众（{glossary=Gathering,GLOSS_GATHERING}）军的导弹发射井。<ANS=传令部下将核导弹取出，搬运到舰上。|EXIT|MISSILE_SILO>
 
 
 #INTEL_DIR_N	就在此地 {color=4294960128}以北{color=4294305450}。
@@ -2963,45 +2963,45 @@
 #CARAVAN_HIDDENS_PRE	商队的领队藏身于帐篷内以免人多眼杂，他小心向您透露一座隐居城市的所在地。
 #CARAVAN_HIDDENS_NO	据车夫们所知，附近并没有塔可汗所在。
 
-#EVENT_CARAVAN_TARKHANS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_TARKHANS_CARAVANS>
-#EVENT_CARAVAN_CONVOYS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_CONVOYS_CARAVANS>车夫们欣然向您提供了所有他们关于附近船队的资讯。
-#EVENT_CARAVAN_HIDDENS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_HIDDENS_CARAVANS>
+#EVENT_CARAVAN_TARKHANS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_TARKHANS_CARAVANS>
+#EVENT_CARAVAN_CONVOYS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_CONVOYS_CARAVANS>车夫们欣然向您提供了所有他们关于附近船队的资讯。
+#EVENT_CARAVAN_HIDDENS	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=INTEL_HIDDENS_CARAVANS>
 
-#EVENT_CARAVAN_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
-#EVENT_CARAVAN_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>商队的车夫们热情地欢迎您来访。“如今时日艰难，太不好过了，”商队领队沮丧地和您说道，“以前我们在晚上出车，尚且能能保我们不受部族舰艇的侵袭。但现如今就连夜深人静的时候，我们的车队都会一下子人间蒸发！”
-#EVENT_CARAVAN_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“我们还当这又是空盗干的好事，所以就去找他们付惯例的赎金。但连空盗部族都对失踪车队的事情一无所知！@要多加小心，那颜（{glossary=Noyon,GLOSS_NOYON}）大官人—大漠中似有不祥之物。终末的日子就要近了啊。”
+#EVENT_CARAVAN_01_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
+#EVENT_CARAVAN_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>商队的车夫们热情地欢迎您来访。“如今时日艰难，太不好过了，”@商队领队沮丧地和您说道，“以前我们在晚上出车，尚且能能保我们不受部族舰艇的侵袭。但现如今就连夜深人静的时候，我们的车队都会一下子人间蒸发！”
+#EVENT_CARAVAN_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30“我们还当这又是空盗干的好事，所以就去找他们付惯例的赎金。但连空盗部族都对失踪车队的事情一无所知！@要多加小心，那颜（{glossary=Noyon,GLOSS_NOYON}）大官人—大漠中似有不祥之物。终末的日子就要近了啊。”
 <ANS=向车夫们询问关于塔可汗的资讯。|EVENT_CARAVAN_TARKHANS>
 <ANS=向车夫们询问关于希瓦船队的资讯。|EVENT_CARAVAN_CONVOYS>
 <ANS=向车夫们询问关于隐居城市的资讯。|EVENT_CARAVAN_HIDDENS>
 
-#EVENT_CARAVAN_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
-#EVENT_CARAVAN_02_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>商队领队将您引入他的帐篷，并向您深表忧心：“那颜（{glossary=Noyon,GLOSS_NOYON}）大官人，指引我们方向的群星正在消逝！”
-#EVENT_CARAVAN_02_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>在他说下去时，话中的情绪依稀可辨：“原本我也不愿相信，但是阿尔—加哈密，东方之星，已经一个月没有出现过了。@如今夜空中阿尔—加哈密星光不再，连我在梅什赫德购入的星图都成了废纸。”
-#EVENT_CARAVAN_02_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“末日将近了，那颜（{glossary=Noyon,GLOSS_NOYON}）大官人。末日将近啊。”埃兰人悲伤地摇了摇头。
+#EVENT_CARAVAN_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
+#EVENT_CARAVAN_02_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>商队领队将您引入他的帐篷，并向您深表忧心：“那颜（{glossary=Noyon,GLOSS_NOYON}）大官人，指引我们方向的群星正在消逝！”
+#EVENT_CARAVAN_02_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>在他说下去时，话中的情绪依稀可辨：“原本我也不愿相信，但是阿尔—加哈密，东方之星，已经一个月没有出现过了。@如今夜空中阿尔—加哈密星光不再，连我在梅什赫德购入的星图都成了废纸。”
+#EVENT_CARAVAN_02_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“末日将近了，那颜（{glossary=Noyon,GLOSS_NOYON}）大官人。末日将近啊。”埃兰人悲伤地摇了摇头。
 <ANS=向车夫们询问关于塔可汗的资讯。|EVENT_CARAVAN_TARKHANS>
 <ANS=向车夫们询问关于希瓦船队的资讯。|EVENT_CARAVAN_CONVOYS>
 <ANS=向车夫们询问关于隐居城市的资讯。|EVENT_CARAVAN_HIDDENS>
 
-#EVENT_CARAVAN_03_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
-#EVENT_CARAVAN_03_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 过了段时间，您一边在大篷车旁烤火，一边享用温热的咖啡。“如此瓢泼大雨在格瑞特大漠实在是闻所未闻啊！”商队领队一边缓缓摇头，一边说道。
-#EVENT_CARAVAN_03_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“在基伊拉月，也就是我们历法的三月份，是有史以来第一次下那么大的雨。当时我们就说：‘啊，今年真是老天有眼啊！’结果到了桑月，也就是四月份，又下了一场雨。@种田的老乡们更是乐坏了：‘等第二次朔月的时候再过来我们这吧，’他们当时讲，‘而且记得把带来的人数翻一番，因为今年一定是大丰收呢！’
-#EVENT_CARAVAN_03_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“但是我回去再拜访他们的时候，他们脸上就已经不再有喜悦之情了。在我们走后几乎每周都在下雨。@雪芙茶根本没法发芽，根都泡烂了，沙米稞都生了怪病，全都蔫掉了…那颜（{glossary=Noyon,GLOSS_NOYON}）大官人，这就是末日将近啊。”
+#EVENT_CARAVAN_03_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
+#EVENT_CARAVAN_03_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 过了段时间，您一边在大篷车旁烤火，一边享用温热的咖啡。“如此瓢泼大雨在格瑞特大漠实在是闻所未闻啊！”商队领队一边缓缓摇头，一边说道。
+#EVENT_CARAVAN_03_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“在基伊拉月，也就是我们历法的三月份，是有史以来第一次下那么大的雨。当时我们就说：‘啊，今年真是老天有眼啊！’结果到了桑月，也就是四月份，又下了一场雨。@种田的老乡们更是乐坏了：‘等第二次朔月的时候再过来我们这吧，’他们当时讲，‘而且记得把带来的人数翻一番，因为今年一定是大丰收呢！’
+#EVENT_CARAVAN_03_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“但是我回去再拜访他们的时候，他们脸上就已经不再有喜悦之情了。在我们走后几乎每周都在下雨。@雪芙茶根本没法发芽，根都泡烂了，沙米稞都生了怪病，全都蔫掉了…那颜（{glossary=Noyon,GLOSS_NOYON}）大官人，这就是末日将近啊。”
 <ANS=向车夫们询问关于塔可汗的资讯。|EVENT_CARAVAN_TARKHANS>
 <ANS=向车夫们询问关于希瓦船队的资讯。|EVENT_CARAVAN_CONVOYS>
 <ANS=向车夫们询问关于隐居城市的资讯。|EVENT_CARAVAN_HIDDENS>
 
-#EVENT_CARAVAN_04_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
-#EVENT_CARAVAN_04_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>商队的领队是一位高瘦的汉子，他向您道来近几天的坏消息：“仁慈的那颜（{glossary=Noyon,GLOSS_NOYON}）官人啊，难民们正成群地逃离大沙海！@人群不可计数—实在是数不胜数。他们挥金如土想要保旅途平安，但也带来了无尽的痛苦。他们中太多人已经病魔缠身了…阿尔—瓦达在上！”
-#EVENT_CARAVAN_04_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“以实万的车队已经连续烧了三天骨灰了。逝去太多人了…末日近了啊，那颜（{glossary=Noyon,GLOSS_NOYON}）大官人。”
+#EVENT_CARAVAN_04_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>城外边缘的黄沙之上星星点点散布着十数帐色彩斑斓的帐篷，周围则是车辆和匆忙的随仆—这都表明有商队大篷车来访。您决定前去拜访，并询问一下近期事件。
+#EVENT_CARAVAN_04_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>商队的领队是一位高瘦的汉子，他向您道来近几天的坏消息：“仁慈的那颜（{glossary=Noyon,GLOSS_NOYON}）官人啊，难民们正成群地逃离大沙海！@人群不可计数—实在是数不胜数。他们挥金如土想要保旅途平安，但也带来了无尽的痛苦。他们中太多人已经病魔缠身了…阿尔—瓦达在上！”
+#EVENT_CARAVAN_04_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*大车商队*@10 {animation=event_caravan} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“以实万的车队已经连续烧了三天骨灰了。逝去太多人了…末日近了啊，那颜（{glossary=Noyon,GLOSS_NOYON}）大官人。”
 <ANS=向车夫们询问关于塔可汗的资讯。|EVENT_CARAVAN_TARKHANS>
 <ANS=向车夫们询问关于希瓦船队的资讯。|EVENT_CARAVAN_CONVOYS>
 <ANS=向车夫们询问关于隐居城市的资讯。|EVENT_CARAVAN_HIDDENS>
 
 
 
-#EVENT_CHASE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*追缉*@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>当您着陆时有一大群人从城内向您舰船前奔来，为首的是一名年老的长老。@在人声鼎沸之中，他向您说有一队军舰就在几天前刚出了城。
-#EVENT_CHASE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*追缉*@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这支小舰队的领队（愿他永受老天爷咒诅！）抓走了好多人，还抢走了城内的无数血汗钱。@长老请求您追缉这些战舰并将贼人绳之以法，并担保您说城内被抢走的赃物届时都会归您以作为救出人质的回报。<ANS=他们飞去哪了？|EVENT_CHASE_3>
-#EVENT_CHASE_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*追缉*@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_CHASE_START>
+#EVENT_CHASE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*追缉*@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>当您着陆时有一大群人从城内向您舰船前奔来，为首的是一名年老的长老。@在人声鼎沸之中，他向您说有一队军舰就在几天前刚出了城。
+#EVENT_CHASE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*追缉*@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这支小舰队的领队（愿他永受老天爷咒诅！）抓走了好多人，还抢走了城内的无数血汗钱。@长老请求您追缉这些战舰并将贼人绳之以法，并担保您说城内被抢走的赃物届时都会归您以作为救出人质的回报。<ANS=他们飞去哪了？|EVENT_CHASE_3>
+#EVENT_CHASE_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*追缉*@10 {animation=event_chase} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_CHASE_START>
 #EVENT_CHASE_END	人质们向您千恩万谢。长老也所言非虚—船舱内载满了金银财宝。这支舰队一定在路上劫掠了不少城市。<SCR=STOP|GOLD=10000|GERAT=2|RIGHT=2>
 
 #EVENT_CHASE_PRE	长老跟您说那些贼人前往了
@@ -3018,15 +3018,15 @@
 
 
 
-#EVENT_DISCONTENT_01_1	<MUSIC=Bois><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>随着一天天过去，从吾珥（Ur）开始随您行军的罗马尼军官们开始愈发郁郁寡欢，神经紧张。@并非所有部下都愿意将分舰队交予您手中指挥，而如今这些不满的军官甚至开始公开质疑您的决策。
-#EVENT_DISCONTENT_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>您发现持续的内斗使得部下们身心俱疲，继而怨声载道。以至于有一位高级军官公开声讨您，声称您还太年轻，缺乏人生经验，无法胜任司令位置。
-#EVENT_DISCONTENT_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 这名军官声称不管是谁决定将您委任为舰队司令，都是犯下严重的错误。他坚称这样无望的进军必须被即刻终结，所有舰船应该立即调头南下返回吾珥（Ur）。
-#EVENT_DISCONTENT_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}接着就应该打道回府返回帝都，以免追悔莫及。
+#EVENT_DISCONTENT_01_1	<MUSIC=Bois><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>随着一天天过去，从吾珥（Ur）开始随您行军的罗马尼军官们开始愈发郁郁寡欢，神经紧张。@并非所有部下都愿意将分舰队交予您手中指挥，而如今这些不满的军官甚至开始公开质疑您的决策。
+#EVENT_DISCONTENT_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>您发现持续的内斗使得部下们身心俱疲，继而怨声载道。以至于有一位高级军官公开声讨您，声称您还太年轻，缺乏人生经验，无法胜任司令位置。
+#EVENT_DISCONTENT_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 这名军官声称不管是谁决定将您委任为舰队司令，都是犯下严重的错误。他坚称这样无望的进军必须被即刻终结，所有舰船应该立即调头南下返回吾珥（Ur）。
+#EVENT_DISCONTENT_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}接着就应该打道回府返回帝都，以免追悔莫及。
 <ANS=若这就是你所愿，舰长，我在此即刻解除你的职务。我们下次入坞停靠你就可以卷铺盖走人，然后自行回去吾珥（Ur）。|EVENT_DISCONTENT_01_RES|PRECHECK_FEAR=1|CHECK_FEAR=1>
 <ANS=你曾立誓入伍成为舰队舰长。而我乃皇位合法继承人，在我们能够知晓父皇人身安危之前，指挥罗马尼舰队将是我一人，也仅为我一人所担重任。|EVENT_DISCONTENT_01_RES|PRECHECK_ROMANI=2|CHECK_ROMANI=2>
 <ANS=注意你的言辞，舰长，否则你将以煽动和违抗上级指令的罪名接受军法审判。|EVENT_DISCONTENT_01_RES|PRECHECK_RIGHT=1|CHECK_RIGHT=1>
-#EVENT_DISCONTENT_01_RES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>哗变军官一下噤若寒蝉。他不会再当面声讨您了—您的话至少暂且缓和了态势。您还是命令舰上安全官多加监视这位军官。
-#EVENT_DISCONTENT_01_RES_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这位舰长愈发肆无忌惮：“大公阁下，您是以为只有我做此感想是吗？@您怎么不睁开眼睛，四下看看大家—全舰队大多数的军官可都所见略同啊！”
+#EVENT_DISCONTENT_01_RES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>哗变军官一下噤若寒蝉。他不会再当面声讨您了—您的话至少暂且缓和了态势。您还是命令舰上安全官多加监视这位军官。
+#EVENT_DISCONTENT_01_RES_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*军心不稳*@10 {animation=event_discontent_01} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}这位舰长愈发肆无忌惮：“大公阁下，您是以为只有我做此感想是吗？@您怎么不睁开眼睛，四下看看大家—全舰队大多数的军官可都所见略同啊！”
 <ANS=还有谁对我的决策不满的，全都可以自行离队。我们可以指派一艘船把你们送回家去。|EVENT_DISCONTENT_01_LEFT|SHIP_LEFT=WEAKEST>
 <ANS=将舰长以兵变罪名逮捕。|EVENT_DISCONTENT_01_AREST>
 #EVENT_DISCONTENT_01_LEFT	<SCR=STOP|MORAL=5>在您的明确允许下，数名军官从舰队中脱队，准备返回吾珥（Ur）。所幸他们的人数并不算太多; 而在这些不满的军官走人之后，舰队内剑拔弩张的气氛眼下总算是暂时消散了。
@@ -3034,18 +3034,18 @@
 
 
 
-#EVENT_DISHONOR_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*事关荣誉*@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DISHONOR_OMAR>来访这座城的商人带来了令你们震怒的消息。<DISHONOR_CITY>的长老公开地诽谤了你，说你是“乞丐公爵”，而且声称你不配得到任何长老的协助或收留。
+#EVENT_DISHONOR_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*事关荣誉*@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DISHONOR_OMAR>来访这座城的商人带来了令你们震怒的消息。<DISHONOR_CITY>的长老公开地诽谤了你，说你是“乞丐公爵”，而且声称你不配得到任何长老的协助或收留。
 #EVENT_DISHONOR_OMAR	<SCR=CHECK_JOINED|OMAR|EVENT_DISHONOR_FASIL><NPC=OMAR><SCR=STOP|LEVEL_FEAR=-1><DISHONOR_CITY>的这个长老是个一直在污蔑你的名声的杂种，耐布。埃兰人不傻，但是如果你让他逃过惩罚，有些人可能会相信他。
 #EVENT_DISHONOR_FASIL	<SCR=CHECK_JOINED|FASIL|EVENT_DISHONOR_FASIL><NPC=FASIL><SCR=STOP|LEVEL_FEAR=-1>你需要派船去<DISHONOR_CITY>见那个长老。如果你让他逃过惩罚，一些埃兰人可能会相信他。
 
 #QUEST_DISHONOR	不受管束的长老
 
-#EVENT_DISHONOR_END_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*事关荣誉*@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_DISHONOR>这个不受管束的长老在诽谤你的时候很勇敢，可成了你的阶下囚以后，所有胆子都没了。他向你跪着，颤抖着祈求你的怜悯。
+#EVENT_DISHONOR_END_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*事关荣誉*@10 {animation=event_dishonor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_DISHONOR>这个不受管束的长老在诽谤你的时候很勇敢，可成了你的阶下囚以后，所有胆子都没了。他向你跪着，颤抖着祈求你的怜悯。
 <ANS=处决这个长老，并把他的财产据为己有。|EXIT|FEAR=5|GERAT=1|KINDNESS=-1|GOLD=4000>
 <ANS=留这个长老一命，并没收他的财产作为惩罚。|EXIT|FEAR=3|GERAT=-1|WEALTH=1|KINDNESS=1|GOLD=4000>
 
 
-#EVENT_NAME_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*受领新名*@10 {animation=event_name} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您对埃兰人称呼您“埃米尔”或是“耐布”已经习以为常了，但最近您又发现他们经常指着您说些“埃米尔 阿尔—马塔尔”之类的话。<ANS=埃米尔 阿尔—马塔尔…王子阁下，这词又是何意？|EVENT_NAME_2>
+#EVENT_NAME_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*受领新名*@10 {animation=event_name} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}您对埃兰人称呼您“埃米尔”或是“耐布”已经习以为常了，但最近您又发现他们经常指着您说些“埃米尔 阿尔—马塔尔”之类的话。<ANS=埃米尔 阿尔—马塔尔…王子阁下，这词又是何意？|EVENT_NAME_2>
 #EVENT_NAME_2	<NPC=FASIL><SCR=CONTINUE> 他们在说您的莅临也将持久的降雨播向格瑞特大地。
 #EVENT_NAME_3	<NPC=FASIL><SCR=CONTINUE> 天降甘霖乃良辰吉兆。人言是全能天主将您遣来格瑞特大地必有其天意，而上古预示必将不日成真。
 #EVENT_NAME_4	<NPC=FASIL> 大公阁下，若于我而言，自该将此称号纳为自己新名。于我子民而言这自是众望所归。
@@ -3054,44 +3054,44 @@
 
 
 
-#EVENT_DISASTER_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*救灾*@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 您在城市着陆时，发现城市正中央横亘着一张黢黑的血盆大口—这是燃料库爆炸所形成的巨坑。@而爆炸坑周边的将近半个城市都化为废墟，无数涂炭生灵被压在瓦砾堆下。
-#EVENT_DISASTER_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*救灾*@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 当地长老恳求您协助救灾行动。城内有许多人仍被活埋，因而他急需您的舰船和大型机械在此地停留整整两天。@“虽然城北燃料库已经炸没了，”他哀求道，“但是城南燃料库还有六千吨甲烷存留。若您愿意在眼下时期出手施救，大公阁下，那这些甲烷都将归您所有。”
+#EVENT_DISASTER_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*救灾*@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 您在城市着陆时，发现城市正中央横亘着一张黢黑的血盆大口—这是燃料库爆炸所形成的巨坑。@而爆炸坑周边的将近半个城市都化为废墟，无数涂炭生灵被压在瓦砾堆下。
+#EVENT_DISASTER_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*救灾*@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0} 当地长老恳求您协助救灾行动。城内有许多人仍被活埋，因而他急需您的舰船和大型机械在此地停留整整两天。@“虽然城北燃料库已经炸没了，”他哀求道，“但是城南燃料库还有六千吨甲烷存留。若您愿意在眼下时期出手施救，大公阁下，那这些甲烷都将归您所有。”
 <ANS=我若是在这里滞留两天之久，那么必然会有线报送达希瓦去了。|EVENT_DISASTER_3>
-#EVENT_DISASTER_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*救灾*@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“我能理解，”长老垂头丧气说道，“但上天不容我们其他出路。若您不出手相救，许多人都会被抛下等死的。”
+#EVENT_DISASTER_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*救灾*@10 {animation=event_disaster} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“我能理解，”长老垂头丧气说道，“但上天不容我们其他出路。若您不出手相救，许多人都会被抛下等死的。”
 <ANS=命令分舰队协助救灾工作。|EXIT|NOMOVE=48|KINDNESS=3|FUEL=6000>
 <ANS=您这是强人所难。我实在不能在此坐等整整两天。|EXIT|KINDNESS=-3>
 
 
 
-#EVENT_CLOTH_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>降落后，彼得 伊格纳季耶维奇请求私下与你谈话。“马克，”他小声说道，“我们的分舰队里的保暖衣物完全不够。”
-#EVENT_CLOTH_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“我要求给所有在岗的船员发放高空服，可是我们只有这么点高空服。而且恐怕很快我们每个人都会需要保暖的衣物。”
-#EVENT_CLOTH_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_CLOTH_ANSWERS>彼得忧郁地看着城市。“我们得从当地人这里弄到尽可能多的保暖衣物…乘还来得及。”
+#EVENT_CLOTH_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>降落后，彼得 伊格纳季耶维奇请求私下与你谈话。“马克，”他小声说道，“我们的分舰队里的保暖衣物完全不够。”
+#EVENT_CLOTH_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“我要求给所有在岗的船员发放高空服，可是我们只有这么点高空服。而且恐怕很快我们每个人都会需要保暖的衣物。”
+#EVENT_CLOTH_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=EVENT_CLOTH_ANSWERS>彼得忧郁地看着城市。“我们得从当地人这里弄到尽可能多的保暖衣物…乘还来得及。”
 
 #EVENT_CLOTH_ANS1	很好。买一些保暖衣物。买得起多少就买多少。|EVENT_CLOTH_BUY_1
 #EVENT_CLOTH_ANS2	我们没法文明了，彼得。派步兵进去。叫他们没收所有能找到的保暖衣物。|EVENT_CLOTH_FORCE_1|FORCE=2|RIGHT=-2
 #EVENT_CLOTH_ANS3	这种开支我们现在承受不了。|EXIT
 
-#EVENT_CLOTH_BUY_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>嗅到了利润的气息，商人们使劲地涨价。傻子们哪里想得到这些！
-#EVENT_CLOTH_BUY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|EVENT_CLOTH_BUY>很快羊毛长袍发放到了船员当中，与此同时彼得要求他们把它穿在制服外面。@船员们每次看见对方穿成这样都要笑上很长时间，但是不再有人抱怨当班的时候冷了。
+#EVENT_CLOTH_BUY_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>嗅到了利润的气息，商人们使劲地涨价。傻子们哪里想得到这些！
+#EVENT_CLOTH_BUY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|EVENT_CLOTH_BUY>很快羊毛长袍发放到了船员当中，与此同时彼得要求他们把它穿在制服外面。@船员们每次看见对方穿成这样都要笑上很长时间，但是不再有人抱怨当班的时候冷了。
 
-#EVENT_CLOTH_FORCE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>疲惫地叹了口气，彼得以敬礼表示收到你的命令，无言地离开了。
-#EVENT_CLOTH_FORCE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>没收来的羊毛长袍很快发放到了船员当中，与此同时彼得要求他们把它穿在制服外面。@船员们每次看见对方穿成这样都要笑上很长时间，但是不再有人抱怨当班的时候冷了。
+#EVENT_CLOTH_FORCE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>疲惫地叹了口气，彼得以敬礼表示收到你的命令，无言地离开了。
+#EVENT_CLOTH_FORCE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*保暖衣物*@10 {animation=event_cloth} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=3>没收来的羊毛长袍很快发放到了船员当中，与此同时彼得要求他们把它穿在制服外面。@船员们每次看见对方穿成这样都要笑上很长时间，但是不再有人抱怨当班的时候冷了。
 
 
 
-#EVENT_BURN_FUEL_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}彼得靠近了你，显然准备进行一次艰难的讨论。“船上变得非常冷了，”他说。@“大公爵，为了我们的船员，我必须请求你允许让涡轮机在降落以后保持怠速运转。”
+#EVENT_BURN_FUEL_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}彼得靠近了你，显然准备进行一次艰难的讨论。“船上变得非常冷了，”他说。@“大公爵，为了我们的船员，我必须请求你允许让涡轮机在降落以后保持怠速运转。”
 <ANS=你是说我们要不停烧油？>
-#EVENT_BURN_FUEL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“是的，公爵，低速运行，”疲惫的将军回答道。“如果说要不让士兵们冻僵的话。我去医务室看过了。已经挤不下了。”
+#EVENT_BURN_FUEL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“是的，公爵，低速运行，”疲惫的将军回答道。“如果说要不让士兵们冻僵的话。我去医务室看过了。已经挤不下了。”
 <ANS=降落后继续烧燃料我们承受不起！|EVENT_BURN_FUEL_NO>
 <ANS=很好。我准许。|EVENT_BURN_FUEL_YES|EVENT_BURN_FUEL>
-#EVENT_BURN_FUEL_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=5>船员们听到你的命令明显松了一口气。
-#EVENT_BURN_FUEL_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“是，阁下，”彼得叹了口气离开了。
+#EVENT_BURN_FUEL_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=5>船员们听到你的命令明显松了一口气。
+#EVENT_BURN_FUEL_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*越发寒冷*@10 {animation=event_burn_fuel} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“是，阁下，”彼得叹了口气离开了。
 
 
 
-#EVENT_BLASPHEMY_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*渎神*@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>你发现达乌德从视线的一角向你走来。“你听到人们在谈论的了吗？”他在离你几步时说道。“他们说日食是亵渎了神的惩罚！”
-#EVENT_BLASPHEMY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*渎神*@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“他们认为万能的主把格瑞特陷入黑暗，因为总督（{glossary=Governor,GLOSS_GOVERNOR}）的人背弃了信仰！”“这种说法听起来很有利于我们，不是吗？”法兹尔王子突然轻声插话。
-#EVENT_BLASPHEMY_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*渎神*@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“似乎是这样，王子。但是玩弄这种信念对我们没好处，”上将苦笑着说道。
+#EVENT_BLASPHEMY_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*渎神*@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>你发现达乌德从视线的一角向你走来。“你听到人们在谈论的了吗？”他在离你几步时说道。“他们说日食是亵渎了神的惩罚！”
+#EVENT_BLASPHEMY_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*渎神*@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“他们认为万能的主把格瑞特陷入黑暗，因为总督（{glossary=Governor,GLOSS_GOVERNOR}）的人背弃了信仰！”“这种说法听起来很有利于我们，不是吗？”法兹尔王子突然轻声插话。
+#EVENT_BLASPHEMY_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*渎神*@10 {animation=event_blasphemy} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“似乎是这样，王子。但是玩弄这种信念对我们没好处，”上将苦笑着说道。
 <ANS=我会告诉人们他们错了。|EVENT_BLASPHEMY_DISAGREE|FAITH=-2>
 <ANS=我会告诉人们他们是对的。|EVENT_BLASPHEMY_AGREE|FAITH=2>
 #EVENT_BLASPHEMY_DISAGREE	<SCR=STOP|DAUD=1|FASIL=-1>埃兰人们不信任地听着你说话。当他们散去时，你听到他们拒绝你的说法。
@@ -3099,35 +3099,35 @@
 
 
 
-#EVENT_REVOLT_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>当您进入城内，您收到邀约，请您与几位高级官员进行密会。@他们担保称自己渴望祝您一臂之力，但当地长老是条断脊之犬，潜身缩首，不敢协助您对抗总督（{glossary=Governor,GLOSS_GOVERNOR}）。
-#EVENT_REVOLT_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}他们向您提出一个计划，以推翻城市长老并发起叛乱。若能成功，他们保证将夺取一艘战舰并加入我军。
+#EVENT_REVOLT_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>当您进入城内，您收到邀约，请您与几位高级官员进行密会。@他们担保称自己渴望祝您一臂之力，但当地长老是条断脊之犬，潜身缩首，不敢协助您对抗总督（{glossary=Governor,GLOSS_GOVERNOR}）。
+#EVENT_REVOLT_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}他们向您提出一个计划，以推翻城市长老并发起叛乱。若能成功，他们保证将夺取一艘战舰并加入我军。
 <ANS=加入密谋计划。|EVENT_REVOLT_YES|DICE=50|RIGHT=-2>
 <ANS=拒绝参与。|EXIT|RIGHT=2>
-#EVENT_REVOLT_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_2>您拜访了长老，身着平民便服的精锐战士随行左右。晚宴当中，您发出信号，于是麾下战士将长老和其手下卫兵一并击毙。
-#EVENT_REVOLT_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>与此同时，乱党领袖宣布称长老欲对皇子殿下图谋不轨。而在长老派系的坚定党羽反应过来之前，乱党叛军已经攻入其宅邸，将其尽皆屠戮。
-#EVENT_REVOLT_YES_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|FORCE=2>数小时之后，全城已置于您完全掌控之下。
+#EVENT_REVOLT_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_2>您拜访了长老，身着平民便服的精锐战士随行左右。晚宴当中，您发出信号，于是麾下战士将长老和其手下卫兵一并击毙。
+#EVENT_REVOLT_YES_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>与此同时，乱党领袖宣布称长老欲对皇子殿下图谋不轨。而在长老派系的坚定党羽反应过来之前，乱党叛军已经攻入其宅邸，将其尽皆屠戮。
+#EVENT_REVOLT_YES_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|FORCE=2>数小时之后，全城已置于您完全掌控之下。
 
 
-#EVENT_REVOLT_YES_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_FAIL_2>您拜访了长老，身着平民便服的精锐战士随行左右。@晚宴当中，您发出信号，于是麾下战士将长老和其手下卫兵一并击毙。
-#EVENT_REVOLT_YES_FAIL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}乱党叛军立即攻打长老派系坚定党羽的宅邸，但他们遭遇了顽强阻击。数小时之后，全城都陷入自相残杀的腥风血雨之中。
+#EVENT_REVOLT_YES_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_YES_FAIL_2>您拜访了长老，身着平民便服的精锐战士随行左右。@晚宴当中，您发出信号，于是麾下战士将长老和其手下卫兵一并击毙。
+#EVENT_REVOLT_YES_FAIL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}乱党叛军立即攻打长老派系坚定党羽的宅邸，但他们遭遇了顽强阻击。数小时之后，全城都陷入自相残杀的腥风血雨之中。
 <ANS= 这计划已经完犊子了。快从此处抽身撤回舰上去。|EXIT|FORCE=-2>
 <ANS=派部队进城，并用舰炮支援叛军。|EVENT_REVOLT_WAR|DICE=50|FORCE=2>
 
-#EVENT_REVOLT_WAR	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|GOLD=8000|CREW=-50> 经过一番血腥惨烈的战斗，您终于成功粉碎了抵抗并占领了城市。然而您为此也付出了惨痛代价。
-#EVENT_REVOLT_SHIP	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|JOIN>乱党夺取了长老本人的座舰并将其交付于您的分舰队。
-#EVENT_REVOLT_WAR_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_WAR_FAIL_2|CREW=-50|FORCE=-2>我军很快被拖入巷战，损失惨重。军官随即下令撤退回舰。
-#EVENT_REVOLT_WAR_FAIL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|NO_REPAIR|MORAL=-1>过了不多时，市民向您发来一条信息。他们让您赶紧加完油然后滚蛋。
+#EVENT_REVOLT_WAR	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_SHIP|GOLD=8000|CREW=-50> 经过一番血腥惨烈的战斗，您终于成功粉碎了抵抗并占领了城市。然而您为此也付出了惨痛代价。
+#EVENT_REVOLT_SHIP	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|JOIN>乱党夺取了长老本人的座舰并将其交付于您的分舰队。
+#EVENT_REVOLT_WAR_FAIL	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_REVOLT_WAR_FAIL_2|CREW=-50|FORCE=-2>我军很快被拖入巷战，损失惨重。军官随即下令撤退回舰。
+#EVENT_REVOLT_WAR_FAIL_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*乱党密谋*@10 {animation=event_revolt} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|NO_REPAIR|MORAL=-1>过了不多时，市民向您发来一条信息。他们让您赶紧加完油然后滚蛋。
 
 
 
 #EVENT_TRAITOR_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE> 一早起来，您在制服口袋中发现了一张字条…
 #EVENT_TRAITOR_2	<SCR=CONTINUE>这张纸片是咋的出现在这里的你是完全摸不着头脑。@其上只有很短的信息：“埃米尔，您麾下的其中一位塔可汗实为奸细。请前往老兵街区的吾珥戈的住所，一定独自前来。”
-#EVENT_TRAITOR_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奸细*@10 {animation=event_traitor} @30字条上所说的居所不难找到。一位年老的高个埃兰人—可能就是吾珥戈本人—在门口迎接您。此人年事已高，但举手投足仍不失其哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）出身风采。
+#EVENT_TRAITOR_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奸细*@10 {animation=event_traitor} @30字条上所说的居所不难找到。一位年老的高个埃兰人—可能就是吾珥戈本人—在门口迎接您。此人年事已高，但举手投足仍不失其哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）出身风采。
 <ANS=这便是您所居府上吗，吾珥戈阁下？身为堂堂前禁军统帅（{glossary=Merisad,GLOSS_MERISAD}）竟甘居如此陋室檐下？>
-#EVENT_TRAITOR_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奸细*@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“卫队酬饷早在总督（{glossary=Governor,GLOSS_GOVERNOR}）推翻先王陛下后便已断绝，”老者平静回应道，“但能与昔日同袍手足互为友邻仍让我深感荣幸。”
+#EVENT_TRAITOR_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奸细*@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“卫队酬饷早在总督（{glossary=Governor,GLOSS_GOVERNOR}）推翻先王陛下后便已断绝，”老者平静回应道，“但能与昔日同袍手足互为友邻仍让我深感荣幸。”
 <ANS=这张字条从何而来？是何人将此藏入我衣袋之中？>
-#EVENT_TRAITOR_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奸细*@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“埃米尔，身在总督（{glossary=Governor,GLOSS_GOVERNOR}）营中的哈里西德同袍仍愿您诸事平安。希瓦仍能定期收到您动向的线报。而我则被告知说其中部分线报来自埃劳王子本人。”
-#EVENT_TRAITOR_6	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奸细*@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“而您该打道回府，以免隔墙有耳。”乌戈尔转身，不过仍停在门口。“惟愿天主与您同在，埃米尔 阿尔—马塔尔，”他回头说道。
+#EVENT_TRAITOR_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奸细*@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“埃米尔，身在总督（{glossary=Governor,GLOSS_GOVERNOR}）营中的哈里西德同袍仍愿您诸事平安。希瓦仍能定期收到您动向的线报。而我则被告知说其中部分线报来自埃劳王子本人。”
+#EVENT_TRAITOR_6	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奸细*@10 {animation=event_traitor} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“而您该打道回府，以免隔墙有耳。”乌戈尔转身，不过仍停在门口。“惟愿天主与您同在，埃米尔 阿尔—马塔尔，”他回头说道。
 <ANS=为王子阁下指派一队长期护卫。法兹尔必将怒不可遏，但我们不能铤而走险。|EXIT|FASIL=-4|LESS_TRAITORS>
 <ANS=实乃咄咄怪事，而这位老者也不能尽信。即便法兹尔真行两面三刀之事，其人用处也胜于他人。|EXIT>
 
@@ -3138,62 +3138,62 @@
 
 
 #EVENT_DILEMA_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>两位衣着得体的男青年要求觐见。他们深深行礼，并诚挚邀请您前往当地一位智者（{glossary=Muali,GLOSS_MUALI}）家中赴宴。
-#EVENT_DILEMA_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DILEMA_3|MORAL=1>您被带去的居室房间宽敞明亮。有数名贵客已经在长桌边落座。屋主则为您和您的随从预留了上座。
-#EVENT_DILEMA_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 美餐一顿之后，则是舒缓闲谈。屋主向您说道：“素闻萨亚迪皇族历来智慧过人。大公阁下，能否拨冗听我一问？”
-#EVENT_DILEMA_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“有两人受困于大漠之中。其中一人手执装满的水罐。若罐内清水由两人共饮，则两人都将缺水而死。但若有一人将水饮尽，则他仍有一线生机活着抵达附近村落。如此一来，
+#EVENT_DILEMA_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|EVENT_DILEMA_3|MORAL=1>您被带去的居室房间宽敞明亮。有数名贵客已经在长桌边落座。屋主则为您和您的随从预留了上座。
+#EVENT_DILEMA_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 美餐一顿之后，则是舒缓闲谈。屋主向您说道：“素闻萨亚迪皇族历来智慧过人。大公阁下，能否拨冗听我一问？”
+#EVENT_DILEMA_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}“有两人受困于大漠之中。其中一人手执装满的水罐。若罐内清水由两人共饮，则两人都将缺水而死。但若有一人将水饮尽，则他仍有一线生机活着抵达附近村落。如此一来，
  如何才算正确之事呢？”
 <ANS=有水之人应将其一饮而尽。|EVENT_DILEMA_FORCE_1|FORCE=1>
 <ANS=有水之人应将其全部让予旅伴。|EVENT_DILEMA_KIND_1|KINDNESS=1>
 <ANS=两人仍应将水平分。|EVENT_DILEMA_ORDER_1|RIGHT=1>
-#EVENT_DILEMA_FORCE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}室内针落无声，访客们都静静等待您讲解其中深意。<ANS=若两人中只能活下一人，那当是自身性命高于他人。|EVENT_DILEMA_FORCE_2>
-#EVENT_DILEMA_FORCE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>长者缓缓摇了摇头：“那颜（{glossary=Noyon,GLOSS_NOYON}）大官人，您属实对生者毫无恻隐之心。”
+#EVENT_DILEMA_FORCE_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}室内针落无声，访客们都静静等待您讲解其中深意。<ANS=若两人中只能活下一人，那当是自身性命高于他人。|EVENT_DILEMA_FORCE_2>
+#EVENT_DILEMA_FORCE_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>长者缓缓摇了摇头：“那颜（{glossary=Noyon,GLOSS_NOYON}）大官人，您属实对生者毫无恻隐之心。”
 
-#EVENT_DILEMA_KIND_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}室内针落无声，访客们都静静等待您讲解其中深意。<ANS=正如伊述圣言所说，“人为朋友舍命，人的爱心没有比这个更大的。”|EVENT_DILEMA_KIND_2>
-#EVENT_DILEMA_KIND_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>长者缓缓摇了摇头：“但若是让您旅伴将水据为己有，岂不也让他成为夺命凶手了吗？”
+#EVENT_DILEMA_KIND_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}室内针落无声，访客们都静静等待您讲解其中深意。<ANS=正如伊述圣言所说，“人为朋友舍命，人的爱心没有比这个更大的。”|EVENT_DILEMA_KIND_2>
+#EVENT_DILEMA_KIND_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>长者缓缓摇了摇头：“但若是让您旅伴将水据为己有，岂不也让他成为夺命凶手了吗？”
 
-#EVENT_DILEMA_ORDER_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}室内针落无声，访客们都静静等待您讲解其中深意。<ANS=与其叫一人眼睁睁看其手足死去，不如两人同饮然后同死于此。|EVENT_DILEMA_ORDER_2>
-#EVENT_DILEMA_ORDER_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“而唯大漠永存，”长者应道，站起身来：“能有幸与您相谈深感欣慰，埃米尔”
+#EVENT_DILEMA_ORDER_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}室内针落无声，访客们都静静等待您讲解其中深意。<ANS=与其叫一人眼睁睁看其手足死去，不如两人同饮然后同死于此。|EVENT_DILEMA_ORDER_2>
+#EVENT_DILEMA_ORDER_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*两难问题*@10 {animation=event_dilema} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“而唯大漠永存，”长者应道，站起身来：“能有幸与您相谈深感欣慰，埃米尔”
 
 
 
-#EVENT_LOYALISTS_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*塞外孤忠*@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 此城长老原是萨亚迪皇室总管出身，对先皇愿肝脑涂地。能得见罗马尼大公爵亲临此地使他喜不自胜。
-#EVENT_LOYALISTS_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*塞外孤忠*@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}长老盛情邀请您作为座上宾前往宅邸赴宴，但显然您的埃兰人盟友对此颇有微词。
+#EVENT_LOYALISTS_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*塞外孤忠*@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE> 此城长老原是萨亚迪皇室总管出身，对先皇愿肝脑涂地。能得见罗马尼大公爵亲临此地使他喜不自胜。
+#EVENT_LOYALISTS_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*塞外孤忠*@10 {animation=event_loyalists} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}长老盛情邀请您作为座上宾前往宅邸赴宴，但显然您的埃兰人盟友对此颇有微词。
 <ANS=接受邀约。|EXIT|LEVEL_GERAT=-1|ROMANI=2|JOIN>
 <ANS=拒绝邀约。|EXIT|LEVEL_GERAT=1|ROMANI=-2>
 
 
 
-#EVENT_SLAVERY_02_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>你开始听说你的有些军官在参与奴隶买卖。这种事情在首都是不可想象的，可是在这，离祖国很远的地方，你的一些手下可能很快就适应当地习俗了。
+#EVENT_SLAVERY_02_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>你开始听说你的有些军官在参与奴隶买卖。这种事情在首都是不可想象的，可是在这，离祖国很远的地方，你的一些手下可能很快就适应当地习俗了。
 #EVENT_SLAVERY_02_2	<NPC=PETR><SIDE=1><RAM=1>这太丑恶了，可是现在可能不是调查的时候。可能会牵涉太多人。
 <ANS=开始调查。任何有罪的人都应该严厉惩罚。|EVENT_SLAVERY_02_YES|RIGHT=2>
 <ANS=对传闻睁一只眼闭一只眼。|EVENT_SLAVERY_02_NO|RIGHT=-2>
 <ANS=允许奴隶买卖继续，并且指派一名军官监督。|EVENT_SLAVERY_02_ACCEPT|RIGHT=-2|WEALTH=2>
 
-#EVENT_SLAVERY_02_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_SLAVERY_02_INV>
+#EVENT_SLAVERY_02_YES	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP><SCR=EVENT_SLAVERY_02_INV>
 #EVENT_SLAVERY_02_INV1	调查发现有几个军官参与了奴隶交易。他们都受到了严肃的处罚。然而，不是所有人都同意这个决定，舰队里的分歧加重了。
 #EVENT_SLAVERY_02_INV2	令你吃惊的是，你的相当一部分船员都参与了奴隶买卖。大量的逮捕行动让舰队的氛围很紧张。
 #EVENT_SLAVERY_02_INV3	调查结果令人震惊：你的大约一半的舰队军官都或多或少参与了奴隶买卖。大量的逮捕行动让舰队的情况急剧恶化。
 
-#EVENT_SLAVERY_02_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=1>听到不会深入调查奴隶买卖以后，你的分舰队里有太多的军官高兴极了。
+#EVENT_SLAVERY_02_NO	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=1>听到不会深入调查奴隶买卖以后，你的分舰队里有太多的军官高兴极了。
 
-#EVENT_SLAVERY_02_ACCEPT	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|GERAT=1|GOLD=10000>埃兰人为你的决定欢呼。而你的一个军官意识到这样至少能带来一些收入。
-
-
-
-#TUTORIAL_UR_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*抵达吾珥*@10 {animation=event_triumph} @30<SCR=CONTINUE>当我们进入吾珥城，一大群人像对待英雄一样以欢呼迎接我们。
+#EVENT_SLAVERY_02_ACCEPT	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*奴隶买卖*@10 {animation=event_slaves_02} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|GERAT=1|GOLD=10000>埃兰人为你的决定欢呼。而你的一个军官意识到这样至少能带来一些收入。
 
 
 
-#HIDDEN_CITY_01_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_2|MORAL=2>隐居子民的城市热烈欢迎你的舰队。全城的人都涌上街头来见你们。@孩子们跑来跑去，欢呼雀跃，男人们郑重地向你致敬，而女人们冲上来向你献花。
-#HIDDEN_CITY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_3|HIDDEN_BONUS>这座城市的长老保证会尽他们所能地帮助你的舰队。@这里没有人害怕集众叛军，而每个人都希望你赢得胜利。
-#HIDDEN_CITY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|PETR|EXIT><SCR=CONTINUE>“集众叛军甚至不知道这座城市存在，而这里的人也绝不会告密，”@彼得 伊格纳季耶维奇肯定地说。“在这里我们很安全。我们可以想呆多久就呆多久。”
-#HIDDEN_CITY_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“这个地方看起来不坏。你觉得呢，公爵？”彼得环视着山谷。@“我们是不是应该留在这里建立自己的殖民地？”彼得半开玩笑地说，笑了。你从不记得他有这样高兴过。
-#HIDDEN_CITY_01_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|DAUD|EXIT><SCR=CONTINUE>“啊，我想象得到！”达乌德加入了你们的谈话。“你能当个好农夫的，将军。”
-#HIDDEN_CITY_01_6	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“有何不可呢，”彼得 伊格纳季耶维奇回答得意外认真。@“我老了，谢里夫。在这样和平宁静的地方安度晚年也不错。”
+#TUTORIAL_UR_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*抵达吾珥*@10 {animation=event_triumph} @30<SCR=CONTINUE>当我们进入吾珥城，一大群人像对待英雄一样以欢呼迎接我们。
 
 
 
-#HIDDEN_CITY_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=2|HIDDEN_BONUS>这座城市张开了怀抱欢迎你。@长老保证会尽他们所能地帮助你的舰队。这里没有人害怕集众叛军，而每个人都希望你赢得胜利。
+#HIDDEN_CITY_01_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_2|MORAL=2>隐居子民的城市热烈欢迎你的舰队。全城的人都涌上街头来见你们。@孩子们跑来跑去，欢呼雀跃，男人们郑重地向你致敬，而女人们冲上来向你献花。
+#HIDDEN_CITY_01_2	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE|HIDDEN_CITY_01_3|HIDDEN_BONUS>这座城市的长老保证会尽他们所能地帮助你的舰队。@这里没有人害怕集众叛军，而每个人都希望你赢得胜利。
+#HIDDEN_CITY_01_3	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|PETR|EXIT><SCR=CONTINUE>“集众叛军甚至不知道这座城市存在，而这里的人也绝不会告密，”@彼得 伊格纳季耶维奇肯定地说。“在这里我们很安全。我们可以想呆多久就呆多久。”
+#HIDDEN_CITY_01_4	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CONTINUE>“这个地方看起来不坏。你觉得呢，公爵？”彼得环视着山谷。@“我们是不是应该留在这里建立自己的殖民地？”彼得半开玩笑地说，笑了。你从不记得他有这样高兴过。
+#HIDDEN_CITY_01_5	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=CHECK_JOINED|DAUD|EXIT><SCR=CONTINUE>“啊，我想象得到！”达乌德加入了你们的谈话。“你能当个好农夫的，将军。”
+#HIDDEN_CITY_01_6	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP>“有何不可呢，”彼得 伊格纳季耶维奇回答得意外认真。@“我老了，谢里夫。在这样和平宁静的地方安度晚年也不错。”
+
+
+
+#HIDDEN_CITY_02_1	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*隐居子民*@10 {animation=event_hidden} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}<SCR=STOP|MORAL=2|HIDDEN_BONUS>这座城市张开了怀抱欢迎你。@长老保证会尽他们所能地帮助你的舰队。这里没有人害怕集众叛军，而每个人都希望你赢得胜利。
 
 
 
@@ -3235,13 +3235,13 @@
 
 
 
-#TUTORIAL_RELOAD	<TRG=TUTORIAL_RELOAD|0>{font=dinpro_48_black}{align=2}$SH40_S*弹药种类*@10{font=fixed_20}{align=0}要在特殊弹药和标准高爆弹药直接切换，按下{animation=key_r}。<SCR=STOP>
+#TUTORIAL_RELOAD	<TRG=TUTORIAL_RELOAD|0>{font=dinpro_48_black}{align=2}$SH40_SAND*弹药种类*@10{font=fixed_20}{align=0}要在特殊弹药和标准高爆弹药直接切换，按下{animation=key_r}。<SCR=STOP>
 
-#TUTORIAL_COMBAT_TAKEOFF	<TRG=TUTORIAL_COMBAT_TAKEOFF|0>{font=dinpro_48_black}{align=2}$SH40_S*舰载机*@10{font=fixed_20}{align=0}要从船上起飞飞机，按下{animation=key_x}。<SCR=STOP>
+#TUTORIAL_COMBAT_TAKEOFF	<TRG=TUTORIAL_COMBAT_TAKEOFF|0>{font=dinpro_48_black}{align=2}$SH40_SAND*舰载机*@10{font=fixed_20}{align=0}要从船上起飞飞机，按下{animation=key_x}。<SCR=STOP>
 
-#TUTORIAL_EVAC	<TRG=TUTORIAL_EVAC|0>{font=dinpro_48_black}{align=2}$SH40_S*弃船*@10{font=fixed_20}{align=0}如果舰船受损非常严重，你还有机会挽救她的船员。要命令你的人弃船，按下{animation=key_t}。<SCR=STOP>
+#TUTORIAL_EVAC	<TRG=TUTORIAL_EVAC|0>{font=dinpro_48_black}{align=2}$SH40_SAND*弃船*@10{font=fixed_20}{align=0}如果舰船受损非常严重，你还有机会挽救她的船员。要命令你的人弃船，按下{animation=key_t}。<SCR=STOP>
 
-#TUTORIAL_BOMBS	<TRG=TUTORIAL_BOMBS|0>{font=dinpro_48_black}{align=2}$SH40_S*航弹*@10{font=fixed_20}{align=0}您的舰船挂载有航弹，而现在地上有若干个目标。接近地面目标，然后按住{animation=WHL}进行轰炸。<SCR=STOP>
+#TUTORIAL_BOMBS	<TRG=TUTORIAL_BOMBS|0>{font=dinpro_48_black}{align=2}$SH40_SAND*航弹*@10{font=fixed_20}{align=0}您的舰船挂载有航弹，而现在地上有若干个目标。接近地面目标，然后按住{animation=WHL}进行轰炸。<SCR=STOP>
 
 #TUTORIAL_TRADER	<TRG=TUTORIAL_TRADER|0><NPC=PETR><SIDE=1><SHADOW=1>根据这条消息的内容，它是由运输船发出的。上面甚至提到了船上的货物以及航向。如果能夺取这艘船，我们可以卖掉换得一小笔钱。<SCR=STOP>
 
@@ -3250,7 +3250,7 @@
 #TUTORIAL_PRIZE_1	<TRG=TUTORIAL_PRIZE_1|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>有一艘敌船是运输船。如果我们能把其他船都击毁，同时保持这艘船完好，她就会投降。<SCR=STOP>
 #TUTORIAL_PRIZE_2	<TRG=TUTORIAL_PRIZE_2|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>这艘运输船没有武装护航。不需要战斗她就会投降。<SCR=STOP>
 
-#TUTORIAL_REPAIR_BONUS	<TRG=TUTORIAL_REPAIR_BONUS|0>{font=dinpro_48_black}{align=2}$SH40_S*维修加成*<REPAIR_BONUS>@10{font=fixed_20}{align=0}如果你把船停在一个好位置，可以大大加快维修速度。<SCR=STOP>
+#TUTORIAL_REPAIR_BONUS	<TRG=TUTORIAL_REPAIR_BONUS|0>{font=dinpro_48_black}{align=2}$SH40_SAND*维修加成*<REPAIR_BONUS>@10{font=fixed_20}{align=0}如果你把船停在一个好位置，可以大大加快维修速度。<SCR=STOP>
 #TUTORIAL_RADIO_BAND	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>你须要先选择波段，公爵。<SCR=STOP>
 #TUTORIAL_RADIO_SIGNAL	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN>你须要先收到稳定的信号。<SCR=STOP>
 #TUTORIAL_REPAIR_PARTS	<TRG=TUTORIAL_REPAIR_PARTS|0><NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RP|1><NOBOTTOM>我们获得了一些船上的维修备件。如果我们的库存里有维修备件，可以大大缩短维修时间。<SCR=STOP>
@@ -3498,10 +3498,10 @@
 
 
 
-#HAZARD_EVENT_POISON_02	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}大火中一块承重结构墙体就在人员头上发生垮塌，数名船员因此丧生。<SCR=STOP|CREW=-10|MORAL=-1>
-#HAZARD_EVENT_POISON_03	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}船员在执行灭火作业时，一个压缩空气罐体发生爆炸。爆炸破片撕碎了数名船员。<SCR=STOP|CREW=-5|MORAL=-1>
-#HAZARD_EVENT_POISON_04	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}电池中所含氢气在大火中爆炸。数名船员在爆炸中丧生。<SCR=STOP|CREW=-10|MORAL=-1>
-#HAZARD_EVENT_POISON_05	<EVENT_CARD> {font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}船员在执行灭火作业时，一块灭火泡沫飞溅到裸露电线上。数名船员触电丧生。<SCR=STOP|CREW=-2|MORAL=-1>
+#HAZARD_EVENT_POISON_02	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}大火中一块承重结构墙体就在人员头上发生垮塌，数名船员因此丧生。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_POISON_03	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}船员在执行灭火作业时，一个压缩空气罐体发生爆炸。爆炸破片撕碎了数名船员。<SCR=STOP|CREW=-5|MORAL=-1>
+#HAZARD_EVENT_POISON_04	<EVENT_CARD>{font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}电池中所含氢气在大火中爆炸。数名船员在爆炸中丧生。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_POISON_05	<EVENT_CARD> {font=dinpro_48_black_blured}{color=4292005823}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{font=dinpro_25_bold_blured}{shift=40}{align=0}船员在执行灭火作业时，一块灭火泡沫飞溅到裸露电线上。数名船员触电丧生。<SCR=STOP|CREW=-2|MORAL=-1>
 
 
 
@@ -3765,29 +3765,29 @@
 
 
 
-#SPEECH_FEAR_GOVERNOR_01	谈及@萨亚迪是@多么优秀的盟友，@多么可怕的敌人。
-#SPEECH_NOFEAR_GOVERNOR_01	谈及@你对总督的尊敬。
+#SPEECH_FEAR_GOVERNOR_01	$SH20_LSAND*谈及@萨亚迪是@多么优秀的盟友@多么可怕的敌人*
+#SPEECH_NOFEAR_GOVERNOR_01	$SH20_LSAND*谈及@你对总督的尊敬*
 
-#SPEECH_ROMANI_GOVERNOR_01	谈及@罗马尼帝国的天命。
-#SPEECH_NOROMANI_GOVERNOR_01	谈及@罗马尼帝国的衰落。
+#SPEECH_ROMANI_GOVERNOR_01	$SH20_LSAND*谈及@罗马尼帝国的天命*
+#SPEECH_NOROMANI_GOVERNOR_01	$SH20_LSAND*谈及@罗马尼帝国的衰落*
 
-#SPEECH_GERAT_GOVERNOR_01	谈及@格瑞特人光明的未来！
-#SPEECH_NOGERAT_GOVERNOR_01	谈及@埃兰人如何依赖于罗马尼人。
+#SPEECH_GERAT_GOVERNOR_01	$SH20_LSAND*谈及@格瑞特人光明的未来！*
+#SPEECH_NOGERAT_GOVERNOR_01	$SH20_LSAND*谈及@埃兰人如何@依赖于罗马尼人*
 
-#SPEECH_FAITH_GOVERNOR_01	谈及@困难时刻信仰的重要性。
-#SPEECH_NOFAITH_GOVERNOR_01	谈及@迷信的危险性。
+#SPEECH_FAITH_GOVERNOR_01	$SH20_LSAND*谈及@困难时刻信仰的重要性*
+#SPEECH_NOFAITH_GOVERNOR_01	$SH20_LSAND*谈及@迷信的危险性*
 
-#SPEECH_RIGHT_GOVERNOR_01	谈及@遍布格瑞特的不公。
-#SPEECH_NORIGHT_GOVERNOR_01	谈及@弱者是如何@以正义来削弱强者。
+#SPEECH_RIGHT_GOVERNOR_01	$SH20_LSAND*谈及@遍布格瑞特的不公*
+#SPEECH_NORIGHT_GOVERNOR_01	$SH20_LSAND*谈及@弱者是如何@以正义来削弱强者*
 
-#SPEECH_FORCE_GOVERNOR_01	谈及@对集众叛军@的征讨及其必要性。
-#SPEECH_NOFORCE_GOVERNOR_01	谈及@战争为何必须被结束。
+#SPEECH_FORCE_GOVERNOR_01	$SH20_LSAND*谈及@对集众叛军的@征讨及其必要性*
+#SPEECH_NOFORCE_GOVERNOR_01	$SH20_LSAND*谈及@战争为何@必须被结束*
 
-#SPEECH_WEALTH_GOVERNOR_01	谈及@等待着@胜利者的财富。
-#SPEECH_NOWEALTH_GOVERNOR_01	谈及@压迫人民的富人@必须被打倒。
+#SPEECH_WEALTH_GOVERNOR_01	$SH20_LSAND*谈及@等待着@胜利者的财富*
+#SPEECH_NOWEALTH_GOVERNOR_01	$SH20_LSAND*谈及@压迫人民的富人@必须被打倒*
 
-#SPEECH_KINDNESS_GOVERNOR_01	谈及@人民的苦难以及@你帮助他们的意愿。
-#SPEECH_NOKINDNESS_GOVERNOR_01	谈及@现在已经不是@发慈悲的时候了。
+#SPEECH_KINDNESS_GOVERNOR_01	$SH20_LSAND*谈及@人民的苦难以及@你帮助他们的意愿*
+#SPEECH_NOKINDNESS_GOVERNOR_01	$SH20_LSAND*谈及@现在已经不是@发慈悲的时候了*
 
 #BUY_SHIPS_LIST	舰船列表
 #BUY_NO_SHIPS	无舰船
@@ -3922,12 +3922,13 @@
 {font=pollock_60}IREN KOSHUTINA@{font=dinpro_30_reg}EDITOR@60
 {font=pollock_60}Levsha Games Studio@{font=dinpro_30_reg}LOCALIZATION@60
  @50
+ {font=pollock_60}Xchiliarch {animation=credits_Xchiliarch}@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
 {font=pollock_60}homobanana@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
 {font=pollock_60}Iansniper@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
 {font=pollock_60}Commie-Spy@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
 {font=pollock_60}rogo921@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
 {font=pollock_60}Bl-XY@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
-{font=pollock_60}Xchiliarch@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
+
 {font=pollock_60}Eistin-Yite@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
 {font=pollock_60}OpaqueArc@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
 {font=pollock_60}KagaJiankui@{font=dinpro_30_reg}CHINESE LOCALIZATION@60
@@ -3994,7 +3995,7 @@
 #REACTOR_CAPTURED_1	<EVENT>希瓦反应堆已被夺取，并被集众武力摧毁。<SCR=CONTINUE>
 #REACTOR_CAPTURED_2	<EVENT>格瑞特人民已经失去所有活过大灾难的希望。<SCR=STOP>
 
-#TOTAL_WAR_INFO	{max=520}{font=dinpro_48_black}{align=2}$SH40_S*全面战争*@10{font=fixed_20}{align=0}钱已经没有意义了。燃料，弹药，维修现在都已经免费。@10大灾难就在眼前，许多格瑞特的人都愿意加入你的战斗。<SCR=STOP>
+#TOTAL_WAR_INFO	{max=520}{font=dinpro_48_black}{align=2}$SH40_SAND*全面战争*@10{font=fixed_20}{align=0}钱已经没有意义了。燃料，弹药，维修现在都已经免费。@10大灾难就在眼前，许多格瑞特的人都愿意加入你的战斗。<SCR=STOP>
 
 #MILITARY_CRIME	战争罪行
 #RAM_1	命令
@@ -4050,9 +4051,9 @@
 #EXTRA5 ///////////////////////////////////////////////////	
 
 
-#DIFFICULTY_EASY_DESC	{max=520}{font=dinpro_48_black}{align=2}$SH40_S*简单难度*@10{font=fixed_20}{align=0}如果你不想理解错复杂的机制，简单模式能让你更快享受游戏。@10可以在任何时候保存，战斗中的伤害减小。<SCR=STOP>
-#DIFFICULTY_NORM_DESC	{max=520}{font=dinpro_48_black}{align=2}$SH40_S*正常难度*@10{font=fixed_20}{align=0}适合想要完整地体验游戏，且愿意花一些时间掌握游戏的玩家。@10只能在检查点保存游戏。战役的开头会较顺利，但要完成则不简单。<SCR=STOP>
-#DIFFICULTY_HARD_DESC	{max=520}{font=dinpro_48_black}{align=2}$SH40_S*困难难度*@10{font=fixed_20}{align=0}为已经很熟悉游戏的玩家设计。困难模式下，玩家一开始就要面临苦战。@10城市的守备规模更大，打击群更强，维修更困难。<SCR=STOP>
+#DIFFICULTY_EASY_DESC	{max=520}{font=dinpro_48_black}{align=2}$SH40_SAND*简单难度*@10{font=fixed_20}{align=0}如果你不想理解错复杂的机制，简单模式能让你更快享受游戏。@10可以在任何时候保存，战斗中的伤害减小。<SCR=STOP>
+#DIFFICULTY_NORM_DESC	{max=520}{font=dinpro_48_black}{align=2}$SH40_SAND*正常难度*@10{font=fixed_20}{align=0}适合想要完整地体验游戏，且愿意花一些时间掌握游戏的玩家。@10只能在检查点保存游戏。战役的开头会较顺利，但要完成则不简单。<SCR=STOP>
+#DIFFICULTY_HARD_DESC	{max=520}{font=dinpro_48_black}{align=2}$SH40_SAND*困难难度*@10{font=fixed_20}{align=0}为已经很熟悉游戏的玩家设计。困难模式下，玩家一开始就要面临苦战。@10城市的守备规模更大，打击群更强，维修更困难。<SCR=STOP>
 
 #RECREATE_SHIP_BRIDGE_ROTATED	舰桥角度错误
 #RECREATE_SHIP_FRAME_ROTATED	舰身角度错误

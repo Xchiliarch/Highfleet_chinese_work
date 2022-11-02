@@ -41,7 +41,7 @@ def find_all_chara_text(a,font_name):       #输出并返回所有文本出现�
     if os.path.exists(f'.\\int_files\\font\\{font_name}all_char.txt'):              #check if {font_name}all_char.txt already exists,if exists,
         if compare(f'.\\int_files\\font\\{font_name}all_char.txt',all_char):        #message will pop to inform you that you need to redraw tex file
             print(f'{font_name}字符集内字符发生改变，请重新绘制Tex')                   
-            print(f'{font_name} char set has changed,please redraw Tex file.')
+            #print(f'{font_name} char set has changed,please redraw Tex file.')
 
     g = open(f'.\\int_files\\font\\{font_name}all_char.txt','w',encoding='utf-8')   #generate {font_name}all_char.txt to .\int_files\{font_name}all_char.txt
     g.write(all_char)
@@ -276,7 +276,16 @@ def res_compile(tex_name):        #将各字体res组成完整贴图res   # comb
         '{\n'
         f'filename = Media/Tex/{tex_name}.png\n'
         f'resgroup = 0\n'
-        '}\n')
+        '}\n'
+        f"Animation credits_Xchiliarch\n"
+        "{\n"
+        f" texture = {tex_name}\n"
+        f" rect = 0,4000,90,90\n"
+        f" hotspot = 45,45\n"
+        f" zorder = 0.000000\n"
+        f" resgroup = 0\n"
+        f" frame = 1\n"
+        "}\n")
     for name in fonts_name:       
         res = res+ locals()[f'{name}_res']
     if os.path.exists('.\\build') == False:
@@ -293,4 +302,5 @@ def font_params(fontfile,fontscan):     #输出字体参数   #return a font's p
         a = re.match('(.*?){(.*?),(.*?),(.*?),(.*?)}',item)
         if a.groups()[0] == fontscan:
             return a.groups()
+
 
