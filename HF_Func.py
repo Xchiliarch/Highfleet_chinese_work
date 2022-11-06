@@ -26,6 +26,8 @@ def find_all_chara_text(a,font_name):       #输出并返回所有文本出现�
 
     font =[]
     for text in texts:
+        if( ord(text)  == 183 and text not in font):                #人名间隔号 ·
+            font.append(text)
         if( ord(text)>3000 and text not in font):
             font.append(text)
     #font = sorted(font,key = to_pinyin)    #拼音排序
@@ -72,7 +74,9 @@ def res_registration(font,tex_name,font_name,IcoorX,coorY,rectX,rectY,row_num): 
         name = p.get_pinyin(character, tone_marks='numbers')    #获取字符拼音    #get the pinyin of a chinese char. note that different chars may have the same pinyin,
                                                                                 #but below has the solution to this : add number behind: like  cha4_0 and cha4_1 etc.
 
-        if ord(character)>65280 or ord(character) <12291:       #because get_pinyin() cannot get the punctuations right so you have to manually set the name of each char.                  
+        if ord(character)>65280 or ord(character) <12291:       #because get_pinyin() cannot get the punctuations right so you have to manually set the name of each char.  
+            if name == '·':
+                name = 'jiange'                
             if name == '—':
                 name = 'hengang'
             elif name == '‘':
@@ -225,28 +229,35 @@ def encode_gen(dialog,default_font):                             #通过chinese.
         f.write(tran)
     f.close()
 
-def check_fonts(file,fonts,default_font):      #输出各字体使用  #check the usage and name of fonts used in dialog.It has some robustness which even if only
-    f= open(file,encoding='utf-8')                              # one char is used in one dialog line, it still covers all chars of tha dialog line in case you want to change.
-    chars= f.read()
+def check_fonts(file,font_file,default_font):      #输出各字体使用，默认字体不输出（因为所有字符都需要绘制，直接使用原文本即可）  
+    f= open(file,encoding='utf-8')                               #check the usage and name of fonts used in dialog.It has some robustness which even if only
+    chars= f.read()                                          #one char is used in one dialog line, it still covers all chars of tha dialog line in case you want to change.
     f.close()
 
-    f= open(fonts,encoding='utf-8')             
+    f= open(font_file,encoding='utf-8')             
     fonts_used= f.read().split('\n')
     f.close()
     for i in range(len(fonts_used)):
         reg = re.match('(.*?){.*',fonts_used[i])
-        font = reg.groups()[0]
+        if reg!= None:
+            font = reg.groups()[0]
         locals()[font]=[]
         fonts_used[i] = font
-
-    pattern ='(#.*)'
-    aa =re.findall(pattern,chars)
+    '''
+    pattern ='(#(?<=#).*?(?=#))'
+    aa =re.findall(pattern,chars,re.S)
     for a in aa:
         for font in fonts_used:
             if font == default_font:
                 continue
             if re.findall(font,a):
                 locals()[font].append(a)
+    '''
+    for font in fonts_used:
+        if font != default_font:
+            pattern = f'(?<=\${font}\*)(.*?)(?=\*)'
+            locals()[font].append(re.findall(pattern,chars,re.S))
+        
 
     if os.path.exists('.\\int_files\\usage') == False:
         os.makedirs('.\\int_files\\usage')
@@ -254,9 +265,10 @@ def check_fonts(file,fonts,default_font):      #输出各字体使用  #check th
         if font == default_font:
             continue
         f= open(f'.\\int_files\\usage\\{font}usage.txt','w',encoding='utf-8') 
-        for item in locals()[font]:     
-            f.write(item)
-            f.write('\n')
+        for texts in locals()[font]:
+            for item in texts:  
+                f.write(str(item))
+                f.write('\n')
         f.close()
 
 def res_compile(tex_name):        #将各字体res组成完整贴图res   # combine all fonts' seperate res to one whole and add necessary pre-definition of the res.
@@ -298,8 +310,10 @@ def font_params(fontfile,fontscan):     #输出字体参数   #return a font's p
     f= open(fontfile,encoding='utf-8')         
     fonts = f.read().split('\n')
     f.close()
-    for item in fonts:
+    for item in fonts :
         a = re.match('(.*?){(.*?),(.*?),(.*?),(.*?)}',item)
+        if a == None:
+            continue
         if a.groups()[0] == fontscan:
             return a.groups()
 
