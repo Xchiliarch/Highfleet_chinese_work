@@ -156,8 +156,8 @@
 #EDITOR_TOTAL_REPAIR_TIME	TOTAL REPAIR TIME
 #EDITOR_TOTAL_REPAIR_COST	TOTAL REPAIR COST
 
-#EDITOR_SAVE_DESIGN	{align=2}{font=dinpro_30_black}{color=4293056435}NEW CLASS@12{align=0}{max=250}{color=4294951680}{font=dinpro_14_bold}
-#EDITOR_SAVE_DESIGN2	 {color=4293056435}{font=dinpro_14_reg}船级设计发生变更，是否将变更保存为一种新的船级？
+#EDITOR_SAVE_DESIGN	{align=2}{font=dinpro_30_black}{color=4293056435}NEW CLASS@12{align=0}{max=250}
+#EDITOR_SAVE_DESIGN2	船级设计发生变更，@是否将变更保存为一种新的船级？
 #EDITOR_SAVE_DESIGN3	CLASS NAME
 
 #EDITOR_AP	@14{font=dinpro_10_med}ARMOR@PIERCING
@@ -2822,14 +2822,14 @@
 
 
 
-#ARGHELP_QUESTION	{align=2}现在和你对话的人@想要询问你一个问题。@如果做出明智的回答，@或许会提高你的名誉。
-#ARGHELP_FINISH	是时候结束这次谈话了。
-#ARGHELP_PRESENT	{align=2}一份厚礼@能够延长你们的对话
-#ARGHELP_PRAISE	{align=2}用合适的方式@称赞对应的长老@能够提升您的声望。
-#ARGHELP_DOSSIER	{align=2}您有许多方式@来了解对方的背景。
-#ARGHELP_SPEECH	{align=2}对他们演说一番吧。@如果他们喜欢你的说辞，@谈话会更融洽。
-#ARGHELP_SPEECH_USED	{align=2}已经说过这点了。@你可以再说一次，@但是效果会减弱。
-#ARGHELP_VERSE	{align=2}圣语一言九鼎。@您要谈及 %，@ %，@还是 %？
+#ARGHELP_QUESTION	{align=2}$SH20_WHITE*现在和你对话的人@想要询问你一个问题。@如果做出明智的回答，@或许会提高你的名誉。*
+#ARGHELP_FINISH	$SH20_WHITE*是时候结束这次谈话了。*
+#ARGHELP_PRESENT	{align=2}$SH20_WHITE*一份厚礼@能够延长你们的对话*
+#ARGHELP_PRAISE	{align=2}$SH20_WHITE*用合适的方式@称赞对应的长老@能够提升您的声望。*
+#ARGHELP_DOSSIER	{align=2}$SH20_WHITE*您有许多方式@来了解对方的背景。*
+#ARGHELP_SPEECH	{align=2}$SH20_WHITE*对他们演说一番吧。@如果他们喜欢你的说辞，@谈话会更融洽。*
+#ARGHELP_SPEECH_USED	{align=2}$SH20_WHITE*已经说过这点了。@你可以再说一次，@但是效果会减弱。*
+#ARGHELP_VERSE	{align=2}$SH20_WHITE*圣语一言九鼎。@您要谈及 %，@ %，@还是 %？*
 
 
 

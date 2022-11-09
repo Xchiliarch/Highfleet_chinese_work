@@ -2,6 +2,8 @@
 
 发行版汉化地址：[下载](https://github.com/Xchiliarch/Highfleet_chinese_work/releases)
 
+![logo长](https://raw.githubusercontent.com/Xchiliarch/Xchiliarch_Image_Host/master/logo%E9%95%BF.png)
+
 本项目为生成汉化文件的源代码，如只想生成默认的汉化（即与Release内相同的汉化文件），
 
 只需要Pip安装Requirements.txt后依次运行下列代码，即可在build文件夹内生成所有汉化用文件
