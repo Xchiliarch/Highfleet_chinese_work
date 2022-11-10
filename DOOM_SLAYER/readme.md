@@ -1,3 +1,0 @@
-将HighFleet\Libraries\OL.seria备份后替换
-
-DOOM_SLAYER.seria放入HighFleet\ships

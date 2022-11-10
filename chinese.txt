@@ -3937,9 +3937,6 @@
 
 #ENDWAR_WIN_1	<MUSIC=Mellifluous><NPC=PETR><SIDE=0>{align=2}马克，结束了。我将向全军通报行动胜利的消息。<SCR=CONTINUE>
 
-
-
-
 #ENDWAR_WIN_2	<EVENT>“都结束了。”<SCR=CONTINUE>
 
 #ENDWAR_WIN_3	<EVENT>{align=2}我向后靠在座椅上，闭上双眼。@周围无数的战争机器最终归于沉寂—铿锵不再，金石无息。@喷气发动机的如雷轰鸣在我耳中却似相隔千里，轻若无声。<SCR=CONTINUE>
@@ -3948,11 +3945,11 @@
 
 #ENDWAR_WIN_5	<NPC=PETR> 大公阁下，我也愿向您提出些私人请求。<SCR=CONTINUE>
 
-#ENDWAR_WIN_6	<NPC=PETR>{align=2}希瓦的反应堆控制室中立有一根石柱。@数年之前，在我军被迫撤离格瑞特全境之前，我就有见过一眼。<SCR=CONTINUE>
+#ENDWAR_WIN_6	<NPC=PETR>{align=2}希瓦的反应堆控制室中立有一根石柱。@数年之前，在我军被迫撤离格瑞特全境之前，@我就有见过一眼。<SCR=CONTINUE>
 
-#ENDWAR_WIN_7	<NPC=PETR>{align=2}石柱上刻有古旧文句。其上字句言语…和圣书碎片（{glossary=qoda,GLOSS_QODA}）上的极其相似。@直至今日我都铭记于心。<SCR=CONTINUE>
+#ENDWAR_WIN_7	<NPC=PETR>{align=2}石柱上刻有古旧文句。@其上字句言语…和圣书碎片（{glossary=qoda,GLOSS_QODA}）上的极其相似。@直至今日我都铭记于心。<SCR=CONTINUE>
 
-#ENDWAR_WIN_8	<NPC=PETR>{align=2}大公阁下，若您能去查看，或许您能够解读其含义。@私以为其中涵义可能非同小可。<SCR=CONTINUE>
+#ENDWAR_WIN_8	<NPC=PETR>{align=2}大公阁下，若您能去查看，@或许您能够解读其含义。@私以为其中涵义可能非同小可。<SCR=CONTINUE>
 
 #ENDWAR_WIN_9	<SCR=BACK_TO_KHIVA|回到希瓦的第二天。|回归希瓦的几天后。><BACKGROUND=undeground_01><SCR=CONTINUE|ENDWAR_CREDITS>
 
@@ -3965,7 +3962,7 @@
 #ENDWAR_WIN_13	<ILLUSTRATION=-1>{align=2}房间中央，大概离我十几米远的地方，@一根巨大的由一层白色石质包裹的柱子映入我的眼帘。@在石头表面上，大概比一个人稍高的位置，@有一行留言。字迹工整而又干净。<SCR=CONTINUE>
 
 
-#ENDWAR_CREDITS
+#ENDWAR_CREDITS	<SCR=ENDWAR_CREDITS><SCR=EXIT>
 
 
 #REPUTATION_HINT	ADDRESS SUCCESS CHANCE
@@ -3976,7 +3973,7 @@
 
 
 
-#EVENT_SILO_1	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=2}<SCR=CONTINUE>我军在城市附近发现了一个平整的平台，@其上散布着一个个低矮的混凝土制穹顶，每个穹顶上都有钢制护盖。@我们耗了点时间撬开其中一个盖口。其中是一个又宽又深的竖井，@井中央的导弹光滑的白色弹头清晰可辨。
+#EVENT_SILO_1	MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=2}<SCR=CONTINUE>我军在城市附近发现了一个平整的平台，@其上散布着一个个低矮的混凝土制穹顶，每个穹顶上都有钢制护盖。@我们耗了点时间撬开其中一个盖口。其中是一个又宽又深的竖井，@井中央的导弹光滑的白色弹头清晰可辨。
 
 #EVENT_SILO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2} 我的大公阁下！@这些便是集众（{glossary=Gathering,GLOSS_GATHERING}）所持有的核武器！@我们应该即刻将其取出！
 
