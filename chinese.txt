@@ -3973,7 +3973,7 @@
 
 
 
-#EVENT_SILO_1	MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=2}<SCR=CONTINUE>我军在城市附近发现了一个平整的平台，@其上散布着一个个低矮的混凝土制穹顶，每个穹顶上都有钢制护盖。@我们耗了点时间撬开其中一个盖口。其中是一个又宽又深的竖井，@井中央的导弹光滑的白色弹头清晰可辨。
+#EVENT_SILO_1	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=2}<SCR=CONTINUE>我军在城市附近发现了一个平整的平台，@其上散布着一个个低矮的混凝土制穹顶，每个穹顶上都有钢制护盖。@我们耗了点时间撬开其中一个盖口。其中是一个又宽又深的竖井，@井中央的导弹光滑的白色弹头清晰可辨。
 
 #EVENT_SILO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2} 我的大公阁下！@这些便是集众（{glossary=Gathering,GLOSS_GATHERING}）所持有的核武器！@我们应该即刻将其取出！
 
