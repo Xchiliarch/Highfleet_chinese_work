@@ -210,21 +210,21 @@
 #STATS_PRESENT	PRESENT
 #SPEECH_CONTINUE	Keep talking
 
-#CHECK_FEAR	CHECK FEAR
+#CHECK_FEAR	$SH20_RED*恐惧检定*
 #CHECK_NOFEAR	CHECK AGAINST FEAR
-#CHECK_ROMANI	CHECK ROMANI
+#CHECK_ROMANI	$SH20_RED*罗马尼倾向检定*
 #CHECK_NOROMANI	CHECK AGAINST ROMANI
-#CHECK_GERAT	CHECK GERAT
+#CHECK_GERAT	$SH20_RED*格瑞特倾向检定*
 #CHECK_NOGERAT	CHECK AGAINST GERAT
-#CHECK_FAITH	CHECK FAITH
+#CHECK_FAITH	$SH20_RED*信仰值检定*
 #CHECK_NOFAITH	CHECK AGAINST FAITH
-#CHECK_RIGHT	CHECK ORDER
+#CHECK_RIGHT	$SH20_RED*威严值检定*
 #CHECK_NORIGHT	CHECK AGAINST ORDER
-#CHECK_FORCE	CHECK FORCE
+#CHECK_FORCE	$SH20_RED*武力值检定*
 #CHECK_NOFORCE	CHECK AGAINST VIOLENCE
-#CHECK_WEALTH	CHECK WEALTH
+#CHECK_WEALTH	$SH20_RED*财富检定*
 #CHECK_NOWEALTH	CHECK AGAINST GREED
-#CHECK_KINDNESS	CHECK KINDNESS
+#CHECK_KINDNESS	$SH20_RED*仁慈检定*
 #CHECK_NOKINDNESS	CHECK AGAINST KINDNESS
 
 #CHECK_SUCCESS	 SUCCESS！
@@ -313,7 +313,7 @@
 #PER	per
 #TWR_STAT	THRUST/WEIGHT
 #LOW_THRUST_STAT	LOW THRUST!
-#SPEED_STAT	SPEED
+#SPEED_STAT	CRUISE SPEED
 #RANGE_STAT	RANGE
 #NO_FUEL_STAT	NO FUEL!
 #CONSUMPTION_STAT	CONSUMPTION
@@ -801,7 +801,7 @@
 
 #TUTORIAL_DAUD_14	<NPC=DAUD><NOSPEAK><SCR=CONTINUE|TUTORIAL_DAUD_15|DAUD_ANYTIME=1|JOIN=Nomad>上将惊讶地看着你，然后赞许地笑了。
 
-#TUTORIAL_DAUD_15	<NPC=DAUD><SCR=STOP{align=2}>好。那我不耽搁你们的时间了。@彼得·伊格纳季耶维奇，大公阁下。
+#TUTORIAL_DAUD_15	<NPC=DAUD><SCR=STOP>{align=2}好。那我不耽搁你们的时间了。@彼得·伊格纳季耶维奇，大公阁下。
 
 
 
@@ -1025,7 +1025,7 @@
 
 
 
-#PRESELECT_1	<NPC=PETR><SIDE=1><SHADOW=1><BLUR=0><SCR=STOP>{align=2}大公阁下，您应该选择加入进攻希瓦（{glossary=Khiva,GLOSS_KHIVA}）行动的舰船人选了。
+#PRESELECT_1	<NPC=PETR><SIDE=1><SHADOW=1><SCR=STOP><BLUR=0>{align=2}大公阁下，您应该选择加入进攻希瓦（{glossary=Khiva,GLOSS_KHIVA}）行动的舰船人选了。
 <ANS=你能给我些提示吗？>
 
 #PRESELECT_2	<NPC=PETR><SCR=STOP>{align=2}带上那些红色卡背的。他们是舰队的主力军。@再给他们配上一两条油船。
@@ -1440,7 +1440,7 @@
 <ANS=我们该走的是自己的路。|HELLO_BOY_END_NO_1>
 
 
-#HELLO_BOY_END_OK	<NPC=BOY><ANS=我想见到其他塔可汗。你知道在哪可以找到他们吗？|HELLO_INTEL_TARKHANS>
+#HELLO_BOY_END_OK	<ANS=我想见到其他塔可汗。你知道在哪可以找到他们吗？|HELLO_INTEL_TARKHANS>
 
 
 #HELLO_BOY_END_NO_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}男孩听到你的回答时强忍着泪水。@他尽量不让别人看到他的反应。
@@ -1492,7 +1492,7 @@
 #MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>{align=2}这可能是转移注意的战术，@为了拖延时间。
 <ANS=这上面写，“巴士拉山谷。”这是哪里？|MEETING_RADIOGRAM_6>
 
-#MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>这里，公爵。
+#MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>巴士拉山谷在这里，公爵。
 
 #MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>{align=2}万能的主赐给了我们一个@用总督（{glossary=Governor,GLOSS_GOVERNOR}）的命为我父亲报仇的办法！
 
@@ -1652,7 +1652,7 @@
 
 #ALSAHIR_REVENGE_FORCE_FAIL_3	<NPC=PETR><SIDE=1>{align=2}船上的外科医生正在尽他的最大努力，@但本舰只有在手术完成后才能起飞。<ANS=总督（{glossary=Governor,GLOSS_GOVERNOR}）呢？|ALSAHIR_REVENGE_FORCE_FAIL_4|WOUND=24>
 
-#ALSAHIR_REVENGE_FORCE_FAIL_4	<NPC=PETR><SIDE=1>{align=2}他们与阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的人发生了一场战斗，@但总督（{glossary=Governor,GLOSS_GOVERNOR}）没有受伤。<ANS=而男孩呢？|ALSAHIR_REVENGE_FORCE_FAIL_6>
+#ALSAHIR_REVENGE_FORCE_FAIL_4	<NPC=PETR><SIDE=1>{align=2}他们与阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的人发生了一场战斗，@但总督（{glossary=Governor,GLOSS_GOVERNOR}）没有受伤。<ANS=而男孩呢？|ALSAHIR_REVENGE_FORCE_FAIL_5>
 
 #ALSAHIR_REVENGE_FORCE_FAIL_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>彼得·伊格纳季耶维奇犹豫了一会儿。
 
@@ -1729,7 +1729,7 @@
 
 
 
-#PETR_DAUD_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*狄阿娜的返航*@10 {animation=event_diana} @30{shift=2}{align=2}<SCR=CONTINUE|PETR_DAUD_2|JOIN=Nomad,GAUD><SCR=SKIP|PETR_DAUD_21>今天不可能的事情发生了：我们的巡空舰“狄阿娜”，@就是那艘派去与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）联络的船，回来了！
+#PETR_DAUD_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*狄阿娜的返航*@10 {animation=event_diana} @30{shift=2}{align=2}<SCR=CONTINUE|PETR_DAUD_2|JOIN=Nomad,DAUD><SCR=SKIP|PETR_DAUD_21|JOIN=Nomad,DAUD>今天不可能的事情发生了：我们的巡空舰“狄阿娜”，@就是那艘派去与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）联络的船，回来了！
 
 #PETR_DAUD_2	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*狄阿娜的返航*@10 {animation=event_diana} @30{shift=0}{align=2}<SCR=CONTINUE>这是上天的礼物，而且来得正是时候！@可它的船员还带来了更惊人的消息：来自帝都的新闻…
 
@@ -1800,7 +1800,7 @@
 
 #PETR_DAUD_ARMED_2	<SCR=CONTINUE><EVENT><SOUND=shoot_01>枪响了。
 
-#PETR_DAUD_ARMED_3	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>时间仿佛凝固一般，上将应声倒在你的面前。
+#PETR_DAUD_ARMED_3	<SCR=CONTINUE|PETR_DAUD_ARMED_4|DEATH=DAUD><SOUND=bodyfall_01>时间仿佛凝固一般，达乌德上将应声倒在你的面前。
 
 #PETR_DAUD_ARMED_4	<SCR=CONTINUE>你感到极力想要尖叫，但你张嘴却吐不出一个音节。
 
@@ -2010,13 +2010,13 @@
 
 #HELLO_RES_DESLIKE	<NPC=HIRE><APPROVE>不，大公。我们不会加入你。<ANS=我想要见见其他的塔可汗。你知道在哪里能找到他们吗。|HELLO_INTEL_TARKHANS_LOOSE>
 
-#HELLO_RES_UNFEAR	<NPC=HIRE><APPROVE>{align=2}我们永远都不会加入你。@带上你的人滚吧。我们才不怕你这种人。<ANS=（转身离开）|EXIT>
+#HELLO_RES_UNFEAR	<NPC=HIRE><APPROVE><SCR=NPC_TAKEOFF>{align=2}我们永远都不会加入你。@带上你的人滚吧。我们才不怕你这种人。<ANS=（转身离开）|EXIT>
 
 
 #HELLO_INTEL_TARKHANS	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS><ANS=万分感谢。|EXIT|DIPDIALOG_WIN>
 
 
-#HELLO_INTEL_TARKHANS_LOOSE	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS>
+#HELLO_INTEL_TARKHANS_LOOSE	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS><SCR=NPC_TAKEOFF>
 <ANS=万分感谢。|EXIT>
 
 
@@ -2519,7 +2519,7 @@
 
 #MDL_CANNON_305_2	ÌÊ-6-180 SQUALL
 #MDL_CANNON_305_2_SDESC	CANNON
-#MDL_CANNON_305_2_DESC	A 185mm six-barreled heavy main battery.
+#MDL_CANNON_305_2_DESC	A 180mm six-barreled heavy main battery.
 
 #MDL_RSZO_220	A-220
 #MDL_RSZO_220_SDESC	MRL
@@ -2702,6 +2702,10 @@
 #MDL_IRST_01	IRS-1 Mars
 #MDL_IRST_01_SDESC	IRST
 #MDL_IRST_01_DESC	An infrared search and track (IRST) situational awareness system. Tracks enemies passively using their heat signatures.
+
+#MDL_JAMMER_01	MP-100 Lagoon
+#MDL_JAMMER_01_SDESC	EWS
+#MDL_JAMMER_01_01_DESC	A barrage jamming station makes it difficult for the enemy to launch missiles. However, it de-cloaks your ships at long range.
 
 #MDL_SPO_01	MP-404
 #MDL_SPO_01_SDESC	ELINT
@@ -2928,8 +2932,9 @@
 #DITHERING_ON	DITHERING ON
 #DITHERING_OFF	DITHERING OFF
 
-#GLITCHLOW_ON	GLITCH LOW
-#GLITCHLOW_OFF	GLITCH HI
+#GLITCH_LEVEL_0	GLITCH NO
+#GLITCH_LEVEL_1	GLITCH LOW
+#GLITCH_LEVEL_2	GLITCH HI
 
 #LOWMODE_ON	GRAPHICS LOW
 #LOWMODE_OFF	GRAPHICS HI
@@ -3036,25 +3041,25 @@
 #ENDWAR_BRIEFING_MARK_2	你的话在回响于死寂之中。<ANS=如果有人想离开，我保证将不加阻拦。|ENDWAR_BRIEFING_LOYALTY_1>
 
 
-#ENDWAR_BRIEFING_LOYALTY_1	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_LOYALTY_2><NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|OMAR|FRACTION_KHANS>{align=2}我已做好为您肝脑涂地的准备，萨亚迪阁下。@可汗舰队将为您效命。
+#ENDWAR_BRIEFING_LOYALTY_1	<SCR=CHECK_STARS|OMAR|ENDWAR_BRIEFING_LOYALTY_2><NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|OMAR|FRACTION_KHANS>{align=2}我已做好为您肝脑涂地的准备，萨亚迪阁下。@可汗舰队将为您效命。
 
-#ENDWAR_BRIEFING_LOYALTY_2	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_LOYALTY_3><NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|FASIL|FRACTION_ELAOU>{align=2}你我已风雨同舟良久，大公爵阁下。@埃劳王室将相伴您左右。
+#ENDWAR_BRIEFING_LOYALTY_2	<SCR=CHECK_STARS|FASIL|ENDWAR_BRIEFING_LOYALTY_3><NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|FASIL|FRACTION_ELAOU>{align=2}你我已风雨同舟良久，大公爵阁下。@埃劳王室将相伴您左右。
 
-#ENDWAR_BRIEFING_LOYALTY_3	<SCR=CHECK_JOINED|BOY|ENDWAR_BRIEFING_LOYALTY_4><NPC=BOY><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|BOY|FRACTION_HIDDEN>{align=2}萨亚迪之子啊，@隐居子民将加入您的事业。
+#ENDWAR_BRIEFING_LOYALTY_3	<SCR=CHECK_STARS|BOY|ENDWAR_BRIEFING_LOYALTY_4><NPC=BOY><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|BOY|FRACTION_HIDDEN>{align=2}萨亚迪之子啊，@隐居子民将加入您的事业。
 
-#ENDWAR_BRIEFING_LOYALTY_4	<SCR=CHECK_JOINED|GIRL|ENDWAR_BRIEFING_LOYALTY_5><NPC=GIRL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|GIRL|FRACTION_ISI>{align=2}我等一族也将加入你们，阁下。
+#ENDWAR_BRIEFING_LOYALTY_4	<SCR=CHECK_STARS|GIRL|ENDWAR_BRIEFING_LOYALTY_5><NPC=GIRL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|GIRL|FRACTION_ISI>{align=2}我等一族也将加入你们，阁下。
 
-#ENDWAR_BRIEFING_LOYALTY_5	<SCR=CHECK_JOINED|HARISHID|ENDWAR_BRIEFING_LOYALTY_6><NPC=HARISHID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HARISHID|FRACTION_HARISHID>{align=2}格瑞特铁卫愿效犬马之劳，大公爵阁下！
+#ENDWAR_BRIEFING_LOYALTY_5	<SCR=CHECK_STARS|HARISHID|ENDWAR_BRIEFING_LOYALTY_6><NPC=HARISHID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HARISHID|FRACTION_HARISHID>{align=2}格瑞特铁卫愿效犬马之劳，大公爵阁下！
 
-#ENDWAR_BRIEFING_LOYALTY_6	<SCR=CHECK_JOINED|HISSID|ENDWAR_BRIEFING_LOYALTY_7><NPC=HISSID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HISSID|FRACTION_HISSID>空盗们也将加入。
+#ENDWAR_BRIEFING_LOYALTY_6	<SCR=CHECK_STARS|HISSID|ENDWAR_BRIEFING_LOYALTY_7><NPC=HISSID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HISSID|FRACTION_HISSID>空盗们也将加入。
 
-#ENDWAR_BRIEFING_LOYALTY_7	<SCR=CHECK_JOINED|KNIGHT|ENDWAR_BRIEFING_LOYALTY_8><NPC=KNIGHT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|KNIGHT|FRACTION_KNIGHT> 杜斯塔姆骑士团愿同您一道奔赴疆场！
+#ENDWAR_BRIEFING_LOYALTY_7	<SCR=CHECK_STARS|KNIGHT|ENDWAR_BRIEFING_LOYALTY_8><NPC=KNIGHT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|KNIGHT|FRACTION_KNIGHT> 杜斯塔姆骑士团愿同您一道奔赴疆场！
 
-#ENDWAR_BRIEFING_LOYALTY_8	<SCR=CHECK_JOINED|SCOUT|ENDWAR_BRIEFING_LOYALTY_9><NPC=SCOUT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|SCOUT|FRACTION_SCOUT> 大公爵阁下，我的手下也将支援您。
+#ENDWAR_BRIEFING_LOYALTY_8	<SCR=CHECK_STARS|SCOUT|ENDWAR_BRIEFING_LOYALTY_9><NPC=SCOUT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|SCOUT|FRACTION_SCOUT> 大公爵阁下，我的手下也将支援您。
 
-#ENDWAR_BRIEFING_LOYALTY_9	<SCR=CHECK_JOINED|AIRBORNE|ENDWAR_BRIEFING_LOYALTY_10><NPC=AIRBORNE><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|AIRBORNE|FRACTION_AIRBORNE>{align=2}我已等待此刻许久！@我可不会甘心在这鸟不拉屎的大漠里老死…
+#ENDWAR_BRIEFING_LOYALTY_9	<SCR=CHECK_STARS|AIRBORNE|ENDWAR_BRIEFING_LOYALTY_10><NPC=AIRBORNE><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|AIRBORNE|FRACTION_AIRBORNE>{align=2}我已等待此刻许久！@我可不会甘心在这鸟不拉屎的大漠里老死…
 
-#ENDWAR_BRIEFING_LOYALTY_10	<SCR=CHECK_JOINED|VETERAN|ENDWAR_BRIEFING_END_1><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_END_1><SCR=END_BRIEFING|13|VETERAN|FRACTION_VETERAN> {align=2}如其他诸位一样，大公阁下，@我已将身家性命托付于您。
+#ENDWAR_BRIEFING_LOYALTY_10	<SCR=CHECK_STARS|VETERAN|ENDWAR_BRIEFING_END_1><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_END_1><SCR=END_BRIEFING|13|VETERAN|FRACTION_VETERAN> {align=2}如其他诸位一样，大公阁下，@我已将身家性命托付于您。
 
 
 #ENDWAR_BRIEFING_END_1	<SCR=END_BRIEFING|14><BLUR=2><ANS=那么，祝诸位武运昌隆。|TOTAL_WAR_INFO>
@@ -3174,7 +3179,7 @@
 
 #EVENT_MURDER_01_RES2	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @30{align=2}您的属下们点头认同。但在人群散去时，许多当地人脸上的失望之情映入您的眼帘。<SCR=STOP>
 
-#EVENT_MURDER_01_RES3	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @302{align=2}人们震惊于您说出的话，但他们的怒吼声很快便被压制了下去。@士兵们出动将人群从舰身前推走的同时，您瞥到手下一些军官如释重负地松了口气。<SCR=STOP|DISCIPLINE=-1>
+#EVENT_MURDER_01_RES3	<AMBIENT=STOP><SOUND=crowd_upset_01><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*城内意外*@10 {animation=event_murder_01} @302{align=2}人们震惊于您说出的话，但他们的怒吼声很快便被压制了下去。@士兵们出动将人群从舰身前推走的同时，您瞥到手下一些军官如释重负地松了口气。<SCR=STOP|MORAL=1>
 
 
 
@@ -3243,11 +3248,11 @@
 <ANS=允许犹大和他的部下加入您的分舰队。|EVENT_EHUDA_OK|RIGHT=-1|GERAT=1>
 <ANS=拒绝犹大的提议。|EVENT_EHUDA_NO_1|RIGHT=1|GERAT=-1>
 
-#EVENT_EHUDA_OK	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{align=2}一听到您的答复，犹大的部下就欢呼起来。@您手下的一些军官则脸色并不好看。@“愚蠢至极”，你听到他们咕哝到，@“我等舰队军官，如今竟要和空贼盗匪吃同一锅饭？”<SCR=STOP|EXIT|FASIL=-1|DISCIPLINE=-1|JOIN>
+#EVENT_EHUDA_OK	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{align=2}一听到您的答复，犹大的部下就欢呼起来。@您手下的一些军官则脸色并不好看。@“愚蠢至极”，你听到他们咕哝到，@“我等舰队军官，如今竟要和空贼盗匪吃同一锅饭？”<SCR=STOP|FASIL=-1|JOIN>
 
 #EVENT_EHUDA_NO_1	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{align=2}听到您的话，犹大的面色黑了下来。@他怨恨地望向法兹尔，然后一言不发地转身离开了。<SCR=CONTINUE>
 
-#EVENT_EHUDA_NO_2	<NPC=FASIL>{align=2}请相信我，您的决断没有错，大公阁下。@我确信您麾下官兵所想也是如此。<SCR=STOP|EXIT|FASIL=1>
+#EVENT_EHUDA_NO_2	<NPC=FASIL>{align=2}请相信我，您的决断没有错，大公阁下。@我确信您麾下官兵所想也是如此。<SCR=STOP|FASIL=1>
 
 
 
@@ -3828,7 +3833,7 @@
 
 #NIGHTFEAR_SPEECH_1	<NPC=PETR><SIDE=-1><SCR=CONTINUE><RAM=1><MUSIC=Bois>马克，我得和你谈谈。
 
-#NIGHTFEAR_SPEECH_2	<NPC=PETR><SCR=CONTINUE>{align=2}人们毫无理由地被吓倒了。@我们失去对局面的控制只是时间问题。
+#NIGHTFEAR_SPEECH_2	<NPC=PETR><SCR=CONTINUE>{align=2}人们被这黑夜吓倒了。@我们失去对局面的控制只是时间问题。
 
 #NIGHTFEAR_SPEECH_3	<NPC=PETR><SCR=CONTINUE>{align=2}天气正在变得愈发寒冷。@今天外面只有仅仅4摄氏度…
 
@@ -3951,7 +3956,7 @@
 
 #ENDWAR_WIN_8	<NPC=PETR>{align=2}大公阁下，若您能去查看，@或许您能够解读其含义。@私以为其中涵义可能非同小可。<SCR=CONTINUE>
 
-#ENDWAR_WIN_9	<SCR=BACK_TO_KHIVA|回到希瓦的第二天。|回归希瓦的几天后。><BACKGROUND=undeground_01><SCR=CONTINUE|ENDWAR_CREDITS>
+#ENDWAR_WIN_9	<SCR=BACK_TO_KHIVA|ENDWAR_BACK_TO_KHIVA_1|ENDWAR_BACK_TO_KHIVA_2><BACKGROUND=undeground_01><SCR=CONTINUE|ENDWAR_CREDITS>
 
 #ENDWAR_WIN_10	{align=2}彼得似胸有成竹，@在反应堆建筑那由楼梯和走廊组成的无尽的迷宫中不断深入，@在他领着我抵达目的地前只短暂停下来过一两次。@我们最终抵达，他打开大门，@并向我挥手示意我踏入控制室之中。<SCR=CONTINUE>
 
@@ -3961,6 +3966,8 @@
 
 #ENDWAR_WIN_13	<ILLUSTRATION=-1>{align=2}房间中央，大概离我十几米远的地方，@一根巨大的由一层白色石质包裹的柱子映入我的眼帘。@在石头表面上，大概比一个人稍高的位置，@有一行留言。字迹工整而又干净。<SCR=CONTINUE>
 
+#ENDWAR_BACK_TO_KHIVA_1	回到希瓦的第二天。
+#ENDWAR_BACK_TO_KHIVA_2	几天后我们回到了希瓦。
 
 #ENDWAR_CREDITS	<SCR=ENDWAR_CREDITS><SCR=EXIT>
 
@@ -4134,7 +4141,7 @@
 
 #EVENT_DISHONOR_END_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事关荣誉*@10 {animation=event_dishonor} @30{align=2}<SCR=EVENT_DISHONOR>这个不受管束的长老在诽谤你的时候很勇敢，@可成了你的阶下囚以后，所有胆子都没了。@他向你跪着，颤抖着祈求你的怜悯。
 <ANS=处决这个长老，并把他的财产据为己有。|EXIT|FEAR=5|GERAT=1|KINDNESS=-1|GOLD=4000>
-<ANS=留这个长老一命，并没收他的财产作为惩罚。|EXIT|FEAR=3|GERAT=-1|WEALTH=1|KINDNESS=1|GOLD=4000>
+<ANS=留这个长老一命，并没收他的财产作为惩罚。|EXIT|FEAR=3|GERAT=-1|KINDNESS=1|GOLD=4000>
 
 
 
@@ -4674,16 +4681,16 @@
 #HELLO_SCOUT_2	<SCR=CONTINUE><SOUND=gunfire_zz>{align=2}在你再次迈出一步的同时，那条船进行了一次警告射击。@炮弹尖啸着冲上了天空。
 
 #HELLO_SCOUT_3	<NPC=PETR><SIDE=-1>{align=2}他们疯了吗？他们难道@没意识到他们面前的是何等人物？！
-<ANS=彼得，让我们给他们来几发警告射击。|HELLO_SCOUT_4|FEAR=1>
-<ANS=我们就在这儿等着。|HELLO_SCOUT_INIT_01_1|FEAR=-1>
+<ANS=彼得，让我们给他们来几发警告射击。|HELLO_SCOUT_4|FEAR=1|NO_THEME_REACTION>
+<ANS=我们就在这儿等着。|HELLO_SCOUT_INIT_01_1|FEAR=-1|NO_THEME_REACTION>
 
 #HELLO_SCOUT_4	<SOUND=gunfire_double>{align=2}你的一个护卫朝天发射了两枚大口径炮弹。@炮声震耳欲聋，但那条船上的守卫依旧在示意你别动。
-<ANS=行吧！我们来给他们的船捅上几个眼儿！|HELLO_SCOUT_5|FEAR=1>
-<ANS=我们就在这儿等。|HELLO_SCOUT_INIT_01_1|FEAR=-1>
+<ANS=行吧！我们来给他们的船捅上几个眼儿！|HELLO_SCOUT_5|FEAR=1|NO_THEME_REACTION>
+<ANS=我们就在这儿等。|HELLO_SCOUT_INIT_01_1|FEAR=-1|NO_THEME_REACTION>
 
 #HELLO_SCOUT_5	彼得紧张的看着你。守卫慢慢的举起了他的步枪…
 <ANS=准备趴下寻找掩体。|HELLO_SCOUT_FALL>
-<ANS=站着不动。|HELLO_SCOUT_6|FEAR=1>
+<ANS=站着不动。|HELLO_SCOUT_6|FEAR=1|NO_THEME_REACTION>
 
 #HELLO_SCOUT_6	<SCR=CONTINUE><SOUND=shell_out_small_01>你感到炮弹划过你的脸颊…
 
@@ -4692,7 +4699,7 @@
 #HELLO_SCOUT_8	<SCR=CONTINUE><AMBIENT=STOP>{align=2}几秒过后，你面前船上的守卫就一个不剩。@空气再次安静了下来。
 
 #HELLO_SCOUT_9	<NPC=PETR>你疯了！
-<ANS=朝彼得一笑。|HELLO_SCOUT_10|FEAR=1>
+<ANS=朝彼得一笑。|HELLO_SCOUT_10|FEAR=1|NO_THEME_REACTION>
 <ANS=盯着那条船上的炮。|HELLO_SCOUT_GUNS>
 
 #HELLO_SCOUT_10	<SCR=CONTINUE><SOUND=gunfire_servo>{align=2}当你盯着彼得的时候，@那条船上的火炮突然开始开火。
@@ -4714,7 +4721,7 @@
 
 
 #HELLO_SCOUT_FIGHT	你回头看见你的人卧倒在地，等待命令。
-<ANS=瞄准舷窗！彼得，升空！|HELLO_SCOUT_TAKEOFF|FEAR=1>
+<ANS=瞄准舷窗！彼得，升空！|HELLO_SCOUT_TAKEOFF|FEAR=1|NO_THEME_REACTION>
 <ANS=停火！让我们再等等。|HELLO_SCOUT_INIT_02_1>
 
 
@@ -4971,6 +4978,7 @@
 #LOCATION_NAME_HAMAT	HAMAT
 #LOCATION_NAME_UR	UR
 #LOCATION_NAME_KHIVA	KHIVA
+#LOCATION_NAME_HIDDEN	HIDDEN PEOPLE
 
 #ESCADRA_NAME_CROW50	CROW
 #ESCADRA_NAME_AMETHYST	AMETHYST
@@ -4999,7 +5007,6 @@
 #ESCADRA_NAME_JADE	JADE
 #ESCADRA_NAME_SERPENTINE	SERPENTINE
 #ESCADRA_NAME_OBSIDIAN	OBSIDIAN
-#LOCATION_NAME_HIDDEN	HIDDEN PEOPLE
 
 #ESCADRA_NAME_SIRIUS	SIRIUS
 #ESCADRA_NAME_CANOPUS	CANOPUS
@@ -5322,7 +5329,7 @@
 #GLOSS_SHAKOR	古代预言中所描绘的永无止境的黑夜。
 
 #ENDRACE_SPEECH_5	<NPC=PETR>到时候要突袭城市就非常不可能了。
-<ANS=你应该也发现一天比一天冷了吧？|ENDRACE_SPEECH_6>
+<ANS=这永夜…你应该也发现一天比一天冷了吧？|ENDRACE_SPEECH_6>
 #ENDRACE_SPEECH_6	<NPC=PETR><SCR=CONTINUE>我早就发现了，公爵。
 #ENDRACE_SPEECH_7	<NPC=PETR><SCR=CONTINUE>{align=2}我每天早上检查温度计…@（彼得拉长了声音。）我是说，每天早上六点。
 #ENDRACE_SPEECH_8	<NPC=PETR><SCR=CONTINUE>无论如何，如果再这样下去…
@@ -5407,6 +5414,326 @@
 #RECREATE_SHIP_VERSION_COMPATIBLE	与版本适配
 
 #QUIT_UNSAVED_PROGRESS	确定要退出吗？@未保存的进度将会丢失。
+
+#GUI ///////////////////////////////////////////////////
+
+#GUI_preselect_selected
+SELECTED SHIPS
+RANGE REQUIREMENTS
+TO REACH THE DESTINATION SQUADRON MUST HAVE A RANGE AT LEAST 2000 KM
+RANGE
+CASH
+EASY
+NORMAL
+HARD
+START
+
+#GUI_title_shipwork	SHIPWORKS
+
+#GUI_avion_fss
+PRESS
+TO ACTIVATE FIRE SUPRESSION SYSTEM
+FSS BLOCKS
+
+#GUI_preselect_scroll	MORE BELOW
+#GUI_title_credits	CREDITS
+
+#GUI_hlp_roles
+SHIP ROLES
+ROMANI COMBAT SHIP ROLES
+AIR SUPERIORITY
+STRIKE SHIPS
+INTERCEPTOR
+AA DEFENCE
+TANKER
+EARLY WARNING
+AIRCRAFT CARRIER
+MISSILE CARRIER
+NUCLEAR MISSILE CARRIER
+FLAGSHIP
+
+#GUI_ask_for_help	ASK FOR HELP
+
+#GUI_medal_right	ORDER
+
+#GUI_medal_engineer	VETERAN ENGINEER
+
+#GUI_medal_guard	ROYAL GUARD
+
+#GUI_medal_gunner	VETERAN GUNNER
+
+#GUI_medal_medic	VETERAN MEDIC
+
+#GUI_medal_pilot	VETERAN PILOT
+
+#GUI_medal_ready	EVER READY
+
+#GUI_medal_retreat	EXPERIENCED COMMANDER
+
+#GUI_medal_scars	BATTLE SCARS
+
+#GUI_detachment_button	MORALE
+
+#GUI_ecm_casing	NO ECM (Electronic counter measures)
+
+#GUI_loot_panel
+FUEL STOCK
+FUEL TOTAL
+FUNDS
+REPAIR PARTS
+AIRCRAFT GROUP
+
+#GUI_Scripture_52	BOOK OF ISAIAH
+
+#GUI_desk_back
+By the grace of God
+WE, KERIM SHAH II,
+EMPEROR OF THE ROMANI,
+Great Duke of the Lands of Horan, Monarch of Sihem and Gerat.
+Most graciously grant the title of TARKHAN OF THE FLEET to Grand Duke Mark Sayadi Salemsky, thus granting him command over the ships of the Imperial Fleet at his sole discretion, the number of which shall be in accordance with his title.
+May God grant him the wisdom to use the power with which he has been entrusted for the good and honor of the Romani.
+Issued in the city of Salem, on the 9th month of the year 214 of the Dynasty.
+Written by His Imperial Majesty抯 own hand:
+LEAVE THE CAPTAIN'S CABIN
+
+#GUI_fleet_panel_01_1
+MISSILE CONTROL
+SELECT TYPE AND AMOUNT
+LAUNCH
+DETACHMENT
+DETACHMENT FUEL STOCK
+FUELING CONTROL
+SUDDEN STRIKE PROBABILITY
+RADAR
+IR (infrared)
+SHORT
+LONG
+
+#GUI_spo_casing	NO ELINT (electronic intelligence)
+
+#GUI_spo_panel
+ELECTRONIC INTELLIGENCE
+JAMMERS
+
+#GUI_to_fast	TOO FAST
+#GUI_level_badge	WORLDVIEW
+
+#GUI_shpwrk_back
+信涛鸵哇?欣廖役
+屠忍磐温劳扰 闲闻室?仕姥讶匀世秩?
+窝臀峦叟 绽欣室判妊胰嗜
+闲巫扰 绽欣室判妊胰嗜
+
+#GUI_fleet_panel_04	INTERCOM
+
+#GUI_radio_panel
+RECIEVER MANUAL
+1. SELECT BAND
+2. TUNE SIGNAL
+3. USE DIRECTION FINDER
+SELECT BAND
+TUNNING
+SIGNAL STRENGTH
+AUTO INTERCEPT
+PART OF TRANSMISSION WILL BE LOST!
+POWER IN
+BEARING
+DECRYPTOR
+DIRECTION FINDER MANUAL
+4. ROTATE THE BEARING SET WHEEL TO MAXIMIZE SIGNAL STRENGTH
+5. PRESS SAVE BUTTON
+SAVE
+RADIO POST
+
+#GUI_hlp_flagship	COMMAND SHIP MARK
+
+#GUI_title_continue	CAMPAIGN
+
+#GUI_title_skirmish	SKIRMISH
+
+#GUI_fleet_panel_03
+THRUST
+FLIGHT CRIUSE
+FLIGHT LOITER
+AIR STOP
+TURBINE RPM
+OPEN HATCH ENTER TOWN
+
+#GUI_avion_gun_01	SPEC. SHELL
+
+#GUI_shpwrk_test
+REPAIR
+UNDO
+SELL SHIP
+CASH
+
+#GUI_shipyard_back	AVAILABLE AT THE SHIPYARD
+
+#GUI_cargo_back	SHIP HOLD
+
+#GUI_roll_briefing_l
+GENERAL ALARM
+TO GIVE THE ORDER OF GENERAL ALARM PULL THE LEVER
+
+#GUI_precombat_back
+BATTLE PLANNING
+ALLIES
+ENEMY
+1. ARRANGE YOUR SHIPS
+2. GO INTO BATTLE
+
+#GUI_medal_force	FORCE
+
+#GUI_medal_wisdom	WISDOM
+
+#GUI_medal_kindness	KINDNESS
+
+#GUI_radio_key_back
+CIPHER KEY
+RADIO KEY FORM
+
+#GUI_stock_ship	FLYING RANGE
+
+#GUI_stock_town	REFUELING
+
+#GUI_Scripture_shit_03	He was oppressed, and he was afflicted, yet he opened not his mouth: he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb, so he openeth not his mouth.
+
+#GUI_Scripture_shit_02
+4 Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.
+5 But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.
+6 All we like sheep have gone astray; we have turned every one to his own way; and the LORD hath laid on him the iniquity of us all.
+
+#GUI_Scripture_shit_01
+1 Who hath believed our report? and to whom is the arm of the LORD revealed?
+2 For he shall grow up before him as a tender plant, and as a root out of a dry ground: he hath no form nor comeliness; and when we shall see him, there is no beauty that we should desire him.
+3 He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.
+
+#GUI_title_exit	EXIT
+
+#GUI_title_newgame	NEW GAME
+
+#GUI_title_options	OPTIONS
+
+#GUI_hlp_poster_03
+VOLLEY FIRE
+Allow the full charge up and then fire. Volley fire increases chances to hit an enemy. And you can concentrate on maneuvering while reloading is in progress.
+AMMO CASSETTE WINDOW
+It is easy to estimate the amount of live ammunition.
+READY LIGHT
+This indicator is flashing green when ammo cassette is fully charged.
+
+#GUI_hlp_poster_02
+AFTERBURNERS
+ACTIVATE REHEAT
+Increase thrust while performing defensive or offensive combat maneuvers. It will allow you to evade guided missiles and to gain a positional advantage over your opponents.
+Attention! Reheat for more than several seconds will cause overheating with following emergency shutdown of engines!
+
+#GUI_sign_contamination_big	RADIOACTIVE!
+
+#GUI_hlp_poster_01
+IT扴 SIMPLE!
+TO MOVE
+Defensive maneuvers are crucial, hence one must learn to evade firing lines and to approach targets tangentially.
+TO FIRE
+Try to shoot in bursts. Empty the ammo cassette 鄋d maneuver while recharging.
+
+#GUI_geiger_01	ROENTGENS PER HOUR
+
+#GUI_fleet_hatch	OPEN CLOSE
+
+#GUI_session_time	SESSION TIME
+
+#GUI_radar_panel
+OFF ON
+GROUND
+CONTACT
+BEARING
+SECTOR SEARCH
+
+#GUI_sonar_panel
+IR SEARCH
+CONTACT
+TRACK
+
+#GUI_Scripture_shit_00
+13 See, my servant will act wisely; he will be raised and lifted up and highly exalted.
+14 Just as there were many who were appalled at him ?his appearance was so disfigured beyond that of any human being and his form marred beyond human likeness ?
+15 so he will sprinkle many nations, and kings will shut their mouths because of him. For what they were not told, they will see, and what they have not heard, they will understand.
+
+#GUI_badge_promotion	SELECT PROMOTION
+
+#GUI_medal_wealth	WEALTH
+
+#GUI_medal_faith	FAITH
+
+#GUI_medal_gerat	GERAT
+
+#GUI_medal_romani	ROMANI
+
+#GUI_medal_fear	FEAR
+
+#GUI_ammo_register
+MY SPECIAL AMMUNITION REGISTER
+CAL.
+TYPE
+PCS
+
+#GUI_button_low_fuel_on	FUEL
+
+#GUI_button_refuel_on	REFUEL
+
+#GUI_hlp_poster_04
+BATTLE ORDER
+DRAG'N'DROP
+Before a battle, you can change the order of your ships. Place the fighting ships forward, and the damaged ships and support ships in the end to protect them.
+
+#GUI_hlp_poster_05
+PRIZE SHIP
+TRANSPORT
+Transport ship will surrender if you destroy his escort. Try not to damage the transport, so that it can be sold for a good price.
+
+#GUI_radio_button	RADIO SIGNAL
+
+#GUI_hlp_poster_city_01
+LANDING
+MOVE
+ROTATE
+Gently lower the ship at the landing point without damaging it.
+
+#GUI_sonar_casing
+FRAGILE ELECTRONIC EQUIPMENT
+
+#GUI_preselect_caption	EXPEDITION
+
+#GUI_spo_alarm	ALERT
+#GUI_spo_alarm_02	DANGER CLOSE
+
+#GUI_loot_slider	MOVE
+
+#GUI_hlp_poster_07
+EMERGENCY ACTION PLAN IN CASE OF FIRE
+PRESS THE BUTTON
+If FSS modules are installed and charged, firefighting will take place automatically.
+CHARGED FIRE PROTECTION MODULES
+Here the number of operational FSS modules is shown.
+FUEL TEMPERATURE
+An ignition within the fuel system will activate the audible alarm.
+
+#GUI_press_mouse	PRESS MOUSE BUTTON
+
+
+
+#EXTRA6 (need to be added to localisation) ///////////////////////////////////////////////////
+
+#LANDING_STAT_DAMAGE	DAMAGE:
+#LANDING_STAT_EXPENDABLES	EXPENDABLES:
+#LANDING_STAT_RADIATION	RADIATION:
+#LANDING_STAT_USVH	 uSv/h
+
+#STATS_FEAR_EXTRA1	People fear you more
+#STATS_FEAR_EXTRA2	People fear you less
+
+#SHIP_NAME_Fearsome	Fearsome
 
 #END_OF_FILE
 
