@@ -44,11 +44,7 @@ $字体名称*内容*
 
 对于不在字库的字体，可以自己制作，制作办法已附于jupyter内。
 
-在线文档：
 
-[**https://docs.qq.com/doc/DTWxTeFBpc2daZ3ZJ**
-
-[](https://docs.qq.com/doc/DTWxTeFBpc2daZ3ZJ)
 
 ## How it works 汉化的原理
 
