@@ -33,7 +33,7 @@ def find_all_chara_text(a,font_name):       #输出并返回所有文本出现�
     #font = sorted(font,key = to_pinyin)    #拼音排序
     font = sorted(font)                     #unicode编码排序 #sort by unicode
 
-    print(f'total length:{len(font)}')      #统计字符数 #calculate all chars used
+    print(f'{len(font)} chars',end=' ')      #统计字符数 #calculate all chars used
 
     all_char =''
     for item in font:
@@ -42,7 +42,7 @@ def find_all_chara_text(a,font_name):       #输出并返回所有文本出现�
         os.makedirs('.\\int_files\\font')
     if os.path.exists(f'.\\int_files\\font\\{font_name}all_char.txt'):              #check if {font_name}all_char.txt already exists,if exists,
         if compare(f'.\\int_files\\font\\{font_name}all_char.txt',all_char):        #message will pop to inform you that you need to redraw tex file
-            print(f'{font_name}字符集内字符发生改变，请重新绘制Tex')                   
+            print(f'字符集内字符发生改变，请重新绘制Tex')                   
             #print(f'{font_name} char set has changed,please redraw Tex file.')
 
     g = open(f'.\\int_files\\font\\{font_name}all_char.txt','w',encoding='utf-8')   #generate {font_name}all_char.txt to .\int_files\{font_name}all_char.txt

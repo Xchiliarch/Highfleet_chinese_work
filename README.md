@@ -2,7 +2,7 @@
 
 发行版汉化地址：[下载](https://github.com/Xchiliarch/Highfleet_chinese_work/releases)
 
-![logo长](https://raw.githubusercontent.com/Xchiliarch/Xchiliarch_Image_Host/master/logo%E9%95%BF.png)
+<img src="https://raw.githubusercontent.com/Xchiliarch/Xchiliarch_Image_Host/master/logo%E9%95%BF.png" alt="logo长" style="zoom:50%;" />
 
 本项目为生成汉化文件的源代码，如只想生成默认的汉化（即与Release内相同的汉化文件），
 
@@ -16,33 +16,7 @@ DOOM_SLAYER为一艘魔改的无敌舰船，用于快速完成战斗测试汉化
 
 当然你卡关了也可以用。请不要在船坞内用它进行测试战，会使得游戏闪退
 
-**警告：DOOM_SLAYER无法运行于v1.161版本游戏。**
-
-
-
-## **如何更改字体**
-
-对于存在于字库中的字体，你只需要如下所示
-
-![img](https://docimg5.docs.qq.com/image/AgAABTTvR0xQDEyS0sRIuq-aXA1_aFi2.png?w=796&h=152)
-
-![img](https://docimg2.docs.qq.com/image/AgAABTTvR0yWY7s1La1IZK7LObdB7ddt.png?w=769&h=44)
-
-对想要改变字体的部分使用如下格式
-
-
-
-```
-$字体名称*内容*
-```
-
-
-
-即可完成字体转换。请严格遵守格式使用Latin半角字符*与$。
-
-**中文输入法下输入￥无法识别**
-
-对于不在字库的字体，可以自己制作，制作办法已附于jupyter内。
+**DOOM_SLAYER仅适用于v1.161版本游戏。（更新版本不保证运行）**
 
 
 
