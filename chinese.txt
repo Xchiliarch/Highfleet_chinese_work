@@ -151,7 +151,7 @@
 #CARD_PRESENT5	$SH20_DIRT*格瑞特旗帜*
 #CARD_PRESENT_SLAVE	$SH20_DIRT*奴隶少女*
 
-#TOKEN_SAID	{font=dinpro_30_black}{align=2}{color=4293584078}说过了
+#TOKEN_SAID	{align=2}说过了
 
 #EDITOR_TOTAL_REPAIR_TIME	TOTAL REPAIR TIME
 #EDITOR_TOTAL_REPAIR_COST	TOTAL REPAIR COST
@@ -518,17 +518,17 @@
 
 
 
-#GAME_DISCONECTED	THE MODULE IS NOT CONNECTED TO THE SHIP.
-#GAME_COVERED	BLOCKED BY ANOTHER MODULE.FUNCTIONING IS NOT POSSIBLE.
-#GAME_NOPOWER	NO ELECTRICITY. FUNCTIONING IS NOT POSSIBLE.
-#GAME_NOAMMOBOX	NEED AN AMMO MODULE. FUNCTIONING IS NOT POSSIBLE.
-#GAME_DMG_HI	HEAVY DAMAGE SUSTAINED. PERFORMANCE GREATLY REDUCED.
-#GAME_DMG_MED	MEDIUM DAMAGE SUSTAINED. PERFORMANCE SIGNIFICANTLY REDUCED.
-#GAME_DMG_LOW	MINOR DAMAGE SUSTAINED. PERFORMANCE SLIGHTLY REDUCED.
-#GAME_DMG_RAD	INDUCED RADIOACTIVITY IN EFFECT. MODULE HAZARDOUS TO CREW.
-#GAME_DMG_RAD_SHRT	(RADIOACTIVE)
-#GAME_DMG_REPAIR1	THE MODULE IS SCHEDULED FOR INSTALLATION.
-#GAME_DMG_REPAIR2	THE MODULE IS IN THE PROCESS OF REPAIR.
+#GAME_DISCONECTED	$SH20_BLACK*该部件未连接到船体*
+#GAME_COVERED	$SH20_BLACK*被另一部件阻挡@部件可能无法正常工作*
+#GAME_NOPOWER	$SH20_BLACK*无电力@部件可能无法正常工作*
+#GAME_NOAMMOBOX	$SH20_BLACK*需要弹药@部件无法正常工作*
+#GAME_DMG_HI	$SH20_BLACK*遭受严重损伤@性能大幅下降*
+#GAME_DMG_MED	$SH20_BLACK*遭受中等损伤@性能明显下降*
+#GAME_DMG_LOW	$SH20_BLACK*遭受轻微损伤@性能略有下降*
+#GAME_DMG_RAD	$SH20_BLACK*遭受辐射@该模组对船员有害*
+#GAME_DMG_RAD_SHRT	$SH20_BLACK*（辐射性）*
+#GAME_DMG_REPAIR1	$SH20_BLACK*@该模组已计划安装*
+#GAME_DMG_REPAIR2	$SH20_BLACK*@该模组已计划修理*
 
 #WE_GOT	YOU RECEIVED
 #LOGBOOK	THE SHIP'S@LOG
@@ -847,7 +847,7 @@
 
 #TUTORIAL_SILENT_STRIKE_4	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><NOBOTTOM><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}选择您的分舰队里最快的船（根据她们的速度值）。
 
-#TUTORIAL_SILENT_STRIKE_5	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0。8><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}加入更多船到突击编队里。
+#TUTORIAL_SILENT_STRIKE_5	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}加入更多船到突击编队里。
 
 #TUTORIAL_SILENT_STRIKE_6	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}这艘船太慢了。不太可能偷袭敌人。@换成另一艘船。
 
@@ -1037,7 +1037,7 @@
 
 #ISAIAH_0_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_0_22>{align=2}当舰船落地的那一刻，全城百姓都为您欢呼雀跃。@他们兴高采烈，献上鲜花与礼物。@很明显，他们苦总督（{glossary=Governor,GLOSS_GOVERNOR}）久矣。
 
-#ISAIAH_0_2	<SCR=CONTINUE>{align=2}一位长老{（{glossary=doyen,GLOSS_DOYEN}）派出的信使前来谒见。@他说长老迫切地想与我们会面，@然而他身体老迈，无法亲自成行。
+#ISAIAH_0_2	<SCR=CONTINUE>{align=2}一位长老（{glossary=doyen,GLOSS_DOYEN}）派出的信使前来谒见。@他说长老迫切地想与我们会面，@然而他身体老迈，无法亲自成行。
 
 #ISAIAH_0_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>大公阁下，现在下船可能颇有些风险。
 
@@ -1539,9 +1539,9 @@
 
 #MEETING_15	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}我只想还天下人民以自由，@因这是他们本就应得之物。
 
-#MEETING_16	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}如今我们已经推翻帝国统治，建立起了一个共和国。@而现在只有一物阻碍着人民重获自由：你。
+#MEETING_16	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}{align=2}如今我们已经推翻帝国统治，建立起了一个共和国。@而现在只有一物阻碍着人民重获自由：你。
 
-#MEETING_17	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>因而对你面前的命运，@我问心无愧。
+#MEETING_17	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}因而对你面前的命运，@我问心无愧。
 
 #MEETING_18	<NPC=GOVERNOR><SIDE=0><NOSPEAK><FADEAWAY=1><SCR=GOVERNOR_ANSWERS>{align=2}总督（{glossary=Governor,GLOSS_GOVERNOR}）看向别处。@似乎言尽于此。
 
@@ -1719,7 +1719,7 @@
 #KHIVA_LANDING_16	<SCR=STOP>彼得是对的。一纸最后通牒很快发至。
 
 
-#TELEGRAM_ULTIMATUM	$MC20_BLACK*   至罗马尼远征舰队司令@10   埃拉特门阀集众在此要求你将全部罗马尼舰船立即撤出希瓦。@10   你有8小时服从通牒，@   否则门阀各族联合舰队将以核打击毁灭希瓦城。*
+#TELEGRAM_ULTIMATUM	$MC20_BLACK* 致罗马尼远征舰队司令@5   埃拉特门阀集众在此要求你将@ 全部罗马尼舰船立即撤出希瓦。@5   你有8小时服从通牒，@ 否则门阀各族联合舰队将以核打击毁灭希瓦城。*
 
 
 #KHIVA_ULTIMATUM_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>他们将不惜一切代价。
@@ -1836,9 +1836,9 @@
 
 #PETR_DEPARTURE_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><MUSIC=Duduk_4_ever>大公阁下，如果可以的话…
 
-#PETR_DEPARTURE_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我想谢谢您把我拽出这让人抓狂的烂摊子。@我差点犯下滔天大罪。
+#PETR_DEPARTURE_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我想谢谢您把我@拽出这让人抓狂的烂摊子。@我差点犯下滔天大罪。
 
-#PETR_DEPARTURE_3	<NPC=PETR><SIDE=1><SCR=STOP|PETR=3>{align=2}事到如今，我也不明白您怎么会猜到我想干什么…@但我欠您一大笔人情。
+#PETR_DEPARTURE_3	<NPC=PETR><SIDE=1><SCR=STOP|PETR=3>{align=2}事到如今，我也不明白@您怎么会猜到我想干什么…@但我欠您一大笔人情。
 
 #PETR_DEPARTURE_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>而这反而令我更不知该如何开口了。
 
@@ -1846,7 +1846,7 @@
 
 #PETR_DEPARTURE_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我知道当下处境艰难，每一门炮每一个人都不能浪费，@我现在却向您索要一整艘船…但是求您了，让我试试吧！
 
-#PETR_DEPARTURE_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我要去追上达乌德。我想向他解释清楚我的想法，@或许还有希望说服他来协助您的伟业。
+#PETR_DEPARTURE_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我要去追上达乌德。@我想向他解释清楚我的想法，@或许还有希望说服他来协助您的伟业。
 
 #PETR_DEPARTURE_8	<NPC=PETR><SIDE=1>{align=2}我和他有多年的交情。@有些事情我应该告知他的。
 <ANS=就算达乌德真的听进你的话，彼得，现在掉头朝南也简直是疯了！|PETR_DEPARTURE_9>
@@ -2163,7 +2163,7 @@
 
 #HELLO_AIRBORNE_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>您惊讶地看见一群奇怪的人在向您走来—至少十几个人，@装备精良且身穿突击护甲。
 
-#HELLO_AIRBORNE_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>{align=2}这些兵士的盔甲和面容都留下了长久军旅生涯所锤炼的痕迹。@然而他们的金星奖章被擦得锃亮，手中的钢枪尽管颇有磨损，@却用崭新的枪油擦得油光闪闪。
+#HELLO_AIRBORNE_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>{align=2}这些兵士的盔甲和面容都@留下了长久军旅生涯所锤炼的痕迹。@然而他们的金星奖章被擦得锃亮，手中的钢枪@尽管颇有磨损，却用崭新的枪油擦得油光闪闪。
 
 #HELLO_GREETING_AIRBORNE_01	日安，大人！|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=-1
 
@@ -2359,11 +2359,11 @@
 
 
 
-#HAZARD_EVENT_RADIATION_01	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*核辐射*@10 {animation=event_accident} @30{shift=0}{align=2} 由于您在搜救行动中的决策疏忽，有多名舰员在行动中遭受了致命级别的辐射照射。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_RADIATION_01	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*核辐射*@10 {animation=event_accident} @30{shift=0}{align=2} 由于您在搜救行动中的决策疏忽，@有多名舰员在行动中遭受了致命级别的辐射照射。<SCR=STOP|CREW=-10|MORAL=-1>
 
-#HAZARD_EVENT_POISON_01	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*毒气事故*@10 {animation=event_accident} @30{shift=0}{align=2}由于燃烧的绝缘材料释放出大量光气，多名舰员吸入有毒烟雾后丧生。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_POISON_01	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*毒气事故*@10 {animation=event_accident} @30{shift=0}{align=2}由于燃烧的绝缘材料释放出大量光气，@多名舰员吸入有毒烟雾后丧生。<SCR=STOP|CREW=-10|MORAL=-1>
 
-#HAZARD_EVENT_SCARE_01	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*创伤后遗症*@10 {animation=event_noimage} @30{shift=0}{align=2}别看了，别去看。@20 遭受到在行动中随时可能丧生的压力，归舰的舰员们产生了一些心理问题。<SCR=STOP|MORAL=-1>
+#HAZARD_EVENT_SCARE_01	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*创伤后遗症*@10 {animation=event_noimage} @30{shift=0}{align=2}别看了，别去看。@20 遭受到在行动中随时可能丧生的压力，@归舰的舰员们产生了一些心理问题。<SCR=STOP|MORAL=-1>
 
 #RESCUE_SURVIVORS	SEARCH FOR SURVIVORS
 #RESCUE_SURVIVORS_DESC	50% chance of finding survivors among the debris.
@@ -2511,15 +2511,15 @@
 #MDL_CANNON_130_SDESC	CANNON
 #MDL_CANNON_130_DESC	A 130mm medium-caliber automatic cannon.
 
-#MDL_CANNON_180	ÌÊ-1-180
+#MDL_CANNON_180	MK-1-180
 #MDL_CANNON_180_SDESC	CANNON
 #MDL_CANNON_180_DESC	A 180mm single barrel large-caliber cannon.
 
-#MDL_CANNON_180_2	ÌÊ-2-180 SARMAT
+#MDL_CANNON_180_2	MK-2-180 SARMAT
 #MDL_CANNON_180_2_SDESC	CANNON
 #MDL_CANNON_180_2_DESC	A 180mm large-caliber twin cannon.
 
-#MDL_CANNON_305_2	ÌÊ-6-180 SQUALL
+#MDL_CANNON_305_2	MK-6-180 SQUALL
 #MDL_CANNON_305_2_SDESC	CANNON
 #MDL_CANNON_305_2_DESC	A 180mm six-barreled heavy main battery.
 
@@ -2740,15 +2740,19 @@
 #MDL_ENGINE_06	06 ENGINE
 
 #MDL_ENGINE_LARGE_01	L-01 ENGINE
-
-
-
 #MDL_ENGINE_LARGE_01	L-01 ENGINE
 
+#MDL_ARMOR1X1_03_666	DOOM ARMOR
+#MDL_ARMOR1X1_03_666_DESC	DOOM ARMOR for testing localization.
 
+#MDL_ARMOR1X1_04_666	DOOM ARMOR
+#MDL_ARMOR1X1_04_666_DESC	DOOM ARMOR for testing localization.
 
-#MDL_ARMOR1X1_666	DOOM ARMOR
-#MDL_ARMOR1X1_666_DESC	DOOM ARMOR for testing localization.
+#MDL_ARMOR2X1_666	DOOM ARMOR
+#MDL_ARMOR2X1_666_DESC	DOOM ARMOR for testing localization.
+
+#MDL_ARMOR1X1_01_666	DOOM ARMOR
+#MDL_ARMOR1X1_01_666_DESC	DOOM ARMOR for testing localization.
 
 #MDL_ENGINE_666_FIXED	FIXED DOOM ENGINE
 #MDL_ENGINE_666_FIXED_DESC	FIXEDDOOM ENGINE for testing localization.
@@ -2773,16 +2777,26 @@
 
 #MDL_KAZ_666	DOOM APS
 #MDL_KAZ_666_SDESC	APS
-#MDL_KAZ_666_DESC	DOOM active protection system (APS) for testing localization.
+#MDL_KAZ_666_DESC	DOOM APS for testing localization.
 
 #MDL_RADAR_666	DOOM RADAR
 #MDL_RADAR_666_SDESC	RADAR
 #MDL_RADAR_666_DESC	DOOM RADAR for testing localization.
 
+#MDL_FCR_02_666	DOOM FCR
+#MDL_FCR_02_666_SDESC	FCR
+#MDL_FCR_02_666_DESC	DOOM FCR for testing localization.
+
 #MDL_FLARES_666	DOOM_FLARES
 #MDL_FLARES_666_SDESC	FLARES
 #MDL_FLARES_666_DESC	DOOM flare dispenser for testing localization.
 #MDL_FLARES_666_KEY	PRESS {animation=key_f} TO FIRE DECOY FLARES.
+
+#MDL_MISSILE_666	DOOM INTERCEPT MISSLE
+#MDL_MISSILE_666_SDESC	AA MISSILE
+#MDL_MISSILE_666_DESC	DOOM AAM for testing localization.
+#MDL_MISSILE_666_KEY	PRESS {animation=key_c} TO LAUNCH AN INTERCEPTOR MISSILE.
+
 
 #ANS_REACT_PRESENT_01	这简直是无价之宝！
 #ANS_REACT_PRESENT_02	实在是厚礼一件，在下不胜感激。
@@ -2871,29 +2885,29 @@
 
 
 
-#SPEECH_FEAR_01	{align=2}$SH20_LSAND*谈及@萨亚迪是@多么优秀的盟友@和多么可怕的敌人*
-#SPEECH_NOFEAR_01	{align=2}$SH20_LSAND*谈及@您对此位塔可汗的敬重*
+#SPEECH_FEAR_01	{align=2}$SH20_LSAND*谈及@萨亚迪是多么@优秀的盟友和@多么可怕的敌人*
+#SPEECH_NOFEAR_01	{align=2}$SH20_LSAND*谈及@您对此位@塔可汗的敬重*
 
-#SPEECH_ROMANI_01	{align=2}$SH20_LSAND*谈及@罗马尼帝国的天命*
+#SPEECH_ROMANI_01	{align=2}$SH20_LSAND*谈及@罗马尼帝国@的天命*
 #SPEECH_NOROMANI_01	{align=2}$SH20_LSAND*谈及@罗马尼帝国@将至的衰落*
 
 #SPEECH_GERAT_01	{align=2}$SH20_LSAND*谈及@格瑞特人@光明的未来！*
-#SPEECH_NOGERAT_01	{align=2}$SH20_LSAND*谈及@以拦人需要@依附于罗马尼帝国*
+#SPEECH_NOGERAT_01	{align=2}$SH20_LSAND*谈及@以拦人需要依附@于罗马尼帝国*
 
-#SPEECH_FAITH_01	{align=2}$SH20_LSAND*谈及@在乱世中@信仰虔诚是何等重要*
+#SPEECH_FAITH_01	{align=2}$SH20_LSAND*谈及@在乱世中@信仰虔诚@是何等重要*
 #SPEECH_NOFAITH_01	{align=2}$SH20_LSAND*谈及@信仰和@与其同至的迷信@是多么危险*
 
-#SPEECH_RIGHT_01	{align=2}$SH20_LSAND*谈及@遍布格瑞特的不公*
-#SPEECH_NORIGHT_01	{align=2}$SH20_LSAND*谈及@弱者是如何诉诸@大义来削弱强者*
+#SPEECH_RIGHT_01	{align=2}$SH20_LSAND*谈及@遍布格瑞特@的不公*
+#SPEECH_NORIGHT_01	{align=2}$SH20_LSAND*谈及@弱者是如何@诉诸大义来@削弱强者*
 
-#SPEECH_FORCE_01	{align=2}$SH20_LSAND*谈及@对希瓦的战争@以及为何这场战争@不可避免*
+#SPEECH_FORCE_01	{align=2}$SH20_LSAND*谈及@对希瓦的战争@及为何这场战争@不可避免*
 #SPEECH_NOFORCE_01	{align=2}$SH20_LSAND*谈及@需要立刻停战@及其必要性*
 
-#SPEECH_WEALTH_01	{align=2}$SH20_LSAND*谈及@在格瑞特@等待胜者的@无尽财宝*
+#SPEECH_WEALTH_01	{align=2}$SH20_LSAND*谈及@在格瑞特等待@胜者的无尽财宝*
 #SPEECH_NOWEALTH_01	{align=2}$SH20_LSAND*谈及@在格瑞特的@为富不仁之辈@为何必须被推翻*
 
-#SPEECH_KINDNESS_01	{align=2}$SH20_LSAND*谈及@百姓的苦难@和您拯救苍生的意愿*
-#SPEECH_NOKINDNESS_01	{align=2}$SH20_LSAND*谈及@现在已然@无暇顾及妇人之仁了*
+#SPEECH_KINDNESS_01	{align=2}$SH20_LSAND*谈及@百姓的苦难和您@拯救苍生的意愿*
+#SPEECH_NOKINDNESS_01	{align=2}$SH20_LSAND*谈及@现在已然无暇@顾及妇人之仁了*
 
 
 #GLOSS_CONTINUE	按 空格键 以继续
@@ -3840,7 +3854,7 @@
 
 #KISHTIM_SPEECH_9	<NPC=BOY><SCR=CONTINUE>{align=2}这座城市本来是由沙克西人（{glossary=Shakhsi,GLOSS_SHAKHSI}）的公爵所统治的。@埃劳家族（{glossary=Elaou,GLOSS_ELAOU}）入侵格瑞特的时候，@他们占领了基什蒂姆，把它定为王都。
 
-#KISHTIM_SPEECH_10	<NPC=BOY>{align=2}古老的传说里说会有叫做沙克尔—阿尔—法拉赫（{glossary=Shakhor-Al-Farakh,GLOSS_SHAKOR}）的一天，@“黯夜之日，”到了那一天，全世界的人一定要集中到基什蒂姆。<ANS=我听说希瓦的核反应堆和别的地方的不同。是这样吗？|KISHTIM_SPEECH_11>
+#KISHTIM_SPEECH_10	<NPC=BOY>{align=2}古老的传说里说会有@叫做沙克尔—阿尔—法拉赫（{glossary=Shakhor-Al-Farakh,GLOSS_SHAKOR}）的一天，@“黯夜之日，”到了那一天，全世界的人一定要集中到基什蒂姆。<ANS=我听说希瓦的核反应堆和别的地方的不同。是这样吗？|KISHTIM_SPEECH_11>
 
 #KISHTIM_SPEECH_11	<NPC=BOY>{align=2}他们说这个反应堆被一个巨大的穹顶罩着，@穹顶有两千多肘尺宽。<ANS=这样大的穹顶应该足够上千人在里面安全地生活。|EXIT>
 
@@ -4394,7 +4408,7 @@
 
 #TUTORIAL_SCAVENGE_3	<NPC=PETR><SCR=CONTINUE>{align=2}但是动作一定要快。火势会蔓延。@很快残骸就要被烧光了。
 
-#TUTORIAL_SCAVENGE_4	<NPC=PETR><SCR=STOP>{align=2}还有…出外小心，公爵阁下。@许多事物都太危险了。
+#TUTORIAL_SCAVENGE_4	<NPC=PETR><SCR=STOP>{align=2}还有…外出小心，公爵阁下。@许多事物都太危险了。
 
 
 
@@ -4847,13 +4861,13 @@
 
 
 
-#HAZARD_EVENT_POISON_02	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}大火中一块承重结构墙体就在人员头上发生垮塌，数名船员因此丧生。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_POISON_02	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}大火中一块承重结构墙体就在人员头上发生垮塌，@数名船员因此丧生。<SCR=STOP|CREW=-10|MORAL=-1>
 
-#HAZARD_EVENT_POISON_03	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}船员在执行灭火作业时，一个压缩空气罐体发生爆炸。爆炸破片撕碎了数名船员。<SCR=STOP|CREW=-5|MORAL=-1>
+#HAZARD_EVENT_POISON_03	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}船员在执行灭火作业时，@一个压缩空气罐体发生爆炸。@爆炸破片撕碎了数名船员。<SCR=STOP|CREW=-5|MORAL=-1>
 
-#HAZARD_EVENT_POISON_04	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}电池中所含氢气在大火中爆炸。数名船员在爆炸中丧生。<SCR=STOP|CREW=-10|MORAL=-1>
+#HAZARD_EVENT_POISON_04	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}电池中所含氢气在大火中爆炸。@数名船员在爆炸中丧生。<SCR=STOP|CREW=-10|MORAL=-1>
 
-#HAZARD_EVENT_POISON_05	<EVENT_CARD> {shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}船员在执行灭火作业时，一块灭火泡沫飞溅到裸露电线上。数名船员触电丧生。<SCR=STOP|CREW=-2|MORAL=-1>
+#HAZARD_EVENT_POISON_05	<EVENT_CARD> {shift=0}{align=2}$SH40_WHITE*事故*@10 {animation=event_accident} @30{align=2}船员在执行灭火作业时，@一块灭火泡沫飞溅到裸露电线上。@数名船员触电丧生。<SCR=STOP|CREW=-2|MORAL=-1>
 
 
 
@@ -5125,20 +5139,20 @@
 
 
 
-#SPEECH_FEAR_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@萨亚迪是@多么优秀的盟友@和多么可怕的敌人*
+#SPEECH_FEAR_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@萨亚迪是@多么优秀的盟友@多么可怕的敌人*
 #SPEECH_NOFEAR_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@您对总督的敬重*
 
-#SPEECH_ROMANI_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@罗马尼帝国的天命*
-#SPEECH_NOROMANI_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@罗马尼帝国将至的衰落*
+#SPEECH_ROMANI_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@罗马尼帝国@的天命*
+#SPEECH_NOROMANI_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@罗马尼帝国@将至的衰落*
 
-#SPEECH_GERAT_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@格瑞特人光明的未来！*
-#SPEECH_NOGERAT_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@以拦人需要@依附于罗马尼帝国*
+#SPEECH_GERAT_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@格瑞特人@光明的未来！*
+#SPEECH_NOGERAT_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@以拦人需要@依附于罗马尼@帝国*
 
-#SPEECH_FAITH_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@在乱世中@信仰虔诚是何等重要*
-#SPEECH_NOFAITH_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@信仰和@与其同至的迷信@是多么危险*
+#SPEECH_FAITH_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@在乱世中@信仰虔诚@是何等重要*
+#SPEECH_NOFAITH_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@信仰和@与其同至的@迷信是多么危险*
 
 #SPEECH_RIGHT_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@遍布格瑞特的不公*
-#SPEECH_NORIGHT_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@弱者是如何诉诸@大义来削弱强者*
+#SPEECH_NORIGHT_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@弱者是如何@诉诸大义来@削弱强者*
 
 #SPEECH_FORCE_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@对集众叛军的@征讨及其必要性*
 #SPEECH_NOFORCE_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@需要立刻停战@及其必要性*
@@ -5146,8 +5160,8 @@
 #SPEECH_WEALTH_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@等待着@胜者的无尽财宝*
 #SPEECH_NOWEALTH_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@压迫人民的富人@必须被打倒*
 
-#SPEECH_KINDNESS_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@百姓的苦难@和您拯救苍生的意愿*
-#SPEECH_NOKINDNESS_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@现在已然@无暇顾及妇人之仁了*
+#SPEECH_KINDNESS_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@百姓的苦难和您@拯救苍生的意愿*
+#SPEECH_NOKINDNESS_GOVERNOR_01	{align=2}$SH20_LSAND*谈及@现在已然无暇@顾及妇人之仁了*
 
 #BUY_SHIPS_LIST	舰船列表
 #BUY_NO_SHIPS	无舰船
@@ -5326,7 +5340,7 @@
 #HELLO_RES_LIKE_GOVERNOR	<NPC=HIRE><APPROVE>很好。我会加入你们，公爵阁下。<ANS=那就随我来吧。我们有千言万语需要谈论。|EXIT|DIPDIALOG_WIN>
 #HELLO_RES_LIKE2_GOVERNOR	<NPC=HIRE><APPROVE>不。我不会参与你们的游戏。<ANS=我很遗憾。|MEETING_FIGHT>
 #HELLO_RES_DESLIKE_GOVERNOR	<NPC=HIRE><APPROVE>不，公爵。<ANS=我很遗憾。|MEETING_FIGHT>
-#HELLO_RES_UNFEAR_GOVERNOR	<NPC=HIRE><APPROVE>否。绝不。<ANS=我很遗憾。|MEETING_FIGHT>
+#HELLO_RES_UNFEAR_GOVERNOR	<NPC=HIRE><APPROVE>不。绝不。<ANS=我很遗憾。|MEETING_FIGHT>
 
 #SHIP_DESC_GEPARD	一种强大且技术尖端的防空舰，她载有足够的重火力和坚固的防护，@面对更轻，更快的舰艇时也能存活甚至取胜。@但不要得意忘形—用这种战舰来缠斗实在过于昂贵了。
 #SHIP_DESC_SEVASTOPOL	罗马尼帝国重型巡空舰中的旗舰型号，@被预想为大型打击群的舰队核心。@她有着帝国舰队当中无与伦比的航程和火力，@哪怕在落单的情况下也非同小可。@10这艘巡空舰刚刚完成建造就被投入现役，@因此还有许多子系统还未装上。
@@ -5357,9 +5371,9 @@
 
 #TOTAL_WAR_INFO	{max=520}{align=2}$SH40_SAND*全面战争*@10{align=2}金钱如今毫无意义。燃料，弹药，维修现在都已经免费提供。@大灾变就在眼前，许多格瑞特人民都愿意加入您的战斗。<SCR=STOP>
 
-#MILITARY_CRIME	战争罪行
-#RAM_1	命令
-#RAM_2	决死撞击
+#MILITARY_CRIME	WAR CRIME
+#RAM_1	ORDER
+#RAM_2	RAMMING
 
 
 
@@ -5749,6 +5763,8 @@ An ignition within the fuel system will activate the audible alarm.
 #STATS_FEAR_EXTRA2	People fear you less
 
 #SHIP_NAME_Fearsome	Fearsome
+
+#TITLE_CONTROLS_HOTSEAT	Controller(BETA)
 
 #END_OF_FILE
 
