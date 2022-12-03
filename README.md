@@ -1,6 +1,9 @@
 # 使用说明
 
-发行版汉化地址：[下载](https://github.com/Xchiliarch/Highfleet_chinese_work/releases)
+测试版汉化地址：[下载](https://github.com/Xchiliarch/Highfleet_chinese_work/releases)
+
+（**本项目为汉化项目的工作流，release已不是最新版本的汉化文件，汉化也不再适用于v1.161后的游戏版本**。
+如想要获取最新版本的游戏汉化，请到[Highfleet汉化补丁]( https://github.com/Xchiliarch/Highfleet-Chinese-localization)处获取）
 
 <img src="https://raw.githubusercontent.com/Xchiliarch/Xchiliarch_Image_Host/master/logo%E9%95%BF.png" alt="logo长" style="zoom:50%;" />
 
