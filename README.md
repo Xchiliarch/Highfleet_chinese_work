@@ -6,17 +6,9 @@
 
 本项目为生成汉化文件的源代码，如只想生成默认的汉化（即与Release内相同的汉化文件），
 
-只需要Pip安装Requirements.txt后依次运行下列代码，即可在build文件夹内生成所有汉化用文件
+只需要Pip安装Requirements&Fonts.txt中的python包，后依次运行下列代码，即可在build文件夹内生成所有汉化用文件
 
-如想要自己修改汉化内容或添加字体，请根据文件内指示进行操作。
-
-
-
-DOOM_SLAYER为一艘魔改的无敌舰船，用于快速完成战斗测试汉化
-
-当然你卡关了也可以用。请不要在船坞内用它进行测试战，会使得游戏闪退
-
-**DOOM_SLAYER仅适用于v1.161版本游戏。（更新版本不保证运行）**
+如想要自己修改汉化内容或添加字体，请确保已经安装Requirements&Fonts.txt中的字体，并根据文件内指示进行操作。
 
 
 
@@ -57,6 +49,4 @@ Huge thanks to stopnoanime for decrypting the dialog file of Highfleet , localiz
 感谢所有参与提交汉化问题的群友。
 
 
-
-This project can never be done by me alone.
 

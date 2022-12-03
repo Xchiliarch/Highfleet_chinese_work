@@ -115,7 +115,7 @@
 #FUEL_SELL_LABLE	{align=2}$SH65_SAND*燃料*@40$SH40_SAND*压缩甲烷*
 #AUTO_REPAIR_LABLE	$SH40_LSAND*维修量*
 #AUTO_REPAIR_HELP	$SH20_BLACK*拖动滑条以@安排维修*
-#BUY_FUEL_HELP	$SH20_BLACK*拖动滑条以购买燃料*
+#BUY_FUEL_HELP	$SH20_BLACK*拖动滑条以购买燃料@3鼠标右移以购买特种弹药*
 #EMPTY_LABLE	EMPTY
 #PAUSE_LABLE	PAUSE
 #PAUSE_NOTE_LABLE	press SPACE to pause
@@ -284,12 +284,12 @@
 
 
 
-#HLP_MAPMODE_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=vcr_12}RIGHT CLICK@TO NAVIGATE
-#HLP_MAPMODE_02	 @6 {animation=hlp_mapmode_02} @10{color=4294967295}{align=2}{font=vcr_12}PRESS {animation=key_space}@4TO PAUSE/UNPAUSE
-#HLP_MAPMODE_03	 @6 {animation=hlp_mapmode_03} @10{color=4294967295}{align=2}{font=vcr_12}HOLD {animation=key_shift}@4TO SPEED UP TIME
-#HLP_MAPMODE_04	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=vcr_12}TURN THE@WHEEL TO ZOOM
-#HLP_EDITOR_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=flash_large_shadow}RIGHT CLICK@TO REPAIR A MODULE
-#HLP_EDITOR_02	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=flash_large_shadow}TURN WHEEL@TO ROTATE A MODULE
+#HLP_MAPMODE_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=vcr_12}$SH16_WHITE*右键@以选择航路*
+#HLP_MAPMODE_02	 @6 {animation=hlp_mapmode_02} @10{color=4294967295}{align=2}{font=vcr_12}$SH16_WHITE*按下{animation=key_space}@4暂停/取消暂停*
+#HLP_MAPMODE_03	 @6 {animation=hlp_mapmode_03} @10{color=4294967295}{align=2}{font=vcr_12}$SH16_WHITE*按住  {animation=key_shift}@4加速时间*
+#HLP_MAPMODE_04	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=vcr_12}$SH16_WHITE*滑动滚轮@缩放*
+#HLP_EDITOR_01	 @6 {animation=hlp_button_right} @10{color=4294967295}{align=2}{font=flash_large_shadow}$SH16_WHITE*右键@维修模组*
+#HLP_EDITOR_02	 @6 {animation=hlp_wheel} @10{color=4294967295}{align=2}{font=flash_large_shadow}$SH16_WHITE*滑动滚轮@旋转模组*
 
 
 #M	m
@@ -526,9 +526,9 @@
 #GAME_DMG_MED	$SH20_BLACK*遭受中等损伤@性能明显下降*
 #GAME_DMG_LOW	$SH20_BLACK*遭受轻微损伤@性能略有下降*
 #GAME_DMG_RAD	$SH20_BLACK*遭受辐射@该模组对船员有害*
-#GAME_DMG_RAD_SHRT	$SH20_BLACK*（辐射性）*
-#GAME_DMG_REPAIR1	$SH20_BLACK*@该模组已计划安装*
-#GAME_DMG_REPAIR2	$SH20_BLACK*@该模组已计划修理*
+#GAME_DMG_RAD_SHRT	$SH20_BLACK*（放射性）*
+#GAME_DMG_REPAIR1	$SH20_BLACK*该模组已计划安装*
+#GAME_DMG_REPAIR2	$SH20_BLACK*该模组已计划修理*
 
 #WE_GOT	YOU RECEIVED
 #LOGBOOK	THE SHIP'S@LOG
@@ -608,85 +608,85 @@
 
 #TUTORIAL_FASIL_3	<EVENT>{align=2}在舱门舷梯的尽头，@一小群人正耐心等待着您的到来。@随扈们簇拥着一位穿着显赫的贵族。<SCR=CONTINUE>
 
-#TUTORIAL_FASIL_4	<NPC=FASIL><SIDE=1><BLUR_MIN=0.05><RAM=1>{align=2}所以…你就是上将派来@同我共商要事的塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）吗？
+#TUTORIAL_FASIL_4	<NPC=FASIL><SIDE=1><BLUR_MIN=0.05><RAM=1>{align=2}$PH20_SAND*所以…你就是上将派来@同我共商要事的塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）吗？*
 <ANS=正是。我是来同您商讨格瑞特（{glossary=Gerat,GLOSS_GERAT}）的解放大业。|TUTORIAL_FASIL_6>
 <ANS=我的名字是马克·萨亚迪—罗马尼帝国的萨亚迪（{glossary=Sayadi,GLOSS_SAYADI}）公爵。|TUTORIAL_FASIL_DUKE_1|FASIL_ANYTIME=1>
 
-#TUTORIAL_FASIL_DUKE_1	<NPC=FASIL><SCR=CONTINUE>{align=2}我明白了。@请原谅我的轻率，大公阁下。@能与您相识真是偌大的荣幸。
+#TUTORIAL_FASIL_DUKE_1	<NPC=FASIL><SCR=CONTINUE>{align=2}$PH20_SAND*我明白了。@请原谅我的轻率，大公阁下。@能与您相识真是偌大的荣幸。*
 
-#TUTORIAL_FASIL_DUKE_2	<NPC=FASIL>{align=2}请不要在意我先前的言行。@我相信埃拉特（{glossary=Elaat,GLOSS_ELAAT}）大地上@两家悠久皇族子嗣一定会相谈甚欢。@（王子礼貌地点了点头。）
+#TUTORIAL_FASIL_DUKE_2	<NPC=FASIL>{align=2}$PH20_SAND*请不要在意我先前的言行。@我相信埃拉特（{glossary=Elaat,GLOSS_ELAAT}）大地上@两家悠久皇族子嗣一定会相谈甚欢。@（王子礼貌地点了点头。）*
 <ANS=我是来同您商讨格瑞特（{glossary=Gerat,GLOSS_GERAT}）的解放大业。|TUTORIAL_FASIL_6>
 
-#TUTORIAL_FASIL_6	<NPC=FASIL>{align=2}“解放？”我们已经和集众叛军（{glossary=Gathering,GLOSS_GATHERING}）@交战整整七年之久，@而父王的王座仍不能归于我手。@现如今，皇帝陛下派来的上将们@却号称要在一周之内拿下整个格瑞特呢！
+#TUTORIAL_FASIL_6	<NPC=FASIL>{align=2}$PH20_SAND*“解放？”我们已经和集众叛军（{glossary=Gathering,GLOSS_GATHERING}）@交战整整七年之久，@而父王的王座仍不能归于我手。@现如今，皇帝陛下派来的上将们@却号称要在一周之内拿下整个格瑞特呢！*
 <ANS=诚然如此。我也坚信他们会旗开得胜。|TUTORIAL_FASIL_7|FASIL_ANYTIME=-1>
 <ANS=谁也说不准，不是吗？|TUTORIAL_FASIL_7>
 
-#TUTORIAL_FASIL_7	<NPC=FASIL>{align=2}我所部将士无法与集众叛军（{glossary=Gathering,GLOSS_GATHERING}）的舰队相抗衡。@敌军的重型巡空舰数量甚至与我们我们的护航艇数量相当。
+#TUTORIAL_FASIL_7	<NPC=FASIL>{align=2}$PH20_SAND*我所部将士无法与集众叛军（{glossary=Gathering,GLOSS_GATHERING}）的舰队相抗衡。@敌军的重型巡空舰数量甚至与我们我们的护航艇数量相当。*
 <ANS=您和手下将士多年来都在坚定抗争。|TUTORIAL_FASIL_8|FASIL_ANYTIME=1>
 <ANS=帝国的第一与第二分舰队会为这场战争扳回劣势。|TUTORIAL_FASIL_8>
 
-#TUTORIAL_FASIL_8	<NPC=FASIL>{align=2}然也，但就算承天之祐，@帝国舰队真的攻占了希瓦（{glossary=Khiva,GLOSS_KHIVA}），@你们下一步又有何图谋呢？
+#TUTORIAL_FASIL_8	<NPC=FASIL>{align=2}$PH20_SAND*然也，但就算承天之祐，@帝国舰队真的攻占了希瓦（{glossary=Khiva,GLOSS_KHIVA}），@你们下一步又有何图谋呢？*
 <ANS=船到桥头自然直。|TUTORIAL_FASIL_10|FASIL_ANYTIME=-1>
 <ANS=我也说不准。|TUTORIAL_FASIL_9>
 <ANS=当然是让格瑞特全域重归帝国（{glossary=Empire,GLOSS_IMPIRE}）统治。|TUTORIAL_FASIL_9|FASIL_ANYTIME=1>
 
-#TUTORIAL_FASIL_9	<NPC=FASIL><SCR=CONTINUE>{align=2}起码，您很诚实。
+#TUTORIAL_FASIL_9	<NPC=FASIL><SCR=CONTINUE>{align=2}$PH20_SAND*起码，您很诚实。*
 
-#TUTORIAL_FASIL_10	<NPC=FASIL><SCR=CONTINUE>{align=2}我会帮您联系格瑞特上@的各位塔可汗（{glossary=Tarkhans,GLOSS_TARKHAN}）。@他们之中的有些人或许能@在战事中助上一臂之力。
+#TUTORIAL_FASIL_10	<NPC=FASIL><SCR=CONTINUE>{align=2}$PH20_SAND*我会帮您联系格瑞特上@的各位塔可汗（{glossary=Tarkhans,GLOSS_TARKHAN}）。@他们之中的有些人或许能@在战事中助上一臂之力。*
 
-#TUTORIAL_FASIL_11	<NPC=FASIL>{align=2}位于卡拉赫（Kalhu）的塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）乃是我一位友人。@若您能与他达成共识，@我坚信他会使您如虎添翼。
+#TUTORIAL_FASIL_11	<NPC=FASIL>{align=2}$PH20_SAND*位于卡拉赫（Kalhu）的塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）乃是我一位友人。@若您能与他达成共识，@我坚信他会使您如虎添翼。*
 <ANS=我们正需要这样的盟友。|TUTORIAL_FASIL_12>
 
-#TUTORIAL_FASIL_12	<NPC=FASIL>{align=2}说来惭愧，大公爵阁下，@若我等能早些得以相识就好了，@而非在如今乱世，兵荒马乱。
+#TUTORIAL_FASIL_12	<NPC=FASIL>{align=2}$PH20_SAND*说来惭愧，大公爵阁下，@若我等能早些得以相识就好了，@而非在如今乱世，兵荒马乱。*
 <ANS=我不觉得这乱世会有什么能困扰您，王子殿下。|TUTORIAL_FASIL_13>
 <ANS=是啊，我们都已见过太多的乱世兵祸了。|TUTORIAL_FASIL_18>
 
-#TUTORIAL_FASIL_13	<NPC=FASIL>{align=2}您指的是什么意思，大公爵阁下？
+#TUTORIAL_FASIL_13	<NPC=FASIL>{align=2}$PH20_SAND*您指的是什么意思，大公爵阁下？*
 <ANS=对于罗马尼来说，你们以拦人的小打小闹很难称得是什么乱世。|TUTORIAL_FASIL_19|FASIL_ANYTIME=-1>
 <ANS=这乱世对你我而言岂不正好吗。|TUTORIAL_FASIL_14>
 
-#TUTORIAL_FASIL_14	<NPC=FASIL>{align=2}“对于你我…岂不正好？”
+#TUTORIAL_FASIL_14	<NPC=FASIL>{align=2}$PH20_SAND*“对于你我…岂不正好？”*
 <ANS=因为乱世出英雄啊。|TUTORIAL_FASIL_15>
 <ANS=对每一位塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）而言，战争是军事才华的试金石。|TUTORIAL_FASIL_18>
 
-#TUTORIAL_FASIL_15	<NPC=FASIL><NOSPEAK>{align=2}法兹尔停顿了些许，@接着意味深长地凝视着您。<SCR=CONTINUE>
+#TUTORIAL_FASIL_15	<NPC=FASIL><NOSPEAK>{align=2}$PH20_SAND*法兹尔停顿了些许，@接着意味深长地凝视着您。<SCR=CONTINUE>*
 
-#TUTORIAL_FASIL_16	<NPC=FASIL>{align=2}能认识您实属荣幸，大公爵阁下。<SCR=CONTINUE|TUTORIAL_FASIL_17|FASIL_ANYTIME=1>
+#TUTORIAL_FASIL_16	<NPC=FASIL>{align=2}$PH20_SAND*能认识您实属荣幸，大公爵阁下。*<SCR=CONTINUE|TUTORIAL_FASIL_17|FASIL_ANYTIME=1>
 
 #TUTORIAL_FASIL_17	{align=2}王子向您行礼，之后转身离开。@显然你们之间的商谈已经结束了。<SCR=STOP>
 
-#TUTORIAL_FASIL_18	<NPC=FASIL>{align=2}诚然如是。<SCR=STOP>
+#TUTORIAL_FASIL_18	<NPC=FASIL>{align=2}$PH20_SAND*诚然如是。*<SCR=STOP>
 
-#TUTORIAL_FASIL_19	<NPC=FASIL>{align=2}父王曾向罗马尼帝国{glossary=Romani,GLOSS_IMPIRE}）宣誓效忠。@可您却对我们视而不见，公爵殿下。<SCR=STOP>
-
-
+#TUTORIAL_FASIL_19	<NPC=FASIL>{align=2}$PH20_SAND*父王曾向罗马尼帝国{glossary=Romani,GLOSS_IMPIRE}）宣誓效忠。@可您却对我们视而不见，公爵殿下。<SCR=STOP>*
 
 
-#TUTORIAL_1	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1><SCR=CONTINUE>{align=2}塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）阁下，睁开眼睛！@以利（Eli）城已经在地平线上了。
 
-#TUTORIAL_2	<NPC=PETR><SCR=CONTINUE>{align=2}长久的行军终于要结束了，@官兵上下都渴望听到您下令着陆。
+
+#TUTORIAL_1	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1><SCR=CONTINUE>{align=2}$PH20_SAND*塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）阁下，睁开眼睛！@以利（Eli）城已经在地平线上了。*
+
+#TUTORIAL_2	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*长久的行军终于要结束了，@官兵上下都渴望听到您下令着陆。*
 
 #TUTORIAL_3	<SCR=STOP>{align=2}$SH40_SAND*导航*@10{align=2}要选择目的地，移动鼠标到 ELI 上并按下 {animation=RMB}。
 
 
 
 
-#TUTORIAL_ELI_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_LOCATION=KALHU>{align=2}所以，要前往卡拉赫吗（Kalhu）？
+#TUTORIAL_ELI_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_LOCATION=KALHU>{align=2}$PH20_SAND*所以，要前往卡拉赫吗（Kalhu）？*
 <ANS=是的。一准备好我们就动身。|EXIT>
 <ANS=彼得，达乌德（{glossary=Daud,GLOSS_DAUD}）何以要选择我们去见王子？|TUTORIAL_ELI_2>
 
-#TUTORIAL_ELI_2	<NPC=PETR><SCR=CONTINUE>{align=2}王子不过光杆司令，@已无兵马抗衡集众叛军（{glossary=Gathering,GLOSS_GATHERING}）了。@这些谈话不过走走形式。@至于上将们，他们想尽快抵达格瑞特北部。
+#TUTORIAL_ELI_2	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*王子不过光杆司令，@已无兵马抗衡集众叛军（{glossary=Gathering,GLOSS_GATHERING}）了。@这些谈话不过走走形式。@至于上将们，他们想尽快抵达格瑞特北部。*
 
-#TUTORIAL_ELI_3	<NPC=PETR><HANDSHOW_LOCATION=UR>{align=2}但是他们必须先拿下吾珥（Ur）…<ANS=所以你的意思是达乌德（{glossary=Daud,GLOSS_DAUD}）只是想把我赶走？|TUTORIAL_ELI_4>
+#TUTORIAL_ELI_3	<NPC=PETR><HANDSHOW_LOCATION=UR>{align=2}$PH20_SAND*但是他们必须先拿下吾珥（Ur）…*<ANS=所以你的意思是达乌德（{glossary=Daud,GLOSS_DAUD}）只是想把我赶走？|TUTORIAL_ELI_4>
 
-#TUTORIAL_ELI_4	<NPC=PETR><SCR=STOP>{align=2}战役才刚开始，大公阁下。@我很确定还有很多机会能让您证明自己。
-
-
+#TUTORIAL_ELI_4	<NPC=PETR><SCR=STOP>{align=2}$PH20_SAND*战役才刚开始，大公阁下。@我很确定还有很多机会能让您证明自己。*
 
 
-#TUTORIAL_FUEL_1	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}我们有燃料了，但离加完燃料还有一些时间。<ANS=很好，我会等的。|EXIT>
 
-#TUTORIAL_NEED_FUEL	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAP_LAND><SHADOW=1>{align=2}塔可汗阁下，似乎我们的燃料不够航向旅程下一站了。@我们要回到城内购置燃料。<ANS=我会着手解决的。|EXIT>
+
+#TUTORIAL_FUEL_1	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}$PH20_SAND*我们有燃料了，但离加完燃料还有一些时间。*<ANS=很好，我会等的。|EXIT>
+
+#TUTORIAL_NEED_FUEL	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAP_LAND><SHADOW=1>{align=2}$PH20_SAND*塔可汗阁下，似乎我们的燃料不够航向旅程下一站了。@我们要回到城内购置燃料。*<ANS=我会着手解决的。|EXIT>
 
 
 #TUTORIAL_NEED_FUEL_WAIT	您须要等待舰船补充燃料。按住 {animation=key_shift} 加快时间。<SCR=STOP>
@@ -694,35 +694,35 @@
 
 
 
-#TUTORIAL_NO_ENTER_RESCUE	<NPC=PETR><SIDE=1><HANDSHOW_POS=960|540|1><SHADOW=1>{align=2}在火势熄灭以前我们不能在城市里降落。<ANS=我明白,只能等了。|EXIT>
+#TUTORIAL_NO_ENTER_RESCUE	<NPC=PETR><SIDE=1><HANDSHOW_POS=960|540|1><SHADOW=1>{align=2}$PH20_SAND*在火势熄灭以前我们不能在城市里降落。*<ANS=我明白,只能等了。|EXIT>
 
 
 
 
-#TUTORIAL_FLY_1	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>{align=2}船都加好燃料了，我们可以起飞。@您的命令？
+#TUTORIAL_FLY_1	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>{align=2}$PH20_SAND*船都加好燃料了，我们可以起飞。@您的命令？*
 <ANS=下令起飞。我会选择目的地。|TUTORIAL_FLY_10>
 <ANS=燃料情况怎样，彼得·伊格纳季耶维奇？|TUTORIAL_FLY_2>
 <ANS=你对这整次远征有什么看法，将军？|TUTORIAL_FLY_3>
 
-#TUTORIAL_FLY_2	<NPC=PETR>{align=2}我们舰上载有大约 <MY_FUEL> 液态甲烷—足够 <MY_RANGE> 的航行。
+#TUTORIAL_FLY_2	<NPC=PETR>{align=2}$PH20_SAND*我们舰上载有大约 <MY_FUEL> 液态甲烷—足够 <MY_RANGE> 的航行。*
 <ANS=下令启航。升空以后我会选择目的地。|TUTORIAL_FLY_10>
 <ANS=你对这整次远征有什么看法，将军？|TUTORIAL_FLY_3>
 
-#TUTORIAL_FLY_3	<NPC=PETR><MUSIC=Duduk_4_ever>{align=2}从此处直到格瑞特南部，@所有的守备力量仅仅只有当地公爵所指挥的旧式护航艇。@吾珥（Ur）肯定会被攻陷的—这只是时间问题。
+#TUTORIAL_FLY_3	<NPC=PETR><MUSIC=Duduk_4_ever>{align=2}$PH20_SAND*从此处直到格瑞特南部，@所有的守备力量仅仅只有当地公爵所指挥的旧式护航艇。@吾珥（Ur）肯定会被攻陷的—这只是时间问题。*
 <ANS=我没有问你吾珥（Ur）的情况，将军。|TUTORIAL_FLY_4>
 
-#TUTORIAL_FLY_4	<NPC=PETR>{align=2}我不过是殿下的一介副官。@我没有资格质疑上级命令。
+#TUTORIAL_FLY_4	<NPC=PETR>{align=2}$PH20_SAND*我不过是殿下的一介副官。@我没有资格质疑上级命令。*
 <ANS=但说实在的，你怎么看？|TUTORIAL_FLY_5>
 
-#TUTORIAL_FLY_5	<NPC=PETR>{align=2}若要我坦言，塔可汗…@现在敌众我寡。就算达乌德和@斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）的分舰队合兵一处，@我担心这也不足以攻下希瓦。
+#TUTORIAL_FLY_5	<NPC=PETR>{align=2}$PH20_SAND*若要我坦言，塔可汗…@现在敌众我寡。就算达乌德和@斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）的分舰队合兵一处，@我担心这也不足以攻下希瓦。*
 <ANS=而你还是同意参加这次战役行动。你是陆军军官出身，而非舰队军官。为何要自愿参与此事？|TUTORIAL_FLY_6>
 
-#TUTORIAL_FLY_6	<NPC=PETR>那您怎么想呢，大公阁下？
+#TUTORIAL_FLY_6	<NPC=PETR>$PH20_SAND*那您怎么想呢，大公阁下？*
 <ANS=我觉得你是个很有胆识的军官，想去最需要你的地方。|TUTORIAL_FLY_7>
 <ANS=因为上将达乌德（{glossary=Daud,GLOSS_DAUD}）是你的友人。你想从旁相助。|TUTORIAL_FLY_7>
 <ANS=你肯定是为协助我才自愿就任的。父皇命你来辅佐我，对吗？|TUTORIAL_FLY_7|PETR=1>
 
-#TUTORIAL_FLY_7	<NPC=PETR><NOSPEAK>彼得·伊格纳季耶维奇只是以微笑回应。
+#TUTORIAL_FLY_7	<NPC=PETR><NOSPEAK>$PH20_SAND*彼得·伊格纳季耶维奇只是以微笑回应。*
 <ANS=很好。下令启航。升空后我会选择目的地。|TUTORIAL_FLY_10>
 
 #TUTORIAL_FLY_10	<SCR=STOP>{align=2}$SH40_SAND*航程*@10{align=2}要设置目的地，@将鼠标移动到蓝圈内的一个城市上并按下 {animation=RMB}。
@@ -730,107 +730,107 @@
 
 
 
-#TUTORIAL_SHIMRI_1	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}塔可汗阁下，我刚刚把我们的进展@报告给达乌德（{glossary=Daud,GLOSS_DAUD}）上将了。他很满意。
+#TUTORIAL_SHIMRI_1	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}$PH20_SAND*塔可汗阁下，我刚刚把我们的进展@报告给达乌德（{glossary=Daud,GLOSS_DAUD}）上将了。他很满意。*
 <ANS=达乌德（{glossary=Daud,GLOSS_DAUD}）把我当成乳臭未干的小孩了，好像忘了我乃当朝皇子！|TUTORIAL_SHIMRI_2>
 
-#TUTORIAL_SHIMRI_2	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}将在外君令有所不受。@在班师回朝前，达乌德（{glossary=Daud,GLOSS_DAUD}）上将是您的上级。@ 他是舰队司令，而您，公爵阁下，@只是他的舰队里的一名塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）。
+#TUTORIAL_SHIMRI_2	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}$PH20_SAND*将在外君令有所不受。@在班师回朝前，达乌德（{glossary=Daud,GLOSS_DAUD}）上将是您的上级。@ 他是舰队司令，而您，公爵阁下，@只是他的舰队里的一名塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）。*
 <ANS=一准备好我们就出发。|EXIT>
 
-#TUTORIAL_SHIMRI_3	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>{align=2}分舰队已经加完燃料。@我们可以走了。
+#TUTORIAL_SHIMRI_3	<NPC=PETR><SIDE=1><SALUTE><SHADOW=1>{align=2}$PH20_SAND*分舰队已经加完燃料。@我们可以走了。*
 <ANS=很好。我来设定目的地。|EXIT>
 
 
 
 
-#TUTORIAL_KALHU_1	<NPC=FASIL><SIDE=1>真是精彩的缠斗，大公阁下！<ANS=您知道卡拉赫（Kalhu）城里有敌方的防空导弹吗，王子殿下？|TUTORIAL_KALHU_2>
+#TUTORIAL_KALHU_1	<NPC=FASIL><SIDE=1>$PH20_SAND*真是精彩的缠斗，大公阁下！*<ANS=您知道卡拉赫（Kalhu）城里有敌方的防空导弹吗，王子殿下？|TUTORIAL_KALHU_2>
 
-#TUTORIAL_KALHU_2	<NPC=FASIL><SCR=CONTINUE>我不知道啊。
+#TUTORIAL_KALHU_2	<NPC=FASIL><SCR=CONTINUE>$PH20_SAND*我不知道啊。*
 
-#TUTORIAL_KALHU_3	<NPC=FASIL><SCR=CONTINUE|HELLO_HARISHID_1>那位塔可汗在等您了，大公阁下。
-
-
+#TUTORIAL_KALHU_3	<NPC=FASIL><SCR=CONTINUE|HELLO_HARISHID_1>$PH20_SAND*那位塔可汗在等您了，大公阁下。*
 
 
-#TUTORIAL_TO_MELKA_1	<NPC=PETR><SHADOW=1><SIDE=1><SALUTE>收到一封来自达乌德（{glossary=Daud,GLOSS_DAUD}）的消息。<ANS=可算来了！|EXIT>
 
-#TUTORIAL_TO_MELKA_2	<NPC=PETR><SIDE=1>{align=2}似乎达乌德（{glossary=Daud,GLOSS_DAUD}）不愿意@用他的主力部队突袭密迦（Melka）。@他想派我们打头阵，@以防那里驻守有敌方防空导弹。
+
+#TUTORIAL_TO_MELKA_1	<NPC=PETR><SHADOW=1><SIDE=1><SALUTE>$PH20_SAND*收到一封来自达乌德（{glossary=Daud,GLOSS_DAUD}）的消息。*<ANS=可算来了！|EXIT>
+
+#TUTORIAL_TO_MELKA_2	<NPC=PETR><SIDE=1>{align=2}$PH20_SAND*似乎达乌德（{glossary=Daud,GLOSS_DAUD}）不愿意@用他的主力部队突袭密迦（Melka）。@他想派我们打头阵，@以防那里驻守有敌方防空导弹。*
 <ANS=这意味着我们总算有大仗可打了！|TUTORIAL_TO_MELKA_3>
 
-#TUTORIAL_TO_MELKA_3	<NPC=PETR><SIDE=1>所以，我们要加注燃料然后前往密迦（Melka）？
+#TUTORIAL_TO_MELKA_3	<NPC=PETR><SIDE=1>$PH20_SAND*所以，我们要加注燃料然后前往密迦（Melka）？*
 <ANS=是的。|EXIT>
 
 
 
 
-#TUTORIAL_DAUD_1	<NPC=PETR><SIDE=-1><SALUTE><SHADOW=1>{align=2}瞭望员报告有一支舰队正在接近。
+#TUTORIAL_DAUD_1	<NPC=PETR><SIDE=-1><SALUTE><SHADOW=1>{align=2}$PH20_SAND*瞭望员报告有一支舰队正在接近。*
 <ANS=明白。我这就来。|TUTORIAL_DAUD_2>
 
-#TUTORIAL_DAUD_2	<NPC=DAUD><SIDE=1><RAM=1>彼得。大公爵。
+#TUTORIAL_DAUD_2	<NPC=DAUD><SIDE=1><RAM=1>$PH20_SAND*彼得。大公爵。*
 <ANS=上将。|TUTORIAL_DAUD_3>
 
-#TUTORIAL_DAUD_3	<NPC=DAUD><MUSIC=Duduk_4_ever><SCR=CONTINUE>{align=2}不错，容我在此祝贺二位！@战役行动到目前为止很成功。
+#TUTORIAL_DAUD_3	<NPC=DAUD><MUSIC=Duduk_4_ever><SCR=CONTINUE>{align=2}$PH20_SAND*不错，容我在此祝贺二位！@战役行动到目前为止很成功。*
 
-#TUTORIAL_DAUD_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}而我确信，上将，@这次成功要归功于公爵阁下的才智。
+#TUTORIAL_DAUD_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*而我确信，上将，@这次成功要归功于公爵阁下的才智。*
 
-#TUTORIAL_DAUD_5	<NPC=DAUD><SIDE=1><NOSPEAK><SCR=CONTINUE>{align=2}上将一言不发地看着您。
+#TUTORIAL_DAUD_5	<NPC=DAUD><SIDE=1><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*上将一言不发地看着您。*
 
-#TUTORIAL_DAUD_6	<NPC=DAUD>{align=2}你和法兹尔王子的会谈如何了？@但愿你是遵命而行。
+#TUTORIAL_DAUD_6	<NPC=DAUD>{align=2}$PH20_SAND*你和法兹尔王子的会谈如何了？@但愿你是遵命而行。*
 <ANS=是的，上将。|TUTORIAL_DAUD_11|DAUD_ANYTIME=1>
 <ANS=我想您轻视了王子。|TUTORIAL_DAUD_7>
 
 
-#TUTORIAL_DAUD_7	<NPC=DAUD><NOSPEAK><SCR=CONTINUE>您的直言不讳让上将感到惊讶。
+#TUTORIAL_DAUD_7	<NPC=DAUD><NOSPEAK><SCR=CONTINUE>$PH20_SAND*您的直言不讳让上将感到惊讶。*
 
-#TUTORIAL_DAUD_8	<NPC=DAUD>为什么这么说，公爵？
+#TUTORIAL_DAUD_8	<NPC=DAUD>$PH20_SAND*为什么这么说，公爵？*
 <ANS=以拦人（{glossary=Elaims,GLOSS_ELAIM}）是坚韧勇敢的民族。他们中许多人愿为王子效犬马之劳，无论他如何行事。|TUTORIAL_DAUD_9|DAUD_ANYTIME=-1>
 <ANS=在诸侯之中王子仍享有很大权威。他对萨亚迪皇室（{glossary=Sayadi,GLOSS_SAYADI}）大有用处。|TUTORIAL_DAUD_10|DAUD_ANYTIME=1>
 
 
-#TUTORIAL_DAUD_9	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>{align=2}埃劳（{glossary=Elaou,GLOSS_ELAOU}）王朝已经很多年@难以夺回他们原本的王位了。@我认为以拦人（{glossary=Elaims,GLOSS_ELAIM}）恐怕机会渺茫。
+#TUTORIAL_DAUD_9	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>{align=2}$PH20_SAND*埃劳（{glossary=Elaou,GLOSS_ELAOU}）王朝已经很多年@难以夺回他们原本的王位了。@我认为以拦人（{glossary=Elaims,GLOSS_ELAIM}）恐怕机会渺茫。*
 
-#TUTORIAL_DAUD_10	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>不愧是大公阁下的洞见！
+#TUTORIAL_DAUD_10	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_12>不$PH20_SAND*愧是大公阁下的洞见！*
 
 
-#TUTORIAL_DAUD_11	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>{align=2}很好！我们下一个目标是吾珥（Ur）城。@我们会在那里与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）的分舰队汇合，@然后向格瑞特北部推进。
+#TUTORIAL_DAUD_11	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>{align=2}$PH20_SAND*很好！我们下一个目标是吾珥（Ur）城。@我们会在那里与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）的分舰队汇合，@然后向格瑞特北部推进。*
 
-#TUTORIAL_DAUD_12	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>{align=2}总之，我们下一个目标是吾珥（Ur）城。@我们会在那里与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）的分舰队汇合，@然后向格瑞特北部推进。
+#TUTORIAL_DAUD_12	<NPC=DAUD><SCR=CONTINUE|TUTORIAL_DAUD_13>{align=2}$PH20_SAND*总之，我们下一个目标是吾珥（Ur）城。@我们会在那里与斯克别列夫（{glossary=Scobelev,GLOSS_SCOBELEV}）的分舰队汇合，@然后向格瑞特北部推进。*
 
-#TUTORIAL_DAUD_13	<NPC=DAUD>{align=2}你证明了你的勇气，大公阁下。@我将武力拿下吾珥（Ur）的任务交给你。@狄阿娜号巡空舰和几艘无畏级护卫舰将由你指挥。
+#TUTORIAL_DAUD_13	<NPC=DAUD>{align=2}$PH20_SAND*你证明了你的勇气，大公阁下。@我将武力拿下吾珥（Ur）的任务交给你。@狄阿娜号巡空舰和几艘无畏级护卫舰将由你指挥。*
 <ANS=感谢您的信任，上将。|TUTORIAL_DAUD_15|JOIN=Nomad|JOIN=Intrepid|JOIN=Intrepid>
 <ANS=只需要巡空舰就足够了。|TUTORIAL_DAUD_14>
 
-#TUTORIAL_DAUD_14	<NPC=DAUD><NOSPEAK><SCR=CONTINUE|TUTORIAL_DAUD_15|DAUD_ANYTIME=1|JOIN=Nomad>上将惊讶地看着您，然后赞许地笑了。
+#TUTORIAL_DAUD_14	<NPC=DAUD><NOSPEAK><SCR=CONTINUE|TUTORIAL_DAUD_15|DAUD_ANYTIME=1|JOIN=Nomad>$PH20_SAND*上将惊讶地看着您，然后赞许地笑了。*
 
-#TUTORIAL_DAUD_15	<NPC=DAUD><SCR=STOP>{align=2}好。那我不耽搁你们的时间了。@彼得·伊格纳季耶维奇，大公阁下。
-
-
+#TUTORIAL_DAUD_15	<NPC=DAUD><SCR=STOP>{align=2}$PH20_SAND*好。那我不耽搁你们的时间了。@彼得·伊格纳季耶维奇，大公阁下。*
 
 
-#TUTORIAL_RADIO_IN_1	<NPC=PETR><SHADOW=1><SIDE=-1><MUSIC=Dronish_descent><NOBOTTOM><HANDSHOW_GUI=MAPMODE_RADIO_HANDSET|1><BLUR_POS=0.2|0.3><GLOW_GUI=MAPMODE_RADIO_HANDSET><ACTIVE=MAPMODE_RADIO_HANDSET><FEAR><ALARM_MUTE=0>{align=2}塔可汗阁下！@我们截获了一条无线电讯息！@快点拿起话筒！{animation=LMB}
 
-#TUTORIAL_RADIO_IN_2	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3><ACTIVE=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>选择波段。{animation=LMB}
 
-#TUTORIAL_RADIO_IN_3	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN><ACTIVE=RADIO_SCAN>{align=2}现在通过（{animation=WHL} 或 {animation=HOLD_AND_DRAG}）来转动旋钮，@直到您找到信号。
+#TUTORIAL_RADIO_IN_1	<NPC=PETR><SHADOW=1><SIDE=-1><MUSIC=Dronish_descent><NOBOTTOM><HANDSHOW_GUI=MAPMODE_RADIO_HANDSET|1><BLUR_POS=0.2|0.3><GLOW_GUI=MAPMODE_RADIO_HANDSET><ACTIVE=MAPMODE_RADIO_HANDSET><FEAR><ALARM_MUTE=0>{align=2}$PH20_SAND*塔可汗阁下！@我们截获了一条无线电讯息！@快点拿起话筒！{animation=LMB}*
 
-#TUTORIAL_RADIO_IN_4	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><BLUR_POS=0.2|0.3><ACTIVE=RADIO_SCAN><FEAR>{align=2}请快点，塔可汗！如果动作慢了，@他们就会在我们找到以前结束传输！
+#TUTORIAL_RADIO_IN_2	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3><ACTIVE=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>$PH20_SAND*选择波段。{animation=LMB}*
 
-#TUTORIAL_RADIO_IN_5	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BEARING_SWITCH|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_SWITCH><ACTIVE=RADIO_BEARING_SWITCH><SMILE>{align=2}很好，我们截获信号了！@现在我们要确定他们的方位角（{glossary=Bearing,GLOSS_PELENG}）。@通过（{animation=WHL}或{animation=HOLD_AND_DRAG}）来转动天线旋钮。@10找到最强的发信源方向。
+#TUTORIAL_RADIO_IN_3	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN><ACTIVE=RADIO_SCAN>{align=2}$PH20_SAND*现在通过（{animation=WHL} 或 {animation=HOLD_AND_DRAG}）来转动旋钮，@直到您找到信号。*
 
-#TUTORIAL_RADIO_IN_6	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SAVE|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_METER|RADIO_SAVE><ACTIVE=RADIO_BEARING_SWITCH|RADIO_SAVE>{align=2}如果确定这是正确的来电方向，@按下按钮保存您的计算结果。
+#TUTORIAL_RADIO_IN_4	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><BLUR_POS=0.2|0.3><ACTIVE=RADIO_SCAN><FEAR>{align=2}$PH20_SAND*请快点，塔可汗！如果动作慢了，@他们就会在我们找到以前结束传输！*
 
-#TUTORIAL_RADIO_IN_7	<NPC=PETR><BLUR_POS=0.5|0.5>{align=2}这是一条来自敌发打击群的消息—而且是未加密的！<SCR=CONTINUE>
+#TUTORIAL_RADIO_IN_5	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_BEARING_SWITCH|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_SWITCH><ACTIVE=RADIO_BEARING_SWITCH><SMILE>{align=2}$PH20_SAND*很好，我们截获信号了！@现在我们要确定他们的方位角（{glossary=Bearing,GLOSS_PELENG}）。@通过（{animation=WHL}或{animation=HOLD_AND_DRAG}）来转动天线旋钮。@10找到最强的发信源方向。*
 
-#TUTORIAL_RADIO_IN_8	<NPC=PETR>{align=2}现在我们得知他们的@航向方位角（{glossary=bearing,GLOSS_PELENG}）和目的地了！<SCR=CONTINUE>
+#TUTORIAL_RADIO_IN_6	<NPC=PETR><SHADOW=1><SIDE=-1><NOBOTTOM><HANDSHOW_GUI=RADIO_SAVE|1><BLUR_POS=0.2|0.7><GLOW_GUI=RADIO_BEARING_METER|RADIO_SAVE><ACTIVE=RADIO_BEARING_SWITCH|RADIO_SAVE>{align=2}$PH20_SAND*如果确定这是正确的来电方向，@按下按钮保存您的计算结果。*
+
+#TUTORIAL_RADIO_IN_7	<NPC=PETR><BLUR_POS=0.5|0.5>{align=2}$PH20_SAND*这是一条来自敌发打击群的消息—而且是未加密的！*<SCR=CONTINUE>
+
+#TUTORIAL_RADIO_IN_8	<NPC=PETR>{align=2}$PH20_SAND*现在我们得知他们的@航向方位角（{glossary=bearing,GLOSS_PELENG}）和目的地了！*<SCR=CONTINUE>
 
 #TUTORIAL_RADIO_IN_9	{align=2}$SH40_SAND*打击群*@10{align=2}打击群是搜捕我军的强大敌方战舰编队。@始终避开它们才是上策。<SCR=CONTINUE>
 
-#TUTORIAL_RADIO_IN_10	<NPC=DAUD><SIDE=1>他们在往哪飞？
+#TUTORIAL_RADIO_IN_10	<NPC=DAUD><SIDE=1>$PH20_SAND*他们在往哪飞？*
 <ANS=他们要去哈马（Hamat）。|TUTORIAL_RADIO_IN_11>
 <ANS=他们要去古珊（Kushan）。|TUTORIAL_RADIO_IN_12>
 
-#TUTORIAL_RADIO_IN_11	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|KUSHAN>{align=2}好极了。我们可以智胜他们。@现在，公爵，带上舰船经由古珊（Kushan）驶向吾珥（Ur）。<ANS=一准备好我们就起飞，上将。|EXIT>
+#TUTORIAL_RADIO_IN_11	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|KUSHAN>{align=2}$PH20_SAND*好极了。我们可以智胜他们。@现在，公爵，带上舰船经由古珊（Kushan）驶向吾珥（Ur）。*<ANS=一准备好我们就起飞，上将。|EXIT>
 
-#TUTORIAL_RADIO_IN_12	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|HAMAT>{align=2}好极了。我们可以智胜他们。@现在，公爵，带上舰船经由哈马（Hamat）驶向吾珥（Ur）。<ANS=一准备好我们就起飞，上将。|EXIT>
+#TUTORIAL_RADIO_IN_12	<NPC=DAUD><SCR=TUTORIAL_RADIO_END|HAMAT>{align=2}$PH20_SAND*好极了。我们可以智胜他们。@现在，公爵，带上舰船经由哈马（Hamat）驶向吾珥（Ur）。*<ANS=一准备好我们就起飞，上将。|EXIT>
 
 
 
@@ -841,15 +841,15 @@
 
 #TUTORIAL_SILENT_STRIKE_1B	{align=2}我们要确保敌人打击群永远不知道我军动向。@要想不暴露我方位置，@必须在拉响警报以前将古珊（Kushan）的守备部队消灭。
 
-#TUTORIAL_SILENT_STRIKE_2	<NPC=PETR><SCR=CONTINUE>{align=2}我们的巡空舰太慢了—不适合突袭。@我们要组织一队高速舰船去突袭敌人。
+#TUTORIAL_SILENT_STRIKE_2	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*我们的巡空舰太慢了—不适合突袭。@我们要组织一队高速舰船去突袭敌人。*
 
-#TUTORIAL_SILENT_STRIKE_3	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><SCR=CONTINUE>{align=2}在这里您可以查看当前的编队@可以成功突袭的几率。
+#TUTORIAL_SILENT_STRIKE_3	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><SCR=CONTINUE>{align=2}$PH20_SAND*在这里您可以查看当前的编队@可以成功突袭的几率。*
 
-#TUTORIAL_SILENT_STRIKE_4	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><NOBOTTOM><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}选择您的分舰队里最快的船（根据她们的速度值）。
+#TUTORIAL_SILENT_STRIKE_4	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><NOBOTTOM><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}$PH20_SAND*选择您的分舰队里最快的船（根据她们的速度值）。*
 
-#TUTORIAL_SILENT_STRIKE_5	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}加入更多船到突击编队里。
+#TUTORIAL_SILENT_STRIKE_5	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SHIP|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}$PH20_SAND*加入更多船到突击编队里。*
 
-#TUTORIAL_SILENT_STRIKE_6	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}这艘船太慢了。不太可能偷袭敌人。@换成另一艘船。
+#TUTORIAL_SILENT_STRIKE_6	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|2><NOBOTTOM><BLUR_FOCUS=0.2><BLUR_ZOOM=0.8><HANDSHOW_GUI=MAPMODE_MISSION_SILENT|1><GLOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP>{align=2}$PH20_SAND*这艘船太慢了。不太可能偷袭敌人。@换成另一艘船。*
 
 #TUTORIAL_SILENT_STRIKE_7	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|3><NOBOTTOM><ACTIVE=MAP_LOCATION><SCR=TUTORIAL_SILENT_STRIKE|7>
 
@@ -857,61 +857,61 @@
 
 #TUTORIAL_SILENT_STRIKE_7B	{align=2}很好！突击编队整装待发。@现在将其派往古珊（Kushan）。（鼠标移至Kushan并按下{animation=LMB}。）
 
-#TUTORIAL_SILENT_STRIKE_8	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|0><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><SCR=STOP>{align=2}一旦突击分队完成任务，@就命他们返回舰队里。
+#TUTORIAL_SILENT_STRIKE_8	<NPC=PETR><TRG=TUTORIAL_SILENT_STRIKE|0><BLUR_FOCUS=0.12><BLUR_ZOOM=1.0><SCR=STOP>{align=2}$PH20_SAND*一旦突击分队完成任务，@就命他们返回舰队里。*
 
 
 
 
-#TUTORIAL_NEWS_1	<NPC=PETR><SIDE=1><TRG=TUTORIAL_NEWS|0>我们刚和分舰队通过话了。
+#TUTORIAL_NEWS_1	<NPC=PETR><SIDE=1><TRG=TUTORIAL_NEWS|0>$PH20_SAND*我们刚和分舰队通过话了。*
 <ANS=帝都有什么消息吗？|TUTORIAL_NEWS_2>
 
-#TUTORIAL_NEWS_2	<NPC=PETR>{align=2}不多。情况还是很严峻。@集众叛军（{glossary=Gatherings,GLOSS_GATHERING}）牢牢地盘踞在卡迪姆山脊一带。@我军要将其驱散还需要很长时间。
+#TUTORIAL_NEWS_2	<NPC=PETR>{align=2}$PH20_SAND*不多。情况还是很严峻。@集众叛军（{glossary=Gatherings,GLOSS_GATHERING}）牢牢地盘踞在卡迪姆山脊一带。@我军要将其驱散还需要很长时间。*
 <ANS=那么大家都在谈论的那个反应堆呢？它真的存在吗？|TUTORIAL_NEWS_3>
 
-#TUTORIAL_NEWS_3	<NPC=PETR><SCR=CONTINUE>大家都在谈论…？
+#TUTORIAL_NEWS_3	<NPC=PETR><SCR=CONTINUE>$PH20_SAND*大家都在谈论…？*
 
-#TUTORIAL_NEWS_4	<NPC=PETR><SCR=CONTINUE><NOSPEAK>{align=2}彼得的声音越来越小。@他一声不响地看了您几秒。
+#TUTORIAL_NEWS_4	<NPC=PETR><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*彼得的声音越来越小。@他一声不响地看了您几秒。*
 
-#TUTORIAL_NEWS_5	<NPC=PETR><SCR=STOP>这个您可能要问上将了，大公爵。
-
-
+#TUTORIAL_NEWS_5	<NPC=PETR><SCR=STOP>$PH20_SAND*这个您可能要问上将了，大公爵。*
 
 
-#TUTORIAL_UR_2	<NPC=FASIL><SIDE=1><SCR=CONTINUE>{align=2}祝贺您，公爵阁下！@多么辉煌的胜利啊！
 
-#TUTORIAL_UR_3	<NPC=PETR><SIDE=-1>{align=2}干得好，马克！@现在所有那些唱反调的人也都只能缄默不言了。@我发誓，就连达乌德本人也会祝贺今天的成功！<ANS=谢谢你，彼得·伊格纳季耶维奇。>
 
-#TUTORIAL_UR_4	<NPC=PETR><SIDE=-1>我可以通知上将了吗？<ANS=当然！还等什么？>
+#TUTORIAL_UR_2	<NPC=FASIL><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*祝贺您，公爵阁下！@多么辉煌的胜利啊！*
+
+#TUTORIAL_UR_3	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*干得好，马克！@现在所有那些唱反调的人也都只能缄默不言了。@我发誓，就连达乌德本人也会祝贺今天的成功！*<ANS=谢谢你，彼得·伊格纳季耶维奇。>
+
+#TUTORIAL_UR_4	<NPC=PETR><SIDE=-1>$PH20_SAND*我可以通知上将了吗？*<ANS=当然！还等什么？>
 
 #TUTORIAL_UR_5	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*抵达吾珥*@10{animation=event_triumph}@30{shift=0}{align=2}<SCR=STOP>那一刻，我们意识到自己仍是格瑞特的民心所向。多么美好的一天啊！@我们忘乎所以地庆祝当下的胜利，却并未关心前方等待着我们的是什么。
 
 
+p
 
+#TUTORIAL_CONVOY_1	<NPC=PETR><SHADOW=1><SCR=STOP>{align=2}$PH20_SAND*武装护卫队接近中！@如果您夺取了他们护送的运输船，@就可以把她卖掉换一小笔钱！*
 
-#TUTORIAL_CONVOY_1	<NPC=PETR><SHADOW=1><SCR=STOP>{align=2}武装护卫队接近中！@如果您夺取了他们护送的运输船，@就可以把她卖掉换一小笔钱！
-
-#TUTORIAL_CONVOY_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>{align=2}消息已截获。不远处有一艘配有武装护卫队的运输船。@如果我们将其拦截，就可以赚一小笔钱。
-
-
-
-
-#TUTORIAL_STRIKEFORCE_1	<NPC=PETR><SHADOW=1><SCR=STOP>该死！敌军打击群正在靠近！
-
-#TUTORIAL_STRIKEFORCE_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>{align=2}截获到加密讯息。@一个敌方打击群正在附近活动。我们应该避开他们。
+#TUTORIAL_CONVOY_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>{align=2}$PH20_SAND*消息已截获。不远处有一艘配有武装护卫队的运输船。@如果我们将其拦截，就可以赚一小笔钱。*
 
 
 
 
-#NOT_ENOUGH_FUEL	<NPC=PETR><SHADOW=1><SIDE=-1>{align=2}塔可汗，我们没有足够的燃料完成航行了。@我们只能回到城里补充燃料。<ANS=明白，将军。|EXIT>
+#TUTORIAL_STRIKEFORCE_1	<NPC=PETR><SHADOW=1><SCR=STOP>$PH20_SAND*该死！敌军打击群正在靠近！*
+
+#TUTORIAL_STRIKEFORCE_RADIO_1	<NPC=PETR><SHADOW=1><SIDE=-1><SCR=STOP>{align=2}$PH20_SAND*截获到加密讯息。@一个敌方打击群正在附近活动。我们应该避开他们。*
 
 
 
 
-#AUTOSTRIKE_01	<NPC=PETR><SHADOW=1><SIDE=-1><RAM=0>{align=2}塔可汗？@我们是否要准备突击编队？
+#NOT_ENOUGH_FUEL	<NPC=PETR><SHADOW=1><SIDE=-1>{align=2}$PH20_SAND*塔可汗，我们没有足够的燃料完成航行了。@我们只能回到城里补充燃料。*<ANS=明白，将军。|EXIT>
+
+
+
+
+#AUTOSTRIKE_01	<NPC=PETR><SHADOW=1><SIDE=-1><RAM=0>{align=2}$PH20_SAND*塔可汗？@我们是否要准备突击编队？*
 <ANS=是的，将军。|AUTOSTRIKE_02|SELECT_STRIKE>
 <ANS=不，我们要用全部力量迎战他们。|EXIT>
 
-#AUTOSTRIKE_02	<NPC=PETR><SHADOW=1><SIDE=1><HANDSHOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_HALFTANK><ACTIVE=MAPMODE_MISSION_FULLTANK><ACTIVE=MAPMODE_FUEL_HANDLE><ACTIVE=MAPMODE_MISSION_SLIDER><BLUR_FOCUS=0.4><BLUR_ZOOM=0.7><NOBOTTOM>您想派这些舰船前去吗？
+#AUTOSTRIKE_02	<NPC=PETR><SHADOW=1><SIDE=1><HANDSHOW_GUI=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_SHIP><ACTIVE=MAPMODE_MISSION_HALFTANK><ACTIVE=MAPMODE_MISSION_FULLTANK><ACTIVE=MAPMODE_FUEL_HANDLE><ACTIVE=MAPMODE_MISSION_SLIDER><BLUR_FOCUS=0.4><BLUR_ZOOM=0.7><NOBOTTOM>$PH20_SAND*您想派这些舰船前去吗？*
 <ANS=是的，派她们去。|EXIT|SEND_STRIKE>
 <ANS=不，我改变想法了。我们要用全部力量迎战他们。|EXIT|DESELECT_STRIKE>
 
@@ -941,96 +941,94 @@
 
 
 
-#TUTORIAL_AAD_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=CONTINUE>该死！发现敌军防空火力！
+#TUTORIAL_AAD_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=CONTINUE>$PH20_SAND*该死！发现敌军防空火力！*
 
-#TUTORIAL_AAD_2	<NPC=PETR><SCR=CONTINUE>{align=2}专心对付敌舰。@战斗结束后我们会出手夺取地面载具。
+#TUTORIAL_AAD_2	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*专心对付敌舰。@战斗结束后我们会出手夺取地面载具。*
 
-#TUTORIAL_AAD_3	<NPC=PETR><SCR=STOP>还有当心导弹！
-
-
+#TUTORIAL_AAD_3	<NPC=PETR><SCR=STOP>$PH20_SAND*还有当心导弹！*
 
 
-#TUTORIAL_EDITOR_MISSILES_1	<NPC=PETR><SIDE=1><SHADOW=0><RAM=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS>{align=2}塔可汗阁下，我们有机会给我们的舰船补充导弹。@我强烈建议这么做。
+
+
+#TUTORIAL_EDITOR_MISSILES_1	<NPC=PETR><SIDE=1><SHADOW=0><RAM=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS>{align=2}$PH20_SAND*塔可汗阁下，我们有机会给我们的舰船补充导弹。@我强烈建议这么做。*
 <ANS=很好。我会做的。|EXIT>
 
-#TUTORIAL_EDITOR_MISSILES_2	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=970|160|1><SCR=CONTINUE>{align=2}这是您的分舰队的@所有舰船名单，阁下。
+#TUTORIAL_EDITOR_MISSILES_2	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=970|160|1><SCR=CONTINUE>{align=2}$PH20_SAND*这是您的分舰队的@所有舰船名单，阁下。*
 
-#TUTORIAL_EDITOR_MISSILES_3	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1>下移画面到舰船的维护面板。
+#TUTORIAL_EDITOR_MISSILES_3	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1>$PH20_SAND*下移画面到舰船的维护面板。*
 
-#TUTORIAL_EDITOR_MISSILES_4	<NPC=PETR><SIDE=-1><NOBOTTOM><HANDSHOW_POS=60|870|1><ACTIVE=INV_SLOT><MOUSE_TRACK=0>购买一颗导弹。
+#TUTORIAL_EDITOR_MISSILES_4	<NPC=PETR><SIDE=-1><NOBOTTOM><HANDSHOW_POS=60|870|1><ACTIVE=INV_SLOT><MOUSE_TRACK=0>$PH20_SAND*购买一颗导弹。*
 
-#TUTORIAL_EDITOR_MISSILES_5	<NPC=PETR><NOBOTTOM><HANDSHOW_POS=798|556|1><BODY_FOCUSABLE=1>现在把它安装到船上任意的空挂载点。
+#TUTORIAL_EDITOR_MISSILES_5	<NPC=PETR><NOBOTTOM><HANDSHOW_POS=798|556|1><BODY_FOCUSABLE=1>$PH20_SAND*现在把它安装到船上任意的空挂载点。*
 
-#TUTORIAL_EDITOR_MISSILES_6	<NPC=PETR><SCR=STOP>您可以用类似的方式给其他船装上导弹。
-
-
+#TUTORIAL_EDITOR_MISSILES_6	<NPC=PETR><SCR=STOP>$PH20_SAND*您可以用类似的方式给其他船装上导弹。*
 
 
-#TUTORIAL_REPAIR_1	<NPC=PETR><SIDE=1><SHADOW=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS><SHADOW=0>{align=2}塔可汗阁下！@我们有些舰船需要维修，而这座城市拥有船坞。@我们最好在此处进行修理。
+
+
+#TUTORIAL_REPAIR_1	<NPC=PETR><SIDE=1><SHADOW=0><HANDSHOW_GUI=HOUSE_SHIPWORKS><GLOW_GUI=HOUSE_SHIPWORKS><SHADOW=0>{align=2}$PH20_SAND*塔可汗阁下！@我们有些舰船需要维修，而这座城市拥有船坞。@我们最好在此处进行修理。*
 <ANS=我马上做。|EXIT>
 
-#TUTORIAL_REPAIR_2	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=ED_SHPWRK_MINIFIG_REPAIR><BLUR=0><SCR=CONTINUE>这艘舰船需要维修。
+#TUTORIAL_REPAIR_2	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=ED_SHPWRK_MINIFIG_REPAIR><BLUR=0><SCR=CONTINUE>$PH20_SAND*这艘舰船需要维修。*
 
-#TUTORIAL_REPAIR_3	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>{align=2}您只需下达维修这艘船的命令。@轮机组会尽力而为。
+#TUTORIAL_REPAIR_3	<NPC=PETR><SIDE=1><HANDSHOW_GUI=ED_SHPWRK_AUTO><GLOW_GUI=ED_SHPWRK_AUTO><SCR=CONTINUE>{align=2}$PH20_SAND*您只需下达维修这艘船的命令。@轮机组会尽力而为。*
 
-#TUTORIAL_REPAIR_4	<NPC=PETR><SIDE=1>{align=2}然而，如果缺少必要的备件，@就无法完成修理。
+#TUTORIAL_REPAIR_4	<NPC=PETR><SIDE=1>{align=2}$PH20_SAND*然而，如果缺少必要的备件，@就无法完成修理。*
 <ANS=明白，彼得。|EXIT>
 
 
 
 
-#AFTERSHOCK_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>{align=2}诸位，鉴于最近发生的事情，@我召集各位在此以讨论我军未来的行动。
+#AFTERSHOCK_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>{align=2}$PH20_SAND*诸位，鉴于最近发生的事情，@我召集各位在此以讨论我军未来的行动。*
 
-#AFTERSHOCK_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}我的想法是：我们必须继续向希瓦（{glossary=Khiva,GLOSS_KHIVA}）推进。
+#AFTERSHOCK_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我的想法是：我们必须继续向希瓦（{glossary=Khiva,GLOSS_KHIVA}）推进。*
 
-#AFTERSHOCK_3	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}彼得·伊格纳季耶维奇，@帝都的噩耗已经让这整次行动失去了意义。@我们必须立刻回航祖国故土—越快越好。
+#AFTERSHOCK_3	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*彼得·伊格纳季耶维奇，@帝都的噩耗已经让这整次行动失去了意义。@我们必须立刻回航祖国故土—越快越好。*
 
-#AFTERSHOCK_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}正相反！@拿下希瓦（{glossary=Khiva,GLOSS_KHIVA}）在此更是至关重要。@请容我解释…
+#AFTERSHOCK_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*正相反！@拿下希瓦（{glossary=Khiva,GLOSS_KHIVA}）在此更是至关重要。@请容我解释…*
 
-#AFTERSHOCK_5	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}我与塞瓦斯托波尔号上的官兵长谈了几次。@如此坦言使我痛心疾首，但我确信南方战事已然是山穷水尽。@此时班师回国，对我们来说唯有死路一条而已。
+#AFTERSHOCK_5	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我与塞瓦斯托波尔号上的官兵长谈了几次。@如此坦言使我痛心疾首，但我确信南方战事已然是山穷水尽。@此时班师回国，对我们来说唯有死路一条而已。*
 
-#AFTERSHOCK_6	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>{align=2}我们都抱持着类似疑虑。@眼下这些恐惧一被说出口来，@许多军官都撇开了视线。
+#AFTERSHOCK_6	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*我们都抱持着类似疑虑。@眼下这些恐惧一被说出口来，@许多军官都撇开了视线。*
 
-#AFTERSHOCK_7	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}那么你的建议是什么，彼得？@（达乌德的声音带着疲惫。）
+#AFTERSHOCK_7	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*那么你的建议是什么，彼得？@（达乌德的声音带着疲惫。）*
 
-#AFTERSHOCK_8	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}叛军舰队正在南方陷入激战。@现在是组织北上进攻@强行拿下希瓦（{glossary=Khiva,GLOSS_KHIVA}）的最好时机。
+#AFTERSHOCK_8	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*叛军舰队正在南方陷入激战。@现在是组织北上进攻@强行拿下希瓦（{glossary=Khiva,GLOSS_KHIVA}）的最好时机。*
 
-#AFTERSHOCK_9	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}然后呢？这不过是垂死挣扎。@迟早叛军会进军希瓦（{glossary=Khiva,GLOSS_KHIVA}）的。
+#AFTERSHOCK_9	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*然后呢？这不过是垂死挣扎。@迟早叛军会进军希瓦（{glossary=Khiva,GLOSS_KHIVA}）的。*
 
-#AFTERSHOCK_10	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}我有理由相信，我们关于反应堆的情报是准确的。@如果将其掌控在手，敌人就不会发起反攻。@为了确保反应堆完好，他们会寻求谈判。
+#AFTERSHOCK_10	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我有理由相信，我们关于反应堆的情报是准确的。@如果将其掌控在手，敌人就不会发起反攻。@为了确保反应堆完好，他们会寻求谈判。*
 
-#AFTERSHOCK_11	<NPC=PETR><SIDE=-1><SCR=CONTINUE>也许我们就可以达成和议。
+#AFTERSHOCK_11	<NPC=PETR><SIDE=-1><SCR=CONTINUE>$PH20_SAND*也许我们就可以达成和议。*
 
-#AFTERSHOCK_12	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>{align=2}彼得环顾四周，@军官们思考着他所说的话。
+#AFTERSHOCK_12	<NPC=PETR><SIDE=-1><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*彼得环顾四周，@军官们思考着他所说的话。*
 
-#AFTERSHOCK_13	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}我们必须派一艘战舰去和帝都重新建立联络。@一旦我们能与南方部队搭上线…
+#AFTERSHOCK_13	<NPC=DAUD><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*我们必须派一艘战舰去和帝都重新建立联络。@一旦我们能与南方部队搭上线…*
 
-#AFTERSHOCK_14	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}来不及了，谢里夫（{glossary=Daud,GLOSS_DAUD}）。@如果我们不现在就向希瓦（{glossary=Khiva,GLOSS_KHIVA}）发起突袭，那就大势已去了。
+#AFTERSHOCK_14	<NPC=PETR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*来不及了，谢里夫（{glossary=Daud,GLOSS_DAUD}）。@如果我们不现在就向希瓦（{glossary=Khiva,GLOSS_KHIVA}）发起突袭，那就大势已去了。*
 
-#AFTERSHOCK_15	<SCR=CONTINUE>{align=2}当晚剩下的时间和之后的一整天，@我们都在讨论彼得的计划。
+#AFTERSHOCK_15	<SCR=CONTINUE>{align=2}$PH20_SAND*当晚剩下的时间和之后的一整天，@我们都在讨论彼得的计划。*
 
-#AFTERSHOCK_16	<SCR=CONTINUE>{align=2}最终，我们派出了狄阿娜号巡空舰前往南方以试图和帝国取得联系。@其余兵力则开始匆忙准备进军并突袭希瓦（{glossary=Khiva,GLOSS_KHIVA}）。
+#AFTERSHOCK_16	<SCR=CONTINUE>{align=2}$PH20_SAND*最终，我们派出了狄阿娜号巡空舰前往南方以试图和帝国取得联系。@其余兵力则开始匆忙准备进军并突袭希瓦（{glossary=Khiva,GLOSS_KHIVA}）。*
 
-#AFTERSHOCK_17	<SCR=CONTINUE>塞瓦斯托波尔号成了新建分舰队的旗舰。
+#AFTERSHOCK_17	<SCR=CONTINUE>$PH20_SAND*塞瓦斯托波尔号成了新建分舰队的旗舰。*
 
-#AFTERSHOCK_18	<SCR=CONTINUE>{align=2}不知何时一位军官问道由谁来指挥这次进攻。@彼得毫不犹豫地说出了他的计划。
+#AFTERSHOCK_18	<SCR=CONTINUE>{align=2}$PH20_SAND*不知何时一位军官问道由谁来指挥这次进攻。@彼得毫不犹豫地说出了他的计划。*
 
-#AFTERSHOCK_19	<NPC=PETR><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}他欣然起身开口。@“现在皇帝陛下的下落无人所知”，@他说到，“因此大公爵阁下，作为王朝唯一的合法继承人，@必将亲率残存的罗马尼（{glossary=Romani,GLOSS_ROMANI}）舰队展开本次作战。”
+#AFTERSHOCK_19	<NPC=PETR><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*他欣然起身开口。@“现在皇帝陛下的下落无人所知”，@他说到，“因此大公爵阁下，作为王朝唯一的合法继承人，@必将亲率残存的罗马尼（{glossary=Romani,GLOSS_ROMANI}）舰队展开本次作战。”*
 
-#AFTERSHOCK_20	<NPC=DAUD><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}达乌德反对这个提案，@但他愤怒的抗辩并没有人搭理。@军官们对提议表示出了强烈的支持。@一想到皇位继承人将率军亲征，他们的士气便大为振奋。
+#AFTERSHOCK_20	<NPC=DAUD><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*达乌德反对这个提案，@但他愤怒的抗辩并没有人搭理。@军官们对提议表示出了强烈的支持。@一想到皇位继承人将率军亲征，他们的士气便大为振奋。*
 
-#AFTERSHOCK_21	<SCR=CONTINUE>{align=2}如此的一致支持自然使我感到高兴，@但同时，我也颇有些害怕。
+#AFTERSHOCK_21	<SCR=CONTINUE>{align=2}$PH20_SAND*如此的一致支持自然使我感到高兴，@但同时，我也颇有些害怕。*
 
-#AFTERSHOCK_22	<SCR=STOP><MUSIC=STOP>{align=2}不过一会之前，我还只是一位塔可汗（{glossary=tarkhan,GLOSS_TARKHAN}），@但现在在他们眼中，@我则已经化身成为了罗马尼帝国（{glossary=Romani Empire,GLOSS_IMPIRE}）全境疆土的象征。
-
-
-
-#PRESELECT_1	<NPC=PETR><SIDE=1><SHADOW=1><SCR=STOP><BLUR=0>{align=2}大公阁下，您应该选择加入进攻希瓦（{glossary=Khiva,GLOSS_KHIVA}）行动的舰船人选了。
+#AFTERSHOCK_22	<SCR=STOP><MUSIC=STOP>{align=2}$PH20_SAND*不过一会之前，我还只是一位塔可汗（{glossary=tarkhan,GLOSS_TARKHAN}），@但现在在他们眼中，@我则已经化身成为了罗马尼帝国（{glossary=Romani Empire,GLOSS_IMPIRE}）全境疆土的象征。*
 
 
+
+#PRESELECT_1	<NPC=PETR><SIDE=1><SHADOW=1><SCR=STOP><BLUR=0>{align=2}$PH20_SAND*大公阁下，您应该选择加入进攻希瓦（{glossary=Khiva,GLOSS_KHIVA}）行动的舰船人选了。*
 <ANS=你能给我些提示吗？>
 
-#PRESELECT_2	<NPC=PETR><SCR=STOP>{align=2}带上那些红色卡背的。她们是舰队的主力军。@再给她们配上一两条燃料船。
+#PRESELECT_2	<NPC=PETR><SCR=STOP>{align=2}$PH20_SAND*带上那些红色卡背的。她们是舰队的主力军。@再给她们配上一两条燃料船。*
 
 
 
@@ -1039,9 +1037,9 @@
 
 #ISAIAH_0_2	<SCR=CONTINUE>{align=2}一位长老（{glossary=doyen,GLOSS_DOYEN}）派出的信使前来谒见。@他说长老迫切地想与我们会面，@然而他身体老迈，无法亲自成行。
 
-#ISAIAH_0_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>大公阁下，现在下船可能颇有些风险。
+#ISAIAH_0_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*大公阁下，现在下船可能颇有些风险。*
 
-#ISAIAH_0_4	<NPC=FASIL><SIDE=-1>如果您拒绝，人民会光火的。
+#ISAIAH_0_4	<NPC=FASIL><SIDE=-1>$PH20_SAND*如果您拒绝，人民会光火的。*
 <ANS=拒绝邀约。|EXIT>
 <ANS=拜访一下长老（{glossary=doyen,GLOSS_DOYEN}）。|ISAIAH_0_5>
 
@@ -1054,21 +1052,21 @@
 
 #ISAIAH_0_8	<SCR=ISAIAH|0><MUSIC=Yeshoua><ANS=彼得·伊格纳季耶维奇，这是什么？|ISAIAH_0_9>
 
-#ISAIAH_0_9	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>{align=2}噢，您之前未曾见过吗？@这是一册圣书碎片（{glossary=qoda,GLOSS_QODA}），大公阁下。<ANS=你确定此非赝品？|ISAIAH_0_10>
+#ISAIAH_0_9	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>{align=2}$PH20_SAND*噢，您之前未曾见过吗？@这是一册圣书碎片（{glossary=qoda,GLOSS_QODA}），大公阁下。*<ANS=你确定此非赝品？|ISAIAH_0_10>
 
-#ISAIAH_0_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我不能说是专家，@但我听闻说格瑞特的圣书碎片（{glossary=qoda,GLOSS_QODA}）藏品都货真价实。
+#ISAIAH_0_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*我不能说是专家，@但我听闻说格瑞特的圣书碎片（{glossary=qoda,GLOSS_QODA}）藏品都货真价实。*
 
-#ISAIAH_0_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}也有传言说格瑞特的圣书碎片（{glossary=qoda,GLOSS_QODA}）内记载有先知预言。
+#ISAIAH_0_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*也有传言说格瑞特的圣书碎片（{glossary=qoda,GLOSS_QODA}）内记载有先知预言。*
 
-#ISAIAH_0_12	<SCR=ISAIAH|0><CORNER_SPEAK=-1><SCR=CONTINUE>昭示世间救主的预言。
+#ISAIAH_0_12	<SCR=ISAIAH|0><CORNER_SPEAK=-1><SCR=CONTINUE>$PH20_SAND*昭示世间救主的预言。*
 
-#ISAIAH_0_13	<CORNER_SPEAK=-1>不幸的是试图破译它们的努力都失败了。<ANS=“我的仆人行事必有智慧，必被高举上升，且成为至高！”|ISAIAH_0_14>
+#ISAIAH_0_13	<CORNER_SPEAK=-1>$PH20_SAND*不幸的是试图破译它们的努力都失败了。*<ANS=“我的仆人行事必有智慧，必被高举上升，且成为至高！”|ISAIAH_0_14>
 
-#ISAIAH_0_14	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>{align=2}大公爵？阁下？@您刚刚是读出了这些？但您是如何做到的？！<ANS=你自己看啊—这上面不是写的很清楚嘛|ISAIAH_0_15>
+#ISAIAH_0_14	<SCR=ISAIAH_OFF><NPC=PETR><SIDE=1>{align=2}$PH20_SAND*大公爵？阁下？@您刚刚是读出了这些？但您是如何做到的？！*<ANS=你自己看啊—这上面不是写的很清楚嘛|ISAIAH_0_15>
 
-#ISAIAH_0_15	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK> 彼得朝你手中的书卷投来迷惑的眼神。
+#ISAIAH_0_15	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK> $PH20_SAND*彼得朝你手中的书卷投来迷惑的眼神。*
 
-#ISAIAH_0_16	<SCR=ISAIAH|0><CORNER_SPEAK=-1>{align=2}可我读不懂啊！您是如何读懂这些的？！@大公阁下，上面都写了什么？！<ANS=好像是讲谁谁的仆人的。下面还有：“许多人因祂惊奇，他的面貌比世人憔悴…”|ISAIAH_0_17>
+#ISAIAH_0_16	<SCR=ISAIAH|0><CORNER_SPEAK=-1>{align=2}$PH20_SAND*可我读不懂啊！您是如何读懂这些的？！@大公阁下，上面都写了什么？！*<ANS=好像是讲谁谁的仆人的。下面还有：“许多人因祂惊奇，他的面貌比世人憔悴…”|ISAIAH_0_17>
 
 #ISAIAH_0_17	<ANS=…他的形容比世人枯槁？|ISAIAH_0_18>
 
@@ -1080,42 +1078,42 @@
 
 #ISAIAH_0_21	<SCR=CONTINUE>所有人都震惊于此事，而我们自己也一样。
 
-#ISAIAH_0_22	<NPC=PETR><SIDE=1>{align=2}大公阁下，您是怎么读出圣书碎片（{glossary=qoda,GLOSS_QODA}）上的经文的？<ANS=萨亚迪（{glossary=sayadi,GLOSS_SAYADI}）家族的教育让我能够读懂这种语言。|ISAIAH_0_RES_1_1|LEVEL_ROMANI=1><ANS=我也不知道，彼得，你要想的话就把这当成是神迹吧。|ISAIAH_0_RES_2_1|LEVEL_FAITH=1>
+#ISAIAH_0_22	<NPC=PETR><SIDE=1>{align=2}$PH20_SAND*大公阁下，您是怎么读出圣书碎片（{glossary=qoda,GLOSS_QODA}）上的经文的？*<ANS=萨亚迪（{glossary=sayadi,GLOSS_SAYADI}）家族的教育让我能够读懂这种语言。|ISAIAH_0_RES_1_1|LEVEL_ROMANI=1><ANS=我也不知道，彼得，你要想的话就把这当成是神迹吧。|ISAIAH_0_RES_2_1|LEVEL_FAITH=1>
 
 
-#ISAIAH_0_RES_1_1	<SCR=CHECK_JOINED|FASIL|ISAIAH_0_RES_1_2><SCR=CONTINUE|ISAIAH_0_RES_1_2|FASIL=1><NPC=FASIL><SIDE=1>{align=2}实在是惊人，大公阁下！@您父皇的王朝（{glossary=Sayadi,GLOSS_SAYADI}）确实是@全埃拉特（{glossary=Elaat,GLOSS_ELAAT}）最为尊贵的血脉！
+#ISAIAH_0_RES_1_1	<SCR=CHECK_JOINED|FASIL|ISAIAH_0_RES_1_2><SCR=CONTINUE|ISAIAH_0_RES_1_2|FASIL=1><NPC=FASIL><SIDE=1>{align=2}$PH20_SAND*实在是惊人，大公阁下！@您父皇的王朝（{glossary=Sayadi,GLOSS_SAYADI}）确实是@全埃拉特（{glossary=Elaat,GLOSS_ELAAT}）最为尊贵的血脉！*
 
-#ISAIAH_0_RES_1_2	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=1><NPC=DAUD><SIDE=1>{align=2}太好了，大公阁下！@您这下可给当地人留下了极佳的印象！
-
-
-#ISAIAH_0_RES_2_1	<SCR=CHECK_JOINED|PETR|ISAIAH_0_RES_2_2><SCR=CONTINUE|ISAIAH_0_RES_2_2|PETR=1><NPC=PETR><SIDE=1>大公阁下，您总是不断让我感到惊异！
-
-#ISAIAH_0_RES_2_2	<SCR=CHECK_JOINED|HARISHID|EXIT><SCR=STOP|HARISHID=1><NPC=HARISHID><SIDE=0>{align=2}萨亚迪（{glossary=Sayadi,GLOSS_SAYADI}）皇子殿下@竟解读出了格瑞特圣书碎片（{glossary=qoda,GLOSS_QODA}）？@多么奇妙的一天啊！
+#ISAIAH_0_RES_1_2	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=1><NPC=DAUD><SIDE=1>{align=2}$PH20_SAND*太好了，大公阁下！@您这下可给当地人留下了极佳的印象！*
 
 
+#ISAIAH_0_RES_2_1	<SCR=CHECK_JOINED|PETR|ISAIAH_0_RES_2_2><SCR=CONTINUE|ISAIAH_0_RES_2_2|PETR=1><NPC=PETR><SIDE=1>$PH20_SAND*大公阁下，您总是不断让我感到惊异！*
+
+#ISAIAH_0_RES_2_2	<SCR=CHECK_JOINED|HARISHID|EXIT><SCR=STOP|HARISHID=1><NPC=HARISHID><SIDE=0>{align=2}$PH20_SAND*萨亚迪（{glossary=Sayadi,GLOSS_SAYADI}）皇子殿下@竟解读出了格瑞特圣书碎片（{glossary=qoda,GLOSS_QODA}）？@多么奇妙的一天啊！*
 
 
-#ISAIAH_1_1	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>大公阁下，请容借一步说话。
 
-#ISAIAH_1_2	<NPC=FASIL><SIDE=-1><SCR=CONTINUE> {align=2}如您所知，长老（{glossary=doyen,GLOSS_DOYEN}）那次事件@给我的子民留下了深刻的印象。@如今您身上有许多传言，大公阁下。@他们说您是个先知。
 
-#ISAIAH_1_3	<NPC=FASIL><SIDE=-1>{align=2}圣书碎片（{glossary=qoda,GLOSS_QODA}）曾是由@圣徒林恩（{glossary=Saint Lyn,GLOSS_LEEN}）亲自赠予格瑞特之王（{glossary=Elaou,GLOSS_ELAOU}）的礼物。@它们见证了王室的世代变迁。@那位老者授予了您无上光荣。
+#ISAIAH_1_1	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>$PH20_SAND*大公阁下，请容借一步说话。*
+
+#ISAIAH_1_2	<NPC=FASIL><SIDE=-1><SCR=CONTINUE> {align=2}$PH20_SAND*如您所知，长老（{glossary=doyen,GLOSS_DOYEN}）那次事件@给我的子民留下了深刻的印象。@如今您身上有许多传言，大公阁下。@他们说您是个先知。*
+
+#ISAIAH_1_3	<NPC=FASIL><SIDE=-1>{align=2}$PH20_SAND*圣书碎片（{glossary=qoda,GLOSS_QODA}）曾是由@圣徒林恩（{glossary=Saint Lyn,GLOSS_LEEN}）亲自赠予格瑞特之王（{glossary=Elaou,GLOSS_ELAOU}）的礼物。@它们见证了王室的世代变迁。@那位老者授予了您无上光荣。*
 <ANS=您是说他是格瑞特王族的后嗣？|ISAIAH_1_4>
 
-#ISAIAH_1_4	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}诚如所言。@尽管难以置信…（法兹尔忽然陷入了沉思）。@但他的血脉已尽。
+#ISAIAH_1_4	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*诚如所言。@尽管难以置信…（法兹尔忽然陷入了沉思）。@但他的血脉已尽。*
 
-#ISAIAH_1_5	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}自然，我亦身负着我族所持圣书碎片的血脉传承。@而我愿为您效劳，大公阁下。
+#ISAIAH_1_5	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*自然，我亦身负着我族所持圣书碎片的血脉传承。@而我愿为您效劳，大公阁下。*
 
-#ISAIAH_1_6	<NPC=FASIL><SIDE=-1>{align=2}我也将为您展示一下我族所持的圣书碎片（{glossary=qoda,GLOSS_QODA}）。@若您也能解读其上经文，则我们也能将经上所言传遍全地。@届时您在以拦人（{glossary=Elaims,GLOSS_ELAIM}）中的影响必得以翻上一番！
+#ISAIAH_1_6	<NPC=FASIL><SIDE=-1>$PH20_SAND*{align=2}我也将为您展示一下我族所持的圣书碎片（{glossary=qoda,GLOSS_QODA}）。@若您也能解读其上经文，则我们也能将经上所言传遍全地。@届时您在以拦人（{glossary=Elaims,GLOSS_ELAIM}）中的影响必得以翻上一番！*
 <ANS=而此外，您也想一见您自己的圣书碎片所云含义？|ISAIAH_1_7_1|FASIL=1>
 <ANS=“若”我也能？您是在怀疑我的先知能力？|ISAIAH_1_7_2|FAITH=1>！
 
 
-#ISAIAH_1_7_1	<NPC=FASIL><SIDE=-1>{align=2}（法兹尔笑了）显然上天@让我等相会绝非偶然之事。<SCR=CONTINUE|ISAIAH_1_8>
+#ISAIAH_1_7_1	<NPC=FASIL><SIDE=-1>{align=2}$PH20_SAND*（法兹尔笑了）显然上天@让我等相会绝非偶然之事。*<SCR=CONTINUE|ISAIAH_1_8>
 
-#ISAIAH_1_7_2	<NPC=FASIL><SIDE=-1><NOSPEAK>{align=2}法兹尔以鞠躬相应，@但沉默以对。<SCR=CONTINUE|ISAIAH_1_8>
+#ISAIAH_1_7_2	<NPC=FASIL><SIDE=-1><NOSPEAK>{align=2}$PH20_SAND*法兹尔以鞠躬相应，@但沉默以对。*<SCR=CONTINUE|ISAIAH_1_8>
 
-#ISAIAH_1_8	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}他给了你一个小盒子，@和长老给你的盒子相似。
+#ISAIAH_1_8	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*他给了你一个小盒子，@和长老给你的盒子相似。*
 
 #ISAIAH_1_9	<SCR=ISAIAH|1><MUSIC=Yeshoua><ANS=我们所传的有谁信呢？神的膀臂向谁显露呢？…|ISAIAH_1_10>
 
@@ -1125,40 +1123,40 @@
 
 #ISAIAH_1_12	<ANS=我们也不尊重他。|ISAIAH_1_13>
 
-#ISAIAH_1_13	<SCR=ISAIAH_OFF><NPC=FASIL><SIDE=-1>您真如实解读经文所述？绝非戏言？
+#ISAIAH_1_13	<SCR=ISAIAH_OFF><NPC=FASIL><SIDE=-1>$PH20_SAND*您真如实解读经文所述？绝非戏言？*
 <ANS=我所读内容千真万确。|ISAIAH_1_14>
 
-#ISAIAH_1_14	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}法兹尔转过头去，@不快溢于言表。
+#ISAIAH_1_14	<NPC=FASIL><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*法兹尔转过头去，@不快溢于言表。*
 
-#ISAIAH_1_15	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}我须坦承，公爵阁下，@不才也只能读懂这片圣书的只言片语。@“我们所传…”您却一下就将其解读。因而我相信您。
+#ISAIAH_1_15	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我须坦承，公爵阁下，@不才也只能读懂这片圣书的只言片语。@“我们所传…”您却一下就将其解读。因而我相信您。*
 
-#ISAIAH_1_16	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}可这其中所述…@如此一人何德何能成为救主？
+#ISAIAH_1_16	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*可这其中所述…@如此一人何德何能成为救主？*
 
-#ISAIAH_1_17	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}我们需要预言来预示一位才勇兼备的领袖。@需要此人真将救赎带来人世。
+#ISAIAH_1_17	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我们需要预言来预示一位才勇兼备的领袖。@需要此人真将救赎带来人世。*
 
-#ISAIAH_1_18	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}而此片圣书所述之人@甚至难以自保，不消说拯救他人…
+#ISAIAH_1_18	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*而此片圣书所述之人@甚至难以自保，不消说拯救他人…*
 
-#ISAIAH_1_19	<NPC=FASIL><SIDE=-1>{align=2}被人厌弃，多受痛苦…@其中所言可能确为至善之人，@但他何以领导百姓？
+#ISAIAH_1_19	<NPC=FASIL><SIDE=-1>{align=2}$PH20_SAND*被人厌弃，多受痛苦…@其中所言可能确为至善之人，@但他何以领导百姓？*
 <ANS=何以如此？我也难以参透。|ISAIAH_1_20_1|FASIL=1>
 <ANS=世事道理并不总以表面示人。|ISAIAH_1_20_2>
 
-#ISAIAH_1_20_1	<NPC=FASIL><SIDE=-1>也罢，这无关紧要。<SCR=CONTINUE|ISAIAH_1_21>
+#ISAIAH_1_20_1	<NPC=FASIL><SIDE=-1>$PH20_SAND*也罢，这无关紧要。*<SCR=CONTINUE|ISAIAH_1_21>
 
-#ISAIAH_1_20_2	<NPC=FASIL><SIDE=-1>不要在意，公爵阁下！我们先将此事搁置为好。<SCR=CONTINUE|ISAIAH_1_21>
+#ISAIAH_1_20_2	<NPC=FASIL><SIDE=-1>$PH20_SAND*不要在意，公爵阁下！我们先将此事搁置为好。*<SCR=CONTINUE|ISAIAH_1_21>
 
-#ISAIAH_1_21	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}若连我听闻您所述内容都会有所不悦，@我属下臣民们可能更是难以接受。
+#ISAIAH_1_21	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*若连我听闻您所述内容都会有所不悦，@我属下臣民们可能更是难以接受。*
 
-#ISAIAH_1_22	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}以拦人（{glossary=Elaims,GLOSS_ELAIM}）钦佩您所获胜绩，@而您又能参透圣书天机，使他们更为诚服。
+#ISAIAH_1_22	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*以拦人（{glossary=Elaims,GLOSS_ELAIM}）钦佩您所获胜绩，@而您又能参透圣书天机，使他们更为诚服。*
 
-#ISAIAH_1_23	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}他们或会将您@视为预言所述救主。
+#ISAIAH_1_23	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*他们或会将您@视为预言所述救主。*
 
-#ISAIAH_1_24	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}在此我有所相求。@当你要向世人告知圣书所言，@您就如此说：“这人出身高贵，在他征战无往不胜…”@若如此相告，他们就会追随您左右。
+#ISAIAH_1_24	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*在此我有所相求。@当你要向世人告知圣书所言，@您就如此说：“这人出身高贵，在他征战无往不胜…”@若如此相告，他们就会追随您左右。*
 
-#ISAIAH_1_25	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}如此在格瑞特（{glossary=Gerat,GLOSS_GERAT}）全境您所拥有的权柄@则天下难及！
+#ISAIAH_1_25	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*如此在格瑞特（{glossary=Gerat,GLOSS_GERAT}）全境您所拥有的权柄@则天下难及！*
 
-#ISAIAH_1_26	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>如此您便可施救于我等世人。
+#ISAIAH_1_26	<NPC=FASIL><SIDE=-1><SCR=CONTINUE>$PH20_SAND*如此您便可施救于我等世人。*
 
-#ISAIAH_1_27	<SCR=CONTINUE>{align=2}翌日，法兹尔王子宣告称，@大公阁下已经得以解析埃劳家族（{glossary=Elaou,GLOSS_ELAOU}）所持圣书碎片（{glossary=qoda,GLOSS_QODA}）所述天机，@并要诵读其上预言内容。
+#ISAIAH_1_27	<SCR=CONTINUE>{align=2}$PH20_SAND*翌日，法兹尔王子宣告称，@大公阁下已经得以解析埃劳家族（{glossary=Elaou,GLOSS_ELAOU}）所持圣书碎片（{glossary=qoda,GLOSS_QODA}）所述天机，@并要诵读其上预言内容。*
 
 #ISAIAH_1_28	<BACKGROUND=background_crowd_01>众人聚集起来，只为聆听圣书（{glossary=qoda,GLOSS_QODA}）所述真意。@无数面庞都看向您。
 <ANS=“他在天主面前生长如嫩芽，像根出于干地。他无佳形美容…”|ISAIAH_1_POOR|LEVEL_WEALTH=-1>
@@ -1171,50 +1169,50 @@
 
 
 
-#ISAIAH_1_RES_1_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_1_HA><SCR=CONTINUE|ISAIAH_1_RES_1_GL|KNIGHT=-1><NPC=KNIGHT><SIDE=0>这怎么可能？！
+#ISAIAH_1_RES_1_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_1_HA><SCR=CONTINUE|ISAIAH_1_RES_1_GL|KNIGHT=-1><NPC=KNIGHT><SIDE=0>$PH20_SAND*这怎么可能？！*
 
-#ISAIAH_1_RES_1_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_1_HI><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HARISHID=-1><NPC=HARISHID><SIDE=0>这怎么可能？！
+#ISAIAH_1_RES_1_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_1_HI><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HARISHID=-1><NPC=HARISHID><SIDE=0>$PH20_SAND*这怎么可能？！*
 
-#ISAIAH_1_RES_1_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_1_GL><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HISSID=-1><NPC=HISSID><SIDE=0>这怎么可能？！
-
-
-
-
-#ISAIAH_1_RES_1_GL	<SCR=CHECK_JOINED|GIRL|ISAIAH_1_RES_1_BO><SCR=STOP|GIRL=1><NPC=GIRL><SIDE=0>容我斟酌此言。
-
-#ISAIAH_1_RES_1_BO	<SCR=CHECK_JOINED|BOY|ISAIAH_1_RES_1_PT><SCR=STOP|BOY=1><NPC=BOY><SIDE=0>容我斟酌此言。
-
-#ISAIAH_1_RES_1_PT	<SCR=CHECK_JOINED|PETR|EXIT><SCR=STOP|PETR=1><NPC=PETR><SIDE=0>容我斟酌此言。
+#ISAIAH_1_RES_1_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_1_GL><SCR=CONTINUE|ISAIAH_1_RES_1_GL|HISSID=-1><NPC=HISSID><SIDE=0>$PH20_SAND*这怎么可能？！*
 
 
 
 
-#ISAIAH_1_RES_2_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_2_HA><SCR=CONTINUE|ISAIAH_1_RES_2_AR|KNIGHT=1><NPC=KNIGHT><SIDE=0>这才是我们需要的领袖。
+#ISAIAH_1_RES_1_GL	<SCR=CHECK_JOINED|GIRL|ISAIAH_1_RES_1_BO><SCR=STOP|GIRL=1><NPC=GIRL><SIDE=0>$PH20_SAND*容我斟酌此言。*
 
-#ISAIAH_1_RES_2_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_2_HI><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HARISHID=1><NPC=HARISHID><SIDE=0>这才是我们需要的领袖。
+#ISAIAH_1_RES_1_BO	<SCR=CHECK_JOINED|BOY|ISAIAH_1_RES_1_PT><SCR=STOP|BOY=1><NPC=BOY><SIDE=0>$PH20_SAND*容我斟酌此言。*
 
-#ISAIAH_1_RES_2_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_2_AR><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HISSID=1><NPC=HISSID><SIDE=0>这才是我们需要的领袖。
+#ISAIAH_1_RES_1_PT	<SCR=CHECK_JOINED|PETR|EXIT><SCR=STOP|PETR=1><NPC=PETR><SIDE=0>$PH20_SAND*容我斟酌此言。*
 
-#ISAIAH_1_RES_2_AR	<SCR=CHECK_JOINED|AIRBORNE|ISAIAH_1_RES_2_SC><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0>真是胡说八道！
 
-#ISAIAH_1_RES_2_SC	<SCR=CHECK_JOINED|SCOUT|ISAIAH_1_RES_2_VE><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>真是胡说八道！
 
-#ISAIAH_1_RES_2_VE	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>真是胡说八道！
+
+#ISAIAH_1_RES_2_KN	<SCR=CHECK_JOINED|KNIGHT|ISAIAH_1_RES_2_HA><SCR=CONTINUE|ISAIAH_1_RES_2_AR|KNIGHT=1><NPC=KNIGHT><SIDE=0>$PH20_SAND*这才是我们需要的领袖。*
+
+#ISAIAH_1_RES_2_HA	<SCR=CHECK_JOINED|HARISHID|ISAIAH_1_RES_2_HI><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HARISHID=1><NPC=HARISHID><SIDE=0>$PH20_SAND*这才是我们需要的领袖。*
+
+#ISAIAH_1_RES_2_HI	<SCR=CHECK_JOINED|HISSID|ISAIAH_1_RES_2_AR><SCR=CONTINUE|ISAIAH_1_RES_2_AR|HISSID=1><NPC=HISSID><SIDE=0>$PH20_SAND*这才是我们需要的领袖。*
+
+#ISAIAH_1_RES_2_AR	<SCR=CHECK_JOINED|AIRBORNE|ISAIAH_1_RES_2_SC><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0>$PH20_SAND*真是胡说八道！*
+
+#ISAIAH_1_RES_2_SC	<SCR=CHECK_JOINED|SCOUT|ISAIAH_1_RES_2_VE><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>$PH20_SAND*真是胡说八道！*
+
+#ISAIAH_1_RES_2_VE	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN><SIDE=0>$PH20_SAND*真是胡说八道！*
 
 
 
 
 #ISAIAH_2_1	<SCR=CONTINUE><SCR=SKIP|ISAIAH_1_27><MUSIC=Duduk_4_ever>我都没看到此人进门…
 
-#ISAIAH_2_2	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}我只是稍许移开视线，回过头来，@他已经立于身前。
+#ISAIAH_2_2	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*我只是稍许移开视线，回过头来，@他已经立于身前。*
 
-#ISAIAH_2_3	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}奥马尔告诉我说，您在@一位长老临终榻前读出了圣书碎片。
+#ISAIAH_2_3	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*奥马尔告诉我说，您在@一位长老临终榻前读出了圣书碎片。*
 
-#ISAIAH_2_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}这些圣书碎片@向来无人能够解读…（他说着，陷入沉思。）
+#ISAIAH_2_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*这些圣书碎片@向来无人能够解读…（他说着，陷入沉思。）*
 
-#ISAIAH_2_5	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}他向您伸手，@捧着一个类似的小盒。
+#ISAIAH_2_5	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>$PH20_SAND*{align=2}他向您伸手，@捧着一个类似的小盒。*
 
-#ISAIAH_2_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>也请您读一下我的！
+#ISAIAH_2_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>$PH20_SAND*也请您读一下我的！*
 
 #ISAIAH_2_7	<SCR=ISAIAH|2><MUSIC=Yeshoua><ANS=“他诚然背负我们的痛苦…”|ISAIAH_2_8>
 
@@ -1222,13 +1220,13 @@
 
 #ISAIAH_2_9	<ANS=“…因他受的鞭伤我们得医治。”|ISAIAH_2_10>
 
-#ISAIAH_2_10	<NPC=BOY><SIDE=0><SCR=ISAIAH_OFF>这是什么意思？
+#ISAIAH_2_10	<NPC=BOY><SIDE=0><SCR=ISAIAH_OFF>$PH20_SAND*这是什么意思？*
 <ANS=他会为我们受刑罚。|ISAIAH_2_11>
 
-#ISAIAH_2_11	<NPC=BOY><SIDE=0>我们的刑罚？为什么？
+#ISAIAH_2_11	<NPC=BOY><SIDE=0>$PH20_SAND*我们的刑罚？为什么？*
 <ANS=为了我们的罪孽。|ISAIAH_2_12>
 
-#ISAIAH_2_12	<NPC=BOY><SIDE=0>什么罪？我可从来没犯过罪呀！
+#ISAIAH_2_12	<NPC=BOY><SIDE=0>$PH20_SAND*什么罪？我可从来没犯过罪呀！*
 <ANS=当然没有，阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）。请原谅我。|ISAIAH_2_16|BOY=1>
 <ANS=我很难相信凡人能行出此事。|ISAIAH_2_PARA_1>
 <ANS=“方吾生之半路…”|ISAIAH_2_13>
@@ -1250,59 +1248,59 @@
 <ANS=我们所犯的罪往往微不足道，也不多加在意它们，但它们像沙子一样又多又细碎。|ISAIAH_2_16>
 
 
-#ISAIAH_2_13	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><BACKGROUND=empty_night><NOSPEAK><SCR=CONTINUE>“…恍余处乎幽林…”
+#ISAIAH_2_13	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><BACKGROUND=empty_night><NOSPEAK><SCR=CONTINUE>$PH20_SAND*“…恍余处乎幽林…”*
 
-#ISAIAH_2_14	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><NOSPEAK><SCR=CONTINUE>“…失正轨而迷误。”
+#ISAIAH_2_14	<NPC=GOVERNOR><SIDE=0><FADEAWAY=1><NOSPEAK><SCR=CONTINUE>$PH20_SAND*“…失正轨而迷误。”*
 
-#ISAIAH_2_15	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK><BACKGROUND_OFF>少年茫然地看着您。
+#ISAIAH_2_15	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK><BACKGROUND_OFF>$PH20_SAND*少年茫然地看着您。*
 
-#ISAIAH_2_16	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK> 沉默了一会，他开口问道…
+#ISAIAH_2_16	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK> $PH20_SAND*沉默了一会，他开口问道…*
 
-#ISAIAH_2_17	<NPC=BOY><SIDE=0> 他也会为我的杀父仇人所犯的罪而受罚吗？
+#ISAIAH_2_17	<NPC=BOY><SIDE=0> $PH20_SAND*他也会为我的杀父仇人所犯的罪而受罚吗？*
 <ANS=世人所犯的罪都将得赦免。|ISAIAH_2_MERCI_1|LEVEL_KINDNESS=1>
 <ANS=所有应得赦罪的人都能得宽恕。|ISAIAH_2_JUST_1|LEVEL_RIGHT=1>
 
 
-#ISAIAH_2_MERCI_1	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK> 少年的眼神一下大变。
+#ISAIAH_2_MERCI_1	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK> $PH20_SAND*少年的眼神一下大变。*
 
-#ISAIAH_2_MERCI_2	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2} 绝不！@这些混蛋必将遭到报应！（他朝你脸上怒吼）
+#ISAIAH_2_MERCI_2	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2} {align=2}$PH20_SAND*绝不！@这些混蛋必将遭到报应！（他朝你脸上怒吼）*
 
-#ISAIAH_2_MERCI_3	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_1_1|BOY=-1>{align=2}你刚读出的东西毫无意义，@什么都说明不了！
-
-
-#ISAIAH_2_JUST_1	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_2_1|BOY=1> 希望如此。
-
-#ISAIAH_2_RES_1_1	<SCR=CHECK_JOINED|HISSID|ISAIAH_2_RES_1_2><SCR=CONTINUE|ISAIAH_2_RES_1_2|HISSID=1><NPC=HISSID><SIDE=0> 若此所言不虚…
-
-#ISAIAH_2_RES_1_2	<SCR=CHECK_JOINED|SCOUT|EXIT><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0> 大公阁下，您这话太危险了。
+#ISAIAH_2_MERCI_3	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_1_1|BOY=-1>{align=2}$PH20_SAND*你刚读出的东西毫无意义，@什么都说明不了！*
 
 
-#ISAIAH_2_RES_2_1	<SCR=CHECK_JOINED|OMAR|ISAIAH_2_RES_2_2><SCR=CONTINUE|ISAIAH_2_RES_2_2|OMAR=1><NPC=OMAR><SIDE=0> 希望如此。
+#ISAIAH_2_JUST_1	<NPC=BOY><SIDE=0><SCR=CONTINUE|ISAIAH_2_RES_2_1|BOY=1>$PH20_SAND* 希望如此。*
 
-#ISAIAH_2_RES_2_2	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN> <SIDE=0>{align=2}（挥手让你离开）您的期望@是徒劳的，大公阁下。
+#ISAIAH_2_RES_1_1	<SCR=CHECK_JOINED|HISSID|ISAIAH_2_RES_1_2><SCR=CONTINUE|ISAIAH_2_RES_1_2|HISSID=1><NPC=HISSID><SIDE=0> $PH20_SAND*若此所言不虚…*
+
+#ISAIAH_2_RES_1_2	<SCR=CHECK_JOINED|SCOUT|EXIT><SCR=STOP|SCOUT=-1><NPC=SCOUT><SIDE=0>$PH20_SAND* 大公阁下，您这话太危险了。*
+
+
+#ISAIAH_2_RES_2_1	<SCR=CHECK_JOINED|OMAR|ISAIAH_2_RES_2_2><SCR=CONTINUE|ISAIAH_2_RES_2_2|OMAR=1><NPC=OMAR><SIDE=0> $PH20_SAND*希望如此。*
+
+#ISAIAH_2_RES_2_2	<SCR=CHECK_JOINED|VETERAN|EXIT><SCR=STOP|VETERAN=-1><NPC=VETERAN> <SIDE=0>{align=2}$PH20_SAND*（挥手让你离开）您的期望@是徒劳的，大公阁下。*
 
 
 
 
-#ISAIAH_3_1	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_3_10><MUSIC=Duduk_4_ever> 请允许我借一步说话，阁下。
+#ISAIAH_3_1	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=SKIP|ISAIAH_3_10><MUSIC=Duduk_4_ever> $PH20_SAND*请允许我借一步说话，阁下。*
 
-#ISAIAH_3_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>{align=2}我的家族也供奉有一卷圣书碎片，@我族一直保守着这个秘密。
+#ISAIAH_3_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我的家族也供奉有一卷圣书碎片，@我族一直保守着这个秘密。*
 
-#ISAIAH_3_3	<NPC=OMAR><SIDE=-1>{align=2}它将成为我族作为王族后嗣的明证，@因而我们原本禁止外人触碰…除非时机成熟。
+#ISAIAH_3_3	<NPC=OMAR><SIDE=-1>{align=2}$PH20_SAND*它将成为我族作为王族后嗣的明证，@因而我们原本禁止外人触碰…除非时机成熟。*
 <ANS=所以若你们的族人有幸登上格瑞特王位，圣书碎片就将成为他们王位宣称的证明？|ISAIAH_3_4>
 
-#ISAIAH_3_4	<NPC=OMAR><SIDE=-1> 不假。
+#ISAIAH_3_4	<NPC=OMAR><SIDE=-1> $PH20_SAND*不假。*
 <ANS=而您对我和盘托出是希望我能为您解读其上经文？|ISAIAH_3_5>
 
-#ISAIAH_3_5	<NPC=OMAR><SIDE=-1><SCR=CONTINUE> 是的，阁下。
+#ISAIAH_3_5	<NPC=OMAR><SIDE=-1><SCR=CONTINUE> $PH20_SAND*是的，阁下。*
 
-#ISAIAH_3_6	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>{align=2}我族将此书供为镇族之宝，@但我等都对其上经文一窍不通。@但直到您解读出了那位老者的，@还有法兹尔的圣书碎片…
+#ISAIAH_3_6	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我族将此书供为镇族之宝，@但我等都对其上经文一窍不通。@但直到您解读出了那位老者的，@还有法兹尔的圣书碎片…*
 
-#ISAIAH_3_7	<NPC=OMAR><SIDE=-1><SCR=CONTINUE> …使我意识到其上必记有先知预言。
+#ISAIAH_3_7	<NPC=OMAR><SIDE=-1><SCR=CONTINUE> $PH20_SAND*…使我意识到其上必记有先知预言。*
 
-#ISAIAH_3_8	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK> 奥马尔交予您一个小盒
+#ISAIAH_3_8	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK> $PH20_SAND*奥马尔交予您一个小盒*
 
-#ISAIAH_3_9	<NPC=OMAR><SIDE=-1><SCR=CONTINUE> 请您向我讲述其上所言。
+#ISAIAH_3_9	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>$PH20_SAND* 请您向我讲述其上所言。*
 
 #ISAIAH_3_10	<SCR=ISAIAH|3><MUSIC=Yeshoua>
 <ANS=“他像羊羔…”|ISAIAH_3_LAMB_1>
@@ -1318,24 +1316,24 @@
 #ISAIAH_3_LION_2	<ANS=“他的大能就出自于神！谁能在他面前站得住呢？”|ISAIAH_3_FORCE_1|LEVEL_FORCE=1>
 
 
-#ISAIAH_3_WEAKENESS_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK> 奥马尔思考良久，才开口回应。
+#ISAIAH_3_WEAKENESS_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK> $PH20_SAND*奥马尔思考良久，才开口回应。*
 
-#ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>{align=2}“连另一边的脸也由他打”——@你们的教导不就是这样的吗？
+#ISAIAH_3_WEAKENESS_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*“连另一边的脸也由他打”——@你们的教导不就是这样的吗？*
 
-#ISAIAH_3_WEAKENESS_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}他没有对上您的目光，@只是在脸上露出苦笑。
+#ISAIAH_3_WEAKENESS_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*他没有对上您的目光，@只是在脸上露出苦笑。*
 
-#ISAIAH_3_WEAKENESS_4	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_WEAKENESS_5|OMAR=-1>{align=2}抱歉，阁下，@但世间道理并非如此。
+#ISAIAH_3_WEAKENESS_4	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_WEAKENESS_5|OMAR=-1>{align=2}$PH20_SAND*抱歉，阁下，@但世间道理并非如此。*
 
-#ISAIAH_3_WEAKENESS_5	<NPC=OMAR><SIDE=-1><SCR=STOP><NOSPEAK>{align=2}他取回了自己的圣书碎片转身离开，@没有多留下一句话。
+#ISAIAH_3_WEAKENESS_5	<NPC=OMAR><SIDE=-1><SCR=STOP><NOSPEAK>{align=2}$PH20_SAND*他取回了自己的圣书碎片转身离开，@没有多留下一句话。*
 
 
-#ISAIAH_3_FORCE_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE> 我明白了…
+#ISAIAH_3_FORCE_1	<SCR=ISAIAH_OFF><NPC=OMAR><SIDE=-1><SCR=CONTINUE>$PH20_SAND* 我明白了…*
 
-#ISAIAH_3_FORCE_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_FORCE_3|OMAR=1><NOSPEAK>{align=2}和平时一样，奥马尔没有对上您的目光。@但您心底感觉他在用眼角余光专心注视着您。
+#ISAIAH_3_FORCE_2	<NPC=OMAR><SIDE=-1><SCR=CONTINUE|ISAIAH_3_FORCE_3|OMAR=1><NOSPEAK>{align=2}$PH20_SAND*和平时一样，奥马尔没有对上您的目光。@但您心底感觉他在用眼角余光专心注视着您。*
 
-#ISAIAH_3_FORCE_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE> 愿全能的天主尽快将此人送至我们面前。
+#ISAIAH_3_FORCE_3	<NPC=OMAR><SIDE=-1><SCR=CONTINUE> $PH20_SAND*愿全能的天主尽快将此人送至我们面前。*
 
-#ISAIAH_3_FORCE_4	<NPC=OMAR><SIDE=-1><SCR=STOP> 我会将您的话语传达给我的人民。
+#ISAIAH_3_FORCE_4	<NPC=OMAR><SIDE=-1><SCR=STOP> $PH20_SAND*我会将您的话语传达给我的人民。*
 
 
 
@@ -1349,15 +1347,15 @@
 
 #PROPHET_OMAR_5	<SCR=CONTINUE>{align=2}我们只知道正是这位以拦人@说服了塞瓦斯托波尔号船员将舰船开往吾珥（Ur）。@我想不出他到底是怎么说服船员的，@不过既然他做到了，我们也因此十分尊敬他。@若没有巡空舰在手，进攻希瓦（{glossary=Khiva,GLOSS_KHIVA}）的行动基本上不可能成功。
 
-#PROPHET_OMAR_6	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>{align=2}大公阁下？请允许在下与您借一步说话。
+#PROPHET_OMAR_6	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*大公阁下？请允许在下与您借一步说话。*
 
-#PROPHET_OMAR_7	<NPC=PROPHET><SIDE=-1><NOSPEAK>{align=2}我这还是第一次听到他讲话。@他的面具遮下了话音，@以至于很难推测他的年龄。<SCR=CONTINUE>
+#PROPHET_OMAR_7	<NPC=PROPHET><SIDE=-1><NOSPEAK>{align=2}$PH20_SAND*我这还是第一次听到他讲话。@他的面具遮下了话音，@以至于很难推测他的年龄。<SCR=CONTINUE>*
 
-#PROPHET_OMAR_8	<NPC=PROPHET><SIDE=-1>{align=2}在下知道您希望格瑞特的@塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）们前来支援您攻击希瓦（{glossary=Khiva,GLOSS_KHIVA}）。@而吾珥（Ur）<DIRECTION_TARKHAN=OMAR> 方向正好躲藏着著名的奥马尔可汗。@在下相信他能成为您的忠实助力。<SCR=CONTINUE>
+#PROPHET_OMAR_8	<NPC=PROPHET><SIDE=-1>{align=2}$PH20_SAND*在下知道您希望格瑞特的@塔可汗（{glossary=Tarkhan,GLOSS_TARKHAN}）们前来支援您攻击希瓦（{glossary=Khiva,GLOSS_KHIVA}）。@而吾珥（Ur）<DIRECTION_TARKHAN=OMAR> 方向正好躲藏着著名的奥马尔可汗。@在下相信他能成为您的忠实助力。*<SCR=CONTINUE>
 
-#PROPHET_OMAR_9	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>{align=2}若您能和他一见，@在下请求您向他交予此物…
+#PROPHET_OMAR_9	<NPC=PROPHET><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*若您能和他一见，@在下请求您向他交予此物…*
 
-#PROPHET_OMAR_10	<NPC=PROPHET><SIDE=-1><NOSPEAK> {align=2}戴面具的以拦人交给您@一个小巧精致的罐子。<SCR=CONTINUE>
+#PROPHET_OMAR_10	<NPC=PROPHET><SIDE=-1><NOSPEAK> {align=2}$PH20_SAND*戴面具的以拦人交给您@一个小巧精致的罐子。*<SCR=CONTINUE>
 
 #PROPHET_OMAR_11	以拦人鞠了一躬，然后离开了。
 <ANS=看看里面。|PROPHET_OMAR_12>
@@ -1383,61 +1381,61 @@
 
 #HELLO_OMAR_1	<SCR=CONTINUE><MUSIC=Duduk_4_ever>{align=2}一群人从舰上向您走来。@他们军装齐整，但赤手空拳。
 
-#HELLO_OMAR_2	<NPC=HIRE><SIDE=0><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_OMAR>{align=2}一位高大的以拦人（{glossary=Elaims,GLOSS_ELAIM}）走在前列。@他并不遮掩面容，@背后伸出的剑柄依稀可辨—都标明此人身世显赫。
+#HELLO_OMAR_2	<NPC=HIRE><SIDE=0><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_OMAR>{align=2}$PH20_SAND*一位高大的以拦人（{glossary=Elaims,GLOSS_ELAIM}）走在前列。@他并不遮掩面容，@背后伸出的剑柄依稀可辨—都标明此人身世显赫。*
 
-#HELLO_INTRODUCE_OMAR	<NPC=HIRE><APPROVE>{align=2}愿平安与您同在，萨亚迪之子！@我是奥马尔可汗。
+#HELLO_INTRODUCE_OMAR	<NPC=HIRE><APPROVE>{align=2}$PH20_SAND*愿平安与您同在，萨亚迪之子！@我是奥马尔可汗。*
 <ANS=我正在寻找征讨希瓦的盟友，您愿意加入我们吗？|HELLO_ROUND|DIPLOMACY_STARTS>
 <ANS=我东西要交付于您。（将小罐递给奥马尔）|HELLO_OMAR_3>
 
-#HELLO_OMAR_3	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>{align=2}奥马尔小心翼翼的打开了罐子。@他的眼神僵住了。
+#HELLO_OMAR_3	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*奥马尔小心翼翼的打开了罐子。@他的眼神僵住了。*
 
-#HELLO_OMAR_4	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE|HELLO_OMAR_5|OMAR_ANYTIME=99>{align=2}最终，他抬起头回答您。@他的话音颤抖着。@您能感觉到他的激动之情。
+#HELLO_OMAR_4	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE|HELLO_OMAR_5|OMAR_ANYTIME=99>{align=2}$PH20_SAND*最终，他抬起头回答您。@他的话音颤抖着。@您能感觉到他的激动之情。*
 
-#HELLO_OMAR_5	<NPC=HIRE><SIDE=0><APPROVE>您所求何事，大公阁下？
+#HELLO_OMAR_5	<NPC=HIRE><SIDE=0><APPROVE>$PH20_SAND*您所求何事，大公阁下？*
 <ANS=我在寻找征讨希瓦的盟友。你愿意加入我们吗？|HELLO_OMAR_6>
 
-#HELLO_OMAR_6	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>{align=2}您感到奥马尔似有他事所求。@但当他意识到您来意仅止于此，便开口回应。
+#HELLO_OMAR_6	<NPC=HIRE><SIDE=0><APPROVE><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*您感到奥马尔似有他事所求。@但当他意识到您来意仅止于此，便开口回应。*
 
-#HELLO_OMAR_7	<NPC=HIRE><SIDE=0><APPROVE>荣幸之至，大公阁下。<ANS=我还想见见其他塔可汗。您知道去哪儿找他们吗？|HELLO_INTEL_TARKHANS>
-
-
+#HELLO_OMAR_7	<NPC=HIRE><SIDE=0><APPROVE$PH20_SAND*>荣幸之至，大公阁下。*<ANS=我还想见见其他塔可汗。您知道去哪儿找他们吗？|HELLO_INTEL_TARKHANS>
 
 
-#HELLO_BOY_1	<SCR=CONTINUE><MUSIC=Duduk_4_ever>{align=2}一个矮小的，披着斗篷的身影从舰上出现，@身边有一人随行。@他腰间那柄镶金宝剑大的不成比例，@甚至使他步伐都磕磕绊绊的。
-
-#HELLO_BOY_2	<SCR=CONTINUE><SCR=CHECK_JOINED|OMAR|HELLO_BOY_11>{align=2}让您吃惊的是，奥马尔及其部下@一见到此人便立刻深深行礼。
-
-#HELLO_BOY_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）阁下。
-
-#HELLO_BOY_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}奥马尔阁下，拉苏夫之子啊。@愿平安与您同在。
-
-#HELLO_BOY_5	<NPC=OMAR><SIDE=1><SCR=CONTINUE>{align=2}您为何到此，@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）阁下？令尊如何？
-
-#HELLO_BOY_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}忠于总督（{glossary=Governor,GLOSS_GOVERNOR}）的@哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）将我父亲杀害了。@三天前，他们把父亲从战舰上抛下，@摔得粉身碎骨。
-
-#HELLO_BOY_7	<NPC=OMAR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}奥马尔及其部下@听闻此事似乎大惊失色。
-
-#HELLO_BOY_8	<NPC=OMAR><SIDE=1><SCR=CONTINUE>愿杀人者遭报七倍，被天主投入炼狱！
-
-#HELLO_BOY_9	<NPC=BOY><SIDE=0><SCR=CONTINUE>但愿如此。
-
-#HELLO_BOY_10	<NPC=BOY><SIDE=0><SCR=CONTINUE|HELLO_BOY_12><NOSPEAK>少年转身看向您。
 
 
-#HELLO_BOY_11	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}让您吃惊的是，以拦人们（{glossary=Elaims,GLOSS_ELAIM}）@一见到这个陌生人便恭敬地向他行礼。
+#HELLO_BOY_1	<SCR=CONTINUE><MUSIC=Duduk_4_ever>{align=2}$PH20_SAND*一个矮小的，披着斗篷的身影从舰上出现，@身边有一人随行。@他腰间那柄镶金宝剑大的不成比例，@甚至使他步伐都磕磕绊绊的。*
 
-#HELLO_BOY_12	<NPC=BOY><SIDE=0>愿平安与您同在，萨亚迪之子。
+#HELLO_BOY_2	<SCR=CONTINUE><SCR=CHECK_JOINED|OMAR|HELLO_BOY_11>{align=2}$PH20_SAND*让您吃惊的是，奥马尔及其部下@一见到此人便立刻深深行礼。*
+
+#HELLO_BOY_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>$PH20_SAND*阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）阁下。*
+
+#HELLO_BOY_4	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*奥马尔阁下，拉苏夫之子啊。@愿平安与您同在。*
+
+#HELLO_BOY_5	<NPC=OMAR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*您为何到此，@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）阁下？令尊如何？*
+
+#HELLO_BOY_6	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*忠于总督（{glossary=Governor,GLOSS_GOVERNOR}）的@哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）将我父亲杀害了。@三天前，他们把父亲从战舰上抛下，@摔得粉身碎骨。*
+
+#HELLO_BOY_7	<NPC=OMAR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*奥马尔及其部下@听闻此事似乎大惊失色。*
+
+#HELLO_BOY_8	<NPC=OMAR><SIDE=1><SCR=CONTINUE>$PH20_SAND*愿杀人者遭报七倍，被天主投入炼狱！*
+
+#HELLO_BOY_9	<NPC=BOY><SIDE=0><SCR=CONTINUE>$PH20_SAND*但愿如此。*
+
+#HELLO_BOY_10	<NPC=BOY><SIDE=0><SCR=CONTINUE|HELLO_BOY_12><NOSPEAK>$PH20_SAND*少年转身看向您。*
+
+
+#HELLO_BOY_11	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*让您吃惊的是，以拦人们（{glossary=Elaims,GLOSS_ELAIM}）@一见到这个陌生人便恭敬地向他行礼。*
+
+#HELLO_BOY_12	<NPC=BOY><SIDE=0>$PH20_SAND*愿平安与您同在，萨亚迪之子。*
 <ANS=也愿平安与您同在，您是…|HELLO_BOY_13>
 
-#HELLO_BOY_13	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>看见您顿了一下，少年笑了。
+#HELLO_BOY_13	<NPC=BOY><SIDE=0><SCR=CONTINUE><NOSPEAK>$PH20_SAND*看见您顿了一下，少年笑了。*
 
-#HELLO_BOY_14	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）。@请称呼我为阿尔萨希尔。
+#HELLO_BOY_14	<NPC=BOY><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）。@请称呼我为阿尔萨希尔。*
 
-#HELLO_BOY_15	<NPC=BOY><SIDE=0>{align=2}几天以前，受总督（{glossary=Governor,GLOSS_GOVERNOR}）驱使的@哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）杀害了我父亲。
+#HELLO_BOY_15	<NPC=BOY><SIDE=0>{align=2}$PH20_SAND*几天以前，受总督（{glossary=Governor,GLOSS_GOVERNOR}）驱使的@哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）杀害了我父亲。*
 <ANS=请节哀顺变，阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）。|HELLO_BOY_END>
 
 
-#HELLO_BOY_END	<NPC=BOY><SIDE=0>{align=2}您在前往希瓦，@萨亚迪之子，请允许我加入您。
+#HELLO_BOY_END	<NPC=BOY><SIDE=0>{align=2}$PH20_SAND*您在前往希瓦，@萨亚迪之子，请允许我加入您。*
 <ANS=我很高兴与您并肩作战，阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）。|HELLO_BOY_END_OK|BOY_ANYTIME=99>
 <ANS=我们须分道扬镳才是。|HELLO_BOY_END_NO_1>
 
@@ -1445,105 +1443,105 @@
 #HELLO_BOY_END_OK	<NPC=BOY><ANS=我想见到其他塔可汗。您知道在哪可以找到他们吗？|HELLO_INTEL_TARKHANS>
 
 
-#HELLO_BOY_END_NO_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}听您如此回答，少年强忍住热泪。@他竭力不让旁人看到他的失态。
+#HELLO_BOY_END_NO_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*听您如此回答，少年强忍住热泪。@他竭力不让旁人看到他的失态。*
 
-#HELLO_BOY_END_NO_2	<SCR=CONTINUE>{align=2}他向您鞠躬，随后便转身离去。@您很确信再也不会见到他了。
+#HELLO_BOY_END_NO_2	<SCR=CONTINUE>{align=2}$PH20_SAND*他向您鞠躬，随后便转身离去。@您很确信再也不会见到他了。*
 
-#HELLO_BOY_END_NO_3	<SCR=STOP|GERAT=-1>{align=2}您发现其他以拦人（{glossary=Elaims,GLOSS_ELAIM}）@在背后愤愤不平地盯着您。
-
-
-
-
-#ENDRACE_SPEECH_1	<NPC=PETR><SIDE=1><SALUTE><MUSIC=Bois><SCR=CONTINUE>坏消息，大公爵。
-
-#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我们刚刚截获一条来自总督（{glossary=Governor,GLOSS_GOVERNOR}）的讯息。@他已命令所有打击群回师希瓦。
-
-#ENDRACE_SPEECH_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}如果我们太晚抵达，@他会在希瓦城会师一处。
-
-#ENDRACE_SPEECH_4	<SCR=CHECK_JOINED|BOY|ENDRACE_SPEECH_5><NPC=PETR><SIDE=1><SCR=CONTINUE|KISHTIM_SPEECH_1>到时候要突袭城市就希望渺茫了。
+#HELLO_BOY_END_NO_3	<SCR=STOP|GERAT=-1>{align=2}$PH20_SAND*您发现其他以拦人（{glossary=Elaims,GLOSS_ELAIM}）@在背后愤愤不平地盯着您。*
 
 
 
 
-#NUCLEAR_ESCALATION_1	<NPC=PETR><SIDE=1><MUSIC=Bois><SCR=CONTINUE>核武器啊…
+#ENDRACE_SPEECH_1	<NPC=PETR><SIDE=1><SALUTE><MUSIC=Bois><SCR=CONTINUE>$PH20_SAND*坏消息，大公爵。*
 
-#NUCLEAR_ESCALATION_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>你确定要这么做吗，公爵？
+#ENDRACE_SPEECH_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*我们刚刚截获一条来自总督（{glossary=Governor,GLOSS_GOVERNOR}）的讯息。@他已命令所有打击群回师希瓦。*
 
-#NUCLEAR_ESCALATION_3	<NPC=PETR><SIDE=1>{align=2}精灵一旦放出瓶子，@就再也抓不回来了。
+#ENDRACE_SPEECH_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*如果我们太晚抵达，@他会在希瓦城会师一处。*
+
+#ENDRACE_SPEECH_4	<SCR=CHECK_JOINED|BOY|ENDRACE_SPEECH_5><NPC=PETR><SIDE=1><SCR=CONTINUE|KISHTIM_SPEECH_1>$PH20_SAND*到时候要突袭城市就希望渺茫了。*
+
+
+
+
+#NUCLEAR_ESCALATION_1	<NPC=PETR><SIDE=1><MUSIC=Bois><SCR=CONTINUE>$PH20_SAND*核武器啊…*
+
+#NUCLEAR_ESCALATION_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*你确定要这么做吗，公爵？*
+
+#NUCLEAR_ESCALATION_3	<NPC=PETR><SIDE=1>{align=2}$PH20_SAND*精灵一旦放出瓶子，@就再也抓不回来了。*
 <ANS=这迟早会发生的。|NUCLEAR_ESCALATION_YES>
 <ANS=你说的不假，将军。快停下！取消发射！|EXIT>
 
 #NUCLEAR_ESCALATION_YES	<SCR=MISSILE_START><SCR=EXIT>
 
 
-#NUCLEAR_ESCALATION_EXPLOSION	<NPC=PETR><SIDE=1><SCR=STOP|NUCLEAR_WAR>愿万能的主怜悯我们吧…
+#NUCLEAR_ESCALATION_EXPLOSION	<NPC=PETR><SIDE=1><SCR=STOP|NUCLEAR_WAR>$PH20_SAND*愿万能的主怜悯我们吧…*
 
 
 
 
 #TELEGRAM_MEETING	$MC20_BLACK*   太子殿下@10   我希望我等能亲自会面，就双方分歧进行调解。@    请乘坐一艘舰船不带护卫前往巴士拉山谷。@10   总督@   格瑞特共和国*
 
-#MEETING_RADIOGRAM_1	<SCR=CHECK_JOINED|DAUD|MEETING_RADIOGRAM_7><SCR=CHECK_JOINED|PETR|MEETING_RADIOGRAM_7><NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}他真是在开玩笑！@哪有人会踩进这么明显的圈套？
+#MEETING_RADIOGRAM_1	<SCR=CHECK_JOINED|DAUD|MEETING_RADIOGRAM_7><SCR=CHECK_JOINED|PETR|MEETING_RADIOGRAM_7><NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*他真是在开玩笑！@哪有人会踩进这么明显的圈套？*
 
-#MEETING_RADIOGRAM_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>看上去太简单了，@反而不像圈套。
+#MEETING_RADIOGRAM_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*看上去太简单了，@反而不像圈套。*
 
-#MEETING_RADIOGRAM_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}如果他真的想和谈，@应该会有所保证。
+#MEETING_RADIOGRAM_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*如果他真的想和谈，@应该会有所保证。*
 
-#MEETING_RADIOGRAM_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>他在谋划什么…但会是什么呢？
+#MEETING_RADIOGRAM_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*他在谋划什么…但会是什么呢？*
 
-#MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>{align=2}这可能是调虎离山之计，@为了拖延时间。
+#MEETING_RADIOGRAM_5	<NPC=DAUD><SIDE=-1>{align=2}$PH20_SAND*这可能是调虎离山之计，@为了拖延时间。*
 <ANS=这上面写，“巴士拉山谷。”这是哪里？|MEETING_RADIOGRAM_6>
 
-#MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>巴士拉山谷在这里，公爵。
+#MEETING_RADIOGRAM_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><HANDSHOW_LOCATION=BASRA>$PH20_SAND*巴士拉山谷在这里，公爵。*
 
-#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>{align=2}是全能天主要将总督（{glossary=Governor,GLOSS_GOVERNOR}）的狗命@交予我们手中，以报我杀父之仇！
+#MEETING_RADIOGRAM_7	<NPC=BOY><SIDE=0><SCR=CONTINUE><SCR=CHECK_JOINED|BOY|EXIT>{align=2}$PH20_SAND*是全能天主要将总督（{glossary=Governor,GLOSS_GOVERNOR}）的狗命@交予我们手中，以报我杀父之仇！*
 
-#MEETING_RADIOGRAM_8	<NPC=BOY><SIDE=0><SCR=STOP>请记住，萨亚迪之子—您向我做过保证。
-
-
+#MEETING_RADIOGRAM_8	<NPC=BOY><SIDE=0><SCR=STOP>$PH20_SAND*请记住，萨亚迪之子—您向我做过保证。*
 
 
-#MEETING_1_OLD	<NPC=GOVERNOR><SIDE=0>{align=2}啊，大公爵，你如约前来了。@足下作何感想？
+
+
+#MEETING_1_OLD	<NPC=GOVERNOR><SIDE=0>{align=2}$PH20_SAND*啊，大公爵，你如约前来了。@足下作何感想？*
 <ANS=我不认为您是来谈判的。|MEETING_2>
 
-#MEETING_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>当然不是。
+#MEETING_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>$PH20_SAND*当然不是。*
 
-#MEETING_3	<NPC=GOVERNOR><SIDE=0>我甚至无法理解你真会决定来此。
+#MEETING_3	<NPC=GOVERNOR><SIDE=0>$PH20_SAND*我甚至无法理解你真会决定来此。*
 <ANS=达乌德上将确实试图阻止过我。|MEETING_4>
 
-#MEETING_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}一下相顾无言。@接着总督（{glossary=Governor,GLOSS_GOVERNOR}）似乎下定了决心。
+#MEETING_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*一下相顾无言。@接着总督（{glossary=Governor,GLOSS_GOVERNOR}）似乎下定了决心。*
 
-#MEETING_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}听好了，公爵…@在你我了结此事之前…
+#MEETING_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*听好了，公爵…@在你我了结此事之前…*
 
-#MEETING_6	<NPC=GOVERNOR><SIDE=0>我必须承认，我仍有一事相问。
+#MEETING_6	<NPC=GOVERNOR><SIDE=0>$PH20_SAND*我必须承认，我仍有一事相问。*
 <ANS=很好。但问无妨。|MEETING_7>
 
-#MEETING_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}请告诉我，公爵…若是你得见如此毕生难求的机会，@就如眼下我面前的这等良机…
+#MEETING_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*请告诉我，公爵…若是你得见如此毕生难求的机会，@就如眼下我面前的这等良机…*
 
-#MEETING_8	<NPC=GOVERNOR><SIDE=0>{align=2}就比如说如果希瓦的钚储备并非妄言。@如此恐怖武器如今落入你手。你又会如何处置？
+#MEETING_8	<NPC=GOVERNOR><SIDE=0>{align=2}$PH20_SAND*就比如说如果希瓦的钚储备并非妄言。@如此恐怖武器如今落入你手。你又会如何处置？*
 <ANS=我将为苍生福祉而使用它。|MEETING_9>
 <ANS=我会用它结束战争。|MEETING_9>
 <ANS=我会用它摧毁我的敌人。|MEETING_10>
 
-#MEETING_9	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>不，公爵。你不会如此的。
+#MEETING_9	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>$PH20_SAND*不，公爵。你不会如此的。*
 
-#MEETING_10	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>你会用它将集众（{glossary=Gathering,GLOSS_GATHERING}）消灭。
+#MEETING_10	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>$PH20_SAND*你会用它将集众（{glossary=Gathering,GLOSS_GATHERING}）消灭。*
 
-#MEETING_11	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}然后你会废黜你的父皇，@继而篡夺其位。
+#MEETING_11	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*然后你会废黜你的父皇，@继而篡夺其位。*
 
-#MEETING_12	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}之后你会穷兵黩武，@竭尽所能去扩张帝国疆土…
+#MEETING_12	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*之后你会穷兵黩武，@竭尽所能去扩张帝国疆土…*
 
-#MEETING_13	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}总督（{glossary=Governor,GLOSS_GOVERNOR}）的话语逐渐微弱下来。@他忧郁地望向别处。
+#MEETING_13	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）的话语逐渐微弱下来。@他忧郁地望向别处。*
 
-#MEETING_14	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>于我而言，我对权力毫无渴求。
+#MEETING_14	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>$PH20_SAND*于我而言，我对权力毫无渴求。*
 
-#MEETING_15	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}我只想还天下人民以自由，@因这是他们本就应得之物。
+#MEETING_15	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*我只想还天下人民以自由，@因这是他们本就应得之物。*
 
-#MEETING_16	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}{align=2}如今我们已经推翻帝国统治，建立起了一个共和国。@而现在只有一物阻碍着人民重获自由：你。
+#MEETING_16	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}{align=2}$PH20_SAND*如今我们已经推翻帝国统治，建立起了一个共和国。@而现在只有一物阻碍着人民重获自由：你。*
 
-#MEETING_17	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}因而对你面前的命运，@我问心无愧。
+#MEETING_17	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*因而对你面前的命运，@我问心无愧。*
 
-#MEETING_18	<NPC=GOVERNOR><SIDE=0><NOSPEAK><FADEAWAY=1><SCR=GOVERNOR_ANSWERS>{align=2}总督（{glossary=Governor,GLOSS_GOVERNOR}）看向别处。@似乎言尽于此。
+#MEETING_18	<NPC=GOVERNOR><SIDE=0><NOSPEAK><FADEAWAY=1><SCR=GOVERNOR_ANSWERS>{align=2}$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）看向别处。@似乎言尽于此。*
 
 
 #MEETING_ANS_NUKE	{align=2}我舰上载有核弹。@若不在此和解，那我们不如玉石俱焚。|MEETING_NUKE_1
@@ -1557,21 +1555,21 @@
 #MEETING_ANS_LEAVE	（转身跑向自己座舰）|MEETING_FIGHT
 
 
-#MEETING_NUKE_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>总督（{glossary=Governor,GLOSS_GOVERNOR}）停下来打量着您的座舰。
+#MEETING_NUKE_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）停下来打量着您的座舰。*
 
-#MEETING_NUKE_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><FADEAWAY=0>诚然。我确实注意到了。
+#MEETING_NUKE_2	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><FADEAWAY=0>$PH20_SAND*诚然。我确实注意到了。*
 
-#MEETING_NUKE_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}我从未想过，@堂堂当朝太子竟是如此卑劣之徒，妄图行勒索之事。
+#MEETING_NUKE_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>{align=2}$PH20_SAND*我从未想过，@堂堂当朝太子竟是如此卑劣之徒，妄图行勒索之事。*
 
-#MEETING_NUKE_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|MEETING_FIGHT>{align=2}何不用一场老式的舰炮决斗来解决呢？@如此一来，至少你身后仍不失有荣誉之名。
+#MEETING_NUKE_4	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|MEETING_FIGHT>{align=2}$PH20_SAND*何不用一场老式的舰炮决斗来解决呢？@如此一来，至少你身后仍不失有荣誉之名。*
 
 
-#MEETING_HIGHT_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>总督（{glossary=Governor,GLOSS_GOVERNOR}）停下看向夜空。
+#MEETING_HIGHT_1	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）停下看向夜空。*
 
-#MEETING_HIGHT_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>并无半点星光。
+#MEETING_HIGHT_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>$PH20_SAND*并无半点星光。*
 <ANS=眼下并不适合大动干戈。|MEETING_HIGHT_3>
 
-#MEETING_HIGHT_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>刀兵战火从不挑良辰吉日，公爵。
+#MEETING_HIGHT_3	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE>$PH20_SAND*刀兵战火从不挑良辰吉日，公爵。*
 
 #MEETING_HIGHT_4	<SCR=CONTINUE|MEETING_FIGHT>{align=2}人们各回各舰。@涡轮轰鸣着启动了。
 
@@ -1583,7 +1581,7 @@
 #MEETING_KILL_3	<SCR=CONTINUE|MEETING_FIGHT>人们奔向各自的战舰。
 
 
-#MEETING_PROPHET_1	<NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}总督（{glossary=Governor,GLOSS_GOVERNOR}）转过身来，@惊讶地看着您。
+#MEETING_PROPHET_1	<NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）转过身来，@惊讶地看着您。*
 
 #MEETING_PROPHET_2	<NPC=GOVERNOR><SIDE=0><FADEAWAY=0>你说什么…？
 <ANS=您请我来正有此意。|MEETING_PROPHET_3>
@@ -1600,9 +1598,9 @@
 #MEETING_PROPHET_6	<NPC=GOVERNOR><SIDE=0>
 <ANS=但这绝无半分虚假。因我确实能预知未来。|MEETING_PROPHET_7>
 
-#MEETING_PROPHET_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}总督（{glossary=Governor,GLOSS_GOVERNOR}）僵在原地。@最后，他才终于吐出几个字…
+#MEETING_PROPHET_7	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）僵在原地。@最后，他才终于吐出几个字…*
 
-#MEETING_PROPHET_8	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|HELLO_ROUND|DIPLOMACY_STARTS>您所求为何？
+#MEETING_PROPHET_8	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|HELLO_ROUND|DIPLOMACY_STARTS>$PH20_SAND*您所求为何？*
 
 
 #MEETING_FIGHT	<SCR=EXIT><SCR=GOVERNOR_FIGHT>
@@ -1610,9 +1608,9 @@
 
 
 
-#ALSAHIR_REVENGE_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE><MUSIC=Bois>{align=2}正当您和总督（{glossary=Governor,GLOSS_GOVERNOR}）在谋划战略时，@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）突然出现在面前。@他的眼中燃着怒火。
+#ALSAHIR_REVENGE_1	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE><MUSIC=Bois>{align=2}$PH20_SAND*正当您和总督（{glossary=Governor,GLOSS_GOVERNOR}）在谋划战略时，@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）突然出现在面前。@他的眼中燃着怒火。*
 
-#ALSAHIR_REVENGE_2	<NPC=BOY><SIDE=0><NOSPEAK>他拔出佩剑，立即冲向总督（{glossary=Governor,GLOSS_GOVERNOR}）。
+#ALSAHIR_REVENGE_2	<NPC=BOY><SIDE=0><NOSPEAK>$PH20_SAND*他拔出佩剑，立即冲向总督（{glossary=Governor,GLOSS_GOVERNOR}）。*
 <ANS=命令卫兵制止少年。|ALSAHIR_REVENGE_STOP_1>
 <ANS=挡在他和总督（{glossary=Governor,GLOSS_GOVERNOR}）之间。|ALSAHIR_REVENGE_BLOCK_1>
 <ANS=不作干涉。|ALSAHIR_REVENGE_LET_1>
@@ -1622,62 +1620,62 @@
 
 #ALSAHIR_REVENGE_STOP_2	<SCR=CONTINUE>{align=2}接着您听到一声枪响。@几秒钟后，一切总算尘埃落定。
 
-#ALSAHIR_REVENGE_STOP_3	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_STOP_5><SCR=CONTINUE><NPC=PETR><SIDE=1><NOSPEAK>{align=2}彼得·伊格纳季耶维奇挣扎着从地上起来，@手里仍紧握着佩剑。@他踩到了别人的血泊中，又滑倒了。
+#ALSAHIR_REVENGE_STOP_3	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_STOP_5><SCR=CONTINUE><NPC=PETR><SIDE=1><NOSPEAK>{align=2}$PH20_SAND*彼得·伊格纳季耶维奇挣扎着从地上起来，@手里仍紧握着佩剑。@他踩到了别人的血泊中，又滑倒了。*
 
-#ALSAHIR_REVENGE_STOP_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>操！
+#ALSAHIR_REVENGE_STOP_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*操！*
 
 #ALSAHIR_REVENGE_STOP_5	<SCR=CONTINUE>{align=2}舱室中挤满了卫兵。@三名军官和一名技师在战斗中丧生。
 
 #ALSAHIR_REVENGE_STOP_6	<SCR=CONTINUE|LEVEL_GERAT=-1|DEATH=BOY>阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）和他的部下都横尸当场。
 
-#ALSAHIR_REVENGE_STOP_7	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_STOP_8><NPC=OMAR><SIDE=1><SCR=CONTINUE|OMAR=-2>如此暴行天地不容，萨亚迪！
+#ALSAHIR_REVENGE_STOP_7	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_STOP_8><NPC=OMAR><SIDE=1><SCR=CONTINUE|OMAR=-2>$PH20_SAND*如此暴行天地不容，萨亚迪！*
 
-#ALSAHIR_REVENGE_STOP_8	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_STOP_9><NPC=FASIL><SIDE=1><SCR=CONTINUE|FASIL=-2>你闯下了滔天大祸，公爵！
+#ALSAHIR_REVENGE_STOP_8	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_STOP_9><NPC=FASIL><SIDE=1><SCR=CONTINUE|FASIL=-2>$PH20_SAND*你闯下了滔天大祸，公爵！*
 
-#ALSAHIR_REVENGE_STOP_9	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_STOP_10><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|AIRBORNE=1>{align=2}您所做的是对的。@我只为士兵们的徒然牺牲感到遗憾。
+#ALSAHIR_REVENGE_STOP_9	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_STOP_10><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|AIRBORNE=1>{align=2}$PH20_SAND*您所做的是对的。@我只为士兵们的徒然牺牲感到遗憾。*
 
-#ALSAHIR_REVENGE_STOP_10	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_STOP_11><NPC=VETERAN><SIDE=1><SCR=CONTINUE|VETERAN=1>{align=2}能如此轻易干掉他已经算走运的了，公爵阁下。@这个阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）可比他看上去的要危险得多。@像他这样的人自诩自己在格瑞特的权威无可动摇。
+#ALSAHIR_REVENGE_STOP_10	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_STOP_11><NPC=VETERAN><SIDE=1><SCR=CONTINUE|VETERAN=1>{align=2}$PH20_SAND*能如此轻易干掉他已经算走运的了，公爵阁下。@这个阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）可比他看上去的要危险得多。@像他这样的人自诩自己在格瑞特的权威无可动摇。*
 
-#ALSAHIR_REVENGE_STOP_11	<SCR=CHECK_JOINED|GOVERNOR|EXIT><NPC=GOVERNOR><SIDE=1><SCR=STOP|GOVERNOR=2>多谢，公爵阁下。我欠您一大笔债。
+#ALSAHIR_REVENGE_STOP_11	<SCR=CHECK_JOINED|GOVERNOR|EXIT><NPC=GOVERNOR><SIDE=1><SCR=STOP|GOVERNOR=2>$PH20_SAND*多谢，公爵阁下。我欠您一大笔债。*
 
 
 
-#ALSAHIR_REVENGE_BLOCK_1	<NPC=BOY><SIDE=0>{align=2}萨亚迪，你怎能如此？！@你向我保证过的！
+#ALSAHIR_REVENGE_BLOCK_1	<NPC=BOY><SIDE=0>{align=2}$PH20_SAND*萨亚迪，你怎能如此？！@你向我保证过的！*
 <ANS=我不能让你杀了他。（拔出佩剑）|ALSAHIR_REVENGE_STOP_1>
 <ANS=你可以杀了我抵命。|ALSAHIR_REVENGE_FORCE|PRECHECK_FORCE=-3|CHECK_FORCE=-3>
 
-#ALSAHIR_REVENGE_FORCE_FAIL	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_1><EVENT>他只想了一秒钟，便将您击倒。
+#ALSAHIR_REVENGE_FORCE_FAIL	<NPC=BOY><SIDE=0><NOSPEAK><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_1><EVENT>$PH20_SAND*他只想了一秒钟，便将您击倒。*
 
 #ALSAHIR_REVENGE_FORCE_FAIL_1	<SCR=CONTINUE><SOUND=bladaway><BLACKOUT>几小时后您才苏醒。
 
-#ALSAHIR_REVENGE_FORCE_FAIL_2	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1><NPC=PETR><SIDE=1><NOSPEAK><SCR=CONTINUE>{align=2}彼得·伊格纳季耶维奇坚持要您卧床不动。@现在您仍未脱离生命危险。@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的剑劈开了您的下巴，@在您的右耳留下了一个豁口。疼痛难忍。
+#ALSAHIR_REVENGE_FORCE_FAIL_2	<SCR=CHECK_JOINED|PETR|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1><NPC=PETR><SIDE=1><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*彼得·伊格纳季耶维奇坚持要您卧床不动。@现在您仍未脱离生命危险。@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的剑劈开了您的下巴，@在您的右耳留下了一个豁口。疼痛难忍。*
 
-#ALSAHIR_REVENGE_FORCE_FAIL_3	<NPC=PETR><SIDE=1>{align=2}舰上军医正竭尽所能，@但本舰只有在手术完成后才能起飞。<ANS=那总督（{glossary=Governor,GLOSS_GOVERNOR}）呢？|ALSAHIR_REVENGE_FORCE_FAIL_4|WOUND=24>
+#ALSAHIR_REVENGE_FORCE_FAIL_3	<NPC=PETR><SIDE=1>{align=2}$PH20_SAND*舰上军医正竭尽所能，@但本舰只有在手术完成后才能起飞。*<ANS=那总督（{glossary=Governor,GLOSS_GOVERNOR}）呢？|ALSAHIR_REVENGE_FORCE_FAIL_4|WOUND=24>
 
-#ALSAHIR_REVENGE_FORCE_FAIL_4	<NPC=PETR><SIDE=1>{align=2}他们与阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的人打了起来，@但总督（{glossary=Governor,GLOSS_GOVERNOR}）毫发无伤。<ANS=那少年呢？|ALSAHIR_REVENGE_FORCE_FAIL_5>
+#ALSAHIR_REVENGE_FORCE_FAIL_4	<NPC=PETR><SIDE=1>{align=2}$PH20_SAND*他们与阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的人打了起来，@但总督（{glossary=Governor,GLOSS_GOVERNOR}）毫发无伤。*<ANS=那少年呢？|ALSAHIR_REVENGE_FORCE_FAIL_5>
 
-#ALSAHIR_REVENGE_FORCE_FAIL_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>彼得·伊格纳季耶维奇犹豫了一会儿。
+#ALSAHIR_REVENGE_FORCE_FAIL_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*彼得·伊格纳季耶维奇犹豫了一会儿。*
 
-#ALSAHIR_REVENGE_FORCE_FAIL_6	<NPC=PETR><SIDE=1><SCR=STOP|DEATH=BOY>他被卫兵射死了。
-
-
-#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1	{align=2}阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的剑劈开了您的下巴，@在您的右耳留下了一个豁口。疼痛难忍。@舰上军医正竭尽所能，@但本舰只有在手术完成后才能起飞。<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2|WOUND=24>
-
-#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2	阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）被卫兵开枪击毙。<SCR=STOP|DEATH=BOY>
+#ALSAHIR_REVENGE_FORCE_FAIL_6	<NPC=PETR><SIDE=1><SCR=STOP|DEATH=BOY>$PH20_SAND*他被卫兵射死了。*
 
 
+#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_1	{align=2}$PH20_SAND*阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）的剑劈开了您的下巴，@在您的右耳留下了一个豁口。疼痛难忍。@舰上军医正竭尽所能，@但本舰只有在手术完成后才能起飞。*<SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2|WOUND=24>
 
-#ALSAHIR_REVENGE_LET_1	<SCR=CONTINUE>{align=2}总督（{glossary=Governor,GLOSS_GOVERNOR}）抬手保护自己，@但阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）狠狠一剑将他击倒在地。@紧接着，他毫不犹豫又补上一剑。
+#ALSAHIR_REVENGE_FORCE_FAIL_NO_PETR_2	$PH20_SAND*阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）被卫兵开枪击毙。*<SCR=STOP|DEATH=BOY>
 
-#ALSAHIR_REVENGE_LET_2	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_3|DEATH=GOVERNOR><SOUND=manhit><EVENT>总督（{glossary=Governor,GLOSS_GOVERNOR}）倒毙在地。
 
-#ALSAHIR_REVENGE_LET_3	<SCR=CONTINUE>{align=2}人们都呆若木鸡。总督（{glossary=Governor,GLOSS_GOVERNOR}）落命了。@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）擦干剑刃，收剑入鞘。
+
+#ALSAHIR_REVENGE_LET_1	<SCR=CONTINUE>{align=2}$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）抬手保护自己，@但阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）狠狠一剑将他击倒在地。@紧接着，他毫不犹豫又补上一剑。*
+
+#ALSAHIR_REVENGE_LET_2	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_3|DEATH=GOVERNOR><SOUND=manhit><EVENT>$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）倒毙在地。*
+
+#ALSAHIR_REVENGE_LET_3	<SCR=CONTINUE>{align=2}$PH20_SAND*人们都呆若木鸡。总督（{glossary=Governor,GLOSS_GOVERNOR}）落命了。@阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）擦干剑刃，收剑入鞘。*
 
 #ALSAHIR_REVENGE_LET_4	<SCR=CONTINUE|ALSAHIR_REVENGE_LET_5|BOY=1>{align=2}他转过身，一言不发地离开了，@他的部下紧随其后。
 
-#ALSAHIR_REVENGE_LET_5	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_LET_6><NPC=OMAR><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_LET_6|OMAR=1>这是必然发生的。
+#ALSAHIR_REVENGE_LET_5	<SCR=CHECK_JOINED|OMAR|ALSAHIR_REVENGE_LET_6><NPC=OMAR><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_LET_6|OMAR=1>$PH20_SAND*这是必然发生的。*
 
-#ALSAHIR_REVENGE_LET_6	<SCR=CHECK_JOINED|FASIL|EXIT><NPC=FASIL><SIDE=1><SCR=STOP|FASIL=1><NOSPEAK>王子点了点头。
+#ALSAHIR_REVENGE_LET_6	<SCR=CHECK_JOINED|FASIL|EXIT><NPC=FASIL><SIDE=1><SCR=STOP|FASIL=1><NOSPEAK>$PH20_SAND*王子点了点头。*
 
 
 
@@ -1706,15 +1704,15 @@
 
 #KHIVA_LANDING_10	<SCR=CONTINUE><ILLUSTRATION=-1>{align=2}下层的贮藏区域立满了整齐的圆筒。@它们堆积在地下仓库内，一眼望不到尽头。
 
-#KHIVA_LANDING_11	<SCR=CHECK_JOINED|DAUD|KHIVA_LANDING_13><NPC=DAUD><SIDE=-1><SCR=CONTINUE>而这每个容器里都贮藏有一个钚组件？
+#KHIVA_LANDING_11	<SCR=CHECK_JOINED|DAUD|KHIVA_LANDING_13><NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*而这每个容器里都贮藏有一个钚组件？*
 
-#KHIVA_LANDING_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>这也太多了！
+#KHIVA_LANDING_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*这也太多了！*
 
-#KHIVA_LANDING_13	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}彼得不安地向两边看去，昏暗的灯光下是导弹部件在闪闪发光。@吊车交错的钢制吊臂遮蔽了天花板，而天花板远远地延伸进黑暗的设施深处。
+#KHIVA_LANDING_13	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*彼得不安地向两边看去，昏暗的灯光下是导弹部件在闪闪发光。@吊车交错的钢制吊臂遮蔽了天花板，而天花板远远地延伸进黑暗的设施深处。*
 
-#KHIVA_LANDING_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>敌人绝不会放任这些东西留在我们手中。
+#KHIVA_LANDING_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*敌人绝不会放任这些东西留在我们手中。*
 
-#KHIVA_LANDING_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>我犯了可怕的错误。这绝不会有和谈可能。
+#KHIVA_LANDING_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*我犯了可怕的错误。这绝不会有和谈可能。*
 
 #KHIVA_LANDING_16	<SCR=STOP>彼得是对的。一纸最后通牒很快发至。
 
@@ -1722,9 +1720,9 @@
 #TELEGRAM_ULTIMATUM	$MC20_BLACK* 致罗马尼远征舰队司令@5   埃拉特门阀集众在此要求你将@ 全部罗马尼舰船立即撤出希瓦。@5   你有8小时服从通牒，@ 否则门阀各族联合舰队将以核打击毁灭希瓦城。*
 
 
-#KHIVA_ULTIMATUM_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>他们将不惜一切代价。
+#KHIVA_ULTIMATUM_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*他们将不惜一切代价。*
 
-#KHIVA_ULTIMATUM_2	<NPC=PETR><SIDE=1>他们会把手头一切都丢向我们。
+#KHIVA_ULTIMATUM_2	<NPC=PETR><SIDE=1>$PH20_SAND*他们会把手头一切都丢向我们。*
 <ANS=彼得·伊格纳季耶维奇，快召开紧急会议！|KHIVA_ULTIMATUM_3>
 
 #KHIVA_ULTIMATUM_3	<SCR=TO_THE_MAP>。
@@ -1742,58 +1740,58 @@
 
 #PETR_DAUD_5	<MUSIC=Bois><SCR=CONTINUE>{align=2}在您和彼得商量对策时，达乌德上将闯进舱室。
 
-#PETR_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>你早就知道了！
+#PETR_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*你早就知道了！*
 
-#PETR_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>他一进门就劈头盖脸地冲彼得大吼。
+#PETR_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*他一进门就劈头盖脸地冲彼得大吼。*
 
-#PETR_DAUD_8	<NPC=DAUD><SIDE=-1>你收到了最高指挥部的通信，不是吗？！
+#PETR_DAUD_8	<NPC=DAUD><SIDE=-1>$PH20_SAND*你收到了最高指挥部的通信，不是吗？！*
 <ANS=您在说什么，上将？|PETR_DAUD_9>
 
-#PETR_DAUD_9	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}达乌德打量了您一会儿，@然后继续盯着彼得。
+#PETR_DAUD_9	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*达乌德打量了您一会儿，@然后继续盯着彼得。*
 
-#PETR_DAUD_10	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>他也知晓这件事吗？
+#PETR_DAUD_10	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*他也知晓这件事吗？*
 
-#PETR_DAUD_11	<NPC=PETR><SIDE=1>不，谢里夫。他不知道。
+#PETR_DAUD_11	<NPC=PETR><SIDE=1>$PH20_SAND*不，谢里夫。他不知道。*
 <ANS=你们在打什么哑谜？我需要一个解释！|PETR_DAUD_12>
 
-#PETR_DAUD_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}我们在吾珥（Ur）停泊期间，@沙欣将军收到了一则来自于最高指挥部的通讯。
+#PETR_DAUD_12	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*我们在吾珥（Ur）停泊期间，@沙欣将军收到了一则来自于最高指挥部的通讯。*
 
-#PETR_DAUD_13	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>那是一则让我们返回帝都的直接命令。
+#PETR_DAUD_13	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*那是一则让我们返回帝都的直接命令。*
 
-#PETR_DAUD_14	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>但他却向我们隐瞒了这条命令。
+#PETR_DAUD_14	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*但他却向我们隐瞒了这条命令。*
 
-#PETR_DAUD_15	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}相反，他蛊惑我们说最高指挥部@已经被全部歼灭并且南方的战事已经失败！
+#PETR_DAUD_15	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*相反，他蛊惑我们说最高指挥部@已经被全部歼灭并且南方的战事已经失败！*
 
-#PETR_DAUD_16	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}所以我们才会听从他@并且同意发动这样一次疯狂的突击！
+#PETR_DAUD_16	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*所以我们才会听从他@并且同意发动这样一次疯狂的突击！*
 
-#PETR_DAUD_17	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}疯狂但却仍有胜机。@攻占希瓦的机会相比祖国故土所发生的一切都要来得重要。
+#PETR_DAUD_17	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*疯狂但却仍有胜机。@攻占希瓦的机会相比祖国故土所发生的一切都要来得重要。*
 
-#PETR_DAUD_18	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}但我的家人呢，彼得？@我的妻儿呢，他们都还在帝都呢？
+#PETR_DAUD_18	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*但我的家人呢，彼得？@我的妻儿呢，他们都还在帝都呢？*
 
-#PETR_DAUD_19	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}皇帝陛下呢？@你效忠陛下的誓言呢？！
+#PETR_DAUD_19	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*皇帝陛下呢？@你效忠陛下的誓言呢？！*
 
-#PETR_DAUD_20	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>达乌德面向您。
+#PETR_DAUD_20	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*达乌德面向您。*
 
-#PETR_DAUD_21	<NPC=DAUD><SIDE=-1>{align=2}大公阁下，我坚决要求@您立刻拘捕沙欣将军！
+#PETR_DAUD_21	<NPC=DAUD><SIDE=-1>{align=2}$PH20_SAND*大公阁下，我坚决要求@您立刻拘捕沙欣将军！*
 <ANS=请交出你的武器吧，彼得·伊格纳季耶维奇。|PETR_DAUD_UNARMED_1>
 <ANS=彼得·伊格纳季耶维奇，我命你逮捕达乌德上将。|PETR_DAUD_DISARM_FAIL>
 <ANS=我们应该能不伤和气地解决此事。|PETR_DAUD_DISARM_FAIL>
 
 
-#PETR_DAUD_UNARMED_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>彼得望向您，露出难以置信的神色。
+#PETR_DAUD_UNARMED_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*彼得望向您，露出难以置信的神色。*
 
-#PETR_DAUD_UNARMED_2	<NPC=PETR><SIDE=1>马克，请容我解释…
+#PETR_DAUD_UNARMED_2	<NPC=PETR><SIDE=1>$PH20_SAND*马克，请容我解释…*
 <ANS=不，彼得·伊格纳季耶维奇。够了。是时候去做正确的事情了。|PETR_DAUD_DISARM|PRECHECK_KINDNESS=3|CHECK_KINDNESS=3>
 
-#PETR_DAUD_DISARM	<NPC=PETR><SIDE=1><NOSPEAK>彼得惭愧地把他的配枪交给您。
+#PETR_DAUD_DISARM	<NPC=PETR><SIDE=1><NOSPEAK>$PH20_SAND*彼得惭愧地把他的配枪交给您。*
 <ANS=我们不会掉头向南，上将。我建议您现在就立刻离开我们的舰队。|PETR_DAUD_LEAVE_1>
 
 
-#PETR_DAUD_LEAVE_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>大公，原来你也是他的帮凶…
+#PETR_DAUD_LEAVE_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*大公，原来你也是他的帮凶…*
 
-#PETR_DAUD_LEAVE_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>达乌德眉头紧锁，摇了摇头。
+#PETR_DAUD_LEAVE_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*达乌德眉头紧锁，摇了摇头。*
 
-#PETR_DAUD_LEAVE_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>就这样吧。祝二位愉快，先生们。
+#PETR_DAUD_LEAVE_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*就这样吧。祝二位愉快，先生们。*
 
 #PETR_DAUD_LEAVE_4	<SCR=DAUD_DEPARTURE><SCR=STOP|LEAVE=DAUD>{align=2}不久后您收到报告，@舰队里的数艘战舰已离队掉头向南驶去。
 
@@ -1806,52 +1804,52 @@
 
 #PETR_DAUD_ARMED_4	<SCR=CONTINUE>您感到极力想要尖叫，但您张嘴却吐不出一个音节。
 
-#PETR_DAUD_ARMED_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>彼得长叹一声，笨拙地想把枪塞回枪套。
+#PETR_DAUD_ARMED_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*彼得长叹一声，笨拙地想把枪塞回枪套。*
 
-#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>没别的办法了，大公。
+#PETR_DAUD_ARMED_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*没别的办法了，大公。*
 
-#PETR_DAUD_ARMED_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}他要是活着，一半的@军官都会选择站他那边。
+#PETR_DAUD_ARMED_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*他要是活着，一半的@军官都会选择站他那边。*
 
-#PETR_DAUD_ARMED_8	<NPC=PETR><SIDE=1><NOSPEAK>达乌德的脑后流下一片血污。
+#PETR_DAUD_ARMED_8	<NPC=PETR><SIDE=1><NOSPEAK>$PH20_SAND*达乌德的脑后流下一片血污。*
 <ANS=彼得，你，你昏头了，彼得…|PETR_DAUD_ARMED_9>
 
-#PETR_DAUD_ARMED_9	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}您从肺里挤出短短的一句话。@您的大脑依旧在试着处理面前发生的事情。
+#PETR_DAUD_ARMED_9	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*您从肺里挤出短短的一句话。@您的大脑依旧在试着处理面前发生的事情。*
 
-#PETR_DAUD_ARMED_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>陛下帝国舰队的上将…
+#PETR_DAUD_ARMED_10	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*陛下帝国舰队的上将…*
 
-#PETR_DAUD_ARMED_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>…达乌德·谢里夫·拉赫马托维奇阁下…
+#PETR_DAUD_ARMED_11	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*…达乌德·谢里夫·拉赫马托维奇阁下…*
 
-#PETR_DAUD_ARMED_12	<NPC=PETR><SIDE=1><SCR=CONTINUE>…刚刚在一项最紧急的任务中不幸以身殉国。
+#PETR_DAUD_ARMED_12	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*…刚刚在一项最紧急的任务中不幸以身殉国。*
 
-#PETR_DAUD_ARMED_13	<NPC=PETR><SIDE=1><SCR=CONTINUE>这就是我要对部下说的。
+#PETR_DAUD_ARMED_13	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*这就是我要对部下说的。*
 
-#PETR_DAUD_ARMED_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}这一切尘埃落定之后，@我将接受军法处置。
+#PETR_DAUD_ARMED_14	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*这一切尘埃落定之后，@我将接受军法处置。*
 
-#PETR_DAUD_ARMED_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}您该走了，大公爵。@没必要再看下去了。
+#PETR_DAUD_ARMED_15	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*您该走了，大公爵。@没必要再看下去了。*
 
 #PETR_DAUD_ARMED_16	<SCR=STOP|>{align=2}您跌跌撞撞地走出小屋，@把彼得和达乌德的遗体像噩梦一样抛在脑后。
 
 
 
 
-#PETR_DEPARTURE_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><MUSIC=Duduk_4_ever>大公阁下，如果可以的话…
+#PETR_DEPARTURE_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><MUSIC=Duduk_4_ever>$PH20_SAND*大公阁下，如果可以的话…*
 
-#PETR_DEPARTURE_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我想谢谢您把我@拽出这让人抓狂的烂摊子。@我差点犯下滔天大罪。
+#PETR_DEPARTURE_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*我想谢谢您把我@拽出这让人抓狂的烂摊子。@我差点犯下滔天大罪。*
 
-#PETR_DEPARTURE_3	<NPC=PETR><SIDE=1><SCR=STOP|PETR=3>{align=2}事到如今，我也不明白@您怎么会猜到我想干什么…@但我欠您一大笔人情。
+#PETR_DEPARTURE_3	<NPC=PETR><SIDE=1><SCR=STOP|PETR=3>{align=2}$PH20_SAND*事到如今，我也不明白@您怎么会猜到我想干什么…@但我欠您一大笔人情。*
 
-#PETR_DEPARTURE_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>而这反而令我更不知该如何开口了。
+#PETR_DEPARTURE_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*而这反而令我更不知该如何开口了。*
 
-#PETR_DEPARTURE_5	<NPC=PETR><SIDE=1><SCR=CONTINUE>我得求您借一艘船给我，公爵阁下。
+#PETR_DEPARTURE_5	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*我得求您借一艘船给我，公爵阁下。*
 
-#PETR_DEPARTURE_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我知道当下处境艰难，每一门炮每一个人都不能浪费，@我现在却向您索要一整艘船…但是求您了，让我试试吧！
+#PETR_DEPARTURE_6	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*我知道当下处境艰难，每一门炮每一个人都不能浪费，@我现在却向您索要一整艘船…但是求您了，让我试试吧！*
 
-#PETR_DEPARTURE_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}我要去追上达乌德。@我想向他解释清楚我的想法，@或许还有希望说服他来协助您的伟业。
+#PETR_DEPARTURE_7	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*我要去追上达乌德。@我想向他解释清楚我的想法，@或许还有希望说服他来协助您的伟业。*
 
-#PETR_DEPARTURE_8	<NPC=PETR><SIDE=1>{align=2}我和他有多年的交情。@有些事情我应该告知他的。
+#PETR_DEPARTURE_8	<NPC=PETR><SIDE=1>{align=2}$PH20_SAND*我和他有多年的交情。@有些事情我应该告知他的。*
 <ANS=就算达乌德真的听进你的话，彼得，现在掉头朝南也简直是疯了！|PETR_DEPARTURE_9>
 
-#PETR_DEPARTURE_9	<NPC=PETR><SIDE=1><SCR=PETR_DEPARTURE>我得试一试，马克。求你了。
+#PETR_DEPARTURE_9	<NPC=PETR><SIDE=1><SCR=PETR_DEPARTURE>$PH20_SAND*我得试一试，马克。求你了。*
 
 
 #PETR_DEPARTURE_ANS_YES	好吧。我给你 SHIPNAME $SH20_RED*（成功概率: XX%）*|PETR_DEPARTURE_YES
@@ -1860,21 +1858,21 @@
 
 
 
-#PETR_DEPARTURE_YES	<NPC=PETR><SIDE=1><SCR=STOP|LEAVE=PETR>谢谢您，大公阁下。
+#PETR_DEPARTURE_YES	<NPC=PETR><SIDE=1><SCR=STOP|LEAVE=PETR>$PH20_SAND*谢谢您，大公阁下。*
 
-#PETR_DEPARTURE_NO_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>好吧。我理解。
+#PETR_DEPARTURE_NO_1	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*好吧。我理解。*
 
-#PETR_DEPARTURE_NO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>他缓慢而艰难地答复您。
+#PETR_DEPARTURE_NO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*他缓慢而艰难地答复您。*
 
-#PETR_DEPARTURE_NO_3	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}他向往常一样向您敬礼，@然后转过脸去。
+#PETR_DEPARTURE_NO_3	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*他向往常一样向您敬礼，@然后转过脸去。*
 
-#PETR_DEPARTURE_NO_4	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}现在他的心境发生了极大的变化：@而他的姿态，他无力的挂在身旁的双臂…
+#PETR_DEPARTURE_NO_4	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*现在他的心境发生了极大的变化：@而他的姿态，他无力的挂在身旁的双臂…*
 
-#PETR_DEPARTURE_NO_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>都表明他深深的，无言的失望。
+#PETR_DEPARTURE_NO_5	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*都表明他深深的，无言的失望。*
 
-#PETR_DEPARTURE_NO_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>您突然意识到彼得不再对前路抱有希望。
+#PETR_DEPARTURE_NO_6	<NPC=PETR><SIDE=1><SCR=CONTINUE><NOSPEAK>$PH20_SAND*您突然意识到彼得不再对前路抱有希望。*
 
-#PETR_DEPARTURE_NO_7	<NPC=PETR><SIDE=1><SCR=STOP><NOSPEAK>只留下您独自一人和您沉重的心。
+#PETR_DEPARTURE_NO_7	<NPC=PETR><SIDE=1><SCR=STOP><NOSPEAK>$PH20_SAND*只留下您独自一人和您沉重的心。*
 
 
 
@@ -1966,31 +1964,31 @@
 
 
 
-#CONTACT_ELINT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_ELINT_PNL>{align=2}塔可汗阁下！我们的@电子情报汇报了一次新的接触。<ANS=CONTINUE|EXIT>
+#CONTACT_ELINT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_ELINT_PNL>{align=2}$PH20_SAND*塔可汗阁下！我们的@电子情报汇报了一次新的接触。*<ANS=CONTINUE|EXIT>
 
-#CONTACT_IRST	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=IRST_SCOPE>{align=2}塔可汗阁下！有接触！@我们的系统发现了热踪迹！<ANS=CONTINUE|EXIT>
+#CONTACT_IRST	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=IRST_SCOPE>{align=2}$PH20_SAND*塔可汗阁下！有接触！@我们的系统发现了热踪迹！*<ANS=CONTINUE|EXIT>
 
-#CONTACT_RADAR	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_RADAR_DISPLAY>{align=2}塔可汗阁下！@雷达上有新目标！<ANS=CONTINUE|EXIT>
+#CONTACT_RADAR	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAP_RADAR_DISPLAY>{align=2}$PH20_SAND*塔可汗阁下！@雷达上有新目标！*<ANS=CONTINUE|EXIT>
 
-#CONTACT_VISUAL_RIGHT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>注意！捕获目标！<ANS=CONTINUE|EXIT>
+#CONTACT_VISUAL_RIGHT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>$PH20_SAND*注意！捕获目标！*<ANS=CONTINUE|EXIT>
 
-#CONTACT_VISUAL_LEFT	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>注意！捕获目标！<ANS=CONTINUE|EXIT>
+#CONTACT_VISUAL_LEFT	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>$PH20_SAND*注意！捕获目标！*<ANS=CONTINUE|EXIT>
 
-#CONTACT_MISSILE_RIGHT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>导弹来袭，塔可汗！准备好！<ANS=CONTINUE|EXIT>
+#CONTACT_MISSILE_RIGHT	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>$PH20_SAND*导弹来袭，塔可汗！准备好！*<ANS=CONTINUE|EXIT>
 
-#CONTACT_MISSILE_LEFT	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>导弹来袭，塔可汗！准备好！<ANS=CONTINUE|EXIT>
-
-
+#CONTACT_MISSILE_LEFT	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=CONTACT_GUI>$PH20_SAND*导弹来袭，塔可汗！准备好！*<ANS=CONTINUE|EXIT>
 
 
-#HELLO_PRE_01	<NPC=HIRE><APPROVE><SCR=ADD_DIPLOMACY_JOIN>愿平安与您同在，殿下！我是<HIRE_CHAR>，<CITY>的长老。
+
+
+#HELLO_PRE_01	<NPC=HIRE><APPROVE><SCR=ADD_DIPLOMACY_JOIN>$PH20_SAND*愿平安与您同在，殿下！我是<HIRE_CHAR>，<CITY>的长老。*
 <ANS=我在寻找征讨希瓦的盟友，您愿意加入我们吗？|HELLO_ROUND|DIPLOMACY_STARTS>
 
 
 #ANS_DIPLOMACY_JOIN_REACTION	我洗耳恭听。请畅所欲言。
 
 
-#HELLO_1	<MUSIC=Duduk_4_ever><SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>您走向了站在船旁的人们。
+#HELLO_1	<MUSIC=Duduk_4_ever><SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>$PH20_SAND*您走向了站在船旁的人们。*
 
 #HELLO_2	<NPC=HIRE><APPROVE><SCR=HELLO_PRE>
 
@@ -2006,13 +2004,13 @@
 #HELLO_END_ANS	所以呢？您如何决定？您会加入我们吗？
 
 
-#HELLO_RES_LIKE	<NPC=HIRE><APPROVE>我当然会加入您，大公阁下！<ANS=我想要见见其他的塔可汗。您知道在哪里能找到他们吗？|HELLO_INTEL_TARKHANS>
+#HELLO_RES_LIKE	<NPC=HIRE><APPROVE>$PH20_SAND*我当然会加入您，大公阁下！*<ANS=我想要见见其他的塔可汗。您知道在哪里能找到他们吗？|HELLO_INTEL_TARKHANS>
 
-#HELLO_RES_LIKE2	<NPC=HIRE><APPROVE>{align=2}我不能加入您。@但是我会尽可能为您提供帮助。<ANS=我想要见见其他塔可汗。您知道在哪里能找到他们吗？|HELLO_INTEL_TARKHANS>
+#HELLO_RES_LIKE2	<NPC=HIRE><APPROVE>{align=2}$PH20_SAND*我不能加入您。@但是我会尽可能为您提供帮助。*<ANS=我想要见见其他塔可汗。您知道在哪里能找到他们吗？|HELLO_INTEL_TARKHANS>
 
-#HELLO_RES_DESLIKE	<NPC=HIRE><APPROVE>不，大公。我们不会加入你。<ANS=我想要见见其他的塔可汗。您知道在哪里能找到他们吗。|HELLO_INTEL_TARKHANS_LOOSE>
+#HELLO_RES_DESLIKE	<NPC=HIRE><APPROVE>$PH20_SAND*不，大公。我们不会加入你。*<ANS=我想要见见其他的塔可汗。您知道在哪里能找到他们吗。|HELLO_INTEL_TARKHANS_LOOSE>
 
-#HELLO_RES_UNFEAR	<NPC=HIRE><APPROVE>{align=2}我们永远都不会加入你。@带上你的人滚吧。我们才不怕你这种人。<ANS=（转身离开）|EXIT>
+#HELLO_RES_UNFEAR	<NPC=HIRE><APPROVE>{align=2}$PH20_SAND*我们永远都不会加入你。@带上你的人滚吧。我们才不怕你这种人。*<ANS=（转身离开）|EXIT>
 
 
 #HELLO_INTEL_TARKHANS	<NPC=HIRE><APPROVE><SCR=INTEL_TARKHANS><ANS=万分感谢。|EXIT|DIPDIALOG_WIN>
@@ -2104,39 +2102,39 @@
 
 #HELLO_DOSSIER	<NPC=LOCAL><SCR=HELLO_DOSSIER>
 
-#HELLO_DOSSIER_FEAR	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老是个胆怯的人。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FEAR	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老是个胆怯的人。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NOFEAR	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老英勇无惧。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFEAR	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老英勇无惧。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_ROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老热爱罗马尼帝国。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_ROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老热爱罗马尼帝国。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NOROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老怨恨罗马尼帝国。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOROMANI	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老怨恨罗马尼帝国。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_GERAT	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老热爱格瑞特。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_GERAT	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老热爱格瑞特。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NOGERAT	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老看不惯以拦人。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOGERAT	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老看不惯以拦人。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_FAITH	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老信仰坚定。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FAITH	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老信仰坚定。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NOFAITH	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老是一个拒绝信仰的叛教者。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFAITH	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老是一个拒绝信仰的叛教者。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_RIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老奉公守法。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_RIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老奉公守法。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NORIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老因徇私枉法而臭名昭著。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NORIGHT	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老因徇私枉法而臭名昭著。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_FORCE	<NPC=HIRE><APPROVE><NOSPEAK>据说这位长老看中实力。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FORCE	<NPC=HIRE><APPROVE><NOSPEAK>$PH20_SAND*据说这位长老看中实力。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NOFORCE	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老是个和平主义者。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOFORCE	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老是个和平主义者。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_WEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老的贪财人尽皆知。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_WEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老的贪财人尽皆知。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NOWEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老的慷慨饱受赞誉。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOWEALTH	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老的慷慨饱受赞誉。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_KINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>您常听人说这位长老和蔼可亲。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_KINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*您常听人说这位长老和蔼可亲。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_NOKINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>这位长老被描述为十恶不赦之人。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_NOKINDNESS	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*这位长老被描述为十恶不赦之人。*<ANS=CONTINUE|HELLO_ROUND>
 
-#HELLO_DOSSIER_FAIL	<NPC=LOCAL><APPROVE><NOSPEAK>您没听到有用的东西。<ANS=CONTINUE|HELLO_ROUND>
+#HELLO_DOSSIER_FAIL	<NPC=LOCAL><APPROVE><NOSPEAK>$PH20_SAND*您没听到有用的东西。*<ANS=CONTINUE|HELLO_ROUND>
 
 
 
@@ -2156,14 +2154,14 @@
 
 #HELLO_HARISHID_1	<MUSIC=Duduk_4_ever><SCR=SET_HIRE|HARISHID><SCR=CONTINUE>确实有一支代表团正在您的座舰旁静候。
 
-#HELLO_HARISHID_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>{align=2}一位壮汉走上前来。@他身着哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）的盔甲。
+#HELLO_HARISHID_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>{align=2}$PH20_SAND*一位壮汉走上前来。@他身着哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）的盔甲。*
 
 
 
 
 #HELLO_AIRBORNE_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>您惊讶地看见一群奇怪的人在向您走来—至少十几个人，@装备精良且身穿突击护甲。
 
-#HELLO_AIRBORNE_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>{align=2}这些兵士的盔甲和面容都@留下了长久军旅生涯所锤炼的痕迹。@然而他们的金星奖章被擦得锃亮，手中的钢枪@尽管颇有磨损，却用崭新的枪油擦得油光闪闪。
+#HELLO_AIRBORNE_2	<SIDE=0><NPC=HIRE><NOSPEAK><APPROVE><RAM=1><SCR=HELLO_INIT>{align=2}$PH20_SAND*这些兵士的盔甲和面容都@留下了长久军旅生涯所锤炼的痕迹。@然而他们的金星奖章被擦得锃亮，手中的钢枪@尽管颇有磨损，却用崭新的枪油擦得油光闪闪。*
 
 #HELLO_GREETING_AIRBORNE_01	日安，大人！|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=-1
 
@@ -2175,29 +2173,29 @@
 
 #HELLO_GREETING_AIRBORNE_05	这儿谁管事？|HELLO_INTRODUCE_AIRBORNE|GREETING|FEAR=1
 
-#HELLO_INTRODUCE_AIRBORNE	<NPC=AIRBORNE><APPROVE>{align=2}殿下，请允许我自我介绍！@我是叶梅利扬·古利亚耶夫上校。
+#HELLO_INTRODUCE_AIRBORNE	<NPC=AIRBORNE><APPROVE>{align=2}$PH20_SAND*殿下，请允许我自我介绍！@我是叶梅利扬·古利亚耶夫上校。*
 <ANS=空降军的上校？你怎么流落到这种地步？|HELLO_AIRBORNE_4>
 <ANS=上校，我们在进攻希瓦。您愿意加入我们吗？|HELLO_ROUND|DIPLOMACY_STARTS>
 
-#HELLO_AIRBORNE_4	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>上校的眼神灰暗了下去。他顿了一下，苦笑一声，随后开口。
+#HELLO_AIRBORNE_4	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>$PH20_SAND*上校的眼神灰暗了下去。他顿了一下，苦笑一声，随后开口。*
 
-#HELLO_AIRBORNE_5	<NPC=AIRBORNE><SCR=CONTINUE>当陛下—您父皇…
+#HELLO_AIRBORNE_5	<NPC=AIRBORNE><SCR=CONTINUE>$PH20_SAND*当陛下—您父皇…*
 
-#HELLO_AIRBORNE_6	<NPC=AIRBORNE><SCR=CONTINUE>…把我们抛弃在这儿之后…
+#HELLO_AIRBORNE_6	<NPC=AIRBORNE><SCR=CONTINUE>$PH20_SAND*…把我们抛弃在这儿之后…*
 
-#HELLO_AIRBORNE_7	<NPC=AIRBORNE><SCR=CONTINUE>…我和我的人就不再属于空降军之列了。
+#HELLO_AIRBORNE_7	<NPC=AIRBORNE><SCR=CONTINUE>$PH20_SAND*…我和我的人就不再属于空降军之列了。*
 
-#HELLO_AIRBORNE_8	<NPC=AIRBORNE>{align=2}我就跟您直说吧，大公。@到头来，我也成了一名塔可汗。
+#HELLO_AIRBORNE_8	<NPC=AIRBORNE>{align=2}$PH20_SAND*我就跟您直说吧，大公。@到头来，我也成了一名塔可汗。*
 <ANS=你被丢在这儿了？|HELLO_AIRBORNE_9|AIRBORNE=-1>
 <ANS=我懂了…我们在进攻希瓦，上校。您能加入我们吗？|HELLO_ROUND|DIPLOMACY_STARTS>
 
-#HELLO_AIRBORNE_9	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>{align=2}上校转过身去。您看不见他的眼睛，@但您能看到他的面庞因动容而抽搐。@当他再次转过身时，他的声音平静如水。
+#HELLO_AIRBORNE_9	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*上校转过身去。您看不见他的眼睛，@但您能看到他的面庞因动容而抽搐。@当他再次转过身时，他的声音平静如水。*
 
-#HELLO_AIRBORNE_10	<NPC=AIRBORNE><SCR=CONTINUE>{align=2}七年前，大公。@我们七年前就该等到您了…
+#HELLO_AIRBORNE_10	<NPC=AIRBORNE><SCR=CONTINUE>{align=2}$PH20_SAND*七年前，大公。@我们七年前就该等到您了…*
 
-#HELLO_AIRBORNE_11	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>{align=2}他的眼神软了下来。@他的嘴唇抽动着，缓缓挤出一个微笑。
+#HELLO_AIRBORNE_11	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*他的眼神软了下来。@他的嘴唇抽动着，缓缓挤出一个微笑。*
 
-#HELLO_AIRBORNE_12	<NPC=AIRBORNE>{align=2}但…能再次听到@家乡话实在是太好了。
+#HELLO_AIRBORNE_12	<NPC=AIRBORNE>{align=2}$PH20_SAND*但…能再次听到@家乡话实在是太好了。*
 <ANS=上校，我们在进攻希瓦。您愿意加入我们吗？|HELLO_ROUND|DIPLOMACY_STARTS>
 
 
@@ -2473,6 +2471,7 @@
 #ITEM_GENERATORS	GENERATORS
 #ITEM_QUARTERS	CREW QUARTERS
 #ITEM_EMERGENCY	EMERGENCY SYSTEMS
+#ITEM_DOOM	DOOM SLAYER PARTS
 
 #TRADE_HULL	HULL PARTS
 #TRADE_ARMOR	ARMOR PARTS
@@ -3001,70 +3000,70 @@
 
 #ENDWAR_BRIEFING_0	<MUSIC=Bois><SCR=CONTINUE><BLUR=2><BLUR_FOCUS=0.3-><BLUR_ZOOM=1.0><SCR=END_BRIEFING|0>{align=2}三十分钟后，舰队的军官@和塔可汗们都在旗舰上集合。
 
-#ENDWAR_BRIEFING_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|1>{align=2}感谢诸位到场。@我知道你们舟车劳顿。
+#ENDWAR_BRIEFING_1	<NPC=PETR><SHADOW=1><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|1>{align=2}$PH20_SAND*感谢诸位到场。@我知道你们舟车劳顿。*
 
-#ENDWAR_BRIEFING_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>但我们眼下面对的困境确实无比严峻。
+#ENDWAR_BRIEFING_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>$PH20_SAND*但我们眼下面对的困境确实无比严峻。*
 
-#ENDWAR_BRIEFING_3	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}希瓦的城防军官告诉了我们@关于将帝都夷为平地的武器的情报。
+#ENDWAR_BRIEFING_3	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}$PH20_SAND*希瓦的城防军官告诉了我们@关于将帝都夷为平地的武器的情报。*
 
-#ENDWAR_BRIEFING_4	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}我们没有逼供。他之所以如实相告，@是因为他认为集众叛军正准备用这种武器来毁灭希瓦。
+#ENDWAR_BRIEFING_4	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}$PH20_SAND*我们没有逼供。他之所以如实相告，@是因为他认为集众叛军正准备用这种武器来毁灭希瓦。*
 
-#ENDWAR_BRIEFING_5	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}这位可怜人被吓得魂不守舍。@他反复强调说，这里所有人都命悬一线。
-
-
-#ENDWAR_BRIEFING_6	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|2>这种新式武器是一种弹道导弹。
-
-#ENDWAR_BRIEFING_7	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|3>{align=2}它装配有一套无可比拟的弹道修正系统，@能让它从最远2000千米外击中目标。
-
-#ENDWAR_BRIEFING_8	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}作为弹道导弹，@它不能用来打击移动目标。
-
-#ENDWAR_BRIEFING_9	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}然而，对于固定目标而言，@其威力绝对是毁灭性的。
-
-#ENDWAR_BRIEFING_10	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>而其速度足以在十多分钟的时间里命中其目标。
+#ENDWAR_BRIEFING_5	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}$PH20_SAND*这位可怜人被吓得魂不守舍。@他反复强调说，这里所有人都命悬一线。*
 
 
-#ENDWAR_BRIEFING_11	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|4>这种导弹会装载到两艘特制的导弹巡空舰上，并投送到格瑞特。
+#ENDWAR_BRIEFING_6	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|2>$PH20_SAND*这种新式武器是一种弹道导弹。*
 
-#ENDWAR_BRIEFING_12	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|5>每一艘战舰可搭载最多十枚这种导弹。
+#ENDWAR_BRIEFING_7	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|3>{align=2}$PH20_SAND*它装配有一套无可比拟的弹道修正系统，@能让它从最远2000千米外击中目标。*
 
-#ENDWAR_BRIEFING_13	<CORNER_SPEAK=0><NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|6>我把这些战舰可能的目的地标在地图上了。
+#ENDWAR_BRIEFING_8	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}$PH20_SAND*作为弹道导弹，@它不能用来打击移动目标。*
 
+#ENDWAR_BRIEFING_9	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>{align=2}$PH20_SAND*然而，对于固定目标而言，@其威力绝对是毁灭性的。*
 
-#ENDWAR_BRIEFING_14	<SCR=CHECK_JOINED|DAUD|ENDWAR_BRIEFING_17><NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>{align=2}只要他们停泊到距离希瓦2000千米以内的任何一处，@就可以对希瓦发动打击。
-
-#ENDWAR_BRIEFING_15	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>这些就是有可能从那里对希瓦发射导弹的城市。
-
-#ENDWAR_BRIEFING_16	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>{align=2}如果在这两艘战舰抵达这几个标注的城市前，@我军就将其拦截，希瓦便不会遭受打击了。
+#ENDWAR_BRIEFING_10	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>$PH20_SAND*而其速度足以在十多分钟的时间里命中其目标。*
 
 
-#ENDWAR_BRIEFING_17	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>{align=2}但她们只要停泊在距离希瓦@2000千米以内的任何一处，就能发动打击。
+#ENDWAR_BRIEFING_11	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|4>$PH20_SAND*这种导弹会装载到两艘特制的导弹巡空舰上，并投送到格瑞特。*
 
-#ENDWAR_BRIEFING_18	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>这些就是有可能从那里对希瓦发射导弹的城市。
+#ENDWAR_BRIEFING_12	<CORNER_SPEAK=1><SCR=CONTINUE><SCR=END_BRIEFING|5>$PH20_SAND*每一艘战舰可搭载最多十枚这种导弹。*
 
-#ENDWAR_BRIEFING_19	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>{align=2}如果在这两艘战舰抵达这几个标注的城市前，@我军就将其拦截，希瓦便不会遭受打击了。
-
-
-#ENDWAR_BRIEFING_SF_A_1	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>当然，我们仍然要对付敌人的打击群。
-
-#ENDWAR_BRIEFING_SF_A_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_RADAR_S_1><SCR=END_BRIEFING|10>{align=2}他们的导弹很慢，@但是其数量也足以把此处化为放射性齑粉。
+#ENDWAR_BRIEFING_13	<CORNER_SPEAK=0><NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|6>$PH20_SAND*我把这些战舰可能的目的地标在地图上了。*
 
 
-#ENDWAR_BRIEFING_RADAR_S_1	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_RADAR_V_1><NPC=OMAR><SIDE=1><SCR=CONTINUE>{align=2}难道我们不能在这种新式导弹击中城市和战舰以前就将它拦截吗？@假如有一套可靠的雷达，足够的防空导弹…
+#ENDWAR_BRIEFING_14	<SCR=CHECK_JOINED|DAUD|ENDWAR_BRIEFING_17><NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>{align=2}$PH20_SAND*只要他们停泊到距离希瓦2000千米以内的任何一处，@就可以对希瓦发动打击。*
 
-#ENDWAR_BRIEFING_RADAR_S_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>可是防空系统无法拦截高速弹道导弹。
+#ENDWAR_BRIEFING_15	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>$PH20_SAND*这些就是有可能从那里对希瓦发射导弹的城市。*
 
-#ENDWAR_BRIEFING_RADAR_S_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>如果我们用A-100N呢？
-
-#ENDWAR_BRIEFING_RADAR_S_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>{align=2}用一颗A-100N…理论上，@可以把弹道导弹击毁，只要我们能发现得够早。
+#ENDWAR_BRIEFING_16	<NPC=DAUD><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>{align=2}$PH20_SAND*如果在这两艘战舰抵达这几个标注的城市前，@我军就将其拦截，希瓦便不会遭受打击了。*
 
 
-#ENDWAR_BRIEFING_RADAR_V_1	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_GERAT_O_1><NPC=FASIL><SIDE=1><SCR=CONTINUE>{align=2}若有一套可靠的雷达和足够多的防空导弹，@这座城市就能免遭这种新式导弹轰击了。
+#ENDWAR_BRIEFING_17	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|7>{align=2}$PH20_SAND*但她们只要停泊在距离希瓦@2000千米以内的任何一处，就能发动打击。*
 
-#ENDWAR_BRIEFING_RADAR_V_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>可是防空系统无法拦截高速弹道导弹。
+#ENDWAR_BRIEFING_18	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE><SCR=END_BRIEFING|8>$PH20_SAND*这些就是有可能从那里对希瓦发射导弹的城市。*
 
-#ENDWAR_BRIEFING_RADAR_V_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>如果我们用A-100N呢？
+#ENDWAR_BRIEFING_19	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_SF_A_1><SCR=END_BRIEFING|9>{align=2}$PH20_SAND*如果在这两艘战舰抵达这几个标注的城市前，@我军就将其拦截，希瓦便不会遭受打击了。*
 
-#ENDWAR_BRIEFING_RADAR_V_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>{align=2}用一颗A-100N…理论上，@可以把弹道导弹击毁，只要我们能发现得够早。
+
+#ENDWAR_BRIEFING_SF_A_1	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE>$PH20_SAND*当然，我们仍然要对付敌人的打击群。*
+
+#ENDWAR_BRIEFING_SF_A_2	<NPC=PETR><SIDE=-1><BLUR_POS=0.25|0.5><SCR=CONTINUE|ENDWAR_BRIEFING_RADAR_S_1><SCR=END_BRIEFING|10>{align=2}$PH20_SAND*他们的导弹很慢，@但是其数量也足以把此处化为放射性齑粉。*
+
+
+#ENDWAR_BRIEFING_RADAR_S_1	<SCR=CHECK_JOINED|OMAR|ENDWAR_BRIEFING_RADAR_V_1><NPC=OMAR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*难道我们不能在这种新式导弹击中城市和战舰以前就将它拦截吗？@假如有一套可靠的雷达，足够的防空导弹…*
+
+#ENDWAR_BRIEFING_RADAR_S_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>$PH20_SAND*可是防空系统无法拦截高速弹道导弹。*
+
+#ENDWAR_BRIEFING_RADAR_S_3	<NPC=OMAR><SIDE=1><SCR=CONTINUE>$PH20_SAND*如果我们用A-100N呢？*
+
+#ENDWAR_BRIEFING_RADAR_S_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>{align=2}$PH20_SAND*用一颗A-100N…理论上，@可以把弹道导弹击毁，只要我们能发现得够早。*
+
+
+#ENDWAR_BRIEFING_RADAR_V_1	<SCR=CHECK_JOINED|FASIL|ENDWAR_BRIEFING_GERAT_O_1><NPC=FASIL><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*若有一套可靠的雷达和足够多的防空导弹，@这座城市就能免遭这种新式导弹轰击了。*
+
+#ENDWAR_BRIEFING_RADAR_V_2	<NPC=PETR><SIDE=-1><SCR=CONTINUE>$PH20_SAND*可是防空系统无法拦截高速弹道导弹。*
+
+#ENDWAR_BRIEFING_RADAR_V_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>$PH20_SAND*如果我们用A-100N呢？*
+
+#ENDWAR_BRIEFING_RADAR_V_4	<NPC=PETR><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_MARK_1><SCR=END_BRIEFING|11>{align=2}$PH20_SAND*用一颗A-100N…理论上，@可以把弹道导弹击毁，只要我们能发现得够早。*
 
 
 #ENDWAR_BRIEFING_MARK_1	<SCR=END_BRIEFING|12>彼得望向您，陷入沉思。房间里的其他人都看向您。<ANS=眼下听闻此事，此处所有人都必须做出决断。我不强求诸位留下，留下的则要死战到底。|ENDWAR_BRIEFING_MARK_2>
@@ -3072,25 +3071,25 @@
 #ENDWAR_BRIEFING_MARK_2	你的话于死寂之中回荡。<ANS=如果有人想离开，我保证将不加阻拦。|ENDWAR_BRIEFING_LOYALTY_1>
 
 
-#ENDWAR_BRIEFING_LOYALTY_1	<SCR=CHECK_STARS|OMAR|ENDWAR_BRIEFING_LOYALTY_2><NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|OMAR|FRACTION_KHANS>{align=2}我已做好为您肝脑涂地的准备，萨亚迪阁下。@可汗舰队将为您效命。
+#ENDWAR_BRIEFING_LOYALTY_1	<SCR=CHECK_STARS|OMAR|ENDWAR_BRIEFING_LOYALTY_2><NPC=OMAR><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|OMAR|FRACTION_KHANS>{align=2}$PH20_SAND*我已做好为您肝脑涂地的准备，萨亚迪阁下。@可汗舰队将为您效命。*
 
-#ENDWAR_BRIEFING_LOYALTY_2	<SCR=CHECK_STARS|FASIL|ENDWAR_BRIEFING_LOYALTY_3><NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|FASIL|FRACTION_ELAOU>{align=2}你我已风雨同舟良久，大公爵阁下。@埃劳王室将相伴您左右。
+#ENDWAR_BRIEFING_LOYALTY_2	<SCR=CHECK_STARS|FASIL|ENDWAR_BRIEFING_LOYALTY_3><NPC=FASIL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|FASIL|FRACTION_ELAOU>{align=2}$PH20_SAND*你我已风雨同舟良久，大公爵阁下。@埃劳王室将相伴您左右。*
 
-#ENDWAR_BRIEFING_LOYALTY_3	<SCR=CHECK_STARS|BOY|ENDWAR_BRIEFING_LOYALTY_4><NPC=BOY><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|BOY|FRACTION_HIDDEN>{align=2}萨亚迪之子啊，@隐居子民将加入您的事业。
+#ENDWAR_BRIEFING_LOYALTY_3	<SCR=CHECK_STARS|BOY|ENDWAR_BRIEFING_LOYALTY_4><NPC=BOY><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|BOY|FRACTION_HIDDEN>{align=2}$PH20_SAND*萨亚迪之子啊，@隐居子民将加入您的事业。*
 
-#ENDWAR_BRIEFING_LOYALTY_4	<SCR=CHECK_STARS|GIRL|ENDWAR_BRIEFING_LOYALTY_5><NPC=GIRL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|GIRL|FRACTION_ISI>{align=2}我等一族也将加入你们，阁下。
+#ENDWAR_BRIEFING_LOYALTY_4	<SCR=CHECK_STARS|GIRL|ENDWAR_BRIEFING_LOYALTY_5><NPC=GIRL><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|GIRL|FRACTION_ISI>{align=2}$PH20_SAND*我等一族也将加入你们，阁下。*
 
-#ENDWAR_BRIEFING_LOYALTY_5	<SCR=CHECK_STARS|HARISHID|ENDWAR_BRIEFING_LOYALTY_6><NPC=HARISHID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HARISHID|FRACTION_HARISHID>{align=2}格瑞特铁卫愿效犬马之劳，大公爵阁下！
+#ENDWAR_BRIEFING_LOYALTY_5	<SCR=CHECK_STARS|HARISHID|ENDWAR_BRIEFING_LOYALTY_6><NPC=HARISHID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HARISHID|FRACTION_HARISHID>{align=2}$PH20_SAND*格瑞特铁卫愿效犬马之劳，大公爵阁下！*
 
-#ENDWAR_BRIEFING_LOYALTY_6	<SCR=CHECK_STARS|HISSID|ENDWAR_BRIEFING_LOYALTY_7><NPC=HISSID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HISSID|FRACTION_HISSID>空盗们也将加入。
+#ENDWAR_BRIEFING_LOYALTY_6	<SCR=CHECK_STARS|HISSID|ENDWAR_BRIEFING_LOYALTY_7><NPC=HISSID><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|HISSID|FRACTION_HISSID>$PH20_SAND*空盗们也将加入。*
 
-#ENDWAR_BRIEFING_LOYALTY_7	<SCR=CHECK_STARS|KNIGHT|ENDWAR_BRIEFING_LOYALTY_8><NPC=KNIGHT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|KNIGHT|FRACTION_KNIGHT> 杜斯塔姆骑士团愿同您一道奔赴疆场！
+#ENDWAR_BRIEFING_LOYALTY_7	<SCR=CHECK_STARS|KNIGHT|ENDWAR_BRIEFING_LOYALTY_8><NPC=KNIGHT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|KNIGHT|FRACTION_KNIGHT> $PH20_SAND*杜斯塔姆骑士团愿同您一道奔赴疆场！*
 
-#ENDWAR_BRIEFING_LOYALTY_8	<SCR=CHECK_STARS|SCOUT|ENDWAR_BRIEFING_LOYALTY_9><NPC=SCOUT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|SCOUT|FRACTION_SCOUT> 大公爵阁下，我的部下也将支援您。
+#ENDWAR_BRIEFING_LOYALTY_8	<SCR=CHECK_STARS|SCOUT|ENDWAR_BRIEFING_LOYALTY_9><NPC=SCOUT><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|SCOUT|FRACTION_SCOUT> $PH20_SAND*大公爵阁下，我的部下也将支援您。*
 
-#ENDWAR_BRIEFING_LOYALTY_9	<SCR=CHECK_STARS|AIRBORNE|ENDWAR_BRIEFING_LOYALTY_10><NPC=AIRBORNE><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|AIRBORNE|FRACTION_AIRBORNE>{align=2}我已等待此刻许久！@我可不会甘心在这鸟不拉屎的大漠里老死…
+#ENDWAR_BRIEFING_LOYALTY_9	<SCR=CHECK_STARS|AIRBORNE|ENDWAR_BRIEFING_LOYALTY_10><NPC=AIRBORNE><SIDE=-1><SCR=CONTINUE><SCR=END_BRIEFING|13|AIRBORNE|FRACTION_AIRBORNE>{align=2}$PH20_SAND*我已等待此刻许久！@我可不会甘心在这鸟不拉屎的大漠里老死…*
 
-#ENDWAR_BRIEFING_LOYALTY_10	<SCR=CHECK_STARS|VETERAN|ENDWAR_BRIEFING_END_1><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_END_1><SCR=END_BRIEFING|13|VETERAN|FRACTION_VETERAN> {align=2}如其他诸位一样，大公阁下，@我已将身家性命托付于您。
+#ENDWAR_BRIEFING_LOYALTY_10	<SCR=CHECK_STARS|VETERAN|ENDWAR_BRIEFING_END_1><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ENDWAR_BRIEFING_END_1><SCR=END_BRIEFING|13|VETERAN|FRACTION_VETERAN> {align=2}$PH20_SAND*如其他诸位一样，大公阁下，@我已将身家性命托付于您。*
 
 
 #ENDWAR_BRIEFING_END_1	<SCR=END_BRIEFING|14><BLUR=2><ANS=那么，祝诸位武运昌隆。|TOTAL_WAR_INFO>
@@ -3109,24 +3108,24 @@
 
 
 
-#RADIOTREASON_1	<SCR=CHECK_JOINED|PETR|EXIT><NPC=PETR><SIDE=-1><SALUTE><SHADOW=1><SCR=CONTINUE>{align=2}长官，塔可汗！@我们刚才截获了一条提及我们抵达<FOCUS_INCITY>的电报
+#RADIOTREASON_1	<SCR=CHECK_JOINED|PETR|EXIT><NPC=PETR><SIDE=-1><SALUTE><SHADOW=1><SCR=CONTINUE>{align=2}$PH20_SAND*长官，塔可汗！@我们刚才截获了一条提及我们抵达<FOCUS_INCITY>的电报*
 
-#RADIOTREASON_2	<NPC=PETR><SIDE=-1><SCR=STOP>{align=2}肯定是某个当地群众捅出去的。@现在敌人知道我们在哪了。
-
-
+#RADIOTREASON_2	<NPC=PETR><SIDE=-1><SCR=STOP>{align=2}$PH20_SAND*肯定是某个当地群众捅出去的。@现在敌人知道我们在哪了。*
 
 
-#OMAR_GOODBUY_1	<NPC=OMAR><SIDE=0>{align=2}我要走了，大公阁下。@与你为伍是个错误。
+
+
+#OMAR_GOODBUY_1	<NPC=OMAR><SIDE=0>{align=2}$PH20_SAND*我要走了，大公阁下。@与你为伍是个错误。*
 <ANS=再见了，奥马尔阁下。祝你一路顺风。|OMAR_GOODBUY_2>
 
-#OMAR_GOODBUY_2	<NPC=OMAR><SIDE=0>你也一样，大公阁下。<SCR=STOP>
+#OMAR_GOODBUY_2	<NPC=OMAR><SIDE=0>$PH20_SAND*你也一样，大公阁下。*<SCR=STOP>
 
-#FASIL_GOODBUY_1	<NPC=FASIL><SIDE=0>{align=2}大公阁下，尽管不忍如此，@但是我们确实意见不合。@你我是时候分道扬镳了。
+#FASIL_GOODBUY_1	<NPC=FASIL><SIDE=0>{align=2}$PH20_SAND*大公阁下，尽管不忍如此，@但是我们确实意见不合。@你我是时候分道扬镳了。*
 <ANS=我能明白，王子殿下。祝你好运。|FASIL_GOODBUY_2>
 
-#FASIL_GOODBUY_2	<NPC=FASIL><SIDE=0>我也祝你好运，大公阁下。<SCR=STOP>
+#FASIL_GOODBUY_2	<NPC=FASIL><SIDE=0>$PH20_SAND*我也祝你好运，大公阁下。*<SCR=STOP>
 
-#KNIGHT_GOODBUY_1	<NPC=KNIGHT><SIDE=0>我受够了，殿下！我要走了。愿主保佑你。
+#KNIGHT_GOODBUY_1	<NPC=KNIGHT><SIDE=0>$PH20_SAND*我受够了，殿下！我要走了。愿主保佑你。*
 <ANS=好。也祝你好运，舒贾。|EXIT>
 
 
@@ -3173,28 +3172,28 @@
 <ANS=让他离开。|EVENT_MONK_01_NO_AR|GERAT=-1|FAITH=-1|ROMANI=1>
 
 
-#EVENT_MONK_01_YES_OM	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_YES_GL><SCR=CONTINUE|EVENT_MONK_01_YES_AR|OMAR=1><NPC=OMAR><SIDE=0>，正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，阁下。
+#EVENT_MONK_01_YES_OM	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_YES_GL><SCR=CONTINUE|EVENT_MONK_01_YES_AR|OMAR=1><NPC=OMAR><SIDE=0>$PH20_SAND*正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，阁下。*
 
-#EVENT_MONK_01_YES_GL	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_FA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|GIRL=1><NPC=GIRL><SIDE=0>，正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，大公爵。
+#EVENT_MONK_01_YES_GL	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_FA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|GIRL=1><NPC=GIRL><SIDE=0>$PH20_SAND*正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，大公爵。*
 
-#EVENT_MONK_01_YES_FA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_HA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|FASIL=1><NPC=FASIL><SIDE=0>正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，大公爵。
+#EVENT_MONK_01_YES_FA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_HA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|FASIL=1><NPC=FASIL><SIDE=0>$PH20_SAND*正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，大公爵。*
 
-#EVENT_MONK_01_YES_HA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_DA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|HARISHID=1><NPC=HARISHID><SIDE=0>正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，阁下。
-
-
-#EVENT_MONK_01_YES_AR	<SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_YES_DA><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0> 呸！这也太过分了！
-
-#EVENT_MONK_01_YES_DA	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=-1><NPC=DAUD><SIDE=0>{align=2}恕我直言，公爵，@这场冒险已经不像一场军事行动，倒像流动怪胎秀了。
+#EVENT_MONK_01_YES_HA	<AMBIENT=STOP><TRG=MONK|1><SCR=CHECK_JOINED|GIRL|EVENT_MONK_01_YES_DA><SCR=CONTINUE|EVENT_MONK_01_YES_AR|HARISHID=1><NPC=HARISHID><SIDE=0>$PH20_SAND*正所谓怜悯贫穷的，他的善行天主必偿还！明智的选择，阁下。*
 
 
-#EVENT_MONK_01_NO_AR	<AMBIENT=STOP><SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_NO_DA><SCR=CONTINUE|EVENT_MONK_01_NO_OM|AIRBORNE=1><NPC=AIRBORNE><SIDE=0>{align=2}那我可就不…大公阁下，@我还真当您要收留此人呢！
+#EVENT_MONK_01_YES_AR	<SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_YES_DA><SCR=STOP|AIRBORNE=-1><NPC=AIRBORNE><SIDE=0> $PH20_SAND*呸！这也太过分了！*
 
-#EVENT_MONK_01_NO_DA	<AMBIENT=STOP><SCR=CHECK_JOINED|DAUD|EVENT_MONK_01_NO_2><SCR=CONTINUE|EVENT_MONK_01_NO_OM|DAUD=1><NPC=DAUD><SIDE=0>{align=2}那我可就不…大公阁下，@我还真当您要收留此人呢！
+#EVENT_MONK_01_YES_DA	<SCR=CHECK_JOINED|DAUD|EXIT><SCR=STOP|DAUD=-1><NPC=DAUD><SIDE=0>{align=2}$PH20_SAND*恕我直言，公爵，@这场冒险已经不像一场军事行动，倒像流动怪胎秀了。*
 
 
-#EVENT_MONK_01_NO_OM	<SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_NO_GL><SCR=STOP|OMAR=-1><NPC=OMAR><SIDE=0>大公阁下，您本该以天主之名@归荣耀于此僧人才是。
+#EVENT_MONK_01_NO_AR	<AMBIENT=STOP><SCR=CHECK_JOINED|AIRBORNE|EVENT_MONK_01_NO_DA><SCR=CONTINUE|EVENT_MONK_01_NO_OM|AIRBORNE=1><NPC=AIRBORNE><SIDE=0>{align=2}$PH20_SAND*那我可就不…大公阁下，@我还真当您要收留此人呢！*
 
-#EVENT_MONK_01_NO_GL	<SCR=CHECK_JOINED|GIRL|EXIT><SCR=STOP|GIRL=-1><NPC=GIRL><SIDE=0> 大公阁下，您本该以天主之名归荣耀于此僧人才是。
+#EVENT_MONK_01_NO_DA	<AMBIENT=STOP><SCR=CHECK_JOINED|DAUD|EVENT_MONK_01_NO_2><SCR=CONTINUE|EVENT_MONK_01_NO_OM|DAUD=1><NPC=DAUD><SIDE=0>{align=2}$PH20_SAND*那我可就不…大公阁下，@我还真当您要收留此人呢！*
+
+
+#EVENT_MONK_01_NO_OM	<SCR=CHECK_JOINED|OMAR|EVENT_MONK_01_NO_GL><SCR=STOP|OMAR=-1><NPC=OMAR><SIDE=0>$PH20_SAND*大公阁下，您本该以天主之名@归荣耀于此僧人才是。*
+
+#EVENT_MONK_01_NO_GL	<SCR=CHECK_JOINED|GIRL|EXIT><SCR=STOP|GIRL=-1><NPC=GIRL><SIDE=0> $PH20_SAND*大公阁下，您本该以天主之名归荣耀于此僧人才是。*
 
 
 
@@ -3252,7 +3251,7 @@
 
 #EVENT_ROBE_1	<EVENT_CARD><AMBIENT=crowd_calm_02>{shift=0}{align=2}$SH40_WHITE*以拦绮绣*@10 {animation=event_robe} @30{align=2}城内长老前来找您。他反复向您躬身，并献给您一条金绣的飘逸长袍。@即使从远处看去，您也能看出此袍乃上上佳作，@雍容华贵，剪裁独具匠心。<SCR=CONTINUE>
 
-#EVENT_ROBE_2	<SCR=CHECK_JOINED|FASIL|EVENT_ROBE_3><NPC=FASIL><SIDE=0>{align=2}此乃父王宫内御用裁缝所缝制。千金难求此袍一件。@倒是好奇此位长老究竟如何私藏有一件在此…<SCR=CONTINUE>
+#EVENT_ROBE_2	<SCR=CHECK_JOINED|FASIL|EVENT_ROBE_3><NPC=FASIL><SIDE=0>{align=2}$PH20_SAND*此乃父王宫内御用裁缝所缝制。千金难求此袍一件。@倒是好奇此位长老究竟如何私藏有一件在此…*<SCR=CONTINUE>
 
 #EVENT_ROBE_3	<AMBIENT=STOP><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*以拦绮绣*@10 {animation=event_robe} @30{align=2}若身着格瑞特王族冠袍，以拦人会颇为受用，@然而罗马尼人可能会深感大逆不道。
 <ANS=穿上以拦衣冠。|EXIT|GERAT=2|ROMANI=-2>
@@ -3267,13 +3266,13 @@
 
 #EVENT_EHUDA_3	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{align=2}他和他的部下也拥有一艘战舰。@他谦卑地请求加入您的分舰队行列，如此将换来他的不二忠心。<SCR=CONTINUE>
 
-#EVENT_EHUDA_4	<NPC=FASIL>{align=2}请您谨慎为妙，大公阁下。@此人的父亲哈齐姆曾乃贼寇头目，@使格瑞特全地子民苦不堪言。@是父王与其执剑交锋才将这帮贼人踏平。<SCR=CONTINUE>
+#EVENT_EHUDA_4	<NPC=FASIL>{align=2}$PH20_SAND*请您谨慎为妙，大公阁下。@此人的父亲哈齐姆曾乃贼寇头目，@使格瑞特全地子民苦不堪言。@是父王与其执剑交锋才将这帮贼人踏平。*<SCR=CONTINUE>
 
-#EVENT_EHUDA_5	<NPC=FASIL>{align=2}而正所谓龙生龙，凤生凤，老鼠养儿沿屋栋。@眼下您仍可把握机会，将这帮贼人绳之以法！<SCR=CONTINUE>
+#EVENT_EHUDA_5	<NPC=FASIL>{align=2}$PH20_SAND*而正所谓龙生龙，凤生凤，老鼠养儿沿屋栋。@眼下您仍可把握机会，将这帮贼人绳之以法！*<SCR=CONTINUE>
 
-#EVENT_EHUDA_6	<NPC=PETR><NOSPEAK>法兹尔走后，彼得也热切地向您进言。<SCR=CONTINUE>
+#EVENT_EHUDA_6	<NPC=PETR><NOSPEAK>$PH20_SAND*法兹尔走后，彼得也热切地向您进言。*<SCR=CONTINUE>
 
-#EVENT_EHUDA_7	<NPC=PETR>{align=2}如今时候艰难，要分清一个人是盗匪还是抵抗战士可不容易。@即便法兹尔和犹大的父亲彼此征战，@也不代表犹大就和他父亲是一丘之貉。<SCR=CONTINUE>
+#EVENT_EHUDA_7	<NPC=PETR>{align=2}$PH20_SAND*如今时候艰难，要分清一个人是盗匪还是抵抗战士可不容易。@即便法兹尔和犹大的父亲彼此征战，@也不代表犹大就和他父亲是一丘之貉。*<SCR=CONTINUE>
 
 #EVENT_EHUDA_8	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{align=2}犹大的部下紧张地盯着法兹尔和彼得，@等待您做出最终的决断。
 <ANS=允许犹大和他的部下加入您的分舰队。|EVENT_EHUDA_OK|RIGHT=-1|GERAT=1>
@@ -3283,7 +3282,7 @@
 
 #EVENT_EHUDA_NO_1	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*无亲者*@10 {animation=event_ehuda} @30{align=2}听到您的话，犹大的面色黑了下来。@他怨恨地望向法兹尔，然后一言不发地转身离开了。<SCR=CONTINUE>
 
-#EVENT_EHUDA_NO_2	<NPC=FASIL>{align=2}请相信我，您的决断没有错，大公阁下。@我确信您麾下官兵所想也是如此。<SCR=STOP|FASIL=1>
+#EVENT_EHUDA_NO_2	<NPC=FASIL>{align=2}$PH20_SAND*请相信我，您的决断没有错，大公阁下。@我确信您麾下官兵所想也是如此。*<SCR=STOP|FASIL=1>
 
 
 
@@ -3451,52 +3450,52 @@
 
 
 
-#TUTORIAL_CAMPAIGN_CORE_0	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>需要我向您简述这次行动内容吗，大公爵？<SCR=SKIP_TUTORIAL>
+#TUTORIAL_CAMPAIGN_CORE_0	<NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>$PH20_SAND*需要我向您简述这次行动内容吗，大公爵？*<SCR=SKIP_TUTORIAL>
 <ANS=当然，彼得·伊格纳季耶维奇。|TUTORIAL_CAMPAIGN_CORE_1>
 
-#TUTORIAL_CAMPAIGN_CORE_1	<SCR=TUTORIAL_CORE|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>很好。我们的目标是夺取希瓦的反应堆。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_1	<SCR=TUTORIAL_CORE|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR=0>$PH20_SAND*很好。我们的目标是夺取希瓦的反应堆。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_2	<SCR=TUTORIAL_CORE|1><NPC=PETR><SIDE=-1>希瓦城位于格瑞特的北端。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_2	<SCR=TUTORIAL_CORE|1><NPC=PETR><SIDE=-1>$PH20_SAND*希瓦城位于格瑞特的北端。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_3	<SCR=TUTORIAL_CORE|2><NPC=PETR><SIDE=-1>{align=2}它被总督的舰队保护着。@我们必须迫使他们出城。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_3	<SCR=TUTORIAL_CORE|2><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*它被总督的舰队保护着。@我们必须迫使他们出城。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_4	<NPC=PETR><SIDE=-1>{align=2}确保反应堆完好是重中之重，@因此对希瓦进行核打击是不能考虑的。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_4	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*确保反应堆完好是重中之重，@因此对希瓦进行核打击是不能考虑的。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_5	<SCR=TUTORIAL_CORE|3><NPC=PETR><SIDE=-1>{align=2}然而，在我们抵达希瓦之前，@我们会碰到此次行动更大的威胁。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_5	<SCR=TUTORIAL_CORE|3><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*然而，在我们抵达希瓦之前，@我们会碰到此次行动更大的威胁。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_6	<SCR=TUTORIAL_CORE|4><NPC=PETR><SIDE=-1>{align=2}根据情报，在格瑞特的某几处有五个集众叛军的打击群，@装备有核武器。我强烈建议不惜一切代价避开他们。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_6	<SCR=TUTORIAL_CORE|4><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*根据情报，在格瑞特的某几处有五个集众叛军的打击群，@装备有核武器。我强烈建议不惜一切代价避开他们。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_7	<SCR=TUTORIAL_CORE|5><NPC=PETR><SIDE=-1>{align=2}这些打击群平均每天会从@一个城市转移到另一个城市一次。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_7	<SCR=TUTORIAL_CORE|5><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*这些打击群平均每天会从@一个城市转移到另一个城市一次。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_8	<SCR=TUTORIAL_CORE|6><NPC=PETR><SIDE=-1>{align=2}如果有敌人发现我们，@并且有时间报告…<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_8	<SCR=TUTORIAL_CORE|6><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*如果有敌人发现我们，@并且有时间报告…*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_9	<SCR=TUTORIAL_CORE|7><NPC=PETR><SIDE=-1>打击群就会试图接近我们然后发射导弹。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_9	<SCR=TUTORIAL_CORE|7><NPC=PETR><SIDE=-1>$PH20_SAND*打击群就会试图接近我们然后发射导弹。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_10	<NPC=PETR><SIDE=-1>{align=2}所以我们时刻要避开他们，@同时追踪他们的动向。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_10	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*所以我们时刻要避开他们，@同时追踪他们的动向。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_11	<SCR=TUTORIAL_CORE|8><NPC=PETR><SIDE=-1>{align=2}通过截获无线电通信，@可以得到关于打击群动向的信息。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_11	<SCR=TUTORIAL_CORE|8><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*通过截获无线电通信，@可以得到关于打击群动向的信息。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_12	<SCR=TUTORIAL_CORE|9><NPC=PETR><SIDE=-1>也可以通过夺取对流层散射通信站来得到。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_12	<SCR=TUTORIAL_CORE|9><NPC=PETR><SIDE=-1>$PH20_SAND*也可以通过夺取对流层散射通信站来得到。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_13	<SCR=TUTORIAL_CORE|10><NPC=PETR><SIDE=-1>{align=2}因为格瑞特广袤的地域，@敌人必须借助这些通信站来传递消息。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_13	<SCR=TUTORIAL_CORE|10><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*因为格瑞特广袤的地域，@敌人必须借助这些通信站来传递消息。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_14	<SCR=TUTORIAL_CORE|11><NPC=PETR><SIDE=-1>{align=2}每座这样的通信站都能为我们@提供关于打击群行踪的珍贵情报。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_14	<SCR=TUTORIAL_CORE|11><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*每座这样的通信站都能为我们@提供关于打击群行踪的珍贵情报。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_15	<SCR=TUTORIAL_CORE|12><NPC=PETR><SIDE=-1>他们的航空母舰的位置也可以在这里得到。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_15	<SCR=TUTORIAL_CORE|12><NPC=PETR><SIDE=-1>$PH20_SAND*他们的航空母舰的位置也可以在这里得到。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_16	<SCR=TUTORIAL_CORE|13><NPC=PETR><SIDE=-1>以及他们的导弹运输舰的位置。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_16	<SCR=TUTORIAL_CORE|13><NPC=PETR><SIDE=-1>$PH20_SAND*以及他们的导弹运输舰的位置。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_17	<NPC=PETR><SIDE=-1>{align=2}所有这些，都是对于@此次行动的成功至关重要的。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_17	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*所有这些，都是对于@此次行动的成功至关重要的。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_18	<SCR=TUTORIAL_CORE|14><NPC=PETR><SIDE=-1>{align=2}仅以这些航空母舰为例，@他们可以向最远2000千米处部署攻击机。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_18	<SCR=TUTORIAL_CORE|14><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*仅以这些航空母舰为例，@他们可以向最远2000千米处部署攻击机。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_19	<NPC=PETR><SIDE=-1>永远要牢记在心。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_19	<NPC=PETR><SIDE=-1>$PH20_SAND*永远要牢记在心。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_20	<SCR=TUTORIAL_CORE|15><NPC=PETR><SIDE=-1>{align=2}还有最后，在格瑞特的@城市之间还有运输船往返。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_20	<SCR=TUTORIAL_CORE|15><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*还有最后，在格瑞特的@城市之间还有运输船往返。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_21	<NPC=PETR><SIDE=-1>{align=2}他们没有，或者几乎没有防卫，@可以被我们轻松夺取。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_CORE_21	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*他们没有，或者几乎没有防卫，@可以被我们轻松夺取。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_CORE_22	<SCR=TUTORIAL_CORE|16><NPC=PETR><SIDE=-1>{align=2}俘获一艘运输船可以在@任何一个城市里换到一笔不小的赎金，@公爵。所以我们可以获得一点额外的资金。<SCR=STOP>
+#TUTORIAL_CAMPAIGN_CORE_22	<SCR=TUTORIAL_CORE|16><NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*俘获一艘运输船可以在@任何一个城市里换到一笔不小的赎金，@公爵。所以我们可以获得一点额外的资金。*<SCR=STOP>
 
 
 #GLOSS_ELINT	电子情报系统
@@ -3504,54 +3503,54 @@
 #GLOSS_PELENG	目标方向相对于正北的角度（以度为单位）
 
 
-#TUTORIAL_CAMPAIGN_ELINT_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_ELINT_PNL>{glossary=ELINT,GLOSS_ELINT}发现了敌方雷达信号。<SCR=SKIP_TUTORIAL>
+#TUTORIAL_CAMPAIGN_ELINT_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_ELINT_PNL>{glossary=ELINT,GLOSS_ELINT}$PH20_SAND*发现了敌方雷达信号。*<SCR=SKIP_TUTORIAL>
 <ANS=我可以听从您的建议，彼得·伊格纳季耶维奇。|TUTORIAL_CAMPAIGN_ELINT_2>
 
-#TUTORIAL_CAMPAIGN_ELINT_2	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL><SCR=CLOSE_RADIO>{align=2}{glossary=ELINT,GLOSS_ELINT}的天线会接收敌人的雷达信号，@然后计算出目标大致的方位角（{glossary=Bearing,GLOSS_PELENG}）。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_2	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL><SCR=CLOSE_RADIO>{align=2}{glossary=ELINT,GLOSS_ELINT}$PH20_SAND*的天线会接收敌人的雷达信号，@然后计算出目标大致的方位角（{glossary=Bearing,GLOSS_PELENG}）。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_ELINT_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>雷达信号是一艘武力可观的舰船的迹象。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>$PH20_SAND*雷达信号是一艘武力可观的舰船的迹象。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_ELINT_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>{align=2}如果我们近到可以检测到他们的雷达信号，@那么意味着他们也足够近到可以探测到我们。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>{align=2}$PH20_SAND*如果我们近到可以检测到他们的雷达信号，@那么意味着他们也足够近到可以探测到我们。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_ELINT_5	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>{align=2}我宁愿让我们的雷达@保持静默，公爵。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_ELINT_5	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_ELINT_PNL>{align=2}$PH20_SAND*我宁愿让我们的雷达@保持静默，公爵。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_ELINT_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_CONT><GLOW_GUI=MAPMODE_RADAR_CONT>{align=2}先说清楚，这个按钮是@开关分舰队的雷达系统的。<SCR=STOP>
-
-
+#TUTORIAL_CAMPAIGN_ELINT_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_CONT><GLOW_GUI=MAPMODE_RADAR_CONT>{align=2}$PH20_SAND*先说清楚，这个按钮是@开关分舰队的雷达系统的。*<SCR=STOP>
 
 
-#TUTORIAL_CAMPAIGN_RLS_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>大公爵！我们遇到目标了—是一个空中目标。<SCR=SKIP_TUTORIAL>
+
+
+#TUTORIAL_CAMPAIGN_RLS_1	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>$PH20_SAND*大公爵！我们遇到目标了—是一个空中目标。*<SCR=SKIP_TUTORIAL>
 <ANS=我可以听从您的建议，彼得·伊格纳季耶维奇。|TUTORIAL_CAMPAIGN_RLS_2>
 
-#TUTORIAL_CAMPAIGN_RLS_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>{align=2}我们的雷达会把目标显示为一条短细线。@这个目标就在细线的中点处。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_RLS_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_RADAR_DISPLAY>{align=2}$PH20_SAND*我们的雷达会把目标显示为一条短细线。@这个目标就在细线的中点处。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_RLS_3	<NPC=PETR><SIDE=-1><BLUR=0><SCR=TUTORIAL_RLS>{align=2}雷达屏幕上的网格线图案在舰队地图上也有一个。@10{align=2}{animation=radar_net}<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_RLS_3	<NPC=PETR><SIDE=-1><BLUR=0><SCR=TUTORIAL_RLS>{align=2}$PH20_SAND*雷达屏幕上的网格线图案在舰队地图上也有一个。*@10{align=2}{animation=radar_net}<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_RLS_4	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><GLOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><NOBOTTOM>{align=2}根据雷达屏幕，@用铅笔在地图上标出目标的位置。<SCR=STOP>
+#TUTORIAL_CAMPAIGN_RLS_4	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><GLOW_GUI=MAPMODE_INSTRUMENTS_PENCIL><NOBOTTOM>{align=2}$PH20_SAND*根据雷达屏幕，@用铅笔在地图上标出目标的位置。*<SCR=STOP>
 
 
 
 #GLOSS_IRST	红外搜索及跟踪系统
 
 
-#TUTORIAL_CAMPAIGN_IRST_1	<NPC=PETR><SIDE=-1><SHADOW=1>红外接触！{glossary=IRST,GLOSS_IRST}发现了一个热目标。<SCR=SKIP_TUTORIAL>
+#TUTORIAL_CAMPAIGN_IRST_1	<NPC=PETR><SIDE=-1><SHADOW=1>$PH20_SAND*红外接触！{glossary=IRST,GLOSS_IRST}发现了一个热目标。*<SCR=SKIP_TUTORIAL>
 <ANS=我可以听从您的建议，彼得·伊格纳季耶维奇。|TUTORIAL_CAMPAIGN_IRST_2>
 
-#TUTORIAL_CAMPAIGN_IRST_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM><SCR=CLOSE_RADIO>{align=2}红外搜索及跟踪系统会@检测并计算出所有热源的方位角（{glossary=Bearing,GLOSS_PELENG}）。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_2	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM><SCR=CLOSE_RADIO>{align=2}$PH20_SAND*红外搜索及跟踪系统会@检测并计算出所有热源的方位角（{glossary=Bearing,GLOSS_PELENG}）。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_IRST_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>{align=2}它特别适合探测空中或@降落了的舰船，或类似的东西。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_3	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>{align=2}$PH20_SAND*它特别适合探测空中或@降落了的舰船，或类似的东西。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_IRST_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>{align=2}{glossary=IRST,GLOSS_IRST}的探测距离要比雷达小得多。@然而，它是$SH20_RED*绝对*不会被敌人发现的。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_4	<NPC=PETR><SIDE=-1><BLUR_POS_GUI=MAPMODE_IRST_SCOPE><NOBOTTOM>{align=2}{glossary=IRST,GLOSS_IRST}$PH20_SAND*的探测距离要比雷达小得多。@然而，它是*$PH20_RED*绝对*$PH20_SAND*不会被敌人发现的。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_IRST_5	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_BEARING><GLOW_GUI=MAPMODE_IRST_BEARING><NOBOTTOM>{align=2}如果信号不够强，@用这个旋钮将系统瞄准向一个特定的方向。<SCR=CONTINUE>
+#TUTORIAL_CAMPAIGN_IRST_5	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_BEARING><GLOW_GUI=MAPMODE_IRST_BEARING><NOBOTTOM>{align=2}$PH20_SAND*如果信号不够强，@用这个旋钮将系统瞄准向一个特定的方向。*<SCR=CONTINUE>
 
-#TUTORIAL_CAMPAIGN_IRST_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_WATERFALL><NOBOTTOM>{align=2}然后在这个方位上@的红外读数会详细显示在这个屏幕上。<SCR=STOP>
+#TUTORIAL_CAMPAIGN_IRST_6	<NPC=PETR><SIDE=-1><HANDSHOW_GUI=MAPMODE_IRST_WATERFALL><NOBOTTOM>{align=2}$PH20_SAND*然后在这个方位上@的红外读数会详细显示在这个屏幕上。*<SCR=STOP>
 
 
 #RP_SAVE_1	{align=2}{animation=save_icon} @15$SH40_SAND*游戏已保存*@10{align=2}您的游戏已保存。@您可以在任何时候载入这个存档进度。<SCR=STOP>
 
 
-#REPAIR_STOP_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_FLEET>{align=2}大公爵！如果我们现在起飞，@就不能完成修理了。
+#REPAIR_STOP_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_FLEET>{align=2}$PH20_SAND*大公爵！如果我们现在起飞，@就不能完成修理了。*
 <ANS=明白。取消命令。|EXIT|STOP_LIFTOFF>
 <SCR=STOP>
 
@@ -3561,13 +3560,13 @@
 
 #FLAGSHIP_LOST_GAMEOVER	<SCR=GAME_OVER><SCR=EXIT>
 
-#FLAGSHIP_LOST_2	<NPC=PETR><SIDE=-1><SHADOW=1>我将代替他接任分舰队司令。<SCR=CONTINUE>
+#FLAGSHIP_LOST_2	<NPC=PETR><SIDE=-1><SHADOW=1>$PH20_SAND*我将代替他接任分舰队司令。*<SCR=CONTINUE>
 
-#FLAGSHIP_LOST_3	<NPC=PETR><SIDE=-1>{align=2}所有幸存舰船，放弃行动并寻找庇护。@我重复，寻找庇护。这是命令。<SCR=CONTINUE>
+#FLAGSHIP_LOST_3	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*所有幸存舰船，放弃行动并寻找庇护。@我重复，寻找庇护。这是命令。*<SCR=CONTINUE>
 
-#FLAGSHIP_LOST_4	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|1>{align=2}地图上有几座被标出的城市—在他们旁@边可能有隐藏城市。@如果我们能找到这座隐藏城市，并将战舰带去这里，我们就得救了。<SCR=CONTINUE>
+#FLAGSHIP_LOST_4	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|1>{align=2}$PH20_SAND*地图上有几座被标出的城市—在他们旁@边可能有隐藏城市。@如果我们能找到这座隐藏城市，并将战舰带去这里，我们就得救了。*<SCR=CONTINUE>
 
-#FLAGSHIP_LOST_5	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|2>{align=2}振作起来，诸位官兵。@愿天主与我们同在！<SCR=STOP>
+#FLAGSHIP_LOST_5	<NPC=PETR><SIDE=-1><SCR=FLAGSHIP_LOST_HIDDEN|2>{align=2}$PH20_SAND*振作起来，诸位官兵。@愿天主与我们同在！*<SCR=STOP>
 
 
 #FLAGSHIP_LOST_QUEST	找到隐藏的城市
@@ -3662,38 +3661,37 @@
 #MORALE_HELP	$SH20_WHITE*您船员的忠诚度*
 
 
-#TUTORIAL_INTERCOM_1	<MUSIC=Duduk_4_ever><NPC=PETR><SIDE=1><SHADOW=1>{align=2}
-没人知道等着我们的是什么，公爵。@万一情况很艰难，我请求…<SCR=CONTINUE>
+#TUTORIAL_INTERCOM_1	<MUSIC=Duduk_4_ever><NPC=PETR><SIDE=1><SHADOW=1>{align=2}$PH20_SAND*没人知道等着我们的是什么，公爵。@万一情况很艰难，我请求…*<SCR=CONTINUE>
 
-#TUTORIAL_INTERCOM_2	<NPC=PETR>我请求您向上将要求增援。
+#TUTORIAL_INTERCOM_2	<NPC=PETR>$PH20_SAND*我请求您向上将要求增援。*
 <ANS=然后遭人耻笑？别想了，将军。|TUTORIAL_INTERCOM_3>
 <ANS=放心，将军，我永远不会为了自己的脸面而让我的人冒险。|TUTORIAL_INTERCOM_5>
 
 #TUTORIAL_INTERCOM_3	<NPC=PETR><NOSPEAK>
-{align=2}彼得·伊格纳季耶维奇皱了一下眉头，@正要说出自己的想法，@但过了一会儿，@他又用之前那种平淡的语气继续说。<SCR=CONTINUE|TUTORIAL_INTERCOM_4|PETR=-1>
+{align=2}$PH20_SAND*彼得·伊格纳季耶维奇皱了一下眉头，@正要说出自己的想法，@但过了一会儿，@他又用之前那种平淡的语气继续说。*<SCR=CONTINUE|TUTORIAL_INTERCOM_4|PETR=-1>
 
 #TUTORIAL_INTERCOM_4	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>
-{align=2}如果您想请求增援，@就用内部通讯来联系上将。<SCR=STOP>
+{align=2}$PH20_SAND*如果您想请求增援，@就用内部通讯来联系上将。*<SCR=STOP>
 
-#TUTORIAL_INTERCOM_5	<NPC=PETR>听到这样的话我很高兴，公爵。<SCR=CONTINUE|TUTORIAL_INTERCOM_6|PETR=1>
+#TUTORIAL_INTERCOM_5	<NPC=PETR>$PH20_SAND*听到这样的话我很高兴，公爵。*<SCR=CONTINUE|TUTORIAL_INTERCOM_6|PETR=1>
 
-#TUTORIAL_INTERCOM_6	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>要请求增援，就用内部通讯来联系上将。<SCR=STOP>
+#TUTORIAL_INTERCOM_6	<NPC=PETR><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM>$PH20_SAND*要请求增援，就用内部通讯来联系上将。*<SCR=STOP>
 
 
 
 #TUTORIAL_DAUD_HELP_01	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>
-{align=2}看来…您是要向我求援咯，公爵阁下？@很好—我会给你的分舰队增派几艘船的。
+{align=2}$PH20_SAND*看来…您是要向我求援咯，公爵阁下？@很好—我会给你的分舰队增派几艘船的。*
 
 #TUTORIAL_DAUD_HELP_02	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>
-{align=2}还想要增援，是吗？@也许我高估你的能力了，公爵。
+{align=2}$PH20_SAND*还想要增援，是吗？@也许我高估你的能力了，公爵。*
 
-#TUTORIAL_DAUD_HELP_03	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>很好。你会有更多舰船的。
-
-
-#TUTORIAL_DISCONTENT_1	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}大公爵，我们在这里呆了太久了。@迟早会有人向总督（{glossary=Governor,GLOSS_GOVERNOR}）通风报信的。<SCR=STOP>
+#TUTORIAL_DAUD_HELP_03	<NPC=DAUD><SIDE=0><SHADOW=1><SCR=STOP|ASK_REINFORCE>$PH20_SAND*很好。你会有更多舰船的。*
 
 
-#TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>{align=2}大公爵！我们夺取了一座对流层散射通信站。@在敌人发现以前，它能给我们提供关于敌人动向的情报。<SCR=STOP>
+#TUTORIAL_DISCONTENT_1	<NPC=PETR><SIDE=1><SHADOW=1>{align=2}$PH20_SAND*大公爵，我们在这里呆了太久了。@迟早会有人向总督（{glossary=Governor,GLOSS_GOVERNOR}）通风报信的。*<SCR=STOP>
+
+
+#TUTORIAL_RADIORELAY_1	<NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_POS=1416|393|1>{align=2}$PH20_SAND*大公爵！我们夺取了一座对流层散射通信站。@在敌人发现以前，它能给我们提供关于敌人动向的情报。*<SCR=STOP>
 
 
 #TUTORIAL_AAM_CRAFTS	{align=2}$SH40_SAND*防空导弹系统*@10{align=2}这艘船装有防空导弹系统，@可以摧毁来袭的导弹和飞机（<AAM_COUNT>颗防空导弹）。@10按下{animation=key_c}来发射防空导弹。<SCR=STOP>
@@ -3745,16 +3743,16 @@
 
 
 
-#NIGHTFALL_SPEECH_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><RAM=1><MUSIC=Bois>{align=2}马克，如今官兵上下被如此黑暗吓得都人心惶惶。@你得出言安抚他们。
+#NIGHTFALL_SPEECH_1	<NPC=PETR><SIDE=1><SCR=CONTINUE><RAM=1><MUSIC=Bois>{align=2}$PH20_SAND*马克，如今官兵上下被如此黑暗吓得都人心惶惶。@你得出言安抚他们。*
 
-#NIGHTFALL_SPEECH_2	<NPC=DAUD><SIDE=-1>{align=2}大公爵，您必须得向全体船员讲话。@该履行你的职责了。
+#NIGHTFALL_SPEECH_2	<NPC=DAUD><SIDE=-1>{align=2}$PH20_SAND*大公爵，您必须得向全体船员讲话。@该履行你的职责了。*
 <ANS=我想首先听听你们的意见。先生们，你们有何高见？|NIGHTFALL_SPEECH_3>
 
-#NIGHTFALL_SPEECH_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}这不过是日食罢了。@只消如此通告部下，一会就过去了。
+#NIGHTFALL_SPEECH_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*这不过是日食罢了。@只消如此通告部下，一会就过去了。*
 
-#NIGHTFALL_SPEECH_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>南方的核战恐怕扬起了大量的烟尘。
+#NIGHTFALL_SPEECH_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*南方的核战恐怕扬起了大量的烟尘。*
 
-#NIGHTFALL_SPEECH_5	<NPC=PETR><SIDE=1>极大量的烟尘。
+#NIGHTFALL_SPEECH_5	<NPC=PETR><SIDE=1>$PH20_SAND*极大量的烟尘。*
 <ANS=召集所有人，我有话和官兵讲。|NIGHTFALL_SPEECH_6>
 
 
@@ -3800,13 +3798,13 @@
 #NIGHTFALL_SPEECH_DARKNESS_RES_FAIL	{align=2}手下官兵都被您的行为惊呆了。@一些人紧皱眉头，而另一些人苦笑以对。<SCR=MORAL|-3>
 <ANS=转身离开讲台。讲话结束了。|NIGHTFALL_SPEECH_DARKNESS_DAUD_1>
 
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}这可让人放心不下啊，彼得。@你确定他脑子还正常嘛？
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_1	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*这可让人放心不下啊，彼得。@你确定他脑子还正常嘛？*
 
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFALL_SPEECH_DARKNESS_DAUD_3|DAUD=-1>我们是不是也该发表什么意见？
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFALL_SPEECH_DARKNESS_DAUD_3|DAUD=-1>$PH20_SAND*我们是不是也该发表什么意见？*
 
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>他是皇位的合法继承人，谢里夫。
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_3	<NPC=PETR><SIDE=1><SCR=CONTINUE>$PH20_SAND*他是皇位的合法继承人，谢里夫。*
 
-#NIGHTFALL_SPEECH_DARKNESS_DAUD_4	<NPC=PETR><SIDE=1><SCR=STOP>我们都曾向他起誓。
+#NIGHTFALL_SPEECH_DARKNESS_DAUD_4	<NPC=PETR><SIDE=1><SCR=STOP>$PH20_SAND*我们都曾向他起誓。*
 
 
 #NIGHTFALL_SPEECH_ECLIPSE_1	<AMBIENT=crowd_calm_02>{align=2}全体官兵现在屏息凝声，侧耳倾听您的演说。<ANS=我知道你们在为何忧心，诸位弟兄。你们将其视作一种象征，一种恶兆。而此事叫诸位寝食难安。|NIGHTFALL_SPEECH_ECLIPSE_2>
@@ -3835,45 +3833,45 @@
 
 
 
-#KISHTIM_SPEECH_1	<SCR=CHECK_JOINED|BOY|EXIT><SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_6><NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>请允许我和您谈谈，萨亚迪之子。
+#KISHTIM_SPEECH_1	<SCR=CHECK_JOINED|BOY|EXIT><SCR=CHECK_TRIGGER|SPEECH_DARKNESS|KISHTIM_SPEECH_6><NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>$PH20_SAND*请允许我和您谈谈，萨亚迪之子。*
 
-#KISHTIM_SPEECH_2	<NPC=BOY>{align=2}我百思不得其解，阁下。@您是怎么得知黯夜之日的？<ANS=我得承认，我对此毫无头绪。|KISHTIM_SPEECH_3>
+#KISHTIM_SPEECH_2	<NPC=BOY>{align=2}$PH20_SAND*我百思不得其解，阁下。@您是怎么得知黯夜之日的？*<ANS=我得承认，我对此毫无头绪。|KISHTIM_SPEECH_3>
 
-#KISHTIM_SPEECH_3	<NPC=BOY>可是您也说了…<ANS=我只是说了必须说的话。我也不知道那些话的意思。|KISHTIM_SPEECH_4>
+#KISHTIM_SPEECH_3	<NPC=BOY>$PH20_SAND*可是您也说了…*<ANS=我只是说了必须说的话。我也不知道那些话的意思。|KISHTIM_SPEECH_4>
 
-#KISHTIM_SPEECH_4	<NPC=BOY><SCR=CONTINUE><NOSPEAK>{align=2}阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）不发一语，沉思了起来。@然后他的金色双眸又因敬畏而睁大，盯紧了您…
+#KISHTIM_SPEECH_4	<NPC=BOY><SCR=CONTINUE><NOSPEAK>{align=2}$PH20_SAND*阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）不发一语，沉思了起来。@然后他的金色双眸又因敬畏而睁大，盯紧了您…*
 
-#KISHTIM_SPEECH_5	<NPC=BOY><SCR=CONTINUE|KISHTIM_SPEECH_6|BOY=1>（倒吸一口凉气）我懂了！
+#KISHTIM_SPEECH_5	<NPC=BOY><SCR=CONTINUE|KISHTIM_SPEECH_6|BOY=1>$PH20_SAND*（倒吸一口凉气）我懂了！*
 
 
-#KISHTIM_SPEECH_6	<NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>我得向您说些事情，萨亚迪之子…
+#KISHTIM_SPEECH_6	<NPC=BOY><MUSIC=Bois><SIDE=0><SCR=CONTINUE>$PH20_SAND*我得向您说些事情，萨亚迪之子…*
 
-#KISHTIM_SPEECH_7	<NPC=BOY><SCR=CONTINUE>{align=2}自古以来，我的人民@就知道希瓦城有另外一个名字。
+#KISHTIM_SPEECH_7	<NPC=BOY><SCR=CONTINUE>{align=2}$PH20_SAND*自古以来，我的人民@就知道希瓦城有另外一个名字。*
 
-#KISHTIM_SPEECH_8	<NPC=BOY><SCR=CONTINUE>我们叫它基什蒂姆—“方舟城”。
+#KISHTIM_SPEECH_8	<NPC=BOY><SCR=CONTINUE>$PH20_SAND*我们叫它基什蒂姆—“方舟城”。*
 
-#KISHTIM_SPEECH_9	<NPC=BOY><SCR=CONTINUE>{align=2}这座城市本来是由沙克西人（{glossary=Shakhsi,GLOSS_SHAKHSI}）的公爵所统治的。@埃劳家族（{glossary=Elaou,GLOSS_ELAOU}）入侵格瑞特的时候，@他们占领了基什蒂姆，把它定为王都。
+#KISHTIM_SPEECH_9	<NPC=BOY><SCR=CONTINUE>{align=2}$PH20_SAND*这座城市本来是由沙克西人（{glossary=Shakhsi,GLOSS_SHAKHSI}）的公爵所统治的。@埃劳家族（{glossary=Elaou,GLOSS_ELAOU}）入侵格瑞特的时候，@他们占领了基什蒂姆，把它定为王都。*
 
-#KISHTIM_SPEECH_10	<NPC=BOY>{align=2}古老的传说里说会有@叫做沙克尔—阿尔—法拉赫（{glossary=Shakhor-Al-Farakh,GLOSS_SHAKOR}）的一天，@“黯夜之日，”到了那一天，全世界的人一定要集中到基什蒂姆。<ANS=我听说希瓦的核反应堆和别的地方的不同。是这样吗？|KISHTIM_SPEECH_11>
+#KISHTIM_SPEECH_10	<NPC=BOY>{align=2}$PH20_SAND*古老的传说里说会有@叫做沙克尔—阿尔—法拉赫（{glossary=Shakhor-Al-Farakh,GLOSS_SHAKOR}）的一天，@“黯夜之日，”到了那一天，全世界的人一定要集中到基什蒂姆。*<ANS=我听说希瓦的核反应堆和别的地方的不同。是这样吗？|KISHTIM_SPEECH_11>
 
-#KISHTIM_SPEECH_11	<NPC=BOY>{align=2}他们说这个反应堆被一个巨大的穹顶罩着，@穹顶有两千多肘尺宽。<ANS=这样大的穹顶应该足够上千人在里面安全地生活。|EXIT>
+#KISHTIM_SPEECH_11	<NPC=BOY>{align=2}$PH20_SAND*他们说这个反应堆被一个巨大的穹顶罩着，@穹顶有两千多肘尺宽。*<ANS=这样大的穹顶应该足够上千人在里面安全地生活。|EXIT>
 
 
 #GLOSS_SHAKHSI	沙克西人，即隐居子民们，在埃劳家族征服这里以前就已经统治了格瑞特。隐居子民末裔如今生活在地堡城市里。其所在地严格保密。格瑞特人崇敬他们，认为他们是神圣智慧的守护者。
 
 
-#NIGHTFEAR_SPEECH_1	<NPC=PETR><SIDE=-1><SCR=CONTINUE><RAM=1><MUSIC=Bois>马克，我得和你谈谈。
+#NIGHTFEAR_SPEECH_1	<NPC=PETR><SIDE=-1><SCR=CONTINUE><RAM=1><MUSIC=Bois>$PH20_SAND*马克，我得和你谈谈。*
 
-#NIGHTFEAR_SPEECH_2	<NPC=PETR><SCR=CONTINUE>{align=2}现在大家已经彻底惊慌失措了。@我们失去对局面的控制只是时间问题。
+#NIGHTFEAR_SPEECH_2	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*现在大家已经彻底惊慌失措了。@我们失去对局面的控制只是时间问题。*
 
-#NIGHTFEAR_SPEECH_3	<NPC=PETR><SCR=CONTINUE>{align=2}天气也愈发寒冷了。@今天舱外只有仅仅4摄氏度…
+#NIGHTFEAR_SPEECH_3	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*天气也愈发寒冷了。@今天舱外只有仅仅4摄氏度…*
 
-#NIGHTFEAR_SPEECH_4	<NPC=PETR>{align=2}大家都说继续在@这种天气下作战是真的彻底疯了。
+#NIGHTFEAR_SPEECH_4	<NPC=PETR>{align=2}$PH20_SAND*大家都说继续在@这种天气下作战是真的彻底疯了。*
 <ANS=他们说疯了？那我们接下来该怎么办？|NIGHTFEAR_SPEECH_5>
 
-#NIGHTFEAR_SPEECH_5	<NPC=PETR><SCR=CONTINUE>有些人认为我们应该开始和集众（{glossary=Gathering,GLOSS_GATHERING}）和谈。
+#NIGHTFEAR_SPEECH_5	<NPC=PETR><SCR=CONTINUE>$PH20_SAND*有些人认为我们应该开始和集众（{glossary=Gathering,GLOSS_GATHERING}）和谈。*
 
-#NIGHTFEAR_SPEECH_6	<NPC=PETR>{align=2}其他人虽然没说什么，但他们想要的无外乎掉头向南，@回到吾珥（Ur），之后返回皇都。
+#NIGHTFEAR_SPEECH_6	<NPC=PETR>{align=2}$PH20_SAND*其他人虽然没说什么，但他们想要的无外乎掉头向南，@回到吾珥（Ur），之后返回皇都。*
 <ANS=召集所有人，彼得·伊格纳季耶维奇。我要向全体成员讲话|NIGHTFEAR_SPEECH_7>
 
 #NIGHTFEAR_SPEECH_7	<BACKGROUND=background_crowd_01>{align=2}很快您发现您置身在人海面前，不计其数的目光聚焦于您。@人们的惨白的面孔中流露着恐惧。
@@ -3928,19 +3926,19 @@
 #NIGHTFEAR_SPEECH_RES_FAIL_4	<SCR=CONTINUE|NIGHTFEAR_SPEECH_REACTOR_1|MORAL=-3><NOSPEAK>{align=2}木已成舟。您现在能做的就是告诉@官兵返回他们的岗位，并做好最坏的打算。
 
 
-#NIGHTFEAR_SPEECH_DAUD_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}这太可怕了，彼得。他这都完全超脱现实了。@这是个活生生的恶梦，我们必须要结束这一切。
+#NIGHTFEAR_SPEECH_DAUD_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*这太可怕了，彼得。他这都完全超脱现实了。@这是个活生生的恶梦，我们必须要结束这一切。*
 
-#NIGHTFEAR_SPEECH_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_3|DAUD=-1>{align=2}这次行动已经行将就木了，彼得，诚然这次尝试很有勇气@但是现在该回头了。如果继续向北，我们必死无疑！
+#NIGHTFEAR_SPEECH_DAUD_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_3|DAUD=-1>{align=2}$PH20_SAND*这次行动已经行将就木了，彼得，诚然这次尝试很有勇气@但是现在该回头了。如果继续向北，我们必死无疑！*
 
-#NIGHTFEAR_SPEECH_DAUD_3	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_DAUD_4><NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_5>{align=2}看看周围，谢里夫。@睁开眼睛。很明显他说的是对的，太阳不会再升起了。@而现在一天比一天要冷。马上落雨就会变为冰雪。@要是关于反应堆他也说的是正确的呢？@万一它真的是个上古堡垒呢？
+#NIGHTFEAR_SPEECH_DAUD_3	<SCR=CHECK_TRIGGER|SPEECH_DARKNESS|NIGHTFEAR_SPEECH_DAUD_4><NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_5>{align=2}$PH20_SAND*看看周围，谢里夫。@睁开眼睛。很明显他说的是对的，太阳不会再升起了。@而现在一天比一天要冷。马上落雨就会变为冰雪。@要是关于反应堆他也说的是正确的呢？@万一它真的是个上古堡垒呢？*
 
-#NIGHTFEAR_SPEECH_DAUD_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}现在一天比一天要冷。马上落雨就会变为冰雪。@要是关于反应堆他也说的是正确的呢？@万一它真的是个上古堡垒呢？
+#NIGHTFEAR_SPEECH_DAUD_4	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*现在一天比一天要冷。马上落雨就会变为冰雪。@要是关于反应堆他也说的是正确的呢？@万一它真的是个上古堡垒呢？*
 
-#NIGHTFEAR_SPEECH_DAUD_5	<NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_6|PETR=1>{align=2}我们越往北走，谢里夫，我就越不怀疑他。@他没有疯，也完全没有在耍我们。
+#NIGHTFEAR_SPEECH_DAUD_5	<NPC=PETR><SIDE=1><SCR=CONTINUE|NIGHTFEAR_SPEECH_DAUD_6|PETR=1>{align=2}$PH20_AND*我们越往北走，谢里夫，我就越不怀疑他。@他没有疯，也完全没有在耍我们。*
 
-#NIGHTFEAR_SPEECH_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>你疯了吗，彼得？！你难道真以为他是…？
+#NIGHTFEAR_SPEECH_DAUD_6	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*你疯了吗，彼得？！你难道真以为他是…？*
 
-#NIGHTFEAR_SPEECH_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=STOP>什么先知吗？！
+#NIGHTFEAR_SPEECH_DAUD_7	<NPC=DAUD><SIDE=-1><SCR=STOP>$PH20_SAND*什么先知吗？！*
 
 
 
@@ -3948,21 +3946,21 @@
 
 #ALSAHIR_REVENGE_FORCE_1	<SOUND=sword_drop_01>{align=2}一会之后，他任由剑刃坠下，落地碰出铿锵声响。@您抬头看见热泪从少年脸上流下。@他与您目光相遇，随即转身冲出门外。<SCR=CONTINUE>
 
-#ALSAHIR_REVENGE_FORCE_2	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_FORCE_4><NPC=FASIL><SIDE=1><SCR=CONTINUE>{align=2}想必他不会再重提@刀兵见血之事…（王子摇头称道）
+#ALSAHIR_REVENGE_FORCE_2	<SCR=CHECK_JOINED|FASIL|ALSAHIR_REVENGE_FORCE_4><NPC=FASIL><SIDE=1><SCR=CONTINUE>{align=2}$PH20_SAND*想必他不会再重提@刀兵见血之事…（王子摇头称道）*
 
-#ALSAHIR_REVENGE_FORCE_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>是指要您见血，阁下…（他面向总督，继续说道）
+#ALSAHIR_REVENGE_FORCE_3	<NPC=FASIL><SIDE=1><SCR=CONTINUE>$PH20_SAND*是指要您见血，阁下…（他面向总督，继续说道）*
 
-#ALSAHIR_REVENGE_FORCE_4	<SCR=CHECK_JOINED|GOVERNOR|ALSAHIR_REVENGE_FORCE_6><NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}总督（{glossary=Governor,GLOSS_GOVERNOR}）呆呆地盯着您。@他艰难地说道…
+#ALSAHIR_REVENGE_FORCE_4	<SCR=CHECK_JOINED|GOVERNOR|ALSAHIR_REVENGE_FORCE_6><NPC=GOVERNOR><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*总督（{glossary=Governor,GLOSS_GOVERNOR}）呆呆地盯着您。@他艰难地说道…*
 
-#ALSAHIR_REVENGE_FORCE_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_6|GOVERNOR=2> 我的感激之情无以言表，大公阁下。
+#ALSAHIR_REVENGE_FORCE_5	<NPC=GOVERNOR><SIDE=0><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_6|GOVERNOR=2> $PH20_SAND*我的感激之情无以言表，大公阁下。*
 
-#ALSAHIR_REVENGE_FORCE_6	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_FORCE_7><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_7|AIRBORNE=1> 我的妈啊…
+#ALSAHIR_REVENGE_FORCE_6	<SCR=CHECK_JOINED|AIRBORNE|ALSAHIR_REVENGE_FORCE_7><NPC=AIRBORNE><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_7|AIRBORNE=1> $PH20_SAND*我的妈啊…*
 
-#ALSAHIR_REVENGE_FORCE_7	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_FORCE_8><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_8|VETERAN=1> 我还当这小疯子绝对会把您砍了呢。
+#ALSAHIR_REVENGE_FORCE_7	<SCR=CHECK_JOINED|VETERAN|ALSAHIR_REVENGE_FORCE_8><NPC=VETERAN><SIDE=-1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_8|VETERAN=1> $PH20_SAND*我还当这小疯子绝对会把您砍了呢。*
 
-#ALSAHIR_REVENGE_FORCE_8	<SCR=CHECK_JOINED|GIRL|ALSAHIR_REVENGE_FORCE_9><NPC=GIRL><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_9|GIRL=1> 大公阁下，您实乃显现神迹之人。
+#ALSAHIR_REVENGE_FORCE_8	<SCR=CHECK_JOINED|GIRL|ALSAHIR_REVENGE_FORCE_9><NPC=GIRL><SIDE=1><SCR=CONTINUE|ALSAHIR_REVENGE_FORCE_9|GIRL=1>$PH20_SAND* 大公阁下，您实乃显现神迹之人。*
 
-#ALSAHIR_REVENGE_FORCE_9	<SCR=CHECK_JOINED|OMAR|EXIT><NPC=OMAR><SIDE=-1> 惟愿更多刀兵能如此止戈。<ANS=阿门。|EXIT|OMAR=1>
+#ALSAHIR_REVENGE_FORCE_9	<SCR=CHECK_JOINED|OMAR|EXIT><NPC=OMAR><SIDE=-1> $PH20_SAND*惟愿更多刀兵能如此止戈。*<ANS=阿门。|EXIT|OMAR=1>
 
 
 
@@ -3971,7 +3969,7 @@
 
 #REACTOR_DESTROYED_2	<EVENT>格瑞特的人们失去了从灾厄中生还的所有希望。<SCR=STOP>
 
-#ENDWAR_WIN_1	<MUSIC=Mellifluous><NPC=PETR><SIDE=0>{align=2}马克，结束了。我将向全军通报行动胜利的消息。<SCR=CONTINUE>
+#ENDWAR_WIN_1	<MUSIC=Mellifluous><NPC=PETR><SIDE=0>{align=2}$PH20_SAND*马克，结束了。我将向全军通报行动胜利的消息。*<SCR=CONTINUE>
 
 #ENDWAR_WIN_2	<EVENT>“都结束了。”<SCR=CONTINUE>
 
@@ -3979,13 +3977,13 @@
 
 #ENDWAR_WIN_4	<EVENT>{align=2}彼得抑扬顿挫的话语声在广播中响起，宣布战争已经结束。@战斗岗位上的数百官兵听闻后都僵在原地。<ANS=该回希瓦去了，彼得·伊格纳季耶维奇。越快向他们展示反应堆还能堪一用越是有利。|ENDWAR_WIN_5>
 
-#ENDWAR_WIN_5	<NPC=PETR> 大公爵，我也愿向您提出些私人请求。<SCR=CONTINUE>
+#ENDWAR_WIN_5	<NPC=PETR> $PH20_SAND*大公爵，我也愿向您提出些私人请求。*<SCR=CONTINUE>
 
-#ENDWAR_WIN_6	<NPC=PETR>{align=2}希瓦的反应堆控制室中立有一根石柱。@数年之前，在我军被迫撤离格瑞特全境之前，我就有见过一眼。<SCR=CONTINUE>
+#ENDWAR_WIN_6	<NPC=PETR>{align=2}$PH20_SAND*希瓦的反应堆控制室中立有一根石柱。@数年之前，在我军被迫撤离格瑞特全境之前，我就有见过一眼。*<SCR=CONTINUE>
 
-#ENDWAR_WIN_7	<NPC=PETR>{align=2}石柱上刻有古旧文句。其上字句言语…和圣书碎片（{glossary=qoda,GLOSS_QODA}）上的极其相似。@直至今日我都铭记于心。<SCR=CONTINUE>
+#ENDWAR_WIN_7	<NPC=PETR>{align=2}$PH20_SAND*石柱上刻有古旧文句。其上字句言语…和圣书碎片（{glossary=qoda,GLOSS_QODA}）上的极其相似。@直至今日我都铭记于心。*<SCR=CONTINUE>
 
-#ENDWAR_WIN_8	<NPC=PETR>{align=2}大公爵，若您能去查看，@或许您能够解读其含义。@私以为其中涵义可能非同小可。<SCR=CONTINUE>
+#ENDWAR_WIN_8	<NPC=PETR>{align=2}$PH20_SAND*大公爵，若您能去查看，@或许您能够解读其含义。@私以为其中涵义可能非同小可。*<SCR=CONTINUE>
 
 #ENDWAR_WIN_9	<SCR=BACK_TO_KHIVA|ENDWAR_BACK_TO_KHIVA_1|ENDWAR_BACK_TO_KHIVA_2><BACKGROUND=undeground_01><SCR=CONTINUE|ENDWAR_CREDITS>
 
@@ -4013,9 +4011,9 @@
 
 #EVENT_SILO_1	<MUSIC=Duduk_4_ever><SCR=CHECK_JOINED|PETR|EVENT_SILO_SIMPLE><SCR=CHECK_JOINED|DAUD|EVENT_SILO_SIMPLE><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=2}<SCR=CONTINUE>我军在城市附近发现了一个平整的平台，@其上散布着一个个低矮的混凝土制穹顶，每个穹顶上都有钢制护盖。@我们耗了点时间撬开其中一个盖口。其中是一个又宽又深的竖井，@井中央的导弹光滑的白色弹头清晰可辨。
 
-#EVENT_SILO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2} 我的大公阁下！@这些便是集众（{glossary=Gathering,GLOSS_GATHERING}）所持有的核武器！@我们应该即刻将其取出！
+#EVENT_SILO_2	<NPC=PETR><SIDE=1><SCR=CONTINUE>{align=2} $PH20_SAND*我的大公阁下！@这些便是集众（{glossary=Gathering,GLOSS_GATHERING}）所持有的核武器！@我们应该即刻将其取出！*
 
-#EVENT_SILO_3	<NPC=DAUD><SIDE=-1>{align=2}看来我们敌手的核武库@可比我们所预想的大了太多。（上将冷冷地瞥了眼发射井）<ANS=把这些导弹从发射架取下，搬到我军舰船上吧，彼得·伊格纳季耶维奇。|EXIT|MISSILE_SILO>
+#EVENT_SILO_3	<NPC=DAUD><SIDE=-1>{align=2}$PH20_SAND*看来我们敌手的核武库可比我们@所预想的大了太多。（上将冷冷地瞥了眼发射井）*<ANS=把这些导弹从发射架取下，搬到我军舰船上吧，彼得·伊格纳季耶维奇。|EXIT|MISSILE_SILO>
 
 #EVENT_SILO_SIMPLE_1	<EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*达摩克利斯之剑*@10 {animation=event_silo} @30{align=2}城市附近建有数座集众（{glossary=Gathering,GLOSS_GATHERING}）军的导弹发射井。<ANS=传令部下将核导弹取出，搬运到舰上。|EXIT|MISSILE_SILO>
 
@@ -4162,9 +4160,9 @@
 
 #EVENT_DISHONOR_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*事关荣誉*@10 {animation=event_dishonor} @30{align=2}<SCR=CONTINUE|EVENT_DISHONOR_OMAR>来访这座城的商人带来了令官兵上下震怒不已的消息。@<DISHONOR_CITY>的长老公开地诽谤了您，说您是“乞丐公爵”，@而且声称你不配得到任何长老的协助或收留。
 
-#EVENT_DISHONOR_OMAR	<SCR=CHECK_JOINED|OMAR|EVENT_DISHONOR_FASIL><NPC=OMAR><SCR=STOP|LEVEL_FEAR=-1>{align=2}<DISHONOR_CITY>的长老是条贱畜，一直在背地污蔑您的名声，耐布。@以拦人不傻，但若您在此网开一面，@有些人可能会听信此人佞语。
+#EVENT_DISHONOR_OMAR	<SCR=CHECK_JOINED|OMAR|EVENT_DISHONOR_FASIL><NPC=OMAR><SCR=STOP|LEVEL_FEAR=-1>{align=2}<DISHONOR_CITY>$PH20_SAND*的长老是条贱畜，一直在背地污蔑您的名声，耐布。@以拦人不傻，但若您在此网开一面，@有些人可能会听信此人佞语。*
 
-#EVENT_DISHONOR_FASIL	<SCR=CHECK_JOINED|FASIL|EVENT_DISHONOR_FASIL><NPC=FASIL><SCR=STOP|LEVEL_FEAR=-1>{align=2}您需要派遣舰船前往<DISHONOR_CITY>会见那位长老。@但若您在此网开一面，一些以拦人可能会听信此人佞语。
+#EVENT_DISHONOR_FASIL	<SCR=CHECK_JOINED|FASIL|EVENT_DISHONOR_FASIL><NPC=FASIL><SCR=STOP|LEVEL_FEAR=-1>{align=2}$PH20_SAND*您需要派遣舰船前往<DISHONOR_CITY>会见那位长老。@但若您在此网开一面，一些以拦人可能会听信此人佞语。*
 
 
 #QUEST_DISHONOR	不受管束的长老
@@ -4178,11 +4176,11 @@
 
 #EVENT_NAME_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*受领新名*@10 {animation=event_name} @30{align=2}您对以拦人称呼您“埃米尔”或是“耐布”已经习以为常了，@但最近您又发现他们经常指着您说些“埃米尔·阿尔—马塔尔”之类的话。<ANS=埃米尔·阿尔—马塔尔…王子殿下，这词又是何意？|EVENT_NAME_2>
 
-#EVENT_NAME_2	<NPC=FASIL><SCR=CONTINUE> {align=2}他们在说您的莅临也将@持久的降雨播向格瑞特大地。
+#EVENT_NAME_2	<NPC=FASIL><SCR=CONTINUE> {align=2}$PH20_SAND*他们在说您的莅临也将@持久的降雨播向格瑞特大地。*
 
-#EVENT_NAME_3	<NPC=FASIL><SCR=CONTINUE>{align=2}天降甘霖乃良辰吉兆。@人言是全能天主将您遣来格瑞特大地必有其天意，@而上古预示必将不日成真。
+#EVENT_NAME_3	<NPC=FASIL><SCR=CONTINUE>{align=2}$PH20_SAND*天降甘霖乃良辰吉兆。@人言是全能天主将您遣来格瑞特大地必有其天意，@而上古预示必将不日成真。*
 
-#EVENT_NAME_4	<NPC=FASIL>{align=2}大公阁下，若于我而言，@自该将此称号纳为自己新名。@于我子民而言这自是众望所归。
+#EVENT_NAME_4	<NPC=FASIL>{align=2}$PH20_SAND*大公阁下，若于我而言，@自该将此称号纳为自己新名。@于我子民而言这自是众望所归。*
 <ANS=将此称号作为自己的新名字接纳。|EXIT|LEVEL_GERAT=1|LEVEL_ROMANI=-1|LEVEL_FAITH=1>
 <ANS=拒绝此名。|EXIT>
 
@@ -4354,7 +4352,7 @@
 
 #EVENT_SLAVERY_02_1	<MUSIC=Duduk_4_ever><EVENT_CARD>{shift=0}{align=2}$SH40_WHITE*奴隶买卖*@10 {animation=event_slaves_02} @30{align=2}<SCR=CONTINUE>您听闻说是手下有些军官正在参与奴隶贸易。@这种事情放在帝都是不可想象的，可是将在外君令有所不受，@您的手下官兵想必是很快地入乡随俗了起来。
 
-#EVENT_SLAVERY_02_2	<NPC=PETR><SIDE=1><RAM=1>{align=2}这实在骇人听闻，但现在可能@不是调查的时候。这里面也许牵涉进太多人了。
+#EVENT_SLAVERY_02_2	<NPC=PETR><SIDE=1><RAM=1>{align=2}$PH20_SAND*这实在骇人听闻，但现在可能@不是调查的时候。这里面也许牵涉进太多人了。*
 <ANS=开始调查。任何犯罪行为都应当严肃处理。|EVENT_SLAVERY_02_YES|RIGHT=2>
 <ANS=对传闻睁一只眼闭一只眼。|EVENT_SLAVERY_02_NO|RIGHT=-2>
 <ANS=允许奴隶买卖继续，并且指派一名军官监督。|EVENT_SLAVERY_02_ACCEPT|RIGHT=-2|WEALTH=2>
@@ -4402,20 +4400,20 @@
 
 
 
-#TUTORIAL_SCAVENGE_1	<TRG=TUTORIAL_SCAVENGE|0><NPC=DAUD><SIDE=1><SHADOW=1><SCR=CONTINUE>{align=2}地面上可能有人生还，公爵。@如果我们不救，别人会说三道四的。
+#TUTORIAL_SCAVENGE_1	<TRG=TUTORIAL_SCAVENGE|0><NPC=DAUD><SIDE=1><SHADOW=1><SCR=CONTINUE>{align=2}$PH20_SAND*地面上可能有人生还，公爵。@如果我们不救，别人会说三道四的。*
 
-#TUTORIAL_SCAVENGE_2	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>{align=2}我们也可以打捞到一些有价值的东西。@有些东西可以在城市里卖掉。有钱赚总是好的。
+#TUTORIAL_SCAVENGE_2	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>{align=2}$PH20_SAND*我们也可以打捞到一些有价值的东西。@有些东西可以在城市里卖掉。有钱赚总是好的。*
 
-#TUTORIAL_SCAVENGE_3	<NPC=PETR><SCR=CONTINUE>{align=2}但是动作一定要快。火势会蔓延。@很快残骸就要被烧光了。
+#TUTORIAL_SCAVENGE_3	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*但是动作一定要快。火势会蔓延。@很快残骸就要被烧光了。*
 
-#TUTORIAL_SCAVENGE_4	<NPC=PETR><SCR=STOP>{align=2}还有…外出小心，公爵阁下。@许多事物都太危险了。
-
-
+#TUTORIAL_SCAVENGE_4	<NPC=PETR><SCR=STOP>{align=2}$PH20_SAND*还有…外出小心，公爵阁下。@许多事物都太危险了。*
 
 
-#TUTORIAL_FUNDS_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>{align=2}我们没钱了，公爵阁下。@我们可以卖掉一些库存来弥补，或者甚至是卖掉一艘船。
 
-#TUTORIAL_FUNDS_2	<NPC=PETR><SIDE=-1><SHADOW=1>{align=2}另外，我猜法兹尔王子可以赊给您一点钱，@只要您肯开口的话。
+
+#TUTORIAL_FUNDS_1	<NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE>{align=2}$PH20_SAND*我们没钱了，公爵阁下。@我们可以卖掉一些库存来弥补，或者甚至是卖掉一艘船。*
+
+#TUTORIAL_FUNDS_2	<NPC=PETR><SIDE=-1><SHADOW=1>{align=2}$PH20_SAND*另外，我猜法兹尔王子可以赊给您一点钱，@只要您肯开口的话。*
 <ANS=让我们看看有什么库存可卖。|TUTORIAL_FUNDS_CARGO>
 <ANS=我们要卖掉一艘船。|TUTORIAL_FUNDS_SHIP>
 <ANS=我想是时候和王子殿下谈谈了。|TUTORIAL_FUNDS_FASIL>
@@ -4429,33 +4427,33 @@
 #TUTORIAL_FUNDS_FASIL	<SCR=TUTORIAL_FUNDS_FASIL>
 
 
-#TUTORIAL_FUNDS_CARGO_1	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1><SIDE=1>下拉到库存面板。
+#TUTORIAL_FUNDS_CARGO_1	<NPC=PETR><NOBOTTOM><MOUSE_TRACK=1><SIDE=1>$PH20_SAND*下拉到库存面板。*
 
-#TUTORIAL_FUNDS_CARGO_2	<NPC=PETR><SIDE=1><NOBOTTOM><HANDSHOW_POS=1111|968><MOUSE_TRACK=0><SCR=STOP>{align=2}这里列出了分舰队的所有库存。@可以卖掉其中一些。
+#TUTORIAL_FUNDS_CARGO_2	<NPC=PETR><SIDE=1><NOBOTTOM><HANDSHOW_POS=1111|968><MOUSE_TRACK=0><SCR=STOP>{align=2}$PH20_SAND*这里列出了分舰队的所有库存。@可以卖掉其中一些。*
 
-#TUTORIAL_FUNDS_SHIP_1	<NPC=PETR><SIDE=1><HANDSHOW_POS=1884|848><GLOW_GUI=ED_SHPWRK_SELL><SCR=STOP>您可以在这里出售您的船。
+#TUTORIAL_FUNDS_SHIP_1	<NPC=PETR><SIDE=1><HANDSHOW_POS=1884|848><GLOW_GUI=ED_SHPWRK_SELL><SCR=STOP>$PH20_SAND*您可以在这里出售您的船。*
 
-#TUTORIAL_FUNDS_FASIL_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM><SCR=STOP>{align=2}使用内部通信联系王子，@安排一次会面。
-
-
-
-
-#TUTORIAL_CODES_1	<TRG=TUTORIAL_CODES|0><NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE><NOBOTTOM><HANDSHOW_POS=370|990>他们开始使用加密通信了，大公爵。
-
-#TUTORIAL_CODES_2	<NPC=PETR><SCR=CONTINUE>{align=2}下次我们检查残骸的时候，可以去搜索发报室。@可能可以找到他们的加密密钥。
-
-#TUTORIAL_CODES_3	<NPC=PETR><SCR=STOP><HANDSHOW_GUI=SHIFT_CARD_BUTTON><GLOW_GUI=RADIO_KEY_PANEL>{align=2}我会把找到的所有@密码相关的材料放在这里。
+#TUTORIAL_FUNDS_FASIL_1	<NPC=PETR><SIDE=1><HANDSHOW_GUI=MAPMODE_INTERCOM><GLOW_GUI=MAPMODE_INTERCOM><SCR=STOP>{align=2}$PH20_SAND*使用内部通信联系王子，@安排一次会面。*
 
 
 
 
-#TUTORIAL_ALARM_1	<TRG=TUTORIAL_ALARM|0><NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>{align=2}敌人报告了我们的存在。@当地的守备部队会拉响警报并开始寻找我们！
+#TUTORIAL_CODES_1	<TRG=TUTORIAL_CODES|0><NPC=PETR><SIDE=-1><SHADOW=1><SCR=CONTINUE><NOBOTTOM><HANDSHOW_POS=370|990>$PH20_SAND*他们开始使用加密通信了，大公爵。*
 
-#TUTORIAL_ALARM_2	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>{align=2}过不了多久，打击群会调转航向朝我们驶来。@如果他们还有航空母舰，他们可能会先起飞战机前来。
+#TUTORIAL_CODES_2	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*下次我们检查残骸的时候，可以去搜索发报室。@可能可以找到他们的加密密钥。*
 
-#TUTORIAL_ALARM_3	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>{align=2}运输船也会改变航向，@以尽量远离威胁。
+#TUTORIAL_CODES_3	<NPC=PETR><SCR=STOP><HANDSHOW_GUI=SHIFT_CARD_BUTTON><GLOW_GUI=RADIO_KEY_PANEL>{align=2}$PH20_SAND*我会把找到的所有@密码相关的材料放在这里。*
 
-#TUTORIAL_ALARM_4	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=STOP>{align=2}无论如何，大公爵，@越少让敌人发现我们的存在越好。
+
+
+
+#TUTORIAL_ALARM_1	<TRG=TUTORIAL_ALARM|0><NPC=PETR><SIDE=1><SHADOW=1><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>{align=2}$PH20_SAND*敌人报告了我们的存在。@当地的守备部队会拉响警报并开始寻找我们！*
+
+#TUTORIAL_ALARM_2	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>{align=2}$PH20_SAND*过不了多久，打击群会调转航向朝我们驶来。@如果他们还有航空母舰，他们可能会先起飞战机前来。*
+
+#TUTORIAL_ALARM_3	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=CONTINUE>{align=2}$PH20_SAND*运输船也会改变航向，@以尽量远离威胁。*
+
+#TUTORIAL_ALARM_4	<NPC=PETR><HANDSHOW_GUI=MAPMODE_CLOCK_HR><SCR=STOP>{align=2}$PH20_SAND*无论如何，大公爵，@越少让敌人发现我们的存在越好。*
 
 
 
@@ -4472,131 +4470,131 @@
 #TUTORIAL_BOMBS	<TRG=TUTORIAL_BOMBS|0>{align=2}$SH40_SAND*航弹*@10{align=2}您的舰船挂载有航弹，而现在地上有若干个目标。@接近地面目标，然后按住{animation=WHL}进行轰炸。<SCR=STOP>
 
 
-#TUTORIAL_TRADER	<TRG=TUTORIAL_TRADER|0><NPC=PETR><SIDE=1><SHADOW=1>{align=2}根据这条消息的内容，它是由运输船发出的。@上面甚至提到了船上的货物以及航向。@如果能夺取这艘船，我们可以卖掉换得一小笔钱。<SCR=STOP>
+#TUTORIAL_TRADER	<TRG=TUTORIAL_TRADER|0><NPC=PETR><SIDE=1><SHADOW=1>{align=2}$PH20_SAND*根据这条消息的内容，它是由运输船发出的。@上面甚至提到了船上的货物以及航向。@如果能夺取这艘船，我们可以卖掉换得一小笔钱。*<SCR=STOP>
 
 
-#TUTORIAL_RIOT_1	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>大公爵，有一艘我们的船的官兵拒绝战斗。
+#TUTORIAL_RIOT_1	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>$PH20_SAND*大公爵，有一艘我们的船的官兵拒绝战斗。*
 
-#TUTORIAL_RIOT_2	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>{align=2}大公爵，我们有好几艘船的官兵都拒绝战斗。@如果我们所有的船都开始抗命，舰队就完蛋了！
+#TUTORIAL_RIOT_2	<TRG=TUTORIAL_RIOT|0><NPC=PETR><NPC=PETR><SHADOW=1><SIDE=-1><BLUR=0><SCR=STOP>{align=2}$PH20_SAND*大公爵，我们有好几艘船的官兵都拒绝战斗。@如果我们所有的船都开始抗命，舰队就完蛋了！*
 
-#TUTORIAL_PRIZE_1	<TRG=TUTORIAL_PRIZE_1|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>{align=2}有一艘敌船是运输船。如果我们能把其他船都击毁，@同时保持这艘船完好，她就会投降。<SCR=STOP>
+#TUTORIAL_PRIZE_1	<TRG=TUTORIAL_PRIZE_1|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>{align=2}$PH20_SAND*有一艘敌船是运输船。如果我们能把其他船都击毁，@同时保持这艘船完好，她就会投降。<SCR=STOP>*
 
-#TUTORIAL_PRIZE_2	<TRG=TUTORIAL_PRIZE_2|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>{align=2}这艘运输船没有武装护航。@不需要交战她就会投降。<SCR=STOP>
+#TUTORIAL_PRIZE_2	<TRG=TUTORIAL_PRIZE_2|0><NPC=PETR><SIDE=-1><SHADOW=1><BLUR_POS=0.2|0.8>{align=2}$PH20_SAND*这艘运输船没有武装护航。@不需要交战她就会投降。<SCR=STOP>*
 
 
 #TUTORIAL_REPAIR_BONUS	<TRG=TUTORIAL_REPAIR_BONUS|0>{font=dinpro_48_black}{align=2}REPAIR BONUS<REPAIR_BONUS>@10{align=2}将船停泊在一个好位置，可以大大加快维修速度。<SCR=STOP>
 
-#TUTORIAL_RADIO_BAND	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>您须要先选择波段，公爵阁下。<SCR=STOP>
+#TUTORIAL_RADIO_BAND	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_BAND3|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_BAND1|RADIO_BAND2|RADIO_BAND3>$PH20_SAND*您须要先选择波段，公爵阁下。*<SCR=STOP>
 
-#TUTORIAL_RADIO_SIGNAL	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN>您须要先收到稳定的信号。<SCR=STOP>
+#TUTORIAL_RADIO_SIGNAL	<NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=RADIO_SCAN|1><BLUR_POS=0.2|0.3><GLOW_GUI=RADIO_SCAN>$PH20_SAND*您须要先收到稳定的信号。*<SCR=STOP>
 
-#TUTORIAL_REPAIR_PARTS	<TRG=TUTORIAL_REPAIR_PARTS|0><NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RP|1><NOBOTTOM>{align=2}我们获得了一些船上的维修备件。@如果我们的库存里有维修备件，可以大大缩短维修时间。<SCR=STOP>
-
-
+#TUTORIAL_REPAIR_PARTS	<TRG=TUTORIAL_REPAIR_PARTS|0><NPC=PETR><SIDE=-1><SHADOW=1><HANDSHOW_GUI=MAPMODE_RP|1><NOBOTTOM>{align=2}$PH20_SAND*我们获得了一些船上的维修备件。@如果我们的库存里有维修备件，可以大大缩短维修时间。*<SCR=STOP>
 
 
-#INTERCOM_PETR_1	<NPC=PETR><SIDE=0><SHADOW=1>是的，大公。
+
+
+#INTERCOM_PETR_1	<NPC=PETR><SIDE=0><SHADOW=1>$PH20_SAND*是的，大公。*
 <ANS=修理太慢了，彼得·伊格纳季耶维奇。>
 
-#INTERCOM_PETR_2	<NPC=PETR>{align=2}官兵们都已经竭尽所能了，@公爵阁下。你我都知道。
+#INTERCOM_PETR_2	<NPC=PETR>{align=2}$PH20_SAND*官兵们都已经竭尽所能了，@公爵阁下。你我都知道。*
 <ANS=还不够，彼得。带上一个安保小队去说服他们。必要的话可以用强制措施。我们要立刻修好这些船。>
 <ANS=我明白了，彼得。没事了。|EXIT>
 
-#INTERCOM_PETR_3	<NPC=PETR><NOSPEAK><SCR=CONTINUE>沉默了一会儿后，彼得对您敬礼。
+#INTERCOM_PETR_3	<NPC=PETR><NOSPEAK><SCR=CONTINUE>$PH20_SAND*沉默了一会儿后，彼得对您敬礼。*
 
-#INTERCOM_PETR_4	<TRG=INTERCOM_PETR|1><NPC=PETR>是，公爵。我能走了吗？<SCR=STOP|ASK_REPAIR|PETR=-1>
+#INTERCOM_PETR_4	<TRG=INTERCOM_PETR|1><NPC=PETR>$PH20_SAND*是，公爵。我能走了吗？*<SCR=STOP|ASK_REPAIR|PETR=-1>
 
-#INTERCOM_PETR_SHORT	<NPC=PETR>是，大公爵阁下。<SCR=STOP|ASK_REPAIR|PETR=-1>
-
-
+#INTERCOM_PETR_SHORT	<NPC=PETR>$PH20_SAND*是，大公爵阁下。*<SCR=STOP|ASK_REPAIR|PETR=-1>
 
 
-#INTERCOM_VETERAN_1	<NPC=VETERAN><SIDE=0><SHADOW=1>是的，公爵阁下。<ANS=上将，我听说您有办法激发人们的主观能动性。现在修理进度太慢了。您能帮我解决这个问题吗？>
 
-#INTERCOM_VETERAN_2	<NPC=VETERAN>{align=2}公爵阁下，我认为您的人恐怕@不能习惯集众军舰上特有的严酷纪律。
+
+#INTERCOM_VETERAN_1	<NPC=VETERAN><SIDE=0><SHADOW=1>$PH20_SAND*是的，公爵阁下。*<ANS=上将，我听说您有办法激发人们的主观能动性。现在修理进度太慢了。您能帮我解决这个问题吗？>
+
+#INTERCOM_VETERAN_2	<NPC=VETERAN>{align=2}$PH20_SAND*公爵阁下，我认为您的人恐怕@不能习惯集众军舰上特有的严酷纪律。*
 <ANS=这些船必须更快修好，上将。尽您所能，没有人会妨碍您。我向您保证。>
 <ANS=我知道了，上将。可能这不是个好主意。没事了。|EXIT>
 
-#INTERCOM_VETERAN_3	<TRG=INTERCOM_VETERAN|1><NPC=VETERAN>{align=2}很好，公爵阁下。@我会帮您…去干脏活的。<SCR=STOP|ASK_REPAIR|VETERAN=-1>
+#INTERCOM_VETERAN_3	<TRG=INTERCOM_VETERAN|1><NPC=VETERAN>{align=2}$PH20_SAND*很好，公爵阁下。@我会帮您…去干脏活的。*<SCR=STOP|ASK_REPAIR|VETERAN=-1>
 
-#INTERCOM_VETERAN_SHORT	<NPC=VETERAN>很好，公爵阁下。我会帮您的。<SCR=STOP|ASK_REPAIR|VETERAN=-1>
-
-
+#INTERCOM_VETERAN_SHORT	<NPC=VETERAN>$PH20_SAND*很好，公爵阁下。我会帮您的。*<SCR=STOP|ASK_REPAIR|VETERAN=-1>
 
 
-#INTERCOM_DAUD_1	<NPC=DAUD><SIDE=0><SHADOW=1>是的，公爵？<ANS=上将，我不得不请您帮我说服官兵关于我们行动的重要性。您的话对他们来说有很大的分量。>
 
-#INTERCOM_DAUD_2	<NPC=DAUD>{align=2}官兵们不想战斗是有原因的，公爵阁下。@这要怪您的轻率还有沙欣将军的妄想。@我已经说过了，还是这句话：@这次战役从一开始就是不计后果的盲动行为。
+
+#INTERCOM_DAUD_1	<NPC=DAUD><SIDE=0><SHADOW=1>$PH20_SAND*是的，公爵？*<ANS=上将，我不得不请您帮我说服官兵关于我们行动的重要性。您的话对他们来说有很大的分量。>
+
+#INTERCOM_DAUD_2	<NPC=DAUD>{align=2}$PH20_SAND*官兵们不想战斗是有原因的，公爵阁下。@这要怪您的轻率还有沙欣将军的妄想。@我已经说过了，还是这句话：@这次战役从一开始就是不计后果的盲动行为。*
 <ANS=请和军官们谈谈，上将。我需要您的帮助。>
 <ANS=我明白了，上将。没事了。|EXIT>
 
-#INTERCOM_DAUD_3	<TRG=INTERCOM_DAUD|1><NPC=DAUD>{align=2}我继续参与这种前途未卜的冒险主义行为，@完全是因为我对您父皇的忠誓神圣不可违。@很好，我会跟军官们说几句的。<SCR=STOP|MORAL=5|DAUD=-1>
+#INTERCOM_DAUD_3	<TRG=INTERCOM_DAUD|1><NPC=DAUD>{align=2}$PH20_SAND*我继续参与这种前途未卜的冒险主义行为，@完全是因为我对您父皇的忠誓神圣不可违。@很好，我会跟军官们说几句的。*<SCR=STOP|MORAL=5|DAUD=-1>
 
-#INTERCOM_DAUD_SHORT	<NPC=DAUD>我会和军官们说的，公爵阁下。<SCR=STOP|MORAL=5|DAUD=-1>
-
-
+#INTERCOM_DAUD_SHORT	<NPC=DAUD>$PH20_SAND*我会和军官们说的，公爵阁下。*<SCR=STOP|MORAL=5|DAUD=-1>
 
 
-#INTERCOM_OMAR_1	<NPC=OMAR><SIDE=0><SHADOW=1>您要找我，阁下？<ANS=我要和您谈谈，奥马尔。>
 
-#INTERCOM_OMAR_2	<NPC=OMAR>我洗耳恭听，阁下。
+
+#INTERCOM_OMAR_1	<NPC=OMAR><SIDE=0><SHADOW=1>$PH20_SAND*您要找我，阁下？*<ANS=我要和您谈谈，奥马尔。>
+
+#INTERCOM_OMAR_2	<NPC=OMAR>$PH20_SAND*我洗耳恭听，阁下。*
 <ANS=战事所带来的代价惨重，奥马尔。如今官兵们心力交瘁。需要有人去重燃他们灵魂中的信仰之火。@以拦人都视您为英雄，您的话很有分量。请替我和官兵谈谈吧。振作他们的精神！把他们从绝望中解救出来！>
 
-#INTERCOM_OMAR_3	<NPC=OMAR>{align=2}您也说这场战争造成了惨痛损失，阁下。可是又会以此换来什么呢？@您确定全能天主会将希瓦赐给我们吗？@若是我们在大漠中所追寻的亭台楼阁到头来不过是海市蜃楼呢？
+#INTERCOM_OMAR_3	<NPC=OMAR>{align=2}$PH20_SAND*您也说这场战争造成了惨痛损失，阁下。可是又会以此换来什么呢？@您确定全能天主会将希瓦赐给我们吗？@若是我们在大漠中所追寻的亭台楼阁到头来不过是海市蜃楼呢？*
 <ANS=请和我的人谈谈，奥马尔。我需要您的帮助。>
 <ANS=连您也失去信仰了吗，奥马尔？好吧，那我自己想办法吧。没事了。|EXIT>
 
-#INTERCOM_OMAR_4	<TRG=INTERCOM_OMAR|1><NPC=OMAR>{align=2}我会跟他们谈谈的，阁下。@但恐怕我自身信仰也是终有极限的。<SCR=STOP|MORAL=5|OMAR=-1>
+#INTERCOM_OMAR_4	<TRG=INTERCOM_OMAR|1><NPC=OMAR>{align=2}$PH20_SAND*我会跟他们谈谈的，阁下。@但恐怕我自身信仰也是终有极限的。<SCR=STOP|MORAL=5|OMAR=-1>*
 
-#INTERCOM_OMAR_SHORT	<NPC=OMAR>我会和他们谈谈的，阁下。<SCR=STOP|MORAL=5|OMAR=-1>
-
-
+#INTERCOM_OMAR_SHORT	<NPC=OMAR>$PH20_SAND*我会和他们谈谈的，阁下。*<SCR=STOP|MORAL=5|OMAR=-1>
 
 
-#INTERCOM_FASIL_1	<NPC=FASIL><SIDE=0><SHADOW=1> 何事，大公阁下？<ANS=王子殿下，我想在您这借贷一笔款项充作军费。>
 
-#INTERCOM_FASIL_2	<NPC=FASIL>{align=2}战事吃紧之后只得花钱也如流水一般，@是这样吧，我的阁下？
+
+#INTERCOM_FASIL_1	<NPC=FASIL><SIDE=0><SHADOW=1> $PH20_SAND*何事，大公阁下？*<ANS=王子殿下，我想在您这借贷一笔款项充作军费。>
+
+#INTERCOM_FASIL_2	<NPC=FASIL>{align=2}$PH20_SAND*战事吃紧之后只得花钱也如流水一般，@是这样吧，我的阁下？*
 <ANS=诚然，确实如此。王子殿下，能否请您解囊相助？>
 <ANS=我另有想法了，王子殿下。抱歉叨扰。就如此吧。|EXIT>
 
-#INTERCOM_FASIL_3	<TRG=INTERCOM_FASIL|1><NPC=FASIL>很好。容我筹足钱款。<SCR=STOP|GOLD=10000|FASIL=-1>
+#INTERCOM_FASIL_3	<TRG=INTERCOM_FASIL|1><NPC=FASIL>$PH20_SAND*很好。容我筹足钱款。*<SCR=STOP|GOLD=10000|FASIL=-1>
 
-#INTERCOM_FASIL_SHORT	<NPC=FASIL>很好。容我筹足钱款。<SCR=STOP|GOLD=10000|FASIL=-1>
-
-
+#INTERCOM_FASIL_SHORT	<NPC=FASIL>$PH20_SAND*很好。容我筹足钱款。*<SCR=STOP|GOLD=10000|FASIL=-1>
 
 
-#INTERCOM_GIRL_1	<NPC=GIRL><SIDE=0><SHADOW=1>您想与我谈论何事，阁下？<ANS=女公爵阁下，我不妨坦诚以待—战事吃紧，所耗资材已经远超我方估计。而我听闻您所领部族乃格瑞特最为富裕一族。>
 
-#INTERCOM_GIRL_2	<NPC=GIRL>您的钱财已尽了吗？
+
+#INTERCOM_GIRL_1	<NPC=GIRL><SIDE=0><SHADOW=1>$PH20_SAND*您想与我谈论何事，阁下？*<ANS=女公爵阁下，我不妨坦诚以待—战事吃紧，所耗资材已经远超我方估计。而我听闻您所领部族乃格瑞特最为富裕一族。>
+
+#INTERCOM_GIRL_2	<NPC=GIRL>$PH20_SAND*您的钱财已尽了吗？*
 <ANS=恐怕确实如此。能请您解囊相助吗？>
 <ANS=并非如此，女公爵阁下。抱歉叨扰。就如此吧。|EXIT>
 
-#INTERCOM_GIRL_3	<TRG=INTERCOM_GIRL|1><NPC=GIRL>我对此非常理解，大公阁下。我愿慷慨解囊。<SCR=STOP|GOLD=10000|GIRL=-1>
+#INTERCOM_GIRL_3	<TRG=INTERCOM_GIRL|1><NPC=GIRL>$PH20_SAND*我对此非常理解，大公阁下。我愿慷慨解囊。*<SCR=STOP|GOLD=10000|GIRL=-1>
 
-#INTERCOM_GIRL_SHORT	<NPC=GIRL> 我将筹集款项。<SCR=STOP|GOLD=10000|GIRL=-1>
-
-
+#INTERCOM_GIRL_SHORT	<NPC=GIRL> $PH20_SAND*我将筹集款项。*<SCR=STOP|GOLD=10000|GIRL=-1>
 
 
-#INTERCOM_HARISHID_1	<NPC=HARISHID><SIDE=0><SHADOW=1>您找我吗，阁下？<ANS=伊姆兰阁下，我素闻总督（{glossary=Governor,GLOSS_GOVERNOR}）麾下仍有不少哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）为其效命。眼下我们需要敌军动向线报。也许您的过去手足能不吝拨冗相助。>
 
-#INTERCOM_HARISHID_2	<NPC=HARISHID><SCR=CONTINUE>{align=2}确实如此，阁下。@ 仍有诸多哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）如今@效命于总督（{glossary=Governor,GLOSS_GOVERNOR}）麾下，@其中不少同袍恐是身不由己。
 
-#INTERCOM_HARISHID_3	<NPC=HARISHID>{align=2}此外确实，我确实有人选胜任线人位置。@但如此勇士总有可能一步走错而付出生命代价，不是吗？
+#INTERCOM_HARISHID_1	<NPC=HARISHID><SIDE=0><SHADOW=1>$PH20_SAND*您找我吗，阁下？*<ANS=伊姆兰阁下，我素闻总督（{glossary=Governor,GLOSS_GOVERNOR}）麾下仍有不少哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）为其效命。眼下我们需要敌军动向线报。也许您的过去手足能不吝拨冗相助。>
+
+#INTERCOM_HARISHID_2	<NPC=HARISHID><SCR=CONTINUE>{align=2}$PH20_SAND*确实如此，阁下。@ 仍有诸多哈里西德卫队（{glossary=Harishids,GLOSS_HARISHIDS}）如今@效命于总督（{glossary=Governor,GLOSS_GOVERNOR}）麾下，@其中不少同袍恐是身不由己。*
+
+#INTERCOM_HARISHID_3	<NPC=HARISHID>{align=2}$PH20_SAND*此外确实，我确实有人选胜任线人位置。@但如此勇士总有可能一步走错而付出生命代价，不是吗？*
 <ANS=这岂非兵家常事吗，伊姆兰阁下。线报才是头等大事！>
 <ANS=也对。这确实不算妙计。|EXIT>
 
-#INTERCOM_HARISHID_4	<TRG=INTERCOM_HARISHID|1><NPC=HARISHID>{align=2}那么我将为您寻找线人，阁下。@尽管这将令我深感痛心。<SCR=STOP|ASK_INTEL|HARISHID=-1>
+#INTERCOM_HARISHID_4	<TRG=INTERCOM_HARISHID|1><NPC=HARISHID>{align=2}$PH20_SAND*那么我将为您寻找线人，阁下。@尽管这将令我深感痛心。*<SCR=STOP|ASK_INTEL|HARISHID=-1>
 
-#INTERCOM_HARISHID_SHORT	<NPC=HARISHID>我将为您寻找这么一位线人，阁下。<SCR=STOP|ASK_INTEL|HARISHID=-1>
-
-
+#INTERCOM_HARISHID_SHORT	<NPC=HARISHID>$PH20_SAND*我将为您寻找这么一位线人，阁下。*<SCR=STOP|ASK_INTEL|HARISHID=-1>
 
 
-#INTERCOM_SCOUT_1	<NPC=SCOUT><SIDE=0><SHADOW=1>公爵阁下？<ANS=塔可汗阁下，您说自己是在格瑞特担任军事观察员。那想必您属下应该有一些观察集众部队的动向的特工人员吧？我们需要集众的位置情报。>
 
-#INTERCOM_SCOUT_2	<NPC=SCOUT>{align=2}即使我们有这样的情报，公爵阁下…@您肯定也明白我没有分享这些情报的许可。
+
+#INTERCOM_SCOUT_1	<NPC=SCOUT><SIDE=0><SHADOW=1>$PH20_SAND*公爵阁下？*<ANS=塔可汗阁下，您说自己是在格瑞特担任军事观察员。那想必您属下应该有一些观察集众部队的动向的特工人员吧？我们需要集众的位置情报。>
+
+#INTERCOM_SCOUT_2	<NPC=SCOUT>{align=2}$PH20_SAND*即使我们有这样的情报，公爵阁下…@您肯定也明白我没有分享这些情报的许可。*
 <ANS=那就想个办法拿到许可，塔可汗阁下—如果您想让我们的作战成功的话。>
 <ANS=我知道了。很好。没事了。|EXIT>
 
@@ -4609,80 +4607,80 @@
 
 
 
-#INTERCOM_BOY_1	<NPC=BOY><SIDE=0><SHADOW=1>您要找我，阁下？<ANS=我有事想知道，阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）。请问这附近有隐居子民的城市吗？>
+#INTERCOM_BOY_1	<NPC=BOY><SIDE=0><SHADOW=1>$PH20_SAND*您要找我，阁下？*<ANS=我有事想知道，阿尔萨希尔（{glossary=Alsahir,GLOSS_ALSAHIR}）。请问这附近有隐居子民的城市吗？>
 
-#INTERCOM_BOY_2	<NPC=BOY><NOSPEAK><SCR=CONTINUE>少年对您的问题非常惊愕。
+#INTERCOM_BOY_2	<NPC=BOY><NOSPEAK><SCR=CONTINUE>$PH20_SAND*少年对您的问题非常惊愕。*
 
-#INTERCOM_BOY_3	<NPC=BOY>{align=2}萨亚迪之子，您怎么能要我说出应该永不能泄露的秘密？@只有我的子民才能得到如此信息！
+#INTERCOM_BOY_3	<NPC=BOY>{align=2}$PH20_SAND*萨亚迪之子，您怎么能要我说出应该永不能泄露的秘密？@只有我的子民才能得到如此信息！*
 <ANS=战事吃紧，迫不得已。我们需要找到一座总督（{glossary=Governor,GLOSS_GOVERNOR}）手下那颜（{glossary=Noyon,GLOSS_NOYON}）们所不知道的城市，在那里我们的人才能休整和修理舰船。>
 <ANS=我明白了。请原谅。忘了这事吧。|EXIT>
 
-#INTERCOM_BOY_4	<NPC=BOY><NOSPEAK><SCR=CONTINUE>{align=2}少年转过身去，思考了一会儿。@当他回过头来面对您时，他的声音十分坚定。
+#INTERCOM_BOY_4	<NPC=BOY><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*少年转过身去，思考了一会儿。@当他回过头来面对您时，他的声音十分坚定。*
 
-#INTERCOM_BOY_5	<TRG=INTERCOM_BOY|1><NPC=BOY>{align=2}我父亲告诉过我，我将行于末日之时。@看来这所言非虚，因而我会同意帮助您。@我会告诉您城市的位置的，萨亚迪之子。<SCR=STOP|ASK_HIDDEN|BOY=-1>
+#INTERCOM_BOY_5	<TRG=INTERCOM_BOY|1><NPC=BOY>{align=2}$PH20_SAND*我父亲告诉过我，我将行于末日之时。@看来这所言非虚，因而我会同意帮助您。@我会告诉您城市的位置的，萨亚迪之子。*<SCR=STOP|ASK_HIDDEN|BOY=-1>
 
-#INTERCOM_BOY_SHORT	<NPC=BOY>我会告诉您城市的位置的，萨亚迪之子。<SCR=STOP|ASK_HIDDEN|BOY=-1>
-
-
+#INTERCOM_BOY_SHORT	<NPC=BOY>$PH20_SAND*我会告诉您城市的位置的，萨亚迪之子。*<SCR=STOP|ASK_HIDDEN|BOY=-1>
 
 
-#INTERCOM_HISSID_1	<NPC=HISSID><SIDE=0><SHADOW=1>您找我，阁下？<ANS=谢谢你来见我，纳迪尔·贝克。请把身后的门带上。我有个很重要的问题。>
+
+
+#INTERCOM_HISSID_1	<NPC=HISSID><SIDE=0><SHADOW=1>$PH20_SAND*您找我，阁下？*<ANS=谢谢你来见我，纳迪尔·贝克。请把身后的门带上。我有个很重要的问题。>
 
 #INTERCOM_HISSID_2	<NPC=HISSID><ANS=请问这附近有隐居子民的城市吗？>
 
-#INTERCOM_HISSID_3	<NPC=HISSID>{align=2}（空盗在面具后发出一声冷笑，摇了摇头）@真是个怪问题，大公阁下。@罗马尼人应该知道没有泄漏的秘密才能叫秘密吧？
+#INTERCOM_HISSID_3	<NPC=HISSID>{align=2}$PH20_SAND*（空盗在面具后发出一声冷笑，摇了摇头）@真是个怪问题，大公阁下。@罗马尼人应该知道没有泄漏的秘密才能叫秘密吧？*
 <ANS=但是你氏族的人了解这些城市所在，不是吗？>
 
-#INTERCOM_HISSID_4	<NPC=HISSID>我们知道每一座城市所在。
+#INTERCOM_HISSID_4	<NPC=HISSID>$PH20_SAND*我们知道每一座城市所在。*
 <ANS=果然。>
 
-#INTERCOM_HISSID_5	<NPC=HISSID>{align=2}可是如果所有人都知道隐藏城市的位置了呢？@到时候氏族的人要去哪里补充燃料？@要去哪里做生意，要是总督（{glossary=Governor,GLOSS_GOVERNOR}）的@那颜{glossary=Noyon,GLOSS_NOYON}）们带着他们的狗腿找过来了呢？
+#INTERCOM_HISSID_5	<NPC=HISSID>{align=2}$PH20_SAND*可是如果所有人都知道隐藏城市的位置了呢？@到时候氏族的人要去哪里补充燃料？@要去哪里做生意，要是总督（{glossary=Governor,GLOSS_GOVERNOR}）的@那颜{glossary=Noyon,GLOSS_NOYON}）们带着他们的狗腿找过来了呢？*
 <ANS战事吃紧，迫不得已。我们需要找到一座总督（{glossary=Governor,GLOSS_GOVERNOR}）手下那颜（{glossary=Noyon,GLOSS_NOYON}）们所不知道的城市，在那里我们的人才能休整和修理舰船。>
 <ANS=我理解你的意思。忘了我说的吧。|EXIT>
 
-#INTERCOM_HISSID_6	<NPC=HISSID><SCR=CONTINUE>{align=2}您无可奈何了，不是吗？伟大的风之母在上啊！@堂堂萨亚迪大公爵若是竟要向空盗氏族求助了，那您可是真心走投无路了！
+#INTERCOM_HISSID_6	<NPC=HISSID><SCR=CONTINUE>{align=2}$PH20_SAND*您无可奈何了，不是吗？伟大的风之母在上啊！@堂堂萨亚迪大公爵若是竟要向空盗氏族求助了，那您可是真心走投无路了！*
 
-#INTERCOM_HISSID_7	<NPC=HISSID><NOSPEAK><SCR=CONTINUE>空盗发自内心地笑了。
+#INTERCOM_HISSID_7	<NPC=HISSID><NOSPEAK><SCR=CONTINUE>$PH20_SAND*空盗发自内心地笑了。*
 
-#INTERCOM_HISSID_8	<TRG=INTERCOM_HISSID|1><NPC=HISSID>{align=2}我可不管伊西氏族会不会拿我是问—@我会告诉您隐居子民的城市在哪的。<SCR=STOP|ASK_HIDDEN|HISSID=-1>
+#INTERCOM_HISSID_8	<TRG=INTERCOM_HISSID|1><NPC=HISSID>{align=2}$PH20_SAND*我可不管伊西氏族会不会拿我是问—@我会告诉您隐居子民的城市在哪的。*<SCR=STOP|ASK_HIDDEN|HISSID=-1>
 
-#INTERCOM_HISSID_SHORT	<NPC=HISSID>我会告诉您隐居子民城市的位置。<SCR=STOP|ASK_HIDDEN|HISSID=-1>
-
-
+#INTERCOM_HISSID_SHORT	<NPC=HISSID>$PH20_SAND*我会告诉您隐居子民城市的位置。<SCR=STOP|ASK_HIDDEN|HISSID=-1>*
 
 
-#INTERCOM_AIRBORNE_1	<NPC=AIRBORNE><SIDE=0><SHADOW=1> 怎么了，大公阁下？<ANS=我需要您的协助，上校。据我所知许多滞留在格瑞特的罗马尼舰长仍听从您的指挥。而我们眼下急需他们的舰船作战。>
 
-#INTERCOM_AIRBORNE_2	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE> 叶梅利扬考虑了一下您所说的话。
 
-#INTERCOM_AIRBORNE_3	<NPC=AIRBORNE><SCR=CONTINUE> {align=2}总督占据希瓦之后，@各舰长在格瑞特要保下自己的船都需要承担很大风险。
+#INTERCOM_AIRBORNE_1	<NPC=AIRBORNE><SIDE=0><SHADOW=1>$PH20_SAND* 怎么了，大公阁下？*<ANS=我需要您的协助，上校。据我所知许多滞留在格瑞特的罗马尼舰长仍听从您的指挥。而我们眼下急需他们的舰船作战。>
 
-#INTERCOM_AIRBORNE_4	<NPC=AIRBORNE><SCR=CONTINUE>{align=2} 害，要是当时您就已经飞来这了自然最好了。@这样的话当时他们肯定话不多说就来投奔了嘛！
+#INTERCOM_AIRBORNE_2	<NPC=AIRBORNE><NOSPEAK><SCR=CONTINUE>$PH20_SAND*叶梅利扬考虑了一下您所说的话。*
 
-#INTERCOM_AIRBORNE_5	<NPC=AIRBORNE><SCR=CONTINUE> {align=2}但是帝都从未派遣半支援军过来，我们只能咬咬牙自力更生。@怎么说呢，兄弟们这点还是很擅长的嘛。
+#INTERCOM_AIRBORNE_3	<NPC=AIRBORNE><SCR=CONTINUE> {align=2}$PH20_SAND*总督占据希瓦之后，@各舰长在格瑞特要保下自己的船都需要承担很大风险。*
 
-#INTERCOM_AIRBORNE_6	<NPC=AIRBORNE> 但他们绝不会归顺您。
+#INTERCOM_AIRBORNE_4	<NPC=AIRBORNE><SCR=CONTINUE>{align=2}$PH20_SAND* 害，要是当时您就已经飞来这了自然最好了。@这样的话当时他们肯定话不多说就来投奔了嘛！*
+
+#INTERCOM_AIRBORNE_5	<NPC=AIRBORNE><SCR=CONTINUE> {align=2}$PH20_SAND*但是帝都从未派遣半支援军过来，我们只能咬咬牙自力更生。@怎么说呢，兄弟们这点还是很擅长的嘛。*
+
+#INTERCOM_AIRBORNE_6	<NPC=AIRBORNE> $PH20_SAND*但他们绝不会归顺您。*
 <ANS=我是要您去说服他们，这样他们自然会照做。>
 <ANS=别说了，上校。我也理解你们。|EXIT>
 
-#INTERCOM_AIRBORNE_7	<NPC=AIRBORNE><SCR=CONTINUE> 这样才像个皇帝陛下嘛！（叶梅利扬说着冷笑一声）
+#INTERCOM_AIRBORNE_7	<NPC=AIRBORNE><SCR=CONTINUE> $PH20_SAND*这样才像个皇帝陛下嘛！（叶梅利扬说着冷笑一声）*
 
-#INTERCOM_AIRBORNE_8	<TRG=INTERCOM_AIRBORNE|1><NPC=AIRBORNE>{align=2}我会为您和兄弟们美言几句，大公阁下。@您可想好，我这可是送了您个大人情哈。<SCR=STOP|ASK_REINFORCE|AIRBORNE=-1>
+#INTERCOM_AIRBORNE_8	<TRG=INTERCOM_AIRBORNE|1><NPC=AIRBORNE>{align=2}$PH20_SAND*我会为您和兄弟们美言几句，大公阁下。@您可想好，我这可是送了您个大人情哈。*<SCR=STOP|ASK_REINFORCE|AIRBORNE=-1>
 
-#INTERCOM_AIRBORNE_SHORT	<NPC=AIRBORNE> 我会为您和兄弟们美言几句，大公阁下。<SCR=STOP|ASK_REINFORCE|AIRBORNE=-1>
-
-
+#INTERCOM_AIRBORNE_SHORT	<NPC=AIRBORNE> $PH20_SAND*我会为您和兄弟们美言几句，大公阁下。*<SCR=STOP|ASK_REINFORCE|AIRBORNE=-1>
 
 
-#INTERCOM_KNIGHT_1	<NPC=KNIGHT><SIDE=0><SHADOW=1> 您有事相商，埃米尔？
+
+
+#INTERCOM_KNIGHT_1	<NPC=KNIGHT><SIDE=0><SHADOW=1> $PH20_SAND*您有事相商，埃米尔？*
 <ANS=舒贾-萨尼阁下，我需要您鼎力相助。我想知道，骑士团的战舰可否前来助阵？>
 <ANS=抱歉叨扰，舒贾阁下。先这样吧。|EXIT>
 
-#INTERCOM_KNIGHT_2	<TRG=INTERCOM_KNIGHT|1><NPC=KNIGHT><NOSPEAK><SCR=CONTINUE> {align=2}舒贾只是看着您，一言不发。@终于，他回答道…
+#INTERCOM_KNIGHT_2	<TRG=INTERCOM_KNIGHT|1><NPC=KNIGHT><NOSPEAK><SCR=CONTINUE> {align=2}$PH20_SAND*舒贾只是看着您，一言不发。@终于，他回答道…*
 
-#INTERCOM_KNIGHT_3	<NPC=KNIGHT><SCR=CONTINUE>{align=2}我等战舰将为您所用，埃米尔。请多加珍惜。<SCR=STOP|ASK_REINFORCE|KNIGHT=-1>
+#INTERCOM_KNIGHT_3	<NPC=KNIGHT><SCR=CONTINUE>{align=2}$PH20_SAND*我等战舰将为您所用，埃米尔。请多加珍惜。*<SCR=STOP|ASK_REINFORCE|KNIGHT=-1>
 
-#INTERCOM_KNIGHT_SHORT	<NPC=KNIGHT> 我等战舰将为您所用，埃米尔。<SCR=STOP|ASK_REINFORCE|KNIGHT=-1>
+#INTERCOM_KNIGHT_SHORT	<NPC=KNIGHT> $PH20_SAND*我等战舰将为您所用，埃米尔。*<SCR=STOP|ASK_REINFORCE|KNIGHT=-1>
 
 
 
@@ -4710,7 +4708,7 @@
 
 #HELLO_SCOUT_2	<SCR=CONTINUE><SOUND=gunfire_zz>{align=2}在您再次迈出一步的同时，那艘战舰打出了一发警告射击。@炮弹尖啸着冲上天空。
 
-#HELLO_SCOUT_3	<NPC=PETR><SIDE=-1>{align=2}他们疯了吗？他们难道@没意识到面前的是何等人物？！
+#HELLO_SCOUT_3	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*他们疯了吗？他们难道@没意识到面前的是何等人物？！*
 <ANS=彼得，让我们也给他们来几发警告射击。|HELLO_SCOUT_4|FEAR=1>
 <ANS=我们就在这儿等着。|HELLO_SCOUT_INIT_01_1|FEAR=-1>
 
@@ -4728,7 +4726,7 @@
 
 #HELLO_SCOUT_8	<SCR=CONTINUE><AMBIENT=STOP>{align=2}几秒过后，面前船上的守卫就消失无踪了。@空气再次安静了下来。
 
-#HELLO_SCOUT_9	<NPC=PETR>你疯了！
+#HELLO_SCOUT_9	<NPC=PETR>$PH20_SAND*你疯了！*
 <ANS=朝彼得一笑。|HELLO_SCOUT_10|FEAR=1|NO_THEME_REACTION>
 <ANS=盯着那艘战舰上的舰炮。|HELLO_SCOUT_GUNS>
 
@@ -4760,17 +4758,17 @@
 
 #HELLO_SCOUT_INIT_01_1	<SCR=CONTINUE>{align=2}一个人下了船，向您走来。@您认不出他的制服和证章。@他走近前来，向您鞠躬致敬。
 
-#HELLO_SCOUT_INIT_01_2	<SIDE=0><NPC=HIRE><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_SCOUT>{align=2}我们没想到会是您大驾光临，大公阁下！@我替部下向您致歉。
+#HELLO_SCOUT_INIT_01_2	<SIDE=0><NPC=HIRE><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_SCOUT>{align=2}$PH20_SAND*我们没想到会是您大驾光临，大公阁下！@我替部下向您致歉。*
 
 #HELLO_SCOUT_INIT_02_1	<AMBIENT=STOP>您听见对面船上传来了吼声：“快停火！别开炮！”
 <ANS=很好。这下繁文缛节都丢掉了，我们终于能好好坐下谈谈了。>
 
 #HELLO_SCOUT_INIT_02_2	<SCR=CONTINUE>{align=2}}一个人下了船，向您走来。@您认不出他的制服和证章。@他走近前来，向您鞠躬致敬。
 
-#HELLO_SCOUT_INIT_02_3	<SIDE=0><NPC=HIRE><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_SCOUT>{align=2}我恳求您的原谅，大公阁下！这全都是误会@。我向您担保，肇事者将会得到严惩。
+#HELLO_SCOUT_INIT_02_3	<SIDE=0><NPC=HIRE><APPROVE><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_SCOUT>{align=2}$PH20_SAND*我恳求您的原谅，大公阁下！这全都是误会@。我向您担保，肇事者将会得到严惩。*
 
 
-#HELLO_INTRODUCE_SCOUT	<NPC=SCOUT><APPROVE>我名叫伊扎克-拉。
+#HELLO_INTRODUCE_SCOUT	<NPC=SCOUT><APPROVE>$PH20_SAND*我名叫伊扎克-拉。*
 <ANS=我们正在讨伐希瓦，塔可汗阁下。我们可否结为盟友？|HELLO_ROUND|DIPLOMACY_STARTS>
 
 
@@ -4780,35 +4778,35 @@
 
 #HELLO_KNIGHT_2	<SCR=CONTINUE><AMBIENT=crowd_01>{align=2}您在一座挤满人的茶馆里找到了那位塔可汗。@一大群人把他围在中间，他的脚下则横尸一具。
 
-#HELLO_KNIGHT_3	<NPC=HIRE><SIDE=0><NOSPEAK><RAM=1><SCR=CONTINUE>{align=2}他一看到您就马上立正站定，@明显是看见了您肩上镀金的帝国舰队肩章。
+#HELLO_KNIGHT_3	<NPC=HIRE><SIDE=0><NOSPEAK><RAM=1><SCR=CONTINUE>{align=2}$PH20_SAND*他一看到您就马上立正站定，@明显是看见了您肩上镀金的帝国舰队肩章。*
 
-#HELLO_KNIGHT_4	<NPC=HIRE>{align=2}愿平安与您同在，大公阁下！@我是舒贾-萨尼，隶属于杜斯塔姆骑士团。
+#HELLO_KNIGHT_4	<NPC=HIRE>{align=2}$PH20_SAND*愿平安与您同在，大公阁下！@我是舒贾-萨尼，隶属于杜斯塔姆骑士团。*
 <ANS=是你杀了这个人吗？为什么？>
 
-#HELLO_KNIGHT_5	<NPC=HIRE><SCR=CONTINUE>他侮辱了我。他也有武器，我们是公平相斗。
+#HELLO_KNIGHT_5	<NPC=HIRE><SCR=CONTINUE>$PH20_SAND*他侮辱了我。他也有武器，我们是公平相斗。*
 
-#HELLO_KNIGHT_6	<NPC=HIRE><NOSPEAK>{align=2}他的对手瘫倒在地上。就如他所说，@此人确实身配一柄剑，不过并未出鞘。
+#HELLO_KNIGHT_6	<NPC=HIRE><NOSPEAK>{align=2}$PH20_SAND*他的对手瘫倒在地上。就如他所说，@此人确实身配一柄剑，不过并未出鞘。*
 <ANS=你管这叫公平相斗？他甚至都没来得及拔剑！>
 
-#HELLO_KNIGHT_7	<NPC=HIRE><NOSPEAK><SCR=CONTINUE>舒贾歪了歪头，似乎是在认真的打量您。
+#HELLO_KNIGHT_7	<NPC=HIRE><NOSPEAK><SCR=CONTINUE>$PH20_SAND*舒贾歪了歪头，似乎是在认真的打量您。*
 
-#HELLO_KNIGHT_8	<NPC=HIRE><SCR=CONTINUE>反正结果无从改变。
+#HELLO_KNIGHT_8	<NPC=HIRE><SCR=CONTINUE>$PH20_SAND*反正结果无从改变。*
 
-#HELLO_KNIGHT_9	<SCR=CHECK_JOINED|DAUD|HELLO_KNIGHT_10><NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}这人将杀人说的像拍死苍蝇一样。@像他这样的塔可汗能派上大用…@或者容易节外生枝。我的经验倾向于后者。
+#HELLO_KNIGHT_9	<SCR=CHECK_JOINED|DAUD|HELLO_KNIGHT_10><NPC=DAUD><SIDE=-1><SCR=CONTINUE>{align=2}$PH20_SAND*这人将杀人说的像拍死苍蝇一样。@像他这样的塔可汗能派上大用…@或者容易节外生枝。我的经验倾向于后者。*
 
 #HELLO_KNIGHT_10	<NPC=HIRE><SIDE=0><NOSPEAK><ANS=我正在寻找征讨希瓦的盟友。您愿意加入我们吗，杜斯塔姆的骑士？|HELLO_ROUND|DIPLOMACY_STARTS|RIGHT=-2|NO_THEME_REACTION>
 <ANS=我会亲自通知你此案调查结果的，舒贾。|HELLO_KNIGHT_11|RIGHT=2>
 
-#HELLO_KNIGHT_11	<NPC=HIRE><NOSPEAK><SCR=STOP><SCR=NPC_TAKEOFF>骑士只是对您怂了怂肩，无动于衷。
+#HELLO_KNIGHT_11	<NPC=HIRE><NOSPEAK><SCR=STOP><SCR=NPC_TAKEOFF>$PH20_SAND*骑士只是对您怂了怂肩，无动于衷。*
 
 
 
 
 #HELLO_HISSID_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>{align=2}一群剑士远远地就发现了您。@他们穿好制服，戴上面具，佩剑身侧来迎接您。@这就是氏族传统的待客之道。
 
-#HELLO_HISSID_2	<NPC=HIRE><SIDE=0><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_HISSID>对格瑞特空盗来说，这是职业素养。
+#HELLO_HISSID_2	<NPC=HIRE><SIDE=0><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_HISSID>$PH20_SAND*对格瑞特空盗来说，这是职业素养。*
 
-#HELLO_INTRODUCE_HISSID	<NPC=HIRE><APPROVE>{align=2}我是纳迪尔·贝克，@巴拉卡特氏族的头领。
+#HELLO_INTRODUCE_HISSID	<NPC=HIRE><APPROVE>{align=2}$PH20_SAND*我是纳迪尔·贝克，@巴拉卡特氏族的头领。*
 <ANS=我在寻找攻打希瓦的盟友。你会加入我们吗？|HELLO_ROUND|DIPLOMACY_STARTS>
 
 
@@ -4820,9 +4818,9 @@
 
 #HELLO_GIRL_3	<SCR=CONTINUE>他们簇拥着一位年轻的女性，昂首挺胸向您走来。您立马认出了她的身份。
 
-#HELLO_GIRL_4	<NPC=HIRE><SIDE=0><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_GIRL>毕竟这世上的女族长可是寥若晨星。
+#HELLO_GIRL_4	<NPC=HIRE><SIDE=0><RAM=1><SCR=HELLO_INIT|HELLO_INTRODUCE_GIRL>$PH20_SAND*毕竟这世上的女族长可是寥若晨星。*
 
-#HELLO_INTRODUCE_GIRL	<NPC=HIRE><APPROVE>愿平安与您的皇族同在，大公爵阁下！小女是阿南刻，伊西氏族的女公爵.
+#HELLO_INTRODUCE_GIRL	<NPC=HIRE><APPROVE>$PH20_SAND*愿平安与您的皇族同在，大公爵阁下！小女是阿南刻，伊西氏族的女公爵.*
 <ANS=我在寻找攻打希瓦的盟友。您会加入我们吗？|HELLO_ROUND|DIPLOMACY_STARTS>
 
 
@@ -4830,31 +4828,31 @@
 
 #HELLO_VETERAN_1	<MUSIC=Duduk_4_ever><SCR=CONTINUE>{align=2}亲卫队将来访者护送到舰上食堂门口。@当访客踏进门内，在场所有人都沉默了。
 
-#HELLO_VETERAN_2	<NPC=HIRE><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}人们不禁认出了此人剪裁考究的制服上佩戴的，@属于集众叛军舰队指挥层的勋略配饰。
+#HELLO_VETERAN_2	<NPC=HIRE><SIDE=0><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*人们不禁认出了此人剪裁考究的制服上佩戴的，@属于集众叛军舰队指挥层的勋略配饰。*
 
-#HELLO_VETERAN_3	<NPC=HIRE>{align=2}大公阁下，请允许在下自我介绍。不才名为万上将。@直到不久前，我曾任为集众第二东方分舰队司令。
+#HELLO_VETERAN_3	<NPC=HIRE>{align=2}$PH20_SAND*大公阁下，请允许在下自我介绍。不才名为万上将。@直到不久前，我曾任为集众第二东方分舰队司令。*
 <ANS=您是集众的军官？>
 
-#HELLO_VETERAN_4	<NPC=HIRE><SCR=CONTINUE>{align=2}我“曾是”集众军官。@两年前我就被解除军职，其原因为…
+#HELLO_VETERAN_4	<NPC=HIRE><SCR=CONTINUE>{align=2}$PH20_SAND*我“曾是”集众军官。@两年前我就被解除军职，其原因为…*
 
-#HELLO_VETERAN_5	<NPC=HIRE><SCR=CONTINUE> 与上级司令部的意见不合吧。
+#HELLO_VETERAN_5	<NPC=HIRE><SCR=CONTINUE> $PH20_SAND*与上级司令部的意见不合吧。*
 
-#HELLO_VETERAN_6	<NPC=HIRE><SCR=CONTINUE> 而如今我则指挥着一批，怎么说呢，同病相怜之人吧。
+#HELLO_VETERAN_6	<NPC=HIRE><SCR=CONTINUE> $PH20_SAND*而如今我则指挥着一批，怎么说呢，同病相怜之人吧。*
 
-#HELLO_VETERAN_7	<NPC=HIRE>{align=2}我等官兵都原属集众军队，@不过我们都恰巧和自己的上级颇有龃龉便是。
+#HELLO_VETERAN_7	<NPC=HIRE>{align=2}$PH20_SAND*我等官兵都原属集众军队，@不过我们都恰巧和自己的上级颇有龃龉便是。*
 <ANS=您叫万上将，没叫错吧？我可否知悉您的全名，上将？>
 
-#HELLO_VETERAN_8	<NPC=HIRE><SCR=CONTINUE>{align=2}容我致歉，大公阁下，不过现在并不合适。@旁人只称我作万氏。而眼下您只需知道此名就好。
+#HELLO_VETERAN_8	<NPC=HIRE><SCR=CONTINUE>{align=2}$PH20_SAND*容我致歉，大公阁下，不过现在并不合适。@旁人只称我作万氏。而眼下您只需知道此名就好。*
 
-#HELLO_VETERAN_9	<SCR=CHECK_JOINED|DAUD|HELLO_VETERAN_11><NPC=DAUD><NOSPEAK><SIDE=-1><SCR=CONTINUE> 达乌德上将把您拉至一边。他悄声说道…
+#HELLO_VETERAN_9	<SCR=CHECK_JOINED|DAUD|HELLO_VETERAN_11><NPC=DAUD><NOSPEAK><SIDE=-1><SCR=CONTINUE> $PH20_SAND*达乌德上将把您拉至一边。他悄声说道…*
 
-#HELLO_VETERAN_10	<NPC=DAUD><SCR=CONTINUE>{align=2}恕我直言，大公阁下…此人口音似是内地出身。@若盲信此人可能后果不堪设想。
+#HELLO_VETERAN_10	<NPC=DAUD><SCR=CONTINUE>{align=2}$PH20_SAND*恕我直言，大公阁下…此人口音似是内地出身。@若盲信此人可能后果不堪设想。*
 
 #HELLO_VETERAN_11	<NPC=HIRE><SIDE=0><NOSPEAK>
 <ANS=如今我们也与希瓦当局为敌，上将。我们可否结为盟友？|HELLO_ROUND|DIPLOMACY_STARTS>
 <ANS=容我致歉，上将，但我无法信任连名姓都讳莫如深之人。|HELLO_VETERAN_12>
 
-#HELLO_VETERAN_12	<NPC=HIRE><SIDE=0>{align=2}那便如此吧。看来是我决定有误。@愿一路顺风，大公阁下。
+#HELLO_VETERAN_12	<NPC=HIRE><SIDE=0>{align=2}$PH20_SAND*那便如此吧。看来是我决定有误。@愿一路顺风，大公阁下。*
 <ANS=您也一样，上将。|EXIT>
 <ANS=等等，上将。如今我们也与希瓦当局为敌。我们可否结为盟友？|HELLO_ROUND|DIPLOMACY_STARTS>
 
@@ -5337,33 +5335,33 @@
 #HELLO_END_NO_GOVERNOR_01	我明白，公爵阁下。不用再说了。
 #HELLO_END_ANS_GOVERNOR	我想请您加入我们的事业，大人。
 
-#HELLO_RES_LIKE_GOVERNOR	<NPC=HIRE><APPROVE>很好。我会加入你们，公爵阁下。<ANS=那就随我来吧。我们有千言万语需要谈论。|EXIT|DIPDIALOG_WIN>
-#HELLO_RES_LIKE2_GOVERNOR	<NPC=HIRE><APPROVE>不。我不会参与你们的游戏。<ANS=我很遗憾。|MEETING_FIGHT>
-#HELLO_RES_DESLIKE_GOVERNOR	<NPC=HIRE><APPROVE>不，公爵。<ANS=我很遗憾。|MEETING_FIGHT>
-#HELLO_RES_UNFEAR_GOVERNOR	<NPC=HIRE><APPROVE>不。绝不。<ANS=我很遗憾。|MEETING_FIGHT>
+#HELLO_RES_LIKE_GOVERNOR	<NPC=HIRE><APPROVE>$PH20_SAND*很好。我会加入你们，公爵阁下。*<ANS=那就随我来吧。我们有千言万语需要谈论。|EXIT|DIPDIALOG_WIN>
+#HELLO_RES_LIKE2_GOVERNOR	<NPC=HIRE><APPROVE>$PH20_SAND*不。我不会参与你们的游戏。*<ANS=我很遗憾。|MEETING_FIGHT>
+#HELLO_RES_DESLIKE_GOVERNOR	<NPC=HIRE><APPROVE>$PH20_SAND*不，公爵。*<ANS=我很遗憾。|MEETING_FIGHT>
+#HELLO_RES_UNFEAR_GOVERNOR	<NPC=HIRE><APPROVE>$PH20_SAND*不。绝不。*<ANS=我很遗憾。|MEETING_FIGHT>
 
 #SHIP_DESC_GEPARD	一种强大且技术尖端的防空舰，她载有足够的重火力和坚固的防护，@面对更轻，更快的舰艇时也能存活甚至取胜。@但不要得意忘形—用这种战舰来缠斗实在过于昂贵了。
 #SHIP_DESC_SEVASTOPOL	罗马尼帝国重型巡空舰中的旗舰型号，@被预想为大型打击群的舰队核心。@她有着帝国舰队当中无与伦比的航程和火力，@哪怕在落单的情况下也非同小可。@10这艘巡空舰刚刚完成建造就被投入现役，@因此还有许多子系统还未装上。
 
 
 
-#NIGHTFEAR_SPEECH_REACTOR_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1>您真的认为希瓦的反应堆是某种上古避难所吗，公爵？
+#NIGHTFEAR_SPEECH_REACTOR_1	<SCR=CHECK_JOINED|DAUD|EXIT><NPC=DAUD><SIDE=-1>$PH20_SAND*您真的认为希瓦的反应堆是某种上古避难所吗，公爵？*
 <ANS=我很确定，上将|NIGHTFEAR_SPEECH_REACTOR_2>
 <ANS=若日光不再，一座仍能运转的反应堆便是我们生存的唯一希望。|NIGHTFEAR_SPEECH_REACTOR_2>
-#NIGHTFEAR_SPEECH_REACTOR_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>Shakhor Al-Farakh，“黯夜之时（{glossary=Shakhor-Al-Farakh,GLOSS_SHAKOR}）…”
-#NIGHTFEAR_SPEECH_REACTOR_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>您要知道，公爵，如果太阳消失，就连空气也会冷到最终凝固。
-#NIGHTFEAR_SPEECH_REACTOR_4	<NPC=DAUD><SIDE=-1>{align=2}届时大气层里的空气都会凝结到地表。@您要准备怎么在真空中生存呢，大公阁下？
+#NIGHTFEAR_SPEECH_REACTOR_2	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*Shakhor Al-Farakh，“黯夜之时（{glossary=Shakhor-Al-Farakh,GLOSS_SHAKOR}）…”*
+#NIGHTFEAR_SPEECH_REACTOR_3	<NPC=DAUD><SIDE=-1><SCR=CONTINUE>$PH20_SAND*您要知道，公爵，如果太阳消失，就连空气也会冷到最终凝固。*
+#NIGHTFEAR_SPEECH_REACTOR_4	<NPC=DAUD><SIDE=-1>{align=2}$PH20_SAND*届时大气层里的空气都会凝结到地表。@您要准备怎么在真空中生存呢，大公阁下？*
 <ANS=我听闻希瓦的反应堆大如山峦。我等的知识和科技在先祖面前是微不足道的。我们应该相信他们。|EXIT>
 
 #GLOSS_SHAKOR	古代预言中所描绘的永无止境的黑夜。
 
-#ENDRACE_SPEECH_5	<NPC=PETR>届时要突袭城市就希望渺茫了。
+#ENDRACE_SPEECH_5	<NPC=PETR>$PH20_SAND*届时要突袭城市就希望渺茫了。*
 <ANS=你应该也发现这几天越来越冷了吧？|ENDRACE_SPEECH_6>
-#ENDRACE_SPEECH_6	<NPC=PETR><SCR=CONTINUE>老早就发觉了，公爵阁下。
-#ENDRACE_SPEECH_7	<NPC=PETR><SCR=CONTINUE>{align=2}我每天早上都会检查温度计…@（彼得越发小声了。）我是说，每天早上六点。
-#ENDRACE_SPEECH_8	<NPC=PETR><SCR=CONTINUE>无论如何，如果再这样下去…
-#ENDRACE_SPEECH_9	<NPC=PETR><NOSPEAK><SCR=CONTINUE>{align=2}彼得深深的叹了口气，@继而无言摇头。
-#ENDRACE_SPEECH_10	<NPC=PETR><SCR=STOP>说实话，公爵阁下—我还是对此毫无头绪。
+#ENDRACE_SPEECH_6	<NPC=PETR><SCR=CONTINUE>$PH20_SAND*老早就发觉了，公爵阁下。*
+#ENDRACE_SPEECH_7	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*我每天早上都会检查温度计…@（彼得越发小声了。）我是说，每天早上六点。*
+#ENDRACE_SPEECH_8	<NPC=PETR><SCR=CONTINUE>$PH20_SAND*无论如何，如果再这样下去…*
+#ENDRACE_SPEECH_9	<NPC=PETR><NOSPEAK><SCR=CONTINUE>{align=2}$PH20_SAND*彼得深深的叹了口气，@继而无言摇头。*
+#ENDRACE_SPEECH_10	<NPC=PETR><SCR=STOP>$PH20_SAND*说实话，公爵阁下—我还是对此毫无头绪。*
 
 
 #REACTOR_CAPTURED_1	<EVENT>希瓦反应堆已被夺取，并被集众部队摧毁。<SCR=CONTINUE>
@@ -5377,13 +5375,13 @@
 
 
 
-#TUTORIAL_RAM_1	<NPC=PETR><SIDE=-1>{align=2}大公爵，有传言说…@有人说你命令一艘我军舰船去撞击敌舰。@结果舰上全员无一生还。
+#TUTORIAL_RAM_1	<NPC=PETR><SIDE=-1>{align=2}$PH20_SAND*大公爵，有传言说…@有人说你命令一艘我军舰船去撞击敌舰。@结果舰上全员无一生还。*
 <ANS=这些流言毫无根据，将军。|TUTORIAL_RAM_YES>
 <ANS=那又怎样？这些忠勇男女都会被追授军衔，以帝国英雄的名义得到表彰的。|TUTORIAL_RAM_NO_1>
-#TUTORIAL_RAM_YES	<NPC=PETR><SCR=STOP>话虽如此，这种流言太影响士气了。
-#TUTORIAL_RAM_NO_1	<NPC=PETR><SCR=CONTINUE>{align=2}如果你继续下达这种命令，@将士们要对胜利失去信念的。
-#TUTORIAL_RAM_NO_2	<NPC=PETR><SCR=CONTINUE>我们的官兵绝非是一心求死的，马克。
-#TUTORIAL_RAM_NO_3	<NPC=PETR><PETR=-1><SCR=STOP>告辞。
+#TUTORIAL_RAM_YES	<NPC=PETR><SCR=STOP>$PH20_SAND*话虽如此，这种流言太影响士气了。*
+#TUTORIAL_RAM_NO_1	<NPC=PETR><SCR=CONTINUE>{align=2}$PH20_SAND*如果你继续下达这种命令，@将士们要对胜利失去信念的。*
+#TUTORIAL_RAM_NO_2	<NPC=PETR><SCR=CONTINUE>$PH20_SAND*我们的官兵绝非是一心求死的，马克。*
+#TUTORIAL_RAM_NO_3	<NPC=PETR><PETR=-1><SCR=STOP>$PH20_SAND*告辞。*
 
 
 
